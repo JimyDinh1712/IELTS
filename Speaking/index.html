@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Speaking 2026</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('bg-index.png'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 60px; 
+            width: 100%;
+        }
+
+        /* KHUNG BAO QUANH SÁCH VÀ NÚT */
+        .book-wrapper {
+            position: relative; /* Gốc tọa độ cho nút nav-btn */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .flip-book { 
+            box-shadow: 0 12px 50px rgba(0,0,0,0.7); 
+            background: white; 
+        }
+
+        .page { background-color: white; border: 1px solid #eee; }
+        
+        canvas { 
+            width: 100% !important; 
+            height: 100% !important; 
+            display: block; 
+            object-fit: contain; 
+        }
+
+        /* NÚT LẬT TRANG GIỐNG HÌNH 2 */
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #c4d9ad; 
+            opacity: 0.8;
+            border: 2px solid rgba(255,255,255,0.4);
+            cursor: pointer;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            backdrop-filter: blur(2px);
+        }
+
+        .nav-btn:hover {
+            opacity: 1;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .arrow-icon {
+            width: 28px;
+            height: 28px;
+            fill: #707070;
+        }
+
+        /* Căn chỉnh nút sát mép sách */
+        #btn-prev-page { left: -30px; }
+        #btn-next-page { right: -30px; }
+
+        footer {
+            padding: 15px;
+            color: white;
+            text-align: center;
+            background: rgba(0,0,0,0.5);
+            font-size: 13px;
+            backdrop-filter: blur(5px);
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-content">
+    <h2 style="color: white; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">IELTS SPEAKING 2026</h2>
+
+    <div class="book-wrapper">
+        <button id="btn-prev-page" class="nav-btn">
+            <svg viewBox="0 0 24 24" class="arrow-icon">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+            </svg>
+        </button>
+
+        <div id="book" class="flip-book"></div>
+
+        <button id="btn-next-page" class="nav-btn">
+            <svg viewBox="0 0 24 24" class="arrow-icon">
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+            </svg>
+        </button>
+    </div>
+    
+    <div id="page-label" style="color: white; margin-top: 10px; font-weight: bold;">Đang tải...</div>
+</div>
+
+<footer>
+     	<p>
+            &copy; <span id="current-year"></span> All Rights Reserved. 
+            Designed and Developed by <strong>Jimmy Dinh</strong>
+        </p>
+</footer>
+
+<script>
+    // 1. HÀM LẤY TÊN FILE TỪ URL (?file=tenfile.pdf)
+    function getPDFFromURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        // Nếu không có tham số 'file', mặc định sẽ load file này
+        return urlParams.get('file') || 'speaking2026.pdf'; 
+    }
+const pdfLibrary = {
+    "0": "Qui1_2026.pdf", // Tương ứng id=1
+    "1": "Qui2_2026.pdf", // Tương ứng id=2
+    "2": "Qui3_2026.pdf", // Tương ứng id=3
+    "3": "Qui4_2026.pdf"  // Tương ứng id=4
+};
+// 2. Hàm lấy URL file PDF tổng hợp
+function getTargetPDF() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const idParam = urlParams.get('id');
+    const fileParam = urlParams.get('file');
+
+    // Ưu tiên xử lý ID (logic id-1)
+    if (idParam !== null) {
+        const idIndex = (parseInt(idParam) - 1).toString();
+        console.log("Đang truy xuất ID index:", idIndex);
+        
+        if (pdfLibrary[idIndex]) {
+            return pdfLibrary[idIndex];
+        }
+    }
+
+    // Nếu không có ID hoặc ID không tồn tại, kiểm tra tham số file=
+    if (fileParam) {
+        return fileParam;
+    }
+
+    // Mặc định nếu không có gì cả
+    return 'speaking2026.pdf';
+}
+// 3. Gán giá trị cuối cùng cho pdfUrl
+const pdfUrl = getTargetPDF();
+console.log("File PDF cuối cùng được chọn:", pdfUrl);
+
+// --- CÁC PHẦN KHỞI TẠO PDF.JS VÀ PAGEFLIP GIỮ NGUYÊN ---
+const pdfjsLib = window['pdfjs-dist/build/pdf'];
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+
+    const flipSound = new Audio('flipbook.wav');
+    flipSound.volume = 0.5;
+
+    // Khai báo biến pageFlip ra ngoài để truy cập toàn cục nếu cần
+    let pageFlip = null;
+
+    async function initFlipBook() {
+        console.log("Đang load tệp:", pdfUrl);
+        const label = document.getElementById('page-label');
+        const bookContainer = document.getElementById('book');
+        
+        // Reset container nếu đã có nội dung cũ (phòng trường hợp reload động)
+        bookContainer.innerHTML = '';
+
+        const loadingTask = pdfjsLib.getDocument(pdfUrl);
+        const pdf = await loadingTask.promise;
+        const totalPages = pdf.numPages;
+
+        // 2. RENDER CÁC TRANG PDF
+        for (let i = 1; i <= totalPages; i++) {
+            const page = await pdf.getPage(i);
+            const viewport = page.getViewport({ scale: 2 });
+            
+            const pageDiv = document.createElement('div');
+            pageDiv.className = 'page';
+            
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            await page.render({ canvasContext: context, viewport: viewport }).promise;
+            pageDiv.appendChild(canvas);
+            bookContainer.appendChild(pageDiv);
+        }
+
+        // 3. KHỞI TẠO PAGE FLIP
+        pageFlip = new St.PageFlip(bookContainer, {
+            width: 550, 
+            height: 750,
+            showCover: true,
+            usePortrait: false, 
+            flippingTime: 800,
+            maxShadowOpacity: 0.5,
+            showPageCorners: true,
+            mobileScrollSupport: false // Tắt để mượt hơn trên cảm ứng
+        });
+
+        pageFlip.loadFromHTML(document.querySelectorAll('.page'));
+
+        // 4. XỬ LÝ SỰ KIỆN
+        pageFlip.on('flip', (e) => {
+            flipSound.currentTime = 0;
+            flipSound.play().catch(() => {});
+            label.innerText = `Trang: ${e.data + 1} / ${totalPages}`;
+        });
+
+        document.getElementById('btn-prev-page').onclick = () => pageFlip.flipPrev();
+        document.getElementById('btn-next-page').onclick = () => pageFlip.flipNext();
+        
+        label.innerText = `Đang xem: ${pdfUrl} (1 / ${totalPages})`;
+    }
+
+    initFlipBook().catch(err => {
+        console.error(err);
+        document.getElementById('page-label').innerText = "Không tìm thấy tệp PDF hoặc lỗi đường dẫn!";
+    });
+
+    // Cập nhật năm tự động cho footer của Jimmy
+    document.getElementById('current-year').innerText = new Date().getFullYear();
+</script>
+
+</body>
+</html>
