@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "A typical American and a Japanese office",
+    "instruction": "The graph below shows a typical American and a Japanese office. Summarise the information by selecting and reporting the main features and comparisons where relevant.",
+    "imagePath": "data/01_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think that governments should spend more money on sports facilities for top athletes. Others argue that this money should be spent for sports facilities for ordinary people. Discuss both sides and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

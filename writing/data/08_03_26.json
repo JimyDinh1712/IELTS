@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of the population living in urban areas in the world and in different continents",
+    "instruction": "The bar chart below gives information about the percentage of the population living in urban areas in the world and in different continents. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/08_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "In some countries, students pay their college or university fees, while in some others, the government pays for them. Do you think the advantages that the government pays the money outweigh the disadvantages?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

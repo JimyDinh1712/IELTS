@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Students in 2007 who were happy with different facilities at a university in the UK",
+    "instruction": "The charts provide information about students in 2007 who were happy with different facilities at a university in the UK. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/09_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": " In the modern world, it is possible to shop, work, and communicate with people via the Internet and live without any face-to-face contact with others. Is it a positive or negative development in your opinion?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

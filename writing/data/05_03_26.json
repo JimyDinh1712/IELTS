@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The number of employees and factories producing silk in England and Wales between 1851 and 1901",
+    "instruction": "The table shows the number of employees and factories producing silk in England and Wales between 1851 and 1901. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/05_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Historical objects should be brought back to their country of origin. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

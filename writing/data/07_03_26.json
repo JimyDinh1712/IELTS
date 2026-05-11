@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The design of a modern landﬁll for household waste",
+    "instruction": "The diagram shows the design of a modern landﬁll for household waste. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/07_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "All large companies should provide sports and social facilities in the local community. To what extend do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

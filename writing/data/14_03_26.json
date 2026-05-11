@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of a car manufacturer’s total sales, per region, from 2002 to 2006",
+    "instruction": "The bar chart shows the percentage of a car manufacturer’s total sales, per region, from 2002 to 2006. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/14_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people believe that a lot of scientific research done today is a waste of time and money. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

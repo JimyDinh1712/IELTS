@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Information about the population in Australia and Malaysia in 1980 and 2002",
+    "instruction": "The table below gives information about the population in Australia and Malaysia in 1980 and 2002. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/03_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people suggest that the government should spend money putting more works of art like paintings and statues into towns and cities to make them attractive places. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}
