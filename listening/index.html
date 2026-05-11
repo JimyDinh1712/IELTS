@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Listening Computer-Based Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="test-header">
+        <div class="user-info">
+            <span class="user-icon">👤</span>
+            <span class="user-name">Candidate: Ielts Genius</span> 
+        </div>
+        
+        <div class="test-title-center" style="font-weight: bold; letter-spacing: 1px;">
+            🎧 IELTS Listening
+        </div>
+
+        <div class="timer-container">
+            <span class="clock-icon">⏰</span>
+            <span id="timer">30:00 left</span>
+        </div>
+        
+	<div class="settings-toolbar">
+    <div class="setting-group">
+        <span>Font Size:</span>
+        <button onclick="changeFontSize('small')">A-</button>
+        <button onclick="changeFontSize('medium')" class="active">A</button>
+        <button onclick="changeFontSize('large')">A+</button>
+        <div class="settings-icons">⚙️ 🔊</div>
+    </div>
+     
+</div>
+    </header>
+
+    <div class="part-banner">
+        <span id="current-part-label">Part 1</span>
+        <p id="instruction-banner-text">Listen to the audio and answer questions <span id="q-range">1 - 10</span></p>
+    </div>
+
+    <main class="test-container reading-layout">
+        
+        <div id="listening-info-pane" class="pane info-pane">
+            <audio id="main-audio" ></audio>
+            <div id="info-content-container"></div>
+        </div>
+
+        <div>
+            <div id="specific-instruction"></div>
+            <div id="questions-container"></div> 
+        </div>
+
+    </main>
+
+    <footer class="test-footer">
+        <div class="navigation-bar">
+            <div class="part-group">
+                <span class="part-label">Part 1</span>
+                <div class="dots-container" id="dots-p1"></div>
+            </div>
+            <div class="part-group">
+                <span class="part-label">Part 2</span>
+                <div class="dots-container" id="dots-p2"></div>
+            </div>
+            <div class="part-group">
+                <span class="part-label">Part 3</span>
+                <div class="dots-container" id="dots-p3"></div>
+            </div>
+            <div class="part-group">
+                <span class="part-label">Part 4</span>
+                <div class="dots-container" id="dots-p4"></div>
+            </div>
+        </div>
+        <button class="btn-submit" onclick="submitTest()">FINISH TEST</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+<!-- Modal xác nhận bắt đầu thi -->
+<div id="exam-start-overlay" style="position:fixed; top:0; left:0; width:100%; height:100%; background:#f0f2f5; z-index:10000; display:flex; justify-content:center; align-items:center; font-family: Arial, sans-serif;">
+    <div style="background:white; width:600px; padding:40px; border-radius:4px; box-shadow:0 4px 15px rgba(0,0,0,0.1); text-align:center; border-top: 8px solid #363c41;">
+        <h1 style="color:#2b5a84; margin-bottom:20px;">IELTS Listening</h1>
+        <div style="text-align:left; color:#444; line-height:1.6; margin-bottom:30px; border:1px solid #e2e8f0; padding:20px; background:#fafafa;">
+            <p><strong>Confirm your details:</strong></p>
+            <p>Test Name: <span id="display-test-title" style="font-weight:bold;">IELTS Listening Practice</span></p>
+            <p>Time: <strong>30 minutes</strong></p>
+            <hr style="border:0; border-top:1px solid #eee; margin:15px 0;">
+            <p style="font-size:0.9em; color:#666;">Click the button below to start the test. </p>
+        </div>
+        <button onclick="confirmAndStart()" 
+                style="background:#2b5a84; color:white; padding:15px 40px; border:none; border-radius:4px; font-weight:bold; font-size:18px; cursor:pointer; width:100%; transition:0.3s;">
+            START TEST
+        </button>
+    </div>
+</div>
+</html>
