@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>IELTS - Practice Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="user-header" class="user-header" style="display: none;">
+        <span id="user-greeting"></span>
+        <button onclick="logout()" class="logout-btn">Log out</button>
+    </div>
+
+<div id="login-overlay" class="login-overlay">
+    <div class="login-box">
+        <h2>IELTS Practice Login</h2>
+        <div class="input-group">
+            <input type="text" id="username" placeholder="Username" required>
+        </div>
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <button onclick="login()" class="login-btn">Login</button>
+        <p id="msg" class="error-msg"></p>
+    </div>
+</div>
+<div class="menu-container">
+    <div class="menu-header-text">
+        <h2>We generally change ourselves for one of two reasons: inspiration or desperation</h2>
+    </div>
+
+    <div class="horizontal-menu-wrapper">
+        <details class="skill-card">
+            <summary>(°⌣°) Listening</summary>
+            <div class="dropdown-inner">
+                <div class="tab-header">
+                    <button class="tab-link active" onclick="openTab(event, 'listening-cam')">Cam</button>
+                    <button class="tab-link" onclick="openTab(event, 'listening-real')">Real</button>
+                </div>
+                <div id="listening-cam" class="tab-content active">
+                    <div class="exam-grid">
+                        <a href="listening/index.html?id=IELTS_Cam_20_Test_4_LISTENING" class="exam-badge">Cam 20 Test 04</a>
+                        <a href="listening/index.html?id=IELTS_Cam_20_Test_3_LISTENING" class="exam-badge">Cam 20 Test 03</a> 
+                        <a href="listening/index.html?id=IELTS_Cam_20_Test_2_LISTENING" class="exam-badge">Cam 20 Test 02</a>
+                        <a href="listening/index.html?id=IELTS_Cam_20_Test_1_LISTENING" class="exam-badge">Cam 20 Test 01</a>
+                        <a href="listening/index.html?id=IELTS_Cam_19_Test_4_LISTENING" class="exam-badge">Cam 19 Test 04</a>
+                        <a href="listening/index.html?id=IELTS_Cam_19_Test_3_LISTENING" class="exam-badge">Cam 19 Test 03</a> 
+                        <a href="listening/index.html?id=IELTS_Cam_19_Test_2_LISTENING" class="exam-badge">Cam 19 Test 02</a>
+                        <a href="listening/index.html?id=IELTS_Cam_19_Test_1_LISTENING" class="exam-badge">Cam 19 Test 01</a>
+                        <a href="listening/index.html?id=IELTS_Cam_18_Test_4_LISTENING" class="exam-badge">Cam 18 Test 04</a>
+                        <a href="listening/index.html?id=IELTS_Cam_18_Test_3_LISTENING" class="exam-badge">Cam 18 Test 03</a>
+                        <a href="listening/index.html?id=IELTS_Cam_18_Test_2_LISTENING" class="exam-badge">Cam 18 Test 02</a>
+                        <a href="listening/index.html?id=IELTS_Cam_18_Test_1_LISTENING" class="exam-badge">Cam 18 Test 01</a>
+                        <a href="listening/index.html?id=IELTS_Cam_17_Test_4_LISTENING" class="exam-badge">Cam 17 Test 04</a>
+                        <a href="listening/index.html?id=IELTS_Cam_17_Test_3_LISTENING" class="exam-badge">Cam 17 Test 03</a>
+                        <a href="listening/index.html?id=IELTS_Cam_17_Test_2_LISTENING" class="exam-badge">Cam 17 Test 02</a>
+                        <a href="listening/index.html?id=IELTS_Cam_17_Test_1_LISTENING" class="exam-badge">Cam 17 Test 01</a>
+                        
+                    </div>
+                </div>
+                <div id="listening-real" class="tab-content">
+                    <div class="exam-grid"><span class="empty-msg">Empty</span></div>
+                </div>
+            </div>
+        </details>
+
+        <details class="skill-card">
+            <summary>٩(^‿^)۶ Reading</summary>
+            <div class="dropdown-inner">
+                <div class="tab-header">
+                    <button class="tab-link active" onclick="openTab(event, 'reading-cam')">Cam</button>
+                    <button class="tab-link" onclick="openTab(event, 'reading-real')">Real</button>
+                </div>
+                <div id="reading-cam" class="tab-content active">
+                    <div class="exam-grid">
+                        <a href="reading/index.html?testId=IELTS_Cam_20_Test_4_READING" class="exam-badge">Cam 20 Test 04</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_20_Test_3_READING" class="exam-badge">Cam 20 Test 03</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_20_Test_2_READING" class="exam-badge">Cam 20 Test 02</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_20_Test_1_READING" class="exam-badge">Cam 20 Test 01</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_19_Test_4_READING" class="exam-badge">Cam 19 Test 04</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_19_Test_3_READING" class="exam-badge">Cam 19 Test 03</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_19_Test_2_READING" class="exam-badge">Cam 19 Test 02</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_19_Test_1_READING" class="exam-badge">Cam 19 Test 01</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_18_Test_4_READING" class="exam-badge">Cam 18 Test 04</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_18_Test_3_READING" class="exam-badge">Cam 18 Test 03</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_18_Test_2_READING" class="exam-badge">Cam 18 Test 02</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_18_Test_1_READING" class="exam-badge">Cam 18 Test 01</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_17_Test_4_READING" class="exam-badge">Cam 17 Test 04</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_17_Test_3_READING" class="exam-badge">Cam 17 Test 03</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_17_Test_2_READING" class="exam-badge">Cam 17 Test 02</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_17_Test_1_READING" class="exam-badge">Cam 17 Test 01</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_16_Test_4_READING" class="exam-badge">Cam 16 Test 04</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_16_Test_3_READING" class="exam-badge">Cam 16 Test 03</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_16_Test_2_READING" class="exam-badge">Cam 16 Test 02</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_16_Test_1_READING" class="exam-badge">Cam 16 Test 01</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_15_Test_4_READING" class="exam-badge">Cam 15 Test 04</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_15_Test_3_READING" class="exam-badge">Cam 15 Test 03</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_15_Test_2_READING" class="exam-badge">Cam 15 Test 02</a>
+                        <a href="reading/index.html?testId=IELTS_Cam_15_Test_1_READING" class="exam-badge">Cam 15 Test 01</a>
+                    </div>
+                </div>
+                <div id="reading-real" class="tab-content">
+                    <div class="exam-grid"><span class="empty-msg">Empty</span></div>
+                </div>
+            </div>
+        </details>
+
+        <details class="skill-card">
+            <summary>٩(͡๏̮͡๏)۶ Writing</summary>
+            <div class="dropdown-inner">
+                <div class="exam-grid">
+                <a href="writing/index.html?id=05_05_26" class="exam-badge">Đề thi ngày 05.05.2026</a>
+                <a href="writing/index.html?id=04_05_26" class="exam-badge">Đề thi ngày 04.05.2026</a>
+                <a href="writing/index.html?id=03_05_26" class="exam-badge">Đề thi ngày 03.05.2026</a>
+                <a href="writing/index.html?id=02_05_26" class="exam-badge">Đề thi ngày 02.05.2026</a>
+                <a href="writing/index.html?id=30_04_26" class="exam-badge">Đề thi ngày 30.04.2026</a>
+                <a href="writing/index.html?id=29_04_26" class="exam-badge">Đề thi ngày 29.04.2026</a>
+                <a href="writing/index.html?id=28_04_26" class="exam-badge">Đề thi ngày 28.04.2026</a>
+                <a href="writing/index.html?id=27_04_26" class="exam-badge">Đề thi ngày 27.04.2026</a>
+                <a href="writing/index.html?id=26_04_26" class="exam-badge">Đề thi ngày 26.04.2026</a>
+                <a href="writing/index.html?id=24_04_26" class="exam-badge">Đề thi ngày 24.04.2026</a>
+                <a href="writing/index.html?id=23_04_26" class="exam-badge">Đề thi ngày 23.04.2026</a>
+                <a href="writing/index.html?id=22_04_26" class="exam-badge">Đề thi ngày 22.04.2026</a>
+                <a href="writing/index.html?id=21_04_26" class="exam-badge">Đề thi ngày 21.04.2026</a>
+                <a href="writing/index.html?id=19_04_26" class="exam-badge">Đề thi ngày 19.04.2026</a>
+                <a href="writing/index.html?id=18_04_26" class="exam-badge">Đề thi ngày 18.04.2026</a>
+                <a href="writing/index.html?id=17_04_26" class="exam-badge">Đề thi ngày 17.04.2026</a>
+                <a href="writing/index.html?id=15_04_26" class="exam-badge">Đề thi ngày 15.04.2026</a>
+                <a href="writing/index.html?id=14_04_26" class="exam-badge">Đề thi ngày 14.04.2026</a>
+                <a href="writing/index.html?id=13_04_26" class="exam-badge">Đề thi ngày 13.04.2026</a>
+                <a href="writing/index.html?id=12_04_26" class="exam-badge">Đề thi ngày 12.04.2026</a>
+                <a href="writing/index.html?id=11_04_26" class="exam-badge">Đề thi ngày 11.04.2026</a>
+                <a href="writing/index.html?id=10_04_26" class="exam-badge">Đề thi ngày 10.04.2026</a>
+                <a href="writing/index.html?id=09_04_26" class="exam-badge">Đề thi ngày 09.04.2026</a>
+                <a href="writing/index.html?id=08_04_26" class="exam-badge">Đề thi ngày 08.04.2026</a>
+                <a href="writing/index.html?id=07_04_26" class="exam-badge">Đề thi ngày 07.04.2026</a>
+                <a href="writing/index.html?id=06_04_26" class="exam-badge">Đề thi ngày 06.04.2026</a>
+                <a href="writing/index.html?id=05_04_26" class="exam-badge">Đề thi ngày 05.04.2026</a>
+                <a href="writing/index.html?id=04_04_26" class="exam-badge">Đề thi ngày 04.04.2026</a>
+                <a href="writing/index.html?id=03_04_26" class="exam-badge">Đề thi ngày 03.04.2026</a>
+                <a href="writing/index.html?id=02_04_26" class="exam-badge">Đề thi ngày 02.04.2026</a>
+                <a href="writing/index.html?id=01_04_26" class="exam-badge">Đề thi ngày 01.04.2026</a>
+                <a href="writing/index.html?id=31_03_26" class="exam-badge">Đề thi ngày 31.03.2026</a>
+                <a href="writing/index.html?id=30_03_26" class="exam-badge">Đề thi ngày 30.03.2026</a>
+                <a href="writing/index.html?id=29_03_26" class="exam-badge">Đề thi ngày 29.03.2026</a>
+                <a href="writing/index.html?id=28_03_26" class="exam-badge">Đề thi ngày 28.03.2026</a>
+                <a href="writing/index.html?id=27_03_26" class="exam-badge">Đề thi ngày 27.03.2026</a>
+                <a href="writing/index.html?id=26_03_26" class="exam-badge">Đề thi ngày 26.03.2026</a>
+                <a href="writing/index.html?id=25_03_26" class="exam-badge">Đề thi ngày 25.03.2026</a>
+                <a href="writing/index.html?id=24_03_26" class="exam-badge">Đề thi ngày 24.03.2026</a>
+                <a href="writing/index.html?id=22_03_26" class="exam-badge">Đề thi ngày 22.03.2026</a>
+                <a href="writing/index.html?id=21_03_26" class="exam-badge">Đề thi ngày 21.03.2026</a>
+                <a href="writing/index.html?id=20_03_26" class="exam-badge">Đề thi ngày 20.03.2026</a>
+                <a href="writing/index.html?id=16_03_26" class="exam-badge">Đề thi ngày 16.03.2026</a>
+                <a href="writing/index.html?id=14_03_26" class="exam-badge">Đề thi ngày 14.03.2026</a>
+                <a href="writing/index.html?id=13_03_26" class="exam-badge">Đề thi ngày 13.03.2026</a>
+                <a href="writing/index.html?id=11_03_26" class="exam-badge">Đề thi ngày 11.03.2026</a>
+                <a href="writing/index.html?id=10_03_26" class="exam-badge">Đề thi ngày 10.03.2026</a>
+                <a href="writing/index.html?id=09_03_26" class="exam-badge">Đề thi ngày 09.03.2026</a>
+                <a href="writing/index.html?id=08_03_26" class="exam-badge">Đề thi ngày 08.03.2026</a>
+                <a href="writing/index.html?id=07_03_26" class="exam-badge">Đề thi ngày 07.03.2026</a>
+                <a href="writing/index.html?id=06_03_26" class="exam-badge">Đề thi ngày 06.03.2026</a>
+                <a href="writing/index.html?id=05_03_26" class="exam-badge">Đề thi ngày 05.03.2026</a>
+                <a href="writing/index.html?id=04_03_26" class="exam-badge">Đề thi ngày 04.03.2026</a>
+                <a href="writing/index.html?id=03_03_26" class="exam-badge">Đề thi ngày 03.03.2026</a>
+                <a href="writing/index.html?id=01_03_26" class="exam-badge">Đề thi ngày 01.03.2026</a>
+                </div>
+            </div>
+        </details>
+
+        <details class="skill-card">
+            <summary>(•‿•) Speaking</summary>
+            <div class="dropdown-inner">
+                <ul class="simple-list">    
+                   
+    <!-- Truyền tham số id thông qua URL <li><a href="Speaking/index.html">Forecast 2026</a></li>-->
+   <li><a href="Speaking/index.html?id=1" class="book-item">Speaking Quý 1 - 2026</a></li> 
+   <li><a href="Speaking/index.html?id=2" class="book-item">Speaking Quý 2 - 2026</a></li> 
+    <li><a href="Speaking/index.html?id=3" class="book-item">Speaking Quý 3 - 2026</a></li>
+    <li><a href="Speaking/index.html?id=4" class="book-item">Speaking Quý 4 - 2026</a></li>
+
+                </ul>
+            </div>
+        </details>
+    </div>
+</div>
+
+<div class="dino-walker">
+    <img src="fred.gif" alt="Cute Dinosaur" id="dino-img">
+</div>
+
+<footer class="main-footer">
+    <div class="footer-content">
+        <p>&copy; <span id="current-year"></span> All Rights Reserved. Designed and Developed by <strong>Jimmy Dinh</strong></p>
+        <a href="Jimmymusic/index.html" target="_blank" class="footer-profile-link">
+            <img src="link.jpg" alt="Jimmy Dinh Profile" class="round-profile-img">
+        </a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

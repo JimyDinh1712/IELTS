@@ -1,0 +1,447 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* Chèn hình nền chung cho tất cả các trang */
+    background-image: url('bg-index.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Giữ hình nền cố định khi cuộn trang */
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 40px;
+/* THIẾT LẬP FLEXBOX ĐỂ ĐẨY FOOTER */
+ /* Kích hoạt Flexbox cho Body */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Đảm bảo body luôn cao bằng màn hình */
+
+   
+}
+
+.menu-container {
+    max-width: 1500px; /* Tăng độ rộng để đủ chỗ cho 4 cột */
+    width: 95%;
+    margin: 10px auto;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+.menu-header-text h2 {
+    color: #2c3e50;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Wrapper để dàn hàng ngang */
+.horizontal-menu-wrapper {
+    display: flex;
+    flex-direction: row; /* Dàn hàng ngang */
+    justify-content: center;
+    align-items: flex-start; /* Giữ các card ở trên cùng khi mở rộng */
+    gap: 15px; /* Khoảng cách giữa các card */
+    flex-wrap: wrap; /* Tự động xuống dòng trên điện thoại */
+}
+
+/* Từng khối menu (Skill Card) */
+.skill-card {
+    flex: 1; /* Chia đều không gian */
+    min-width: 250px; /* Đảm bảo không bị quá hẹp */
+    background: #f8f9fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card[open] {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transform: translateY(-5px);
+}
+
+summary {
+    padding: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    background-color: #ffffff;
+    color: #34495e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+summary::after {
+    content: "▼";
+    font-size: 0.7rem;
+    transition: transform 0.3s;
+}
+
+details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+/* Nội dung bên trong khi xổ xuống */
+.dropdown-inner {
+    padding: 15px;
+    background: #ffffff;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+/* Custom scrollbar cho dropdown */
+.dropdown-inner::-webkit-scrollbar {
+    width: 5px;
+}
+.dropdown-inner::-webkit-scrollbar-thumb {
+    background: #c5a059;
+    border-radius: 10px;
+}
+h2 {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Định dạng khối Details */
+details {
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+details[open] {
+    border-color: #3498db;
+}
+
+/* Định dạng thanh tiêu đề menu */
+summary {
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; /* Ẩn mũi tên mặc định */
+    background-color: #f8f9fa;
+    color: #34495e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+summary::after {
+    content: "▶"; /* Biểu tượng mũi tên */
+    font-size: 0.8rem;
+    transition: transform 0.3s;
+}
+
+details[open] summary::after {
+    transform: rotate(90deg); /* Xoay mũi tên khi mở */
+}
+
+summary:hover {
+    background-color: #edf2f7;
+}
+
+/* Định dạng danh sách bên trong */
+ul {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+    border-top: 1px solid #eee;
+}
+
+li {
+    margin: 8px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 0.95rem;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+/* --- Cấu trúc Footer chung --- */
+.main-footer {
+    width: 100%;
+    padding: 25px 0;
+    background-color: rgba(255, 255, 255, 0.1); /* Giảm độ đậm để hài hòa hơn */
+    border-top: 1px solid rgba(197, 160, 89, 0.2);
+    backdrop-filter: blur(5px);
+
+    /* DÒNG QUAN TRỌNG NHẤT */
+    margin-top: auto; 
+}
+
+/* Căn giữa tất cả nội dung bên trong footer */
+.footer-content {
+    display: flex;
+    flex-direction: row; /* Chuyển thành hàng ngang */
+    align-items: center;  /* Căn giữa các thành phần theo chiều dọc */
+    justify-content: center; /* Căn giữa cả cụm vào giữa trang */
+    gap: 20px;            /* Khoảng cách giữa chữ và ảnh */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Đảm bảo chữ không bị nhảy dòng quá sớm */
+.footer-content p {
+    /* color: #b3b3b3; */
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap; /* Giữ chữ trên 1 dòng duy nhất */
+}
+
+.round-profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #c5a059;
+    box-shadow: 0 4px 10px rgba(197, 160, 89, 0.3);
+    display: block; /* Tránh khoảng cách lạ phía dưới ảnh */
+}
+/* --- Hiệu ứng khi rê chuột vào (Hover) --- */
+.footer-profile-link:hover {
+    transform: translateY(-5px); /* Đẩy nhẹ ảnh lên trên */
+}
+
+.footer-profile-link:hover .round-profile-img {
+    /* Làm viền và bóng đậm hơn khi hover */
+    border-color: #fff; /* Chuyển viền sang màu trắng */
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.5);
+}
+/* --- Cấu trúc cho con khủng long đi bộ --- */
+@keyframes walkBackAndForth {
+    0% {
+        left: 10%; /* Điểm bắt đầu bên trái */
+    }
+    100% {
+        left: 80%; /* Điểm kết thúc bên phải */
+    }
+}
+.dino-walker {
+    position: fixed;
+    bottom: 150px;
+    left: 10%; /* Bắt đầu ở vị trí 10% màn hình */
+    width: 230px;
+    height: auto;
+    z-index: 1000;
+    pointer-events: none;
+    
+    /* animation: tên, thời gian, kiểu chạy, lặp vô hạn, VÀ ĐI NGƯỢC LẠI (alternate) */
+    animation: walkBackAndForth 20s linear infinite alternate;
+}
+
+.dino-walker img {
+    width: 100%;
+    height: auto;
+}
+
+/* --- Các thuộc tính cũ của anh giữ nguyên, chỉ thêm phần dưới đây --- */
+
+.dropdown-inner {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    max-height: 400px; /* Giới hạn chiều cao khi có >40 đề */
+    overflow-y: auto; /* Tự động xuất hiện thanh cuộn */
+}
+
+/* Tab System */
+.tab-header {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 8px;
+}
+
+.tab-link {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    transition: 0.3s;
+}
+
+.tab-link.active {
+    background: #c5a059; /* Màu vàng đồng bộ với viền ảnh của anh */
+    color: white;
+    border-color: #c5a059;
+}
+
+/* Exam Grid Layout */
+.exam-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.exam-badge {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border: 1px solid #e1e4e8;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exam-badge:hover {
+    background: #c5a059;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.exam-badge.wide {
+    min-width: 140px;
+}
+
+.empty-msg {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-style: italic;
+    color: #7f8c8d;
+    padding: 20px;
+}
+
+/* Ẩn các tab content mặc định */
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: block;
+}
+
+/* Scrollbar mỏng cho đẹp */
+.dropdown-inner::-webkit-scrollbar {
+    width: 6px;
+}
+.dropdown-inner::-webkit-scrollbar-thumb {
+    background: #c5a059;
+    border-radius: 10px;
+}
+
+/* Overlay che phủ toàn màn hình */
+.login-overlay {
+display: none; /* Mặc định ẩn, JS sẽ điều khiển */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+/* Chỉnh từ 0.9 thành 0.6 hoặc 0.7 */
+    background: rgba(0, 0, 0, 0.6); 
+    backdrop-filter: blur(8px); /* Giảm bớt độ mờ nếu muốn nhìn rõ hơn */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+}
+
+/* Hộp đăng nhập trong suốt (Glassmorphism) */
+.login-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(212, 175, 55, 0.5); /* Viền màu vàng Gold nhẹ */
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    text-align: center;
+    color: #fff;
+    width: 320px;
+}
+
+.login-box h2 {
+    margin-bottom: 30px;
+    color: #D4AF37; /* Màu Gold bạn thích */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #D4AF37;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.error-msg {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+/* Container ở góc trên bên phải */
+.user-header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 100; /* Nằm trên các thành phần khác nhưng dưới Login Overlay */
+    color: #503e03; /* Màu vàng Gold */
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* Nút Logout */
+.logout-btn {
+    background: transparent;
+    color: #163b02;
+    border: 1px solid #D4AF37;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.logout-btn:hover {
+    background: #D4AF37;
+    color: #000;
+}
