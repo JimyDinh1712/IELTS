@@ -1,0 +1,301 @@
+/* Tái định nghĩa các biến màu sắc giống ảnh mẫu */
+:root {
+    --header-dark: #3a3b3c;  /* Xám đậm header */
+    --banner-light: #f0f2f5; /* Xám rất nhạt banner */
+    --border-color: #d1d4d7; /* Xám đường viền */
+    --text-color: #333;
+    --background-white: #fff;
+    --table-header-bg: #f8f9fa;
+    /* Ép tất cả các thẻ con bên trong đề bài và ô viết phải nghe theo biến này */
+#task-content, 
+#task-content p, 
+#task-content span, 
+#task-content strong,
+#writing-area {
+    font-size: var(--test-font-size) !important;
+}
+}
+
+/* Reset cơ bản */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* IELTS dùng font không chân */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-white);
+    color: var(--text-color);
+    overflow: hidden; /* Chặn cuộn toàn trang */
+}
+
+/* 1. Top Header - Thanh tối màu trên cùng */
+.top-header {
+    background-color: var(--header-dark);
+    color: #fff;
+    padding: 0 15px;
+    height: 35px; /* Chiều cao rất thấp */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.user-id {
+    letter-spacing: 1px;
+}
+
+.header-controls {
+    display: flex;
+    gap: 5px;
+}
+
+.header-btn {
+    background: #555;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 3px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background 0.2s;
+}
+
+.header-btn:hover {
+    background: #666;
+}
+
+.hide-btn {
+    background: #ef4444; /* Màu đỏ nút Hide */
+    border-color: #dc2626;
+}
+.hide-btn:hover {
+    background: #f87171;
+}
+
+/* 2. Part & Time Banner - Thanh xám nhạt */
+.part-time-banner {
+    background-color: var(--banner-light);
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part-label h1 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.part-label p {
+    font-size: 0.85rem;
+    color: #555;
+    font-style: italic;
+}
+
+.timer-display {
+    background: #fff;
+    padding: 10px 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2b5a84; /* Màu xanh đậm của timer */
+}
+
+/* 3. Main Container - Chia đôi màn hình */
+.test-container {
+    flex: 1; /* Chiếm hết phần còn lại của chiều cao */
+    display: flex;
+    overflow: hidden; /* Quan trọng để cuộn độc lập */
+}
+
+.pane {
+    width: 50%;
+    height: 100%;
+    overflow-y: auto; /* Cho phép cuộn bên trong mỗi pane */
+    padding: 30px 40px;
+}
+
+/* Pane trái - Đề bài */
+#prompt-pane {
+    border-right: 1px solid var(--border-color); /* Đường kẻ chia đôi */
+}
+
+.prompt-text {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-size: large;
+    text-align: justify;
+}
+
+.prompt-text p {
+    margin-bottom: 15px;
+}
+
+/* CSS cho bảng số liệu (tự tạo vì ảnh không rõ) */
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+}
+
+.data-table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.data-table thead th {
+    background-color: var(--table-header-bg);
+    font-weight: bold;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+/* Pane phải - Bài làm */
+#response-pane {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#writing-area {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    resize: none; /* Không cho kéo giãn thủ công */
+    outline: none; /* Bỏ viền focus mặc định */
+    text-align: justify;
+}
+
+#writing-area:focus {
+    border-color: #a0b4d0;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* 4. Footer mỏng */
+.test-footer {
+    background-color: var(--banner-light);
+    border-top: 1px solid var(--border-color);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.word-count-display strong {
+    color: #000;
+}
+/* Container chứa ảnh */
+.prompt-image-container {
+    margin-top: 20px;
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+}
+
+.image-title {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* Style cho ảnh đề bài */
+.prompt-image {
+    max-width: 100%; /* Đảm bảo ảnh không to hơn khung bên trái */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Cho phép người dùng nhấn vào để xem rõ hơn nếu cần */
+    cursor: zoom-in; 
+    transition: transform 0.2s;
+}
+
+.prompt-image:active {
+    transform: scale(1.05); /* Hiệu ứng phóng to nhẹ khi nhấn giữ */
+}
+/* Điều chỉnh footer để chứa các nút điều hướng */
+.test-footer {
+    height: 40px; /* Tăng nhẹ chiều cao */
+    padding: 0 20px;
+    justify-content: space-between; /* Đẩy các phần tử ra 2 bên/giữa */
+}
+
+.task-navigation {
+    display: flex;
+    gap: 2px;
+}
+
+.nav-btn {
+    background-color: #e0e0e0;
+    border: 1px solid var(--border-color);
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #0d0d0d;
+     width: 120px;
+}
+
+.nav-btn.active {
+  
+    background-color: #2b5a84;
+    border-bottom: none;    /* Tạo hiệu ứng tab */
+    position: relative;
+    top: -1px;
+}
+
+.nav-btn:hover:not(.active) {
+    background-color: #2b5a84;
+}
+
+.footer-placeholder {
+    width: 150px; /* Giữ chỗ để word-count luôn nằm giữa */
+}
+
+
+/* Tùy chỉnh hiển thị các nút font trong header */
+.font-controls {
+    display: flex;
+    gap: 5px;
+    margin-right: 15px;
+}
+
+/* Đặt cỡ chữ mặc định cho vùng làm bài */
+#writing-area {
+    font-size: 16px; /* Cỡ chữ gốc */
+    transition: font-size 0.2s ease; /* Hiệu ứng mượt khi đổi size */
+}
+
+/* Nếu muốn đổi cả phần đề bài */
+#task-content {
+    font-size: 16px;
+    transition: font-size 0.2s ease;
+}
