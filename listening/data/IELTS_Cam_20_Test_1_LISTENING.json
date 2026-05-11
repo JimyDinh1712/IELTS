@@ -1,0 +1,379 @@
+{
+  "testTitle": "IELTS Cam 20 Test 1",
+  "audioUrl": "audio/Cam20Test1.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>Name of restaurant</th>\n    <th>Location</th>\n <th> Reason for recommendation</th>\n    <th>Other comments</th>\n  </tr>\n  <tr>\n    <td>The Junction</td>\n    <td>Greyson Street, near the station</td>\n    <td>Good for people who are especially keen on <strong>(1)</strong> </td>\n    <td>Quite expensive <p>The <strong>(2)</strong>  is a good place for a drink</td>\n  </tr>\n  <tr>\n    <td>Paloma</td>\n    <td>In Bow Street next to the cinema</td>\n    <td><strong>(3)</strong>  food, good for sharing</td>\n    <td>Staff are very friendly <p> Need to pay £50 deposit <p> A limited selection of <strong>(4)</strong>  food on the menu</td>\n  </tr>\n  <tr>\n    <td>The <strong>(5)</strong> </td>\n    <td>At the top of a <strong>(6)</strong> </td>\n    <td>A famous chef <p> All the <strong>(7)</strong>  are very good <p> Only uses <strong>(8)</strong>  ingredients</td>\n    <td>Set lunch costs £ <strong>(9)</strong>  per person <p> Portions probably of <strong>(10)</strong>  size</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 16,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>11</strong>   Heather says pottery differs from other art forms because ____<br>A   it lasts longer in the ground.<br>B   it is practised by more people.<br>C   it can be repaired more easily.<br><strong>12</strong>   Archaeologists sometimes identify the use of ancient pottery from<br>A   the clay it was made with.<br>B   the marks that are on it.<br>C   the basic shape of it.<br><strong>13</strong>   Some people join Heather’s pottery class because they want to<br>A   create an item that looks very old.<br>B   find something that they are good at.<br>C   make something that will outlive them.<br><strong>14</strong>   What does Heather value most about being a potter?<br>A   its calming effect<br>B   its messy nature<br>C   its physical benefits<br><strong>15</strong>   Most of the visitors to Edelman Pottery<br>A   bring friends to join courses.<br>B   have never made a pot before.<br>C   try to learn techniques too quickly.<br><strong>16</strong>   Heather reminds her visitors that they should<br>A   put on their aprons.<br>B   change their clothes.<br>C   take off their jewellery",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Heather says pottery differs from other art forms because ____",
+              "options": [
+                "A   it lasts longer in the ground.",
+                "B   it is practised by more people.",
+                "C   it can be repaired more easily."
+              ]
+            },
+            {
+              "id": 12,
+              "text": "Archaeologists sometimes identify the use of ancient pottery from",
+              "options": [
+                "A   the clay it was made with.",
+                "B   the marks that are on it.",
+                "C   the basic shape of it."
+              ]
+            },
+            {
+              "id": 13,
+              "text": "Some people join Heather’s pottery class because they want to",
+              "options": [
+                "A   create an item that looks very old.",
+                "B   find something that they are good at.",
+                "C   make something that will outlive them."
+              ]
+            },
+            {
+              "id": 14,
+              "text": "What does Heather value most about being a potter?",
+              "options": [
+                "A   its calming effect",
+                "B   its messy nature",
+                "C   its physical benefits"
+              ]
+            },
+            {
+              "id": 15,
+              "text": "Most of the visitors to Edelman Pottery",
+              "options": [
+                "A   bring friends to join courses.",
+                "B   have never made a pot before.",
+                "C   try to learn techniques too quickly."
+              ]
+            },
+            {
+              "id": 16,
+              "text": "Heather reminds her visitors that they should",
+              "options": [
+                "A   put on their aprons.",
+                "B   change their clothes.",
+                "C   take off their jewellery"
+              ]
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 18,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO things does Heather explain about kilns?<br>A   what their function is<br>B   when they were invented<br>C   ways of keeping them safe<br>D   where to put one in your home<br>E   what some people use instead of one",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 17,
+              "text": "Question 17",
+              "options": []
+            },
+            {
+              "id": 18,
+              "text": "Question 18",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO points does Heather make about a potter’s tools?<br>A   Some are hard to hold.<br>B   Some are worth buying.<br>C   Some are essential items.<br>D   Some have memorable names.<br>E   Some are available for use by participants.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 19,
+              "text": "Question 19",
+              "options": []
+            },
+            {
+              "id": 20,
+              "text": "Question 20",
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO things do the students both believe are responsible for the increase in loneliness?<br>A   social media<br>B   smaller nuclear families<br>C   urban design<br>D   longer lifespans<br>E   a mobile workforce",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO health risks associated with loneliness do the students agree are based on solid evidence?<br>A   a weakened immune system<br>B   dementia<br>C   cancer<br>D   obesity<br>E   cardiovascular disease",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 26,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO opinions do both the students express about the evolutionary theory of loneliness?<br>A   lt has little practical relevance.<br>B   It needs further investigation.<br>C   It is misleading.<br>D   It should be more widely accepted.<br>E   lt is difficult to understand.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 25,
+              "text": "Question 25",
+              "options": []
+            },
+            {
+              "id": 26,
+              "text": "Question 26",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Loneliness and mental health",
+          "content": "<strong>27</strong>   When comparing loneliness to depression, the students<br>A   doubt that there will ever be a medical cure for loneliness.<br>B   claim that the link between loneliness and mental health is overstated.<br>C   express frustration that loneliness is not taken more seriously.<br><strong>28</strong>   Why do the students decide to start their presentation with an example from their own experience?<br>A   to explain how difficult loneliness can be<br>B   to highlight a situation that most students will recognise<br>C   to emphasise that feeling lonely is more common for men than women<br><strong>29</strong>   The students agree that talking to strangers is a good strategy for dealing with loneliness because<br>A   it creates a sense of belonging.<br>B   it builds self-confidence.<br>C   it makes people feel more positive.<br><strong>30</strong>   The students find it difficult to understand why solitude is considered to be<br>A   similar to loneliness.<br>B   necessary for mental health.<br>C   an enjoyable experience.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 27,
+              "text": "When comparing loneliness to depression, the students",
+              "options": [
+                "A   doubt that there will ever be a medical cure for loneliness.",
+                "B   claim that the link between loneliness and mental health is overstated.",
+                "C   express frustration that loneliness is not taken more seriously."
+              ]
+            },
+            {
+              "id": 28,
+              "text": "Why do the students decide to start their presentation with an example from their own experience?",
+              "options": [
+                "A   to explain how difficult loneliness can be",
+                "B   to highlight a situation that most students will recognise",
+                "C   to emphasise that feeling lonely is more common for men than women"
+              ]
+            },
+            {
+              "id": 29,
+              "text": "The students agree that talking to strangers is a good strategy for dealing with loneliness because",
+              "options": [
+                "A   it creates a sense of belonging.",
+                "B   it builds self-confidence.",
+                "C   it makes people feel more positive."
+              ]
+            },
+            {
+              "id": 30,
+              "text": "The students find it difficult to understand why solitude is considered to be",
+              "options": [
+                "A   similar to loneliness.",
+                "B   necessary for mental health.",
+                "C   an enjoyable experience."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Reclaiming urban rivers",
+          "content": "<strong>Historical background</strong><br>● Nearly all major cities were built on a river.<br>● Rivers were traditionally used by city dwellers for transport, fishing and recreation.<br>● Industrial development and rising populations later led to:<br>○ more sewage from houses being discharged into the river<br>○ pollution from <strong>(31)</strong>  on the river bank.<br>● In 1957, the River Thames in London was declared biologically <strong>(32)</strong>  .<br><strong>Recent improvements</strong><br>● Seals and even a <strong>(33)</strong>  have been seen in the River Thames.<br>● Riverside warehouses are converted to restaurants and <strong>(34)</strong> <br>● In Los Angeles, there are plans to:<br>○ build a riverside <strong>(35)</strong> <br>○ display <strong>(36)</strong>  projects.<br>● In Paris, <strong>(37)</strong>  are created on the sides of the river every summer.<br><strong>Transport possibilities</strong><br>● Over 2 billion passengers already travel by <strong>(38)</strong>  in cities round the world.<br>● Changes in shopping habits mean the number of deliveries that are made is increasing.<br>● Instead of road transport, goods could be transported by large freight barges and electric <strong>(39)</strong>  or, in future, by <strong>(40)</strong>  .",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "fish",
+    "2": "roof",
+    "3": "Spanish",
+    "4": "vegetarian",
+    "5": "Audley",
+    "6": "hotel",
+    "7": "reviews",
+    "8": "local",
+    "9": "30/thirty",
+    "10": "average",
+    "11": "A",
+    "12": "B",
+    "13": "C",
+    "14": "A",
+    "15": "B",
+    "16": "C",
+    "17": "A/  E",
+    "18": "A/  E",
+    "19": "C / E",
+    "20": "C / E",
+    "21": "C / E",
+    "22": "C / E",
+    "23": "A / C",
+    "24": "A / C",
+    "25": "A / B",
+    "26": "A / B",
+    "27": "A",
+    "28": "B",
+    "29": "A",
+    "30": "C",
+    "31": "factories",
+    "32": "dead",
+    "33": "whale",
+    "34": "apartments",
+    "35": "park",
+    "36": "art",
+    "37": "beaches",
+    "38": "ferry",
+    "39": "bikes",
+    "40": "drone"
+  }
+}

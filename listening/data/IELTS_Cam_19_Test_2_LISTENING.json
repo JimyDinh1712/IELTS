@@ -1,0 +1,390 @@
+{
+  "testTitle": "IELTS Cam 19 Test 2",
+  "audioUrl": "audio/Cam19Test2.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 6,
+          "type": "form",
+          "instruction": "Complete the form below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Guitar Group",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>Coordinator:</th>\n    <th>Gary <strong>(1)</strong> </th>\n  </tr>\n  <tr>\n    <td>Level:</td>\n    <td><strong>(2)</strong> </td>\n  </tr>\n  <tr>\n    <td>Place:</td>\n    <td>the <strong>(3)</strong>  <p><strong>(4)</strong>  Street <p>First floor, Room T347</td>\n  </tr>\n  <tr>\n    <td>Time:</td>\n    <td>Thursday morning at <strong>(5)</strong> </td>\n  </tr>\n  <tr>\n    <td>Recommended website:</td>\n    <td>‘The perfect <strong>(6)</strong> ’</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the table below.  Write ONE WORD ONLY for each answer.",
+          "heading": "A typical 45-minute guitar lesson",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>Time</th>\n    <th>Activity</th>\n    <th>Notes</th>\n  </tr>\n  <tr>\n    <td>5 minutes</td>\n    <td>tuning guitars</td>\n    <td>using an app or by <strong>(7)</strong> </td>\n  </tr>\n  <tr>\n    <td>10 minutes</td>\n    <td>strumming chords using our thumbs</td>\n    <td>keeping time while the teacher is <strong>(8)</strong> </td>\n  </tr>\n  <tr>\n    <td>15 minutes</td>\n    <td>playing songs</td>\n    <td>often listening to a <strong>(9)</strong>  of a song</td>\n  </tr>\n  <tr>\n    <td>10 minutes</td>\n    <td>playing single notes and simple tunes</td>\n    <td>playing together, then <strong>(10)</strong> </td>\n  </tr>\n  <tr>\n    <td>5 minutes</td>\n    <td>noting things to practise at home</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 16,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Working as a lifeboat volunteer",
+          "content": "<strong>11</strong>   What made David leave London and move to Northsea?<br>A   He was eager to develop a hobby.<br>B   He wanted to work shorter hours.<br>C   He found his job in website design unsatisfying.<br><strong>12</strong>   The Lifeboat Institution in Northsea was built with money provided by<br>A   a local organisation.<br>B   a local resident.<br>C   the local council.<br><strong>13</strong>   In his health assessment, the doctor was concerned about the fact that David<br>A   might be colour blind.<br>B   was rather short-sighted.<br>C   had undergone eye surgery.<br><strong>14</strong>   After arriving at the lifeboat station, they aim to launch the boat within<br>A   five minutes.<br>B   six to eight minutes.<br>C   eight and a half minutes.<br><strong>15</strong>   As a ‘helmsman’, David has the responsibility of deciding<br>A   who will be the members of his crew.<br>B   what equipment it will be necessary to take.<br>C   if the lifeboat should be launched.<br><strong>16</strong>   As well as going out on the lifeboat, David<br>A   gives talks on safety at sea.<br>B   helps with fundraising.<br>C   recruits new volunteers.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "What made David leave London and move to Northsea?",
+              "options": [
+                "A   He was eager to develop a hobby.",
+                "B   He wanted to work shorter hours.",
+                "C   He found his job in website design unsatisfying."
+              ]
+            },
+            {
+              "id": 12,
+              "text": "The Lifeboat Institution in Northsea was built with money provided by",
+              "options": [
+                "A   a local organisation.",
+                "B   a local resident.",
+                "C   the local council."
+              ]
+            },
+            {
+              "id": 13,
+              "text": "In his health assessment, the doctor was concerned about the fact that David",
+              "options": [
+                "A   might be colour blind.",
+                "B   was rather short-sighted.",
+                "C   had undergone eye surgery."
+              ]
+            },
+            {
+              "id": 14,
+              "text": "After arriving at the lifeboat station, they aim to launch the boat within",
+              "options": [
+                "A   five minutes.",
+                "B   six to eight minutes.",
+                "C   eight and a half minutes."
+              ]
+            },
+            {
+              "id": 15,
+              "text": "As a ‘helmsman’, David has the responsibility of deciding",
+              "options": [
+                "A   who will be the members of his crew.",
+                "B   what equipment it will be necessary to take.",
+                "C   if the lifeboat should be launched."
+              ]
+            },
+            {
+              "id": 16,
+              "text": "As well as going out on the lifeboat, David",
+              "options": [
+                "A   gives talks on safety at sea.",
+                "B   helps with fundraising.",
+                "C   recruits new volunteers."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 18,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO things does David say about the lifeboat volunteer training?<br>A   The residential course developed his leadership skills.<br>B   The training in use of ropes and knots was quite brief.<br>C   The training exercises have built up his mental strength.<br>D   The casualty care activities were particularly challenging for him.<br>E   The wave tank activities provided practice in survival techniques.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 17,
+              "text": "Question 17",
+              "options": []
+            },
+            {
+              "id": 18,
+              "text": "Question 18",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO things does David find most motivating about the work he does?<br>A   working as part of a team<br>B   experiences when working in winter<br>C   being thanked by those he has helped<br>D   the fact that it keeps him fit<br>E   the chance to develop new equipment",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 19,
+              "text": "Question 19",
+              "options": []
+            },
+            {
+              "id": 20,
+              "text": "Question 20",
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 24,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>21</strong>   At first, Don thought the topic of recycling footwear might be too<br>A   limited in scope.<br>B   hard to research.<br>C   boring for listeners.<br><strong>22</strong>   When discussing trainers, Bella and Don disagree about<br>A   how popular they are among young people.<br>B   how suitable they are for school.<br>C   how quickly they wear out.<br><strong>23</strong>   Bella says that she sometimes recycles shoes because<br>A   they no longer fit.<br>B   she no longer likes them.<br>C   they are no longer in fashion.<br><strong>24</strong>   What did the article say that confused Don?<br>A   Public consumption of footwear has risen.<br>B   Less footwear is recycled now than in the past.<br>C   People dispose of more footwear than they used to.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 21,
+              "text": "At first, Don thought the topic of recycling footwear might be too",
+              "options": [
+                "A   limited in scope.",
+                "B   hard to research.",
+                "C   boring for listeners."
+              ]
+            },
+            {
+              "id": 22,
+              "text": "When discussing trainers, Bella and Don disagree about",
+              "options": [
+                "A   how popular they are among young people.",
+                "B   how suitable they are for school.",
+                "C   how quickly they wear out."
+              ]
+            },
+            {
+              "id": 23,
+              "text": "Bella says that she sometimes recycles shoes because",
+              "options": [
+                "A   they no longer fit.",
+                "B   she no longer likes them.",
+                "C   they are no longer in fashion."
+              ]
+            },
+            {
+              "id": 24,
+              "text": "What did the article say that confused Don?",
+              "options": [
+                "A   Public consumption of footwear has risen.",
+                "B   Less footwear is recycled now than in the past.",
+                "C   People dispose of more footwear than they used to."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 28,
+          "type": "wordlist",
+          "instruction": "What  reasons did the recycling manager give for rejecting footwear, according to the students?  Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 25–28.",
+          "heading": "Footwear",
+          "wordlistName": "Reasons",
+          "options": [
+            "A   one shoe was missing",
+            "B   the colour of one shoe had faded",
+            "C   one shoe had a hole in it",
+            "D   the shoes were brand new",
+            "E   the shoes were too dirty",
+            "F   the stitching on the shoes was broken"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 25,
+              "text": "the high-heeled shoes  25 …………"
+            },
+            {
+              "id": 26,
+              "text": "the ankle boots  26 …………"
+            },
+            {
+              "id": 27,
+              "text": "the baby shoes   27…………"
+            },
+            {
+              "id": 28,
+              "text": "the trainers   28…………"
+            }
+          ]
+        },
+        {
+          "from": 29,
+          "to": 30,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>29</strong>   Why did the project to make ‘new’ shoes out of old shoes fail?<br>A   People believed the ‘new’ pairs of shoes were unhygienic.<br>B   There were not enough good parts to use in the old shoes.<br>C   The shoes in the ‘new’ pairs were not completely alike.<br><strong>30</strong>   Bella and Don agree that they can present their topic<br>A   from a new angle.<br>B   with relevant images.<br>C   in a straightforward way.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 29,
+              "text": "Why did the project to make ‘new’ shoes out of old shoes fail?",
+              "options": [
+                "A   People believed the ‘new’ pairs of shoes were unhygienic.",
+                "B   There were not enough good parts to use in the old shoes.",
+                "C   The shoes in the ‘new’ pairs were not completely alike."
+              ]
+            },
+            {
+              "id": 30,
+              "text": "Bella and Don agree that they can present their topic",
+              "options": [
+                "A   from a new angle.",
+                "B   with relevant images.",
+                "C   in a straightforward way."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Tardigrades",
+          "content": "●   more than 1,000 species, 0.05–1.2 millimetres long<br>●   also known as water ‘bears’ (due to how they <strong>(31)</strong> ) and ‘moss piglets’<br><strong>Physical appearance</strong><br>●   a <strong>(32)</strong>  round body and four pairs of legs<br>●   claws or <strong>(33)</strong>  for gripping<br>●   absence of respiratory organs<br>●   body filled with a liquid that carries both <strong>(34)</strong>  and blood<br>●   mouth shaped like a <strong>(35)</strong>  with teeth called stylets<br><strong>Habitat</strong><br>●   often found at the bottom of a lake or on plants<br>●   very resilient and can exist in very low or high <strong>(36)</strong> <br><strong>Cryptobiosis</strong><br>●   In dry conditions, they roll into a ball called a ‘tun’.<br>●   They stay alive with a much lower metabolism than usual.<br>●   A type of <strong>(37)</strong>  ensures their DNA is not damaged.<br>●   Research is underway to find out how many days they can stay alive in <strong>(38)</strong>  .<br><strong>Feeing</strong><br>●   consume liquids, e.g., those found in moss or <strong>(39)</strong> <br>●   may eat other tardigrades<br><strong>Conservation status</strong><br>●   They are not considered to be <strong>(40)</strong>  .",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "Mathieson",
+    "2": "beginners",
+    "3": "college",
+    "4": "New",
+    "5": "11 / eleven (am)",
+    "6": "instrument",
+    "7": "ear",
+    "8": "clapping",
+    "9": "recording",
+    "10": "alone",
+    "11": "A",
+    "12": "B",
+    "13": "A",
+    "14": "B",
+    "15": "C",
+    "16": "A",
+    "17": "C/ E",
+    "18": "C/ E",
+    "19": "A/ B21   A",
+    "22": "B",
+    "23": "B",
+    "24": "B",
+    "25": "E",
+    "26": "B",
+    "27": "A",
+    "28": "C",
+    "29": "C",
+    "30": "A",
+    "31": "move",
+    "32": "short",
+    "33": "discs",
+    "34": "oxygen",
+    "35": "tube",
+    "36": "temperatures",
+    "37": "protein",
+    "38": "space",
+    "39": "seaweed",
+    "40": "endangered"
+  }
+}

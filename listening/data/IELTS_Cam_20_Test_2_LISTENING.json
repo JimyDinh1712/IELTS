@@ -1,0 +1,355 @@
+{
+  "testTitle": "IELTS Cam 20 Test 2",
+  "audioUrl": "audio/Cam20Test2.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the table below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "",
+          "content": "Local councils can arrange practical support to help those caring for elderly people at home.<br>This can give the carer:<br>● time for other responsibilities<br>● a <strong>(1)</strong> <br><strong>Assessment of mother’s needs</strong><br>This may include discussion of:<br>● how much <strong>(2)</strong>  the caring involves •<br>● what types of tasks are involved, e.g.<br>○ help with dressing<br>○ helping her have a <strong>(3)</strong> <br>○ shopping<br>○ helping with meals<br>○ dealing with <strong>(4)</strong> <br>● any aspects of caring that are especially difficult, e.g.<br>○ loss of <strong>(5)</strong> <br>○ <strong>(6)</strong>  her<br>○ preventing a <strong>(7)</strong> <br><strong>Types of support that may be offered to carers</strong><br>● transport costs, e.g. cost of a <strong>(8)</strong> <br>● car-related costs, e.g. fuel and <strong>(9)</strong> <br>● help with housework<br>● help to reduce <strong>(10)</strong> ",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 16,
+          "type": "wordlist",
+          "instruction": "What is the role of the volunteers in each of the following activities?  Choose SIX answers from the box and write the correct letter, A-I, next to 11-16.",
+          "heading": "",
+          "wordlistName": "List of Options",
+          "options": [
+            "A   providing entertainment",
+            "B   providing publicity about a council service",
+            "C   contacting local businesses",
+            "D   giving advice to visitors",
+            "E   collecting feedback on events",
+            "F   selling tickets",
+            "G   introducing guest speakers at an event",
+            "H   encouraging cooperation between local organisations",
+            "I    helping people find their seats"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 11,
+              "text": "walking around the town centre"
+            },
+            {
+              "id": 12,
+              "text": "helping at concerts"
+            },
+            {
+              "id": 13,
+              "text": "getting involved with community groups"
+            },
+            {
+              "id": 14,
+              "text": "helping with a magazine"
+            },
+            {
+              "id": 15,
+              "text": "participating at lunches for retired people"
+            },
+            {
+              "id": 16,
+              "text": "helping with the website"
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>17</strong>   Which event requires the largest number of volunteers?<br>A   the music festival<br>B   the science festival<br>C   the book festival<br><strong>18</strong>   What is the most important requirement for volunteers at the festivals?<br>A   interpersonal skills<br>B   personal interest in the event<br>C   flexibility<br><strong>19</strong>   New volunteers will start working in the week beginning<br>A   2 September.<br>B   9 September.<br>C   23 September.<br><strong>20</strong>   What is the next annual event for volunteers?<br>A   a boat trip<br>B   a barbecue<br>C   a party",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 17,
+              "text": "Which event requires the largest number of volunteers?",
+              "options": [
+                "A   the music festival",
+                "B   the science festival",
+                "C   the book festival"
+              ]
+            },
+            {
+              "id": 18,
+              "text": "What is the most important requirement for volunteers at the festivals?",
+              "options": [
+                "A   interpersonal skills",
+                "B   personal interest in the event",
+                "C   flexibility"
+              ]
+            },
+            {
+              "id": 19,
+              "text": "New volunteers will start working in the week beginning",
+              "options": [
+                "A   2 September.",
+                "B   9 September.",
+                "C   23 September."
+              ]
+            },
+            {
+              "id": 20,
+              "text": "What is the next annual event for volunteers?",
+              "options": [
+                "A   a boat trip",
+                "B   a barbecue",
+                "C   a party"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 25,
+          "type": "wordlist",
+          "instruction": "What is Rosie and Colin’s opinion about each of the following aspects of human geography?  Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 21-25.",
+          "heading": "Aspects of human geography",
+          "wordlistName": "List of Options",
+          "options": [
+            "A   The information given about this was too vague.",
+            "B   This may not be relevant to their course.",
+            "C   This will involve only a small number of statistics.",
+            "D   It will be easy to find facts about this.",
+            "E   The facts about this may not be reliable.",
+            "F   No useful research has been done on this.",
+            "G   The information provided about this was interesting."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 21,
+              "text": "Population ______________"
+            },
+            {
+              "id": 22,
+              "text": "Health ______________"
+            },
+            {
+              "id": 23,
+              "text": "Economies ______________"
+            },
+            {
+              "id": 24,
+              "text": "Culture ______________"
+            },
+            {
+              "id": 25,
+              "text": "Poverty ______________"
+            }
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>26</strong>   Rosie says that in her own city the main problem is<br>A   crime.<br>B   housing.<br>C   unemployment.<br><strong>27</strong>   What recent additions to the outskirts of their cities are both students happy about?<br>A   conference centres<br>B   sports centres<br>C   retail centres<br><strong>28</strong>   The students agree that developing disused industrial sites may<br>A   have unexpected costs.<br>B   damage the urban environment.<br>C   destroy valuable historical buildings.<br><strong>29</strong>   The students will mention Masdar City as an example of an attempt to achieve<br>A   daily collections for waste recycling.<br>B   sustainable energy use.<br>C   free transport for everyone.<br><strong>30</strong>   When discussing the ecotown of Greenhill Abbots, Colin is uncertain about<br>A   what its objectives were.<br>B   why there was opposition to it.<br>C   how much of it has actually been built.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 26,
+              "text": "Rosie says that in her own city the main problem is",
+              "options": [
+                "A   crime.",
+                "B   housing.",
+                "C   unemployment."
+              ]
+            },
+            {
+              "id": 27,
+              "text": "What recent additions to the outskirts of their cities are both students happy about?",
+              "options": [
+                "A   conference centres",
+                "B   sports centres",
+                "C   retail centres"
+              ]
+            },
+            {
+              "id": 28,
+              "text": "The students agree that developing disused industrial sites may",
+              "options": [
+                "A   have unexpected costs.",
+                "B   damage the urban environment.",
+                "C   destroy valuable historical buildings."
+              ]
+            },
+            {
+              "id": 29,
+              "text": "The students will mention Masdar City as an example of an attempt to achieve",
+              "options": [
+                "A   daily collections for waste recycling.",
+                "B   sustainable energy use.",
+                "C   free transport for everyone."
+              ]
+            },
+            {
+              "id": 30,
+              "text": "When discussing the ecotown of Greenhill Abbots, Colin is uncertain about",
+              "options": [
+                "A   what its objectives were.",
+                "B   why there was opposition to it.",
+                "C   how much of it has actually been built."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Developing food trends",
+          "content": "● The growth in interest in food fashions started with <strong>(31)</strong>  of food being shared on social media.<br>● The UK food industry is constantly developing products which are new or different.<br>● Influencers on social media become ‘ambassadors’ for a brand.<br>○ Sales of <strong>(32)</strong>  food brands have grown rapidly this way.<br>● Supermarkets track demand for ingredients on social media.<br>○ Famous <strong>(33)</strong>  are influential.<br><strong>Marketing campaigns</strong><br>● The avocado:<br>○ <strong>(34)</strong>  were invited to visit growers in South Africa.<br>○ Advertising focused on its <strong>(35)</strong>  benefits.<br>● Oat milk:<br>○ A Swedish brand’s media campaign received publicity by upsetting competitors.<br>○ Promotion in the USA through <strong>(36)</strong>  shops reduced the need for advertising.<br>○ It appealed to consumers who are concerned about the <strong>(37)</strong> <br>● Norwegian skrei:<br>○ has helped strengthen the <strong>(38)</strong>  of Norwegian seafood.<br>● Ethical concerns<br>● Quinoa:<br>○ Its success led to an increase in its <strong>(39)</strong> <br>○ Overuse of resources resulted in poor quality <strong>(40)</strong> ",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "break",
+    "2": "time",
+    "3": "shower",
+    "4": "money",
+    "5": "memory",
+    "6": "lifting",
+    "7": "fall",
+    "8": "taxi",
+    "9": "insurance",
+    "10": "stress",
+    "11": "D",
+    "12": "I",
+    "13": "H",
+    "14": "E",
+    "15": "A",
+    "16": "B",
+    "17": "B",
+    "18": "A",
+    "19": "B",
+    "20": "A",
+    "21": "D",
+    "22": "G",
+    "23": "B",
+    "24": "A",
+    "25": "E",
+    "26": "C",
+    "27": "A",
+    "28": "A",
+    "29": "B",
+    "30": "C",
+    "31": "photos/ photographs pictures",
+    "32": "vegan",
+    "33": "chefs cooks",
+    "34": "journalists/ reporters",
+    "35": "health",
+    "36": "coffee",
+    "37": "environment",
+    "38": "reputation",
+    "39": "price cost",
+    "40": "soil"
+  }
+}

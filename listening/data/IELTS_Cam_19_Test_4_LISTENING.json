@@ -1,0 +1,373 @@
+{
+  "testTitle": "IELTS Cam 19 Test 4",
+  "audioUrl": "audio/Cam19Test4.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 6,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "First day at work",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>●   Name of supervisor:</th>\n    <th><strong>(1)</strong> </th>\n  </tr>\n  <tr>\n    <td>●   Where to leave coat and bag:</td>\n    <td>use <strong>(2)</strong>  in staffroom</td>\n  </tr>\n  <tr>\n    <td>●   See Tiffany in HR:</td>\n    <td>to give <strong>(3)</strong>  number<p>to collect <strong>(4)</strong> </td>\n  </tr>\n  <tr>\n    <td>●   Location of HR office:</td>\n    <td>on <strong>(5)</strong>  floor</td>\n  </tr>\n  <tr>\n    <td>●   Supervisor’s mobile number:</td>\n    <td><strong>(6)</strong> </td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the table below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Responsibilities",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th></th>\n    <th>Task 1</th>\n    <th>Task 2</th>\n    <th>Notes</th>\n  </tr>\n  <tr>\n    <td>Bakery section</td>\n    <td>Check sell-by dates</td>\n    <td>Change price labels</td>\n    <td>Use <strong>(7)</strong>  labels</td>\n  </tr>\n  <tr>\n    <td>Sushi takeaway counter</td>\n    <td>Re-stock with <strong>(8)</strong>  boxes if needed</td>\n    <td>Wipe preparation area and clean the sink</td>\n    <td>Do not clean any knives</td>\n  </tr>\n  <tr>\n    <td>Meat and fish counters</td>\n    <td>Clean the serving area, including the weighing scales</td>\n    <td>Collect <strong>(9)</strong>  for the fish from the cold-room</td>\n    <td>Must wear special <strong>(10)</strong> </td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 12,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO problems with some training programmes for new runners does Liz mention?<br>A   There is a risk of serious injury.<br>B   They are unsuitable for certain age groups.<br>C   They are unsuitable for people with health issues.<br>D   It is difficult to stay motivated.<br>E   There is a lack of individual support.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Question 11",
+              "options": []
+            },
+            {
+              "id": 12,
+              "text": "Question 12",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO tips does Liz recommend for new runners?<br>A   doing two runs a week<br>B   running in the evening<br>C   going on runs with a friend<br>D   listening to music during runs<br>E   running very slowly",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 13,
+              "text": "Question 13",
+              "options": []
+            },
+            {
+              "id": 14,
+              "text": "Question 14",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 18,
+          "type": "wordlist",
+          "instruction": "What reason prevented each of the following members of the Compton Park Runners Club from joining until recently?",
+          "heading": "Club members",
+          "wordlistName": "Reasons",
+          "options": [
+            "A   a lack of confidence",
+            "B   a dislike of running",
+            "C   a lack of time"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 15,
+              "text": "Ceri   ……………"
+            },
+            {
+              "id": 16,
+              "text": "James   ……………"
+            },
+            {
+              "id": 17,
+              "text": "Leo   ……………"
+            },
+            {
+              "id": 18,
+              "text": "Mark   ……………"
+            }
+          ]
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>19</strong>   What does Liz say about running her first marathon?<br>A   It had always been her ambition.<br>B   Her husband persuaded her to do it.<br>C   She nearly gave up before the end.<br><strong>20</strong>   Liz says new runners should sign up for a race<br>A   every six months.<br>B   within a few weeks of taking up running.<br>C   after completing several practice runs.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 19,
+              "text": "What does Liz say about running her first marathon?",
+              "options": [
+                "A   It had always been her ambition.",
+                "B   Her husband persuaded her to do it.",
+                "C   She nearly gave up before the end."
+              ]
+            },
+            {
+              "id": 20,
+              "text": "Liz says new runners should sign up for a race",
+              "options": [
+                "A   every six months.",
+                "B   within a few weeks of taking up running.",
+                "C   after completing several practice runs."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 25,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>21</strong>   Kieran thinks the packing advice given by Jane’s grandfather is<br>A   common sense.<br>B   hard to follow.<br>C   over-protective.<br><strong>22</strong>   How does Jane feel about the books her grandfather has given her?<br>A   They are not worth keeping.<br>B   They should go to a collector.<br>C   They have sentimental value for her.<br><strong>23</strong>   Jane and Kieran agree that hardback books should be<br>A   put out on display.<br>B   given as gifts to visitors.<br>C   more attractively designed.<br><strong>24</strong>   While talking about taking a book from a shelf, Jane<br>A   describes the mistakes other people make doing it.<br>B   reflects on a significant childhood experience.<br>C   explains why some books are easier to remove than others.<br><strong>25</strong>   What do Jane and Kieran suggest about new books?<br>A   Their parents liked buying them as presents.<br>B   They would like to buy more of them.<br>C   Not everyone can afford them.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Kieran thinks the packing advice given by Jane’s grandfather is",
+              "options": [
+                "A   common sense.",
+                "B   hard to follow.",
+                "C   over-protective."
+              ]
+            },
+            {
+              "id": 22,
+              "text": "How does Jane feel about the books her grandfather has given her?",
+              "options": [
+                "A   They are not worth keeping.",
+                "B   They should go to a collector.",
+                "C   They have sentimental value for her."
+              ]
+            },
+            {
+              "id": 23,
+              "text": "Jane and Kieran agree that hardback books should be",
+              "options": [
+                "A   put out on display.",
+                "B   given as gifts to visitors.",
+                "C   more attractively designed."
+              ]
+            },
+            {
+              "id": 24,
+              "text": "While talking about taking a book from a shelf, Jane",
+              "options": [
+                "A   describes the mistakes other people make doing it.",
+                "B   reflects on a significant childhood experience.",
+                "C   explains why some books are easier to remove than others."
+              ]
+            },
+            {
+              "id": 25,
+              "text": "What do Jane and Kieran suggest about new books?",
+              "options": [
+                "A   Their parents liked buying them as presents.",
+                "B   They would like to buy more of them.",
+                "C   Not everyone can afford them."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "Where does Jane’s grandfather keep each of the following types of books in his shop?",
+          "heading": "Types of books",
+          "wordlistName": "Location of books",
+          "options": [
+            "A   near the entrance",
+            "B   in the attic",
+            "C   at the back of the shop",
+            "D   on a high shelf",
+            "E   near the stairs",
+            "F   in a specially designed space",
+            "G   within the café"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 26,
+              "text": "rare books   …………"
+            },
+            {
+              "id": 27,
+              "text": "children’s books   …………"
+            },
+            {
+              "id": 28,
+              "text": "unwanted books   …………"
+            },
+            {
+              "id": 29,
+              "text": "requested books   …………"
+            },
+            {
+              "id": 30,
+              "text": "coursebooks   …………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Tree planting",
+          "content": "<strong>Reforestation projects should:</strong><br>●   include a range of tree species<br>●   not include invasive species because of possible <strong>(31)</strong>  with native species.<br>●   aim to capture carbon, protect the environment and provide sustainable sources of <strong>(32)</strong>  for local people<br>●   use tree seeds with a high genetic diversity to increase resistance to <strong>(33)</strong>  and climate change<br>●   plant trees on previously forested land which is in a bad condition, not select land which is being used for <strong>(34)</strong> <br><strong>Large-scale reforestation projects</strong><br>●   Base planning decisions on information from accurate <strong>(35)</strong>  .<br>●   Drones are useful for identifying areas in Brazil which are endangered by keeping <strong>(36)</strong>  and illegal logging.<br><strong>Lampang Province, Northern Thailand</strong><br>●   A forest was restored in an area damaged by mining.<br>●   A variety of native fig trees were planted, which are important for<br>–   supporting many wildlife species<br>–   increasing the <strong>(37)</strong>  of recovery by attracting animals and birds, e.g., <strong>(38)</strong>  were soon attracted to the area.<br><strong>Involving local communities</strong><br>●   Destruction of mangrove forests in Madagascar made it difficult for people to make a living from <strong>(39)</strong>  .<br>●   The mangrove reforestation project:<br>–   provided employment for local people<br>–   restored a healthy ecosystem<br>–   protects against the higher risk of <strong>(40)</strong>  .",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "Kaeden",
+    "2": "locker(s)",
+    "3": "passport",
+    "4": "uniform",
+    "5": "third / 3rd",
+    "6": "0412 665 903",
+    "7": "yellow",
+    "8": "plastic",
+    "9": "ice",
+    "10": "gloves",
+    "11": "C / E",
+    "12": "C / E",
+    "13": "A / D",
+    "14": "A / D",
+    "15": "A",
+    "16": "B",
+    "17": "C",
+    "18": "A",
+    "19": "C",
+    "20": "B",
+    "21": "A",
+    "22": "C",
+    "23": "A",
+    "24": "B",
+    "25": "C",
+    "26": "D",
+    "27": "F",
+    "28": "A",
+    "29": "C",
+    "30": "G",
+    "31": "competition",
+    "32": "food",
+    "33": "disease",
+    "34": "agriculture",
+    "35": "maps",
+    "36": "cattle",
+    "37": "speed",
+    "38": "monkeys",
+    "39": "fishing",
+    "40": "flooding"
+  }
+}

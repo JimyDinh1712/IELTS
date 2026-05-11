@@ -1,0 +1,358 @@
+{
+  "testTitle": "IELTS Cam 20 Test 4",
+  "audioUrl": "audio/Cam20Test4.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Advice on family visit",
+          "content": "<strong>Accommodation</strong><br>● <strong>(1)</strong>  Hotel on George Street<br>● cost of family room per night: 2 £ <strong>(2)</strong>  (approx.)<br><strong>Recommended trips</strong><br>● a <strong>(3)</strong>  tour of the city centre (starts in Carlton Square)<br>● a trip by <strong>(4)</strong>  to the old fort<br>Science Museum<br>● best day to visit: <strong>(5)</strong> <br>● see the exhibition about <strong>(6)</strong>  which opens soon<br><strong>Food</strong><br>● Clacton Market:<br>○ good for <strong>(7)</strong>  food<br>○ need to have lunch before <strong>(8)</strong>  p.m.<br><strong>Theatre tickets</strong><br>● save up to <strong>(9)</strong>  % on ticket prices at bargaintickets.com<br><strong>Free activities</strong><br>● Blakewell Gardens:<br>● Roots Music Festival<br>● climb Telegraph Hill to see a view of the <strong>(10)</strong> ",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 12,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO things does the speaker say about visiting the football stadium with children?<br>A   Children can get their photo taken with a football player.<br>B   There is a competition for children today.<br>C   Parents must stay with their children at all times.<br>D   Children will need sunhats and drinks.<br>E   The café has a special offer on meals for children.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Question 11",
+              "options": []
+            },
+            {
+              "id": 12,
+              "text": "Question 12",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO features of the stadium tour are new this year?<br>A   VIP tour<br>B   360 cinema experience<br>C   audio guide<br>D   dressing room tour<br>E   tours in other languages",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 13,
+              "text": "Question 13",
+              "options": []
+            },
+            {
+              "id": 14,
+              "text": "Question 14",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "type": "wordlist",
+          "instruction": "Which event in the history of football in the UK took place in each of the following years?",
+          "heading": "",
+          "wordlistName": "Events in the history of football",
+          "options": [
+            "A   the introduction of pay for the players",
+            "B   a change to the design of the goal",
+            "C   the first use of lights for matches",
+            "D   the introduction of goalkeepers",
+            "E   the first international match",
+            "F   two changes to the rules of the game",
+            "G   the introduction of fee for spectators",
+            "H   an agreement on the length of a game"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 15,
+              "text": "1870 ______________"
+            },
+            {
+              "id": 16,
+              "text": "1874 ______________"
+            },
+            {
+              "id": 17,
+              "text": "1875 ______________"
+            },
+            {
+              "id": 18,
+              "text": "1877 ______________"
+            },
+            {
+              "id": 19,
+              "text": "1878 ______________"
+            },
+            {
+              "id": 20,
+              "text": "1880 ______________"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO features of the stadium tour are new this year?<br>A   improved fine motor skills<br>B   improved memory<br>C   improved concentration<br>D   improved imagination<br>E   improved spatial awareness",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "For children with dyspraxia, which TWO problems with handwriting do the students think are easiest to correct?<br>A   not spacing letters correctly<br>B   not writing in a straight line<br>C   applying too much pressure when writing<br>D   confusing letter shapes<br>E   writing very slowly",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Teaching handwriting",
+          "content": "<strong>25</strong>   What does the woman say about using laptops to teach writing to children with dyslexia?<br>A   Children often lack motivation to learn that way.<br>B   Children become fluent relatively quickly.<br>C   Children react more positively if they make a mistake.<br><strong>26</strong>   When discussing whether to teach cursive or print writing, the woman thinks that<br>A   cursive writing disadvantages a certain group of children.<br>B   print writing is associated with lower academic performance.<br>C   most teachers in the UK prefer a traditional approach to handwriting.<br><strong>27</strong>   According to the students, what impact does poor handwriting have on exam performance?<br>A   There is evidence to suggest grades are affected by poor handwriting.<br>B   Neat handwriting is less important now than it used to be.<br>C   Candidates write more slowly and produce shorter answers.<br><strong>28</strong>   What prediction does the man make about the future of handwriting?<br>A   Touch typing will be taught before writing by hand.<br>B   Children will continue to learn to write by hand.<br>C   People will dislike handwriting on digital devices.<br><strong>29</strong>   The woman is concemed that relying on digital devices has made it difficult for her to<br>A   take detailed notes.<br>B   spell and punctuate.<br>C   read old documents.<br><strong>30</strong>   How do the students feel about their own handwriting?<br>A   concerned they are unable to write quickly<br>B   embarrassed by comments made about it<br>C   regretful that they have lost the habit",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 25,
+              "text": "What does the woman say about using laptops to teach writing to children with dyslexia?",
+              "options": [
+                "A   Children often lack motivation to learn that way.",
+                "B   Children become fluent relatively quickly.",
+                "C   Children react more positively if they make a mistake."
+              ]
+            },
+            {
+              "id": 26,
+              "text": "When discussing whether to teach cursive or print writing, the woman thinks that",
+              "options": [
+                "A   cursive writing disadvantages a certain group of children.",
+                "B   print writing is associated with lower academic performance.",
+                "C   most teachers in the UK prefer a traditional approach to handwriting."
+              ]
+            },
+            {
+              "id": 27,
+              "text": "According to the students, what impact does poor handwriting have on exam performance?",
+              "options": [
+                "A   There is evidence to suggest grades are affected by poor handwriting.",
+                "B   Neat handwriting is less important now than it used to be.",
+                "C   Candidates write more slowly and produce shorter answers."
+              ]
+            },
+            {
+              "id": 28,
+              "text": "What prediction does the man make about the future of handwriting?",
+              "options": [
+                "A   Touch typing will be taught before writing by hand.",
+                "B   Children will continue to learn to write by hand.",
+                "C   People will dislike handwriting on digital devices."
+              ]
+            },
+            {
+              "id": 29,
+              "text": "The woman is concemed that relying on digital devices has made it difficult for her to",
+              "options": [
+                "A   take detailed notes.",
+                "B   spell and punctuate.",
+                "C   read old documents."
+              ]
+            },
+            {
+              "id": 30,
+              "text": "How do the students feel about their own handwriting?",
+              "options": [
+                "A   concerned they are unable to write quickly",
+                "B   embarrassed by comments made about it",
+                "C   regretful that they have lost the habit"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Research in the area around the Chembe Bird Sanctuary",
+          "content": "<strong>The importance of birds of prey to the local communities</strong><br>● They destroy <strong>(31)</strong>  and other rodents.<br>● They help to prevent farmers from being bitten by <strong>(32)</strong> <br>● They have been an important part of the local culture for many years.<br>● They now support the economy by encouraging <strong>(33)</strong>  in the area.<br><strong>Falling numbers of birds of prey</strong><br>● The birds may be accidentally killed<br>○ by <strong>(34)</strong>  when they are hunting or sleeping<br>○ by electrocution from contact with power lines, especially at times when there is a lot of <strong>(35)</strong> <br>● Local farmers may illegally shoot them or <strong>(36)</strong>  them.<br><strong>Ways of protecting chickens from birds of prey</strong><br>● clearing away vegetation from the area (unhelpful)<br>● providing a <strong>(37)</strong>  for chickens (expensive)<br>● frightening birds of prey by<br>○ keeping a <strong>(38)</strong> <br>○ making a <strong>(39)</strong>  – e.g. with metal objects<br>● A <strong>(40)</strong>  of methods is usually most effective.",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "Kings/ King’s",
+    "2": "125/ one hundred and twenty-five/ one hundred twenty-five",
+    "3": "walking",
+    "4": "boat",
+    "5": "Tuesday",
+    "6": "space",
+    "7": "vegerarian",
+    "8": "2.30/ two thirty",
+    "9": "75/ seventy-five",
+    "10": "port",
+    "11": "B/C",
+    "12": "B/C",
+    "13": "A/C",
+    "14": "A/C",
+    "15": "D",
+    "16": "F",
+    "17": "B",
+    "18": "H",
+    "19": "C",
+    "20": "G",
+    "21": "C/ E",
+    "22": "C/ E",
+    "23": "A/ C",
+    "24": "A/ C",
+    "25": "C",
+    "26": "A",
+    "27": "A",
+    "28": "B",
+    "29": "B",
+    "30": "C",
+    "31": "rats",
+    "32": "snakes",
+    "33": "tourism",
+    "34": "traffic",
+    "35": "rain",
+    "36": "poison",
+    "37": "building",
+    "38": "dog",
+    "39": "noise",
+    "40": "combination"
+  }
+}

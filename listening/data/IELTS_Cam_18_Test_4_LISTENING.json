@@ -1,0 +1,356 @@
+{
+  "testTitle": "CAM 18 TEST 4",
+  "audioUrl": "audio/Cam18Test4.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Job details from employment agency",
+          "content": "Role     <strong>(1)</strong> <br>Location     Fordham <strong>(2)</strong>  Centre<br><strong>(3)</strong>  Road, Fordham<br><strong>Work involves</strong><br>●   dealing with enquiries<br>●   making <strong>(4)</strong>  and reorganising them<br>●   maintaining the internal <strong>(5)</strong> <br>●   general administration<br><strong>Requirements</strong><br>●   <strong>(6)</strong>  (essential)<br>●   a calm and <strong>(7)</strong>  manner<br>●   good IT skills<br><strong>Other information</strong><br>●   a <strong>(8)</strong>  job – further opportunities may be available<br>●   hours: 7.45 a.m. to <strong>(9)</strong>  p.m. Monday to Friday<br>●   <strong>(10)</strong>  is available onsite<br>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 14,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>11</strong>   The museum building was originally<br>A   a factory.<br>B   a private home.<br>C   a hall of residence.<br><strong>12</strong>   The university uses part of the museum building as<br>A   teaching rooms.<br>B   a research library.<br>C   administration offices.<br><strong>13</strong>   What does the guide say about the entrance fee?<br>A   Visitors decide whether or not they wish to pay.<br>B   Only children and students receive a discount.<br>C   The museum charges extra for special exhibitions.<br><strong>14</strong>   What are visitors advised to leave in the cloakroom?<br>A   cameras<br>B   coats<br>C   bags",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "The museum building was originally",
+              "options": [
+                "A   a factory.",
+                "B   a private home.",
+                "C   a hall of residence."
+              ]
+            },
+            {
+              "id": 12,
+              "text": "The university uses part of the museum building as",
+              "options": [
+                "A   teaching rooms.",
+                "B   a research library.",
+                "C   administration offices."
+              ]
+            },
+            {
+              "id": 13,
+              "text": "What does the guide say about the entrance fee?",
+              "options": [
+                "A   Visitors decide whether or not they wish to pay.",
+                "B   Only children and students receive a discount.",
+                "C   The museum charges extra for special exhibitions."
+              ]
+            },
+            {
+              "id": 14,
+              "text": "What are visitors advised to leave in the cloakroom?",
+              "options": [
+                "A   cameras",
+                "B   coats",
+                "C   bags"
+              ]
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "type": "wordlist",
+          "instruction": "What information does the speaker give about each of the following areas of the museum?  Choose SIX answers from the box and write the correct letter, A-H, next to Questions 15-20.",
+          "heading": "Areas of museum",
+          "wordlistName": "Information",
+          "options": [
+            "A   Parents must supervise their children.",
+            "B   There are new things to see.",
+            "C   It is closed today.",
+            "D   This is only for school groups.",
+            "E   There is a quiz for visitors.",
+            "F   It features something created by students.",
+            "G   An expert is here today.",
+            "H   There is a one-way system."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 15,
+              "text": "Four Seasons   ……………"
+            },
+            {
+              "id": 16,
+              "text": "Farmhouse Kitchen   ……………"
+            },
+            {
+              "id": 17,
+              "text": "A Year on the Farm   ……………"
+            },
+            {
+              "id": 18,
+              "text": "Wagon Walk   ……………"
+            },
+            {
+              "id": 19,
+              "text": "Bees are Magic   ……………"
+            },
+            {
+              "id": 20,
+              "text": "The Pond   ……………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO educational skills were shown in the video of children doing origami?<br>A   solving problems<br>B   following instructions<br>C   working cooperatively<br>D   learning through play<br>E   developing hand-eye coordination",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 27,
+          "type": "wordlist",
+          "instruction": "Which comment do the students make about each of the following children in the video?  Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 23-27.",
+          "heading": "Children",
+          "wordlistName": "Comments",
+          "options": [
+            "A   demonstrated independence",
+            "B   asked for teacher support",
+            "C   developed a competitive attitude",
+            "D   seemed to find the activity calming",
+            "E   seemed pleased with the results",
+            "F   seemed confused",
+            "G   seemed to find the activity easy"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 23,
+              "text": "Sid   …………"
+            },
+            {
+              "id": 24,
+              "text": "Jack   …………"
+            },
+            {
+              "id": 25,
+              "text": "Naomi   …………"
+            },
+            {
+              "id": 26,
+              "text": "Anya   …………"
+            },
+            {
+              "id": 27,
+              "text": "Zara   …………"
+            }
+          ]
+        },
+        {
+          "from": 28,
+          "to": 30,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>28</strong>   Before starting an origami activity in class, the students think it is important for the teacher to<br>A   make models that demonstrate the different stages.<br>B   check children understand the terminology involved.<br>C   tell children not to worry if they find the activity difficult.<br><strong>29</strong>   The students agree that some teachers might be unwilling to use origami in class because<br>A   they may not think that crafts are important.<br>B   they may not have the necessary skills.<br>C   they may worry that it will take up too much time.<br><strong>30</strong>   Why do the students decide to use origami in their maths teaching practice?<br>A   to correct a particular misunderstanding<br>B   to set a challenge<br>C   to introduce a new concept",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 28,
+              "text": "Before starting an origami activity in class, the students think it is important for the teacher to",
+              "options": [
+                "A   make models that demonstrate the different stages.",
+                "B   check children understand the terminology involved.",
+                "C   tell children not to worry if they find the activity difficult."
+              ]
+            },
+            {
+              "id": 29,
+              "text": "The students agree that some teachers might be unwilling to use origami in class because",
+              "options": [
+                "A   they may not think that crafts are important.",
+                "B   they may not have the necessary skills.",
+                "C   they may worry that it will take up too much time."
+              ]
+            },
+            {
+              "id": 30,
+              "text": "Why do the students decide to use origami in their maths teaching practice?",
+              "options": [
+                "A   to correct a particular misunderstanding",
+                "B   to set a challenge",
+                "C   to introduce a new concept"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Victor Hugo",
+          "content": "<strong>His novel, Les Misérables</strong><br>●   It has been adapted for theatre and cinema.<br>●   We know more about its overall <strong>(31)</strong>  than about its author.<br><strong>His early career</strong><br>●   In Paris, his career was successful and he led the Romantic movement.<br>●   He spoke publicly about social issues, such as <strong>(32)</strong>  and education.<br>●   Napoleon III disliked his views and exiled him.<br><strong>His exile from France</strong><br>●   Victor Hugo had to live elsewhere in <strong>(33)</strong> <br>●   He used his income from the sale of some <strong>(34)</strong>  he had written to buy a house on Guernsey.<br><strong>His house on Guernsey</strong><br>●   Victor Hugo lived in this house until the end of the Empire in France.<br>●   The ground floor contains portraits, <strong>(35)</strong>  and tapestries that he valued.<br>●   He bought cheap <strong>(36)</strong>  made of wood and turned this into beautiful wall carvings.<br>●   The first floor consists of furnished areas with wallpaper and <strong>(37)</strong>  that have a Chinese design.<br>●   The library still contains many of his favourite books.<br>●   He wrote in a room at the top of the house that had a view of the <strong>(38)</strong>  .<br>●   He entertained other writers as well as poor <strong>(39)</strong>  in his house.<br>●   Victor Hugo’s <strong>(40)</strong>  gave ownership of the house to the city of Paris in 1927.",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "receptionist",
+    "2": "Medical",
+    "3": "Chastons",
+    "4": "appointments",
+    "5": "database",
+    "6": "experience",
+    "7": "confident",
+    "8": "temporary",
+    "9": "1.15",
+    "10": "parking",
+    "11": "B",
+    "12": "A",
+    "13": "A",
+    "14": "C",
+    "15": "F",
+    "16": "G",
+    "17": "E",
+    "18": "A",
+    "19": "C",
+    "20": "B",
+    "21": "B/ D",
+    "22": "B/ D",
+    "23": "D",
+    "24": "A",
+    "25": "C",
+    "26": "G",
+    "27": "F",
+    "28": "A",
+    "29": "B",
+    "30": "C",
+    "31": "plot",
+    "32": "poverty",
+    "33": "Europe",
+    "34": "poetry",
+    "35": "drawings",
+    "36": "furniture",
+    "37": "lamps",
+    "38": "harbour / harbor",
+    "39": "children",
+    "40": "relatives"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "testTitle": "IELTS Cam 17 Test 1",
+  "audioUrl": "audio/Cam17Test1.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Buckworth Conservation Group",
+          "content": "<strong>Regular activities</strong><br><strong>Beach</strong><br>●   making sure the beach does not have <strong>(1)</strong>  on it<br>●   no <strong>(2)</strong> <br><strong>Nature reserve</strong><br>●   maintaining paths<br>●   nesting boxes for birds installed<br>●   next task is taking action to attract <strong>(3)</strong>  to the place<br>●   identifying types of <strong>(4)</strong> <br>●   building a new <strong>(5)</strong> <br><strong>Forthcoming events</strong><br>Saturday<br>●   meet at Dunsmore Beach car park<br>●   walk across the sands and reach the <strong>(6)</strong> <br>●   take a picnic<br>●   wear appropriate <strong>(7)</strong> <br><strong>Woodwork session</strong><br>●   suitable for <strong>(8)</strong>  to participate in<br>●   making <strong>(9)</strong>  out of wood<br>●   17th, from 10 a.m. to 3 p.m.<br>●   cost of session (no camping): £ <strong>(10)</strong> ",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 14,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Boat trip round Tasmania",
+          "content": "<strong>11</strong>   What is the maximum number of people who can stand on each side of the boat?<br>A   9<br>B   15<br>C   18<br><strong>12</strong>   What colour are the tour boats?<br>A   dark red<br>B   jet black<br>C   light green<br><strong>13</strong>   Which lunchbox is suitable for someone who doesn’t eat meat or fish?<br>A   Lunchbox 1<br>B   Lunch box 2<br>C   Lunch box 3<br><strong>14</strong>   What should people do with their litter?<br>A   take it home<br>B   hand it to a member of staff<br>C   put it in the bins provided on the boat",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "What is the maximum number of people who can stand on each side of the boat?",
+              "options": [
+                "A   9",
+                "B   15",
+                "C   18"
+              ]
+            },
+            {
+              "id": 12,
+              "text": "What colour are the tour boats?",
+              "options": [
+                "A   dark red",
+                "B   jet black",
+                "C   light green"
+              ]
+            },
+            {
+              "id": 13,
+              "text": "Which lunchbox is suitable for someone who doesn’t eat meat or fish?",
+              "options": [
+                "A   Lunchbox 1",
+                "B   Lunch box 2",
+                "C   Lunch box 3"
+              ]
+            },
+            {
+              "id": 14,
+              "text": "What should people do with their litter?",
+              "options": [
+                "A   take it home",
+                "B   hand it to a member of staff",
+                "C   put it in the bins provided on the boat"
+              ]
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 16,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO features of the lighthouse does Lou mention?<br>A   why it was built<br>B   who built it<br>C   how long it took to build<br>D   who staffed it<br>E   what it was built with",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 15,
+              "text": "Question 15",
+              "options": []
+            },
+            {
+              "id": 16,
+              "text": "Question 16",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 18,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO types of creature might come close to the boat?<br>A   sea eagles<br>B   fur seals<br>C   dolphins<br>D   whales<br>E   penguins",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 17,
+              "text": "Question 17",
+              "options": []
+            },
+            {
+              "id": 18,
+              "text": "Question 18",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO points does Lou make about the caves?<br>A   Only large tourist boats can visit them.<br>B   The entrances to them are often blocked.<br>C   It is too dangerous for individuals to go near them.<br>D   Someone will explain what is inside them.<br>E   They cannot be reached on foot.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 19,
+              "text": "Question 19",
+              "options": []
+            },
+            {
+              "id": 20,
+              "text": "Question 20",
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 26,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Work experience for veterinary science students",
+          "content": "<strong>21</strong>   What problem did both Diana and Tim have when arranging their work experience?<br>A   make initial contact with suitable farms<br>B   organising transport to and from the farm<br>C   finding a placement for the required length of time<br><strong>22</strong>   Tim was pleased to be able to help<br>A   a lamb that had a broken leg.<br>B   a sheep that was having difficult giving birth.<br>C   a newly born lamb that was having trouble feeding.<br><strong>23</strong>   Diana says the sheep on her farm<br>A   were of various different varieties.<br>B   were mainly reared for their meat.<br>C   had better quality wool than sheep on the hills.<br><strong>24</strong>   What did the students learn about adding supplements to chicken feed?<br>A   These should only be given if specially needed.<br>B   It is worth paying extra for the most effective ones.<br>C   The amount given at one time should be limited.<br><strong>25</strong>   What happened when Diana was working with dairy cows?<br>A   She identified some cows incorrectly.<br>B   She accidentally threw some milk away.<br>C   She made a mistake when storing milk.<br><strong>26</strong>   What did both farmers mention about vets and farming?<br>A   Vets are failing to cope with some aspects of animal health.<br>B   There needs to be a fundamental change in the training of vets.<br>C   Some jobs could be done by the farmer rather than by a vet.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 21,
+              "text": "What problem did both Diana and Tim have when arranging their work experience?",
+              "options": [
+                "A   make initial contact with suitable farms",
+                "B   organising transport to and from the farm",
+                "C   finding a placement for the required length of time"
+              ]
+            },
+            {
+              "id": 22,
+              "text": "Tim was pleased to be able to help",
+              "options": [
+                "A   a lamb that had a broken leg.",
+                "B   a sheep that was having difficult giving birth.",
+                "C   a newly born lamb that was having trouble feeding."
+              ]
+            },
+            {
+              "id": 23,
+              "text": "Diana says the sheep on her farm",
+              "options": [
+                "A   were of various different varieties.",
+                "B   were mainly reared for their meat.",
+                "C   had better quality wool than sheep on the hills."
+              ]
+            },
+            {
+              "id": 24,
+              "text": "What did the students learn about adding supplements to chicken feed?",
+              "options": [
+                "A   These should only be given if specially needed.",
+                "B   It is worth paying extra for the most effective ones.",
+                "C   The amount given at one time should be limited."
+              ]
+            },
+            {
+              "id": 25,
+              "text": "What happened when Diana was working with dairy cows?",
+              "options": [
+                "A   She identified some cows incorrectly.",
+                "B   She accidentally threw some milk away.",
+                "C   She made a mistake when storing milk."
+              ]
+            },
+            {
+              "id": 26,
+              "text": "What did both farmers mention about vets and farming?",
+              "options": [
+                "A   Vets are failing to cope with some aspects of animal health.",
+                "B   There needs to be a fundamental change in the training of vets.",
+                "C   Some jobs could be done by the farmer rather than by a vet."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "What opinion do the students give about each of the following modules on their veterinary science course?  Choose FOUR answers from the box and write the correct letter, A-F, next to questions 27-30.",
+          "heading": "Modules on Veterinary Science course",
+          "wordlistName": "Opinions",
+          "options": [
+            "A   Tim found this easier than expected.",
+            "B   Tim thought this was not very clearly organised.",
+            "C   Diana may do some further study on this.",
+            "D   They both found the reading required for this was difficult.",
+            "E   Tim was shocked at something he learned on this module.",
+            "F   They were both surprised how little is known about some aspects of this."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 27,
+              "text": "Medical terminology              …………………."
+            },
+            {
+              "id": 28,
+              "text": "Diet and nutrition                    …………………."
+            },
+            {
+              "id": 29,
+              "text": "Animal disease                         …………………."
+            },
+            {
+              "id": 30,
+              "text": "Wildlife medication                …………………."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Labyrinths",
+          "content": "<strong>Definition</strong><br>●   a winding spiral path leading to a central area<br><strong>Labyrinths compared with mazes</strong><br>●   Mazes are a type of <strong>(31)</strong> <br>–  <strong>(32)</strong>  is needed to navigate through a maze<br>–  the word ‘maze’ is derived from a word meaning a feeling of <strong>(33)</strong> <br>●   Labyrinths represent a journey through life<br>–  they have frequently been used in <strong>(34)</strong>  and prayer<br><strong>Early examples of the labyrinth spiral</strong><br>●   Ancient carvings on <strong>(35)</strong>  have been found across many cultures<br>●   The Pima, a Native American tribe, wove the symbol on baskets<br>●   Ancient Greeks used the symbol on <strong>(36)</strong> <br><strong>Walking labyrinths</strong><br>●   The largest surviving example of a turf labyrinth once had a big <strong>(37)</strong>  at its centre<br><strong>Labyrinths nowadays</strong><br>●   Believed to have a beneficial impact on mental and physical health, e.g., walking a maze can reduce a person’s <strong>(38)</strong>  rate<br>●   Used in medical and health and fitness settings and also prisons<br>●   Popular with patients, visitors and staff in hospitals<br>–  patients who can’t walk can use ‘finger labyrinths’ made from <strong>(39)</strong> <br>–  research has shown that Alzheimer’s sufferers experience less <strong>(40)</strong> ",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "litter",
+    "2": "dogs",
+    "3": "insects",
+    "4": "butterflies",
+    "5": "wall",
+    "6": "island",
+    "7": "boots",
+    "8": "beginners",
+    "9": "spoons",
+    "10": "35 / thirty five",
+    "11": "A",
+    "12": "C",
+    "13": "B",
+    "14": "B",
+    "15": "A/ D",
+    "16": "A/ D",
+    "17": "B/C",
+    "18": "B/C",
+    "19": "D/ E",
+    "20": "D/E",
+    "21": "A",
+    "22": "B",
+    "23": "B",
+    "24": "A",
+    "25": "C",
+    "26": "C",
+    "27": "A",
+    "28": "E",
+    "29": "F",
+    "30": "C",
+    "31": "puzzle",
+    "32": "logic",
+    "33": "confusion",
+    "34": "meditation",
+    "35": "stone",
+    "36": "coins",
+    "37": "tree",
+    "38": "breathing",
+    "39": "paper",
+    "40": "anxiety"
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "testTitle": "IELTS Cam 18 Test 3",
+  "audioUrl": "audio/Cam18Test3.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 4,
+          "type": "form",
+          "instruction": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Wayside Camera Club membership form",
+          "content": "Name:   Dan Green<br>Email address:   dan1068@market.com<br>Home address:   52 <strong>(1)</strong>  Street, Peacetown<br>Heard about us:   from a <strong>(2)</strong> <br>Reasons for joining:   to enter competitions to <strong>(3)</strong> <br>Type of membership:   <strong>(4)</strong>  membership (£30)<br>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 5,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the table below.  Write NO MORE THAN TWO WORDS for each answer.",
+          "heading": "Photography competitions",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>Title of competition</th>\n    <th>Instructions</th>\n    <th>Feedback to Dan</th>\n  </tr>\n  <tr>\n    <td>‘<strong>(5)</strong> ’</td>\n    <td>A scene in the home</td>\n    <td>The picture’s composition was not good.</td>\n  </tr>\n  <tr>\n    <td>‘Beautiful Sunsets’</td>\n    <td>Scene must show some <strong>(6)</strong> </td>\n    <td>The <strong>(7)</strong>  was wrong.</td>\n  </tr>\n  <tr>\n    <td>‘<strong>(8)</strong> ’</td>\n    <td>Scene must show <strong>(9)</strong> </td>\n    <td>The photograph was too <strong>(10)</strong>  .</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 12,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO warnings does Dan give about picking mushrooms?<br>A   Don’t pick more than one variety of mushroom at a time.<br>B   Don’t pick mushrooms near busy roads.<br>C   Don’t eat mushrooms given to you.<br>D   Don’t eat mushrooms while picking them.<br>E   Don’t pick old mushrooms.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Question 11",
+              "options": []
+            },
+            {
+              "id": 12,
+              "text": "Question 12",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO ideas about wild mushrooms does Dan say are correct?<br>A   Mushrooms should always be peeled before eating.<br>B   Mushrooms eaten by animals may be unsafe.<br>C   Cooking destroys toxins in mushrooms.<br>D   Brightly coloured mushrooms can be edible.<br>E   All poisonous mushrooms have a bad smell.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 13,
+              "text": "Question 13",
+              "options": []
+            },
+            {
+              "id": 14,
+              "text": "Question 14",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>15</strong>   What advice does Dan give about picking mushrooms in parks?<br>A   Choose wooded areas.<br>B   Don’t disturb wildlife.<br>C   Get there early.<br><strong>16</strong>   Dan says it is a good idea for beginners to<br>A   use a mushroom app.<br>B   join a group.<br>C   take a reference book.<br><strong>17</strong>   What does Dan say is important for conservation?<br>A   selecting only fully grown mushrooms<br>B   picking a limited amount of mushrooms<br>C   avoiding areas where rare mushroom species grow<br><strong>18</strong>   According to Dan, some varieties of wild mushrooms are in decline because there is<br>A   a huge demand for them from restaurants.<br>B   a lack of rain in this part of the country.<br>C   a rise in building developments locally.<br><strong>19</strong>   Dan says that when storing mushrooms, people should<br>A   keep them in the fridge for no more than two days.<br>B   keep them in a brown bag in a dark room.<br>C   leave them for a period after washing them.<br><strong>20</strong>   What does Dan say about trying new varieties of mushrooms?<br>A   Experiment with different recipes.<br>B   Expect some to have a strong taste.<br>C   Cook them for a long time.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 15,
+              "text": "What advice does Dan give about picking mushrooms in parks?",
+              "options": [
+                "A   Choose wooded areas.",
+                "B   Don’t disturb wildlife.",
+                "C   Get there early."
+              ]
+            },
+            {
+              "id": 16,
+              "text": "Dan says it is a good idea for beginners to",
+              "options": [
+                "A   use a mushroom app.",
+                "B   join a group.",
+                "C   take a reference book."
+              ]
+            },
+            {
+              "id": 17,
+              "text": "What does Dan say is important for conservation?",
+              "options": [
+                "A   selecting only fully grown mushrooms",
+                "B   picking a limited amount of mushrooms",
+                "C   avoiding areas where rare mushroom species grow"
+              ]
+            },
+            {
+              "id": 18,
+              "text": "According to Dan, some varieties of wild mushrooms are in decline because there is",
+              "options": [
+                "A   a huge demand for them from restaurants.",
+                "B   a lack of rain in this part of the country.",
+                "C   a rise in building developments locally."
+              ]
+            },
+            {
+              "id": 19,
+              "text": "Dan says that when storing mushrooms, people should",
+              "options": [
+                "A   keep them in the fridge for no more than two days.",
+                "B   keep them in a brown bag in a dark room.",
+                "C   leave them for a period after washing them."
+              ]
+            },
+            {
+              "id": 20,
+              "text": "What does Dan say about trying new varieties of mushrooms?",
+              "options": [
+                "A   Experiment with different recipes.",
+                "B   Expect some to have a strong taste.",
+                "C   Cook them for a long time."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO opinions about the Luddites do the students express?<br>A   Their actions were ineffective.<br>B   They are still influential today.<br>C   They have received unfair criticism.<br>D   They were proved right.<br>E   Their attitude is understandable.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO predictions about the future of work are the students doubtful about?<br>A   Work will be more rewarding.<br>B   Unemployment will fall.<br>C   People will want to delay retiring.<br>D   Working hours will be shorter.<br>E   People will change jobs more frequently.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "What comment do the students make about each of the following jobs?  Choose SIX answers from the box and write the correct letter, A-G, next to Questions 25-30.",
+          "heading": "Jobs",
+          "wordlistName": "Comments",
+          "options": [
+            "A   These jobs are likely to be at risk.",
+            "B   Their role has become more interesting in recent years.",
+            "C   The number of people working in this sector has fallen dramatically.",
+            "D   This job will require more qualifications.",
+            "E   Higher disposable income has led to a huge increase in jobs.",
+            "F   There is likely to be a significant rise in demand for this service.",
+            "G   Both employment and productivity have risen."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 25,
+              "text": "Accountants   ……………"
+            },
+            {
+              "id": 26,
+              "text": "Hairdressers   ……………"
+            },
+            {
+              "id": 27,
+              "text": "Administrative staff   ……………"
+            },
+            {
+              "id": 28,
+              "text": "Agricultural workers   ……………"
+            },
+            {
+              "id": 29,
+              "text": "Care workers   ……………"
+            },
+            {
+              "id": 30,
+              "text": "Bank clerks   ……………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Space Traffic Management",
+          "content": "<strong>A Space Traffic Management system</strong><br>●   is a concept similar to Air Traffic Control, but for satellites rather than planes.<br>●   would aim to set up legal and <strong>(31)</strong>  ways of improving safety.<br>●   does not actually exist at present.<br><strong>Problems in developing effective Space Traffic Management</strong><br>●   Satellites are now quite <strong>(32)</strong>  and therefore more widespread (e.g. there are constellations made up of <strong>(33)</strong>  of satellites).<br>●   At present, satellites are not required to transmit information to help with their <strong>(34)</strong>  .<br>●   There are few systems for <strong>(35)</strong>  satellites.<br>●   Small pieces of debris may be difficult to identify.<br>●   Operators may be unwilling to share details of satellites used for <strong>(36)</strong>  or commercial reasons.<br>●   It may be hard to collect details of the object’s <strong>(37)</strong>  at a given time.<br>●   Scientists can only make a <strong>(38)</strong>  about where the satellite will go.<br><strong>Solutions</strong><br>●   Common standards should be agreed on for the presentation of information.<br>●   The information should be combined in one <strong>(39)</strong>  .<br>●   A coordinated system must be designed to create <strong>(40)</strong>  in its users.",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "Marrowfield",
+    "2": "relative",
+    "3": "socialise / socialize",
+    "4": "full",
+    "5": "Domestic Life",
+    "6": "clouds",
+    "7": "timing",
+    "8": "Animal Magic",
+    "9": "animal movement/ movement",
+    "10": "dark",
+    "11": "B/ C",
+    "12": "B/ C",
+    "13": "B/ D",
+    "14": "B/ D",
+    "15": "C",
+    "16": "B",
+    "17": "B",
+    "18": "C",
+    "19": "A",
+    "20": "A",
+    "21": "A/ E",
+    "22": "A/ E",
+    "23": "B/ D",
+    "24": "B/ D",
+    "25": "G",
+    "26": "E",
+    "27": "B",
+    "28": "C",
+    "29": "F",
+    "30": "A",
+    "31": "technical",
+    "32": "cheap",
+    "33": "thousands",
+    "34": "identification",
+    "35": "tracking",
+    "36": "military",
+    "37": "location",
+    "38": "prediction",
+    "39": "database",
+    "40": "trust"
+  }
+}

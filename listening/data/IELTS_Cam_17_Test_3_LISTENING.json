@@ -1,0 +1,357 @@
+{
+  "testTitle": "IELTS Cam 17 Test 3",
+  "audioUrl": "audio/Cam17Test3.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Advice on surfing holidays",
+          "content": "<strong>Jack’s advice</strong><br>●   Recommends surfing for <strong>(1)</strong>  holidays in the summer<br>●   Need to be quite <strong>(2)</strong> <br><strong>Irish surfing locations</strong><br>●   County Clare<br>–  Lahinch has some good quality <strong>(3)</strong>  and surf schools<br>–  There are famous cliffs nearby<br>●   County Mayo<br>–  Good surf school at <strong>(4)</strong>  beach<br>–  Surf camp lasts for one <strong>(5)</strong> <br>–  Can also explore the local <strong>(6)</strong>  by kayak<br><strong>Weather</strong><br>●   Best month to go: <strong>(7)</strong> <br>●   Average temperature in summer: approx. <strong>(8)</strong>  degrees<br><strong>Costs</strong><br>●   Equipment<br>–  Wetsuit and surfboard: <strong>(9)</strong>  euros per day<br>–  Also advisable to hire <strong>(10)</strong>  for warmth",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 12,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO facts are given about the school’s extended hours childcare service?<br>A   It started recently.<br>B   More children attend after school than before school.<br>C   An average of 50 children attend in the mornings.<br>D   A child cannot attend both the before and after school sessions.<br>E   The maximum number of children who can attend is 70.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Question 11",
+              "options": []
+            },
+            {
+              "id": 12,
+              "text": "Question 12",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 13,
+          "to": 15,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>13</strong>   How much does childcare cost for a complete afternoon session per child?<br>A   £3.50<br>B   £5.70<br>C   £7.20<br><strong>14</strong>   What does the manager say about food?<br>A   Children with allergies should bring their own food.<br>B   Children may bring healthy snacks with them.<br>C   Children are given a proper meal at 5 p.m.<br><strong>15</strong>   What is different about arrangements in the school holidays?<br>A   Children from other schools can attend.<br>B   Older children can attend.<br>C   A greater number of children can attend.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 13,
+              "text": "How much does childcare cost for a complete afternoon session per child?",
+              "options": [
+                "A   £3.50",
+                "B   £5.70",
+                "C   £7.20"
+              ]
+            },
+            {
+              "id": 14,
+              "text": "What does the manager say about food?",
+              "options": [
+                "A   Children with allergies should bring their own food.",
+                "B   Children may bring healthy snacks with them.",
+                "C   Children are given a proper meal at 5 p.m."
+              ]
+            },
+            {
+              "id": 15,
+              "text": "What is different about arrangements in the school holidays?",
+              "options": [
+                "A   Children from other schools can attend.",
+                "B   Older children can attend.",
+                "C   A greater number of children can attend."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 16,
+          "to": 20,
+          "type": "wordlist",
+          "instruction": "What information is given about each of the following activities on offer?  Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20.",
+          "heading": "Activities",
+          "wordlistName": "Information",
+          "options": [
+            "A   has limited availability",
+            "B   is no longer available",
+            "C   is for over 8s only",
+            "D   requires help from parents",
+            "E   involves an additional fee",
+            "F   is a new activity",
+            "G   was requested by children"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 16,
+              "text": "Spanish         ………………"
+            },
+            {
+              "id": 17,
+              "text": "Music            ………………"
+            },
+            {
+              "id": 18,
+              "text": "Painting       ………………"
+            },
+            {
+              "id": 19,
+              "text": "Yoga             ………………"
+            },
+            {
+              "id": 20,
+              "text": "Cooking       ………………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 24,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Holly’s Work Placement Tutorial",
+          "content": "<strong>21</strong>   Holly has chosen the Orion Stadium placement because<br>A   it involves children.<br>B   it is outdoors.<br>C   it sounds like fun.<br><strong>22</strong>   Which aspect of safety does Dr Green emphasise most?<br>A   ensuring children stay in the stadium<br>B   checking the equipment children will use<br>C   removing obstacles in changing rooms<br><strong>23</strong>   What does Dr Green say about the spectators?<br>A   They can be hard to manage.<br>B   They make useful volunteers.<br>C   They shouldn’t take photographs.<br><strong>24</strong>   What has affected the schedule in the past?<br>A   bad weather<br>B   an injury<br>C   extra time",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Holly has chosen the Orion Stadium placement because",
+              "options": [
+                "A   it involves children.",
+                "B   it is outdoors.",
+                "C   it sounds like fun."
+              ]
+            },
+            {
+              "id": 22,
+              "text": "Which aspect of safety does Dr Green emphasise most?",
+              "options": [
+                "A   ensuring children stay in the stadium",
+                "B   checking the equipment children will use",
+                "C   removing obstacles in changing rooms"
+              ]
+            },
+            {
+              "id": 23,
+              "text": "What does Dr Green say about the spectators?",
+              "options": [
+                "A   They can be hard to manage.",
+                "B   They make useful volunteers.",
+                "C   They shouldn’t take photographs."
+              ]
+            },
+            {
+              "id": 24,
+              "text": "What has affected the schedule in the past?",
+              "options": [
+                "A   bad weather",
+                "B   an injury",
+                "C   extra time"
+              ]
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "What do Holly and her tutor agree is an important aspect of each of the following events management skills?  Choose SIX answers from the box and write the correct letter, A-H, next to Questions 25-30.",
+          "heading": "Events management skills",
+          "wordlistName": "Important aspects",
+          "options": [
+            "A   being flexible",
+            "B   focusing on details",
+            "C   having a smart appearance",
+            "D   hiding your emotions",
+            "E   relying on experts",
+            "F   trusting your own views",
+            "G   doing one thing at a time",
+            "H   thinking of the future"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 25,
+              "text": "Communication        ………………."
+            },
+            {
+              "id": 26,
+              "text": "Organisation             ………………."
+            },
+            {
+              "id": 27,
+              "text": "Time management   ………………."
+            },
+            {
+              "id": 28,
+              "text": "Creativity                    ………………."
+            },
+            {
+              "id": 29,
+              "text": "Leadership                  ………………."
+            },
+            {
+              "id": 30,
+              "text": "Networking                ………………."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Bird Migration Theory",
+          "content": "<strong>Most birds are believed to migrate seasonally.</strong><br><strong>Hibernation theory</strong><br>●   It was believed that birds hibernated underwater or buried themselves in <strong>(31)</strong>  .<br>●   This theory was later disproved by experiments on caged birds.<br><strong>Transmutation theory</strong><br>●   Aristotle believed birds changed from one species into another in summer and winter.<br>–  In autumn he observed that redstarts experience the loss of <strong>(32)</strong>  and thought they then turned into robins.<br>–  Aristotle’s assumptions were logical because the two species of birds had a similar <strong>(33)</strong>  .<br><strong>17th century</strong><br>●   Charles Morton popularised the idea that birds fly to the <strong>(34)</strong>  in winter.<br>Scientific developments<br>●   In 1822, a stork was killed in Germany which had an African spear in its <strong>(35)</strong>  .<br>–  previously there had been no <strong>(36)</strong>  that storks migrate to Africa<br>●   Little was known about the <strong>(37)</strong>  and journeys of migrating birds until the practice of ringing was established.<br>–  It was thought large birds carried small birds on some journeys because they were considered incapable of travelling across huge <strong>(38)</strong>  .<br>–  Ringing depended on what is called the ‘<strong>(39)</strong> ’ of dead birds.<br>●   In 1931, the first <strong>(40)</strong>  to show the migration of European birds was printed.",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "family",
+    "2": "fit",
+    "3": "hotels",
+    "4": "Carrowniskey",
+    "5": "week",
+    "6": "bay",
+    "7": "September",
+    "8": "19 / nineteen",
+    "9": "30 / thirty",
+    "10": "boots",
+    "11": "B/ E",
+    "12": "B/ E",
+    "13": "C",
+    "14": "C",
+    "15": "A",
+    "16": "E",
+    "17": "D",
+    "18": "G",
+    "19": "F",
+    "20": "C",
+    "21": "B",
+    "22": "A",
+    "23": "A",
+    "24": "B",
+    "25": "C",
+    "26": "A",
+    "27": "D",
+    "28": "B",
+    "29": "F",
+    "30": "H",
+    "31": "mud",
+    "32": "feathers",
+    "33": "shape",
+    "34": "moon",
+    "35": "neck",
+    "36": "evidence",
+    "37": "destinations",
+    "38": "oceans",
+    "39": "recovery",
+    "40": "atlas"
+  }
+}

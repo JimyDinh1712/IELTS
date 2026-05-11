@@ -1,0 +1,349 @@
+{
+  "testTitle": "IELTS Cam 19 Test 1",
+  "audioUrl": "audio/Cam19Test1.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Hinchingbrooke Country Park",
+          "content": "<strong>The park</strong><br>Area: <strong>(1)</strong>  hectares<br>Habitats: wetland, grassland and woodland<br>Wetland: lakes, ponds and a <strong>(2)</strong> <br>Wildlife includes birds, insects and animals<br><strong>Subjects studied in educational visits include</strong><br>Science: Children look at <strong>(3)</strong>  about plants, etc.<br>Geography: includes learning to use a <strong>(4)</strong>  and compass<br><strong>History: changes in land use</strong><br>Leisure and tourism: mostly concentrates on the park’s <strong>(5)</strong> <br>Music: Children make <strong>(6)</strong>  with natural materials, and experiment with rhythm and speed.<br><strong>Benefits of outdoor educational visits</strong><br>They give children a feeling of <strong>(7)</strong>  that they may not have elsewhere.<br>Children learn new <strong>(8)</strong>  and gain self-confidence.<br><strong>Practical issues</strong><br>Cost per child: £<strong>(9)</strong> <br>Adults, such as <strong>(10)</strong> , free",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 15,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Stanthorpe Twinning Association",
+          "content": "<strong>11</strong>   During the visit to Malatte, in France, members especially enjoyed<br>A   going to a theme park.<br>B   experiencing a river trip.<br>C   visiting a cheese factory.<br><strong>12</strong>   What will happen in Stanthorpe to mark the 25th anniversary of the Twinning Association?<br>A   A tree will be planted.<br>B   A garden seat will be bought.<br>C   A footbridge will be built.<br><strong>13</strong>   Which event raised most funds this year?<br>A   the film show<br>B   the pancake evening<br>C   the cookery demonstration<br><strong>14</strong>   For the first evening with the French visitors host families are advised to<br>A   take them for a walk round the town.<br>B   go to a local restaurant.<br>C   have a meal at home.<br><strong>15</strong>   On Saturday evening there will be the chance to<br>A   listen to a concert.<br>B   watch a match.<br>C   take part in a competition.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "During the visit to Malatte, in France, members especially enjoyed",
+              "options": [
+                "A   going to a theme park.",
+                "B   experiencing a river trip.",
+                "C   visiting a cheese factory."
+              ]
+            },
+            {
+              "id": 12,
+              "text": "What will happen in Stanthorpe to mark the 25th anniversary of the Twinning Association?",
+              "options": [
+                "A   A tree will be planted.",
+                "B   A garden seat will be bought.",
+                "C   A footbridge will be built."
+              ]
+            },
+            {
+              "id": 13,
+              "text": "Which event raised most funds this year?",
+              "options": [
+                "A   the film show",
+                "B   the pancake evening",
+                "C   the cookery demonstration"
+              ]
+            },
+            {
+              "id": 14,
+              "text": "For the first evening with the French visitors host families are advised to",
+              "options": [
+                "A   take them for a walk round the town.",
+                "B   go to a local restaurant.",
+                "C   have a meal at home."
+              ]
+            },
+            {
+              "id": 15,
+              "text": "On Saturday evening there will be the chance to",
+              "options": [
+                "A   listen to a concert.",
+                "B   watch a match.",
+                "C   take part in a competition."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 16,
+          "to": 20,
+          "type": "labeling",
+          "instruction": "Label the map below.  Write the correct letter, A–H, next to Questions 16–20.",
+          "image": "data/Cam19Test1.jpg",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 16,
+              "text": "Farm shop   16……………"
+            },
+            {
+              "id": 17,
+              "text": "Disabled entry   17……………"
+            },
+            {
+              "id": 18,
+              "text": "Adventure playground  18 ……………"
+            },
+            {
+              "id": 19,
+              "text": "Kitchen gardens   19……………"
+            },
+            {
+              "id": 20,
+              "text": "The Temple of the Four Winds   20……………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO things did Colin find most satisfying about his bread reuse project?<br>A   receiving support from local restaurants<br>B   finding a good way to prevent waste<br>C   overcoming problems in a basis process<br>D   experimenting with designs and colours<br>E   learning how to apply 3-D priting",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO ways do the students agree that touch-sensitive sensors for food labels could be developed in future?<br>A   for use on medical products<br>B   to show that food is no longer fit to eat<br>C   for use with drinks as well as foods<br>D   to provide applications for blind people<br>E   to indicate the weight of certain foods",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "What is the students’ opinion about each of the following food trends?  Choose SIX answers from the box and write the correct answer, A–H, next to Questions 25–30.",
+          "heading": "Food trends",
+          "wordlistName": "Opinions",
+          "options": [
+            "A   This is only relevant to young people.",
+            "B   This may have disappointing results.",
+            "C   This already seems to be widespread.",
+            "D   Retailers should do more to encourage this.",
+            "E   More financial support is needed for this.",
+            "F   Most people know little about this.",
+            "G   There should be stricter regulations about this.",
+            "H   This could be dangerous."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 25,
+              "text": "Use of local products   ……………"
+            },
+            {
+              "id": 26,
+              "text": "Reduction in unnecessary packaging   ……………"
+            },
+            {
+              "id": 27,
+              "text": "Gluten-free and lactose-free food   ……………"
+            },
+            {
+              "id": 28,
+              "text": "Use of branded products related to celebrity chefs   ……………"
+            },
+            {
+              "id": 29,
+              "text": "Development of ‘ghost kitchens’ for takeaway food   ……………"
+            },
+            {
+              "id": 30,
+              "text": "Use of mushrooms for common health concerns   ……………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Céide Fields",
+          "content": "●   an important Neolithic archaeological site in the northwest of Ireland<br><strong>Discovery</strong><br>●   In the 1930s, a local teacher realised that stones beneath the bog surface were once <strong>(31)</strong>  .<br>●   His <strong>(32)</strong>  became an archaeologist and undertook an investigation of the site:<br>–   a traditional method used by local people to dig for <strong>(33)</strong>  was used to identify where stones were located<br>–   carbon dating later proved the site was Neolithic.<br>●   Items are well preserved in the bog because of a lack of <strong>(34)</strong>  .<br><strong>Neolithic farmers</strong><br>●   Houses were <strong>(35)</strong>  in shape and had a hole in the roof.<br>●   Neolithic innovations include:<br>–   cooking indoors<br>–   pots used for storage and to make <strong>(36)</strong>  .<br>●   Each field at Céide was large enough to support a big <strong>(37)</strong>  .<br>●   The fields were probably used to restrict the grazing of animals – no evidence of structurers to house them during <strong>(38)</strong>  .<br><strong>Reasons for the decline in farming</strong><br>●   a decline in <strong>(39)</strong>  quality<br>●   an increase in <strong>(40)</strong> ",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "69 / sixty-nine",
+    "2": "stream",
+    "3": "data",
+    "4": "map",
+    "5": "visitors",
+    "6": "sounds",
+    "7": "freedom",
+    "8": "skills",
+    "9": "4.95",
+    "10": "leaders",
+    "11": "B",
+    "12": "A",
+    "13": "B",
+    "14": "C",
+    "15": "A",
+    "16": "G",
+    "17": "C",
+    "18": "B",
+    "19": "D",
+    "20": "A",
+    "21": "B / D",
+    "22": "B / D",
+    "23": "A  / E",
+    "24": "A  / E",
+    "25": "D",
+    "26": "G",
+    "27": "C",
+    "28": "B",
+    "29": "F",
+    "30": "H",
+    "31": "walls",
+    "32": "son",
+    "33": "fuel",
+    "34": "oxygen",
+    "35": "rectangular",
+    "36": "lamps",
+    "37": "family",
+    "38": "winter",
+    "39": "soil",
+    "40": "rain"
+  }
+}

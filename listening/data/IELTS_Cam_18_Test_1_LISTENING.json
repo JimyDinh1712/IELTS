@@ -1,0 +1,371 @@
+{
+  "testTitle": "IELTS Cam 18 Test 1",
+  "audioUrl": "audio/Cam18Test1.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Transport survey",
+          "content": "<strong>Name</strong>:   Sadie Jones<br><strong>Year of birth</strong>:   1991<br><strong>Postcode</strong>:   <strong>(1)</strong> <br><strong>Travelling by bus</strong><br>Date of bus journey:   <strong>(2)</strong> <br>Reason for trip:   shopping and visit to the <strong>(3)</strong> <br>Travelled by bus because cost of   <strong>(4)</strong>  too high<br>Got on bus at   <strong>(5)</strong>  Street<br>Complaints about bus service:<br>–   bus today was <strong>(6)</strong> <br>–   frequency of buses in the <strong>(7)</strong> <br><strong>Travelling by car</strong><br>Goes to the   <strong>(8)</strong>  by car<br><strong>Travelling by bicycle</strong><br>Dislikes travelling by bike in the city centre because of the <strong>(9)</strong> <br>Doesn’t own a bike because of a lack of <strong>(10)</strong> ",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 13,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Becoming a volunteer for ACE",
+          "content": "<strong>11</strong>   Why does the speaker apologise about the seats?<br>A   They are too small.<br>B   There are not enough of them.<br>C   Some of them are very close together.<br><strong>12</strong>   What does the speaker say about the age of volunteers?<br>A   The age of volunteers is less important than other factors.<br>B   Young volunteers are less reliable than older ones.<br>C   Most volunteers are about 60 years old.<br><strong>13</strong>   What does the speaker say about training?<br>A   It is continuous.<br>B   It is conducted by a manager.<br>C   It takes place online.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Why does the speaker apologise about the seats?",
+              "options": [
+                "A   They are too small.",
+                "B   There are not enough of them.",
+                "C   Some of them are very close together."
+              ]
+            },
+            {
+              "id": 12,
+              "text": "What does the speaker say about the age of volunteers?",
+              "options": [
+                "A   The age of volunteers is less important than other factors.",
+                "B   Young volunteers are less reliable than older ones.",
+                "C   Most volunteers are about 60 years old."
+              ]
+            },
+            {
+              "id": 13,
+              "text": "What does the speaker say about training?",
+              "options": [
+                "A   It is continuous.",
+                "B   It is conducted by a manager.",
+                "C   It takes place online."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 14,
+          "to": 15,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO issues does the speaker ask the audience to consider before they apply to be volunteers?<br>A   their financial situation<br>B   their level of commitment<br>C   their work experience<br>B   their ambition<br>E   their availability",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 14,
+              "text": "Question 14",
+              "options": []
+            },
+            {
+              "id": 15,
+              "text": "Question 15",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 16,
+          "to": 20,
+          "type": "wordlist",
+          "instruction": "What does the speaker suggest would be helpful for each of the following areas of voluntary work?  Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20.",
+          "heading": "Area of voluntary work",
+          "wordlistName": "Helpful things volunteers might offer",
+          "options": [
+            "A   experience on stage",
+            "B   original, new ideas",
+            "C   parenting skills",
+            "D   an understanding of food and diet",
+            "E   retail experience",
+            "F   a good memory",
+            "G   a good level of fitness"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 16,
+              "text": "Fundraising   ……………"
+            },
+            {
+              "id": 17,
+              "text": "Litter collection   ……………"
+            },
+            {
+              "id": 18,
+              "text": "‘Playmates’   ……………"
+            },
+            {
+              "id": 19,
+              "text": "Story club   ……………"
+            },
+            {
+              "id": 20,
+              "text": "First aid   ……………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 26,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Talk on jobs in fashion design",
+          "content": "<strong>21</strong>   What problem did Chantal have at the start of the talk?<br>A   Her view of the speaker was blocked.<br>B   She was unable to find an empty seat.<br>C   The students next to her were talking.<br><strong>22</strong>   What were Hugo and Chantal surprised to hear about the job market?<br>A   It has become more competitive than it used to be.<br>B   There is more variety in it than they had realised.<br>C   Some areas of it are more exciting than others.<br><strong>23</strong>   Hugo and Chantal agree that the speaker’s message was<br>A   unfair to them at times.<br>B   hard for them to follow.<br>C   critical of the industry.<br><strong>24</strong>   What do Hugo and Chantal criticise about their school careers advice?<br>A   when they received the advice<br>B   how much advice was given<br>C   who gave the advice<br><strong>25</strong>   When discussing their future, Hugo and Chantal disagree on<br>A   which is the best career in fashion.<br>B   when to choose a career in fashion.<br>C   why they would like a career in fashion.<br><strong>26</strong>   How does Hugo feel about being an unpaid assistant?<br>A   He is realistic about the practice.<br>B   He feels the practice is dishonest.<br>C   He thinks others want to change the practice.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 21,
+              "text": "What problem did Chantal have at the start of the talk?",
+              "options": [
+                "A   Her view of the speaker was blocked.",
+                "B   She was unable to find an empty seat.",
+                "C   The students next to her were talking."
+              ]
+            },
+            {
+              "id": 22,
+              "text": "What were Hugo and Chantal surprised to hear about the job market?",
+              "options": [
+                "A   It has become more competitive than it used to be.",
+                "B   There is more variety in it than they had realised.",
+                "C   Some areas of it are more exciting than others."
+              ]
+            },
+            {
+              "id": 23,
+              "text": "Hugo and Chantal agree that the speaker’s message was",
+              "options": [
+                "A   unfair to them at times.",
+                "B   hard for them to follow.",
+                "C   critical of the industry."
+              ]
+            },
+            {
+              "id": 24,
+              "text": "What do Hugo and Chantal criticise about their school careers advice?",
+              "options": [
+                "A   when they received the advice",
+                "B   how much advice was given",
+                "C   who gave the advice"
+              ]
+            },
+            {
+              "id": 25,
+              "text": "When discussing their future, Hugo and Chantal disagree on",
+              "options": [
+                "A   which is the best career in fashion.",
+                "B   when to choose a career in fashion.",
+                "C   why they would like a career in fashion."
+              ]
+            },
+            {
+              "id": 26,
+              "text": "How does Hugo feel about being an unpaid assistant?",
+              "options": [
+                "A   He is realistic about the practice.",
+                "B   He feels the practice is dishonest.",
+                "C   He thinks others want to change the practice."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 27,
+          "to": 28,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO mistakes did the speaker admit she made in her first job?<br>A   being dishonest to her employer<br>B   paying too much attention to how she looked<br>C   expecting to become well known<br>D   trying to earn a lot of money<br>E   openly disliking her client",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 27,
+              "text": "Question 27",
+              "options": []
+            },
+            {
+              "id": 28,
+              "text": "Question 28",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 29,
+          "to": 30,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO pieces of retail information do Hugo and Chantal agree would be useful?<br>A   the reasons people return fashion items<br>B   how much time people have to shop for clothes<br>C   fashion designs people want but can’t find<br>D   the best time of year for fashion buying<br>E   the most popular fashion sizes",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 29,
+              "text": "Question 29",
+              "options": []
+            },
+            {
+              "id": 30,
+              "text": "Question 30",
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Elephant translocation",
+          "content": "<strong>Reasons for overpopulation at Majete National Park</strong><br>●   strict enforcement of anti-poaching laws<br>●   successful breeding<br><strong>Problems caused by elephant overpopulation</strong><br>●   greater competition, causing hunger for elephants<br>●   damage to <strong>(31)</strong>  in the park<br><strong>The translocation process</strong><br>●   a suitable group of elephants from the same <strong>(32)</strong>  was selected<br>●   vets and park staff made use of <strong>(33)</strong>  to help guide the elephants into an open plain<br>●   elephants were immobilised with tranquilisers<br>–   this process had to be completed quickly to reduce <strong>(34)</strong> <br>–   elephants had to be turned on their <strong>(35)</strong>  to avoid damage to their lungs<br>–   elephants’ <strong>(36)</strong>  had to be monitored constantly<br>–   tracking devices were fitted to the matriarchs<br>–   data including the size of their tusks and <strong>(37)</strong>  was taken<br>●   elephants were taken by truck to their new reserve<br><strong>Advantages of translocation at Nkhotakota Wildlife Park</strong><br>●   <strong>(38)</strong>  opportunities<br>●   a reduction in the number of poachers and <strong>(39)</strong> <br>●   an example of conservation that other parks can follow<br>●   an increase in <strong>(40)</strong>  as a contributor to GDP",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "DW30 7YZ",
+    "2": "24 April /24th April",
+    "3": "dentist",
+    "4": "parking",
+    "5": "Claxby",
+    "6": "late",
+    "7": "evening",
+    "8": "supermarket",
+    "9": "pollution",
+    "10": "storage",
+    "11": "C",
+    "12": "A",
+    "13": "A",
+    "14": "B/ E",
+    "15": "B/ E",
+    "16": "B",
+    "17": "G",
+    "18": "D",
+    "19": "A",
+    "20": "F",
+    "21": "A",
+    "22": "B",
+    "23": "A",
+    "24": "C",
+    "25": "B",
+    "26": "A",
+    "27": "B/ E",
+    "28": "B/ E",
+    "29": "A/ C",
+    "30": "A/ C",
+    "31": "fences",
+    "32": "family",
+    "33": "helicopters",
+    "34": "stress",
+    "35": "sides",
+    "36": "breathing",
+    "37": "feet",
+    "38": "employment",
+    "39": "weapons",
+    "40": "tourism"
+  }
+}

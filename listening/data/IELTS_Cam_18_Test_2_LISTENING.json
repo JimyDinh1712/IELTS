@@ -1,0 +1,364 @@
+{
+  "testTitle": "IELTS Cam 18 Test 2",
+  "audioUrl": "audio/Cam18Test2.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 5,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Working at Milo’s Restaurants",
+          "content": "<strong>Benefits</strong><br>●   <strong>(1)</strong>  provided for all staff<br>●   <strong>(2)</strong>  during weekdays at all Milo’s Restaurants<br>●   <strong>(3)</strong>  provided after midnight<br><strong>Person specification</strong><br>●   must be prepared to work well in a team<br>●   must care about maintaining a high standard of <strong>(4)</strong> <br>●   must have a qualification in <strong>(5)</strong> <br>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the table below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>Location</th>\n    <th>Job title</th>\n    <th>Responsibilities include</th>\n    <th>Pay and conditions</th>\n  </tr>\n  <tr>\n    <td><strong>(6)</strong>  Street</td>\n    <td>Breakfast supervisor</td>\n    <td>Checking portions, etc. are correct<p> Making sure <strong>(7)</strong>  is clean</td>\n    <td>Starting salary £<strong>(8)</strong>  per hour<p>Start work at 5.30 a.m.</td>\n  </tr>\n  <tr>\n    <td>City Road</td>\n    <td>Junior chef</td>\n    <td>Supporting senior chefs<p>Maintaining stock and organising <strong>(9)</strong> </td>\n    <td>Annual salary £23,000 <p> No work on a <strong>(10)</strong>  once a month</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 12,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "What are the TWO main reasons why this site has been chosen for the housing development?<br>A   It has suitable geographical features.<br>B   There is easy access to local facilities.<br>C   It has good connections with the airport.<br>D   The land is of little agricultural value.<br>E   It will be convenient for workers.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Question 11",
+              "options": []
+            },
+            {
+              "id": 12,
+              "text": "Question 12",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO aspects of the planned housing development have people given positive feedback about?<br>A   the facilities for cyclists<br>B   the impact on the environment<br>C   the encouragement of good relations between residents<br>D   the low cost of all the accommodation<br>E   the rural location",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 13,
+              "text": "Question 13",
+              "options": []
+            },
+            {
+              "id": 14,
+              "text": "Question 14",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "type": "labeling",
+          "instruction": "Label the map below.  Write the correct letter, A-l, next to Questions 15-20.",
+          "image": "data/cam18test3.jpg",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 15,
+              "text": "School   ……………."
+            },
+            {
+              "id": 16,
+              "text": "Sports centre   ……………."
+            },
+            {
+              "id": 17,
+              "text": "Clinic   ……………."
+            },
+            {
+              "id": 18,
+              "text": "Community centre   ……………."
+            },
+            {
+              "id": 19,
+              "text": "Supermarket   ……………."
+            },
+            {
+              "id": 20,
+              "text": "Playground   ……………."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 24,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>21</strong>   Why do the students think the Laki eruption of 1783 is so important?<br>A   It was the most severe eruption in modern times.<br>B   It led to the formal study of volcanoes.<br>C   It had a profound effect on society.<br><strong>22</strong>   What surprised Adam about observations made at the time?<br>A   the number of places producing them<br>B   the contradictions in them<br>C   the lack of scientific data to support them<br><strong>23</strong>   According to Michelle, what did the contemporary sources say about the Laki haze?<br>A   People thought it was similar to ordinary fog.<br>B   It was associated with health issues.<br>C   It completely blocked out the sun for weeks.<br><strong>24</strong>   Adam corrects Michelle when she claims that Benjamin Franklin<br>A   came to the wrong conclusion about the cause of the haze.<br>B   was the first to identify the reason for the haze.<br>C   supported the opinions of other observers about the haze.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Why do the students think the Laki eruption of 1783 is so important?",
+              "options": [
+                "A   It was the most severe eruption in modern times.",
+                "B   It led to the formal study of volcanoes.",
+                "C   It had a profound effect on society."
+              ]
+            },
+            {
+              "id": 22,
+              "text": "What surprised Adam about observations made at the time?",
+              "options": [
+                "A   the number of places producing them",
+                "B   the contradictions in them",
+                "C   the lack of scientific data to support them"
+              ]
+            },
+            {
+              "id": 23,
+              "text": "According to Michelle, what did the contemporary sources say about the Laki haze?",
+              "options": [
+                "A   People thought it was similar to ordinary fog.",
+                "B   It was associated with health issues.",
+                "C   It completely blocked out the sun for weeks."
+              ]
+            },
+            {
+              "id": 24,
+              "text": "Adam corrects Michelle when she claims that Benjamin Franklin",
+              "options": [
+                "A   came to the wrong conclusion about the cause of the haze.",
+                "B   was the first to identify the reason for the haze.",
+                "C   supported the opinions of other observers about the haze."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 26,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO issues following the Laki eruption surprised the students?<br>A   how widespread the effects were<br>B   how long-lasting the effects were<br>C   the number of deaths it caused<br>D   the speed at which the volcanic ash cloud spread<br>E   how people ignored the warning signs<br>",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 25,
+              "text": "Question 25",
+              "options": []
+            },
+            {
+              "id": 26,
+              "text": "Question 26",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "What comment do the students make about the impact of the Laki eruption on the following countries?  Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 27-30.",
+          "heading": "Countries",
+          "wordlistName": "Comments",
+          "options": [
+            "A   This country suffered the most severe loss of life.",
+            "B   The impact on agriculture was predictable.",
+            "C   There was a significant increase in deaths of young people.",
+            "D   Animals suffered from a sickness.",
+            "E   This country saw the highest rise in food prices in the world.",
+            "F   It caused a particularly harsh winter."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 27,
+              "text": "Iceland   …………"
+            },
+            {
+              "id": 28,
+              "text": "Egypt   …………"
+            },
+            {
+              "id": 29,
+              "text": "UK   …………"
+            },
+            {
+              "id": 30,
+              "text": "USA   …………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Pockets",
+          "content": "<strong>Reason for choice of subject</strong><br>●   They are <strong>(31)</strong>  but can be overlooked by consumers and designers.<br><strong>Pockets in men’s clothes</strong><br>●   Men started to wear <strong>(32)</strong>  in the 18th century.<br>●   A <strong>(33)</strong>  sewed pockets into the lining of the garments.<br>●   The wearer could use the pockets for small items.<br>●   Bigger pockets might be made for men who belonged to a certain type of <strong>(34)</strong> <br><strong>Pockets in women’s clothes</strong><br>●   Women’s pockets were less <strong>(35)</strong>  than men’s.<br>●   Women were very concerned about pickpockets.<br>●   Pockets were produced in pairs using <strong>(36)</strong>  to link them together.<br>●   Pockets hung from the women’s <strong>(37)</strong>  under skirts and petticoats.<br>●   Items such as <strong>(38)</strong>  could be reached through a gap in the material.<br>●   Pockets, of various sizes, stayed inside clothing for many decades.<br>●   When dresses changed shape, hidden pockets had a negative effect on the <strong>(39)</strong>  of women.<br>●   Bags called ‘pouches’ became popular, before women carried a <strong>(40)</strong> ",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "training",
+    "2": "discount",
+    "3": "taxi",
+    "4": "service",
+    "5": "English",
+    "6": "Wivenhoe",
+    "7": "equipment",
+    "8": "9.75",
+    "9": "deliveries",
+    "10": "Sunday",
+    "11": "B/ E",
+    "12": "B/ E",
+    "13": "B/ C",
+    "14": "B/ C",
+    "15": "G",
+    "16": "C",
+    "17": "D",
+    "18": "B",
+    "19": "H",
+    "20": "A",
+    "21": "C",
+    "22": "A",
+    "23": "B",
+    "24": "B",
+    "25": "A/ B",
+    "26": "A/ B",
+    "27": "D",
+    "28": "A",
+    "29": "C",
+    "30": "F",
+    "31": "convenient",
+    "32": "suits",
+    "33": "tailor",
+    "34": "profession",
+    "35": "visible",
+    "36": "string/ strings",
+    "37": "waist/waists",
+    "38": "perfume",
+    "39": "image",
+    "40": "handbag"
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "testTitle": "IELTS Cam 19 Test 3",
+  "audioUrl": "audio/Cam19Test3.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 6,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Local food shops",
+          "content": "<strong>Where to go</strong><br>●   Kite Place – near the <strong>(1)</strong> <br><strong>Fish market</strong><br>●   cross the <strong>(2)</strong>  and turn right<br>●   best to go before <strong>(3)</strong>  pm, earlier than closing time<br><strong>Organic shop</strong><br>●   called ‘<strong>(4)</strong> ’<br>●   below a restaurant in the large, grey building<br>●   look for the large <strong>(5)</strong>  outside<br><strong>Supermarket</strong><br>●   take a <strong>(6)</strong>  minibus, number 289",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the table below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Shopping",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th></th>\n    <th>To buy</th>\n    <th>Other ideas</th>\n  </tr>\n  <tr>\n    <td>Fish market</td>\n    <td>a dozen prawns</td>\n    <td>a handful of <strong>(7)</strong>  (type of seaweed)</td>\n  </tr>\n  <tr>\n    <td>Organic shop</td>\n    <td>beans and a <strong>(8)</strong>  for dessert</td>\n    <td>spices and <strong>(9)</strong> </td>\n  </tr>\n  <tr>\n    <td>Bakery</td>\n    <td>a brown loaf</td>\n    <td>a <strong>(10)</strong>  tart</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 16,
+          "type": "wordlist",
+          "instruction": "What information is given about each of the following festival workshops?  Choose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+          "heading": "Festival workshops",
+          "wordlistName": "Information",
+          "options": [
+            "A   involves painting and drawing",
+            "B   will be led by a prize-winning author",
+            "C   is aimed at children with a disability",
+            "D   involves a drama activity",
+            "E   focuses on new relationships",
+            "F   is aimed at a specific age group",
+            "G   explores an unhappy feeling",
+            "H   raises awareness of a particular culture"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Superheroes  ……………"
+            },
+            {
+              "id": 12,
+              "text": "Just do it   ……………"
+            },
+            {
+              "id": 13,
+              "text": "Count on me   ……………"
+            },
+            {
+              "id": 14,
+              "text": "Speak up   ……………"
+            },
+            {
+              "id": 15,
+              "text": "Jump for joy  ……………"
+            },
+            {
+              "id": 16,
+              "text": "Sticks and stones   ……………"
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 18,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO reasons does the speaker give for recommending Alive and Kicking?<br>A   It will appeal to both boys and girls.<br>B   The author is well known.<br>C   It has colourful illustrations.<br>D   It is funny.<br>E   It deals with an important topic.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 17,
+              "text": "Question 17",
+              "options": []
+            },
+            {
+              "id": 18,
+              "text": "Question 18",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO pieces of advice does the speaker give to parents about reading?<br>A   Encourage children to write down new vocabulary.<br>B   Allow children to listen to audio books.<br>C   Get recommendations from librarians.<br>D   Give children a choice about what they read.<br>E   Only read aloud to children until they can read independently.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 19,
+              "text": "Question 19",
+              "options": []
+            },
+            {
+              "id": 20,
+              "text": "Question 20",
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 25,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Science experiment for Year 12 students",
+          "content": "<strong>21</strong>   How does Clare feel about the students in her Year 12 science class?<br>A   worried that they are not making progress<br>B   challenged by their poor behaviour in class<br>C   frustrated at their lack of interest in the subject<br><strong>22</strong>   How does Jake react to Clare’s suggestion about an experiment based on children’s diet?<br>A   He is concerned that the results might not be meaningful.<br>B   He feels some of the data might be difficult to obtain.<br>C   He suspects that the conclusions might be upsetting.<br><strong>23</strong>   What problem do they agree may be involved in an experiment involving animals?<br>A   Any results may not apply to humans.<br>B   It may be complicated to get permission.<br>C   Students may not be happy about animal experiments.<br><strong>24</strong>   What question do they decide the experiment should address?<br>A   Are mice capable of controlling their food intake?<br>B   Does an increase in sugar lead to health problems?<br>C   How much do supplements of different kinds affect health?<br><strong>25</strong>   Clare might also consider doing another experiment involving<br>A   other types of food supplement.<br>B   different genetic strains of mice.<br>C   varying amounts of exercise.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 21,
+              "text": "How does Clare feel about the students in her Year 12 science class?",
+              "options": [
+                "A   worried that they are not making progress",
+                "B   challenged by their poor behaviour in class",
+                "C   frustrated at their lack of interest in the subject"
+              ]
+            },
+            {
+              "id": 22,
+              "text": "How does Jake react to Clare’s suggestion about an experiment based on children’s diet?",
+              "options": [
+                "A   He is concerned that the results might not be meaningful.",
+                "B   He feels some of the data might be difficult to obtain.",
+                "C   He suspects that the conclusions might be upsetting."
+              ]
+            },
+            {
+              "id": 23,
+              "text": "What problem do they agree may be involved in an experiment involving animals?",
+              "options": [
+                "A   Any results may not apply to humans.",
+                "B   It may be complicated to get permission.",
+                "C   Students may not be happy about animal experiments."
+              ]
+            },
+            {
+              "id": 24,
+              "text": "What question do they decide the experiment should address?",
+              "options": [
+                "A   Are mice capable of controlling their food intake?",
+                "B   Does an increase in sugar lead to health problems?",
+                "C   How much do supplements of different kinds affect health?"
+              ]
+            },
+            {
+              "id": 25,
+              "text": "Clare might also consider doing another experiment involving",
+              "options": [
+                "A   other types of food supplement.",
+                "B   different genetic strains of mice.",
+                "C   varying amounts of exercise."
+              ]
+            }
+          ]
+        },
+       {
+          "from": 26,
+          "to": 30,
+          "type": "labeling",
+          "instruction": "Complete the flowchart below.  Choose FIVE answers from the box and write the correct letter, A–H, next to Questions 26-30.",
+          "image": "data/Cam19Test3.jpg",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 26,
+              "text": ""
+            },
+            {
+              "id": 27,
+              "text": ""
+            },
+            {
+              "id": 28,
+              "text": ""
+            },
+            {
+              "id": 29,
+              "text": ""
+            },
+            {
+              "id": 30,
+              "text": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Microplastics",
+          "content": "<strong>Where microplastics come from</strong><br>●   fibres from some <strong>(31)</strong>  during washing<br>●   the breakdown of large pieces of plastic<br>●   waste from industry<br>●   the action of vehicle tyres on roads<br><strong>Effects of microplastics</strong><br>●   They cause injuries to the <strong>(32)</strong>  of wildlife and affect their digestive systems.<br>●   They enter the food chain, e.g., in bottled and tap water, <strong>(33)</strong>  and seafood.<br>●   They may not affect human health, but they are already banned in skin cleaning products and <strong>(34)</strong>  in some countries.<br>●   Microplastics enter the soil through the air, rain and <strong>(35)</strong>  .<br><strong>Microplastics in the soil – a study by Anglia Ruskin University</strong><br>●   Earthworms are important because they add <strong>(36)</strong>  to the soil.<br>●   The study aimed to find whether microplastics in earthworms affect the <strong>(37)</strong>  of plants.<br>●   The study found that microplastics caused:<br>–   <strong>(38)</strong>  loss in earthworms<br>–   fewer seeds to germinate<br>–   a rise in the level of <strong>(39)</strong>  in the soil.<br>The study concluded:<br>–   soil should be seen as an important natural process.<br>–   changes to soil damage both ecosystems and <strong>(40)</strong>  .",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "harbour / harbor",
+    "2": "bridge",
+    "3": "3.30 / three thirty / ½ / half 3 / three",
+    "4": "Rose / rose",
+    "5": "sign",
+    "6": "purple",
+    "7": "samphire",
+    "8": "melon",
+    "9": "coconut",
+    "10": "strawberry",
+    "11": "C",
+    "12": "D",
+    "13": "F",
+    "14": "G",
+    "15": "B",
+    "16": "H",
+    "17": "D / E",
+    "18": "D / E",
+    "19": "B / C",
+    "20": "B / C",
+    "21": "C",
+    "22": "B",
+    "23": "A",
+    "24": "A",
+    "25": "C",
+    "26": "C",
+    "27": "H",
+    "28": "E",
+    "29": "B",
+    "30": "F",
+    "31": "clothing",
+    "32": "mouths",
+    "33": "salt",
+    "34": "toothpaste",
+    "35": "fertilisers / fertilizers",
+    "36": "nutrients",
+    "37": "growth",
+    "38": "weight",
+    "39": "acid",
+    "40": "society"
+  }
+}

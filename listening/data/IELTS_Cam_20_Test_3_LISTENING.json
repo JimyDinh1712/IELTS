@@ -1,0 +1,366 @@
+{
+  "testTitle": "IELTS Cam 20 Test 3",
+  "audioUrl": "audio/Cam20Test3.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the table below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+         "heading": "Furniture Rental Companies",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>Name of company</th>\n    <th>Information about costs</th>\n    <th>Additional notes</th>\n  </tr>\n  <tr>\n    <td>Peak Rentals</td>\n    <td>Prices range from $105 to $<strong>(1)</strong>  per room per month.</td>\n    <td>The furniture is very <strong>(2)</strong> <P>Delivers in 1-2 days <P>Special offer:<P>free <strong>(3)</strong>  with every living room set</td>\n  </tr>\n  <tr>\n    <td><strong>(4)</strong>  and Oliver</td>\n    <td>Mid-range prices<P> 12% monthly free for <strong>(5)</strong> </td>\n    <td>Also offers a cleaning service</td>\n  </tr>\n  <tr>\n    <td>Larch Furniture</td>\n    <td>Offers cheapest prices for renting furniture and <strong>(6)</strong>  items</td>\n    <td>Must have own <strong>(7)</strong> <P>Minimum contract length: six months</td>\n  </tr>\n  <tr>\n    <td><strong>(8)</strong>  Rentals</td>\n    <td>See the <strong>(9)</strong>  for the most up-to-date prices</td>\n    <td><strong>(10)</strong>  are allowed within 7 days of delivery</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 16,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>11</strong>   Who was responsible for starting the community project?<br>A   the castle owners<br>B   a national charity<br>C   the local council<br><strong>12</strong>   How was the gold coin found?<br>A   Heavy rain had removed some of the soil.<br>B   The ground was dug up by wild rabbits.<br>C   A person with a metal detector searched the area.<br><strong>13</strong>   What led the archaeologists to believe there was an ancient village on this site?<br>A   the lucky discovery of old records<br>B   the bases of several structures visible in the grass<br>C   the unusual stones found near the castle<br><strong>14</strong>   What are the team still hoping to find?<br>A   everyday pottery<br>B   animal bones<br>C   pieces of jewellery<br><strong>15</strong>   What was found on the other side of the river to the castle?<br>A   the remains of a large palace<br>B   the outline of fields<br>C   a number of small huts<br><strong>16</strong>   What do the team plan to do after work ends this summer?<br>A   prepare a display for a museum<br>B   take part in a television programme<br>C   start to organise school visits",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Who was responsible for starting the community project?",
+              "options": [
+                "A   the castle owners",
+                "B   a national charity",
+                "C   the local council"
+              ]
+            },
+            {
+              "id": 12,
+              "text": "How was the gold coin found?",
+              "options": [
+                "A   Heavy rain had removed some of the soil.",
+                "B   The ground was dug up by wild rabbits.",
+                "C   A person with a metal detector searched the area."
+              ]
+            },
+            {
+              "id": 13,
+              "text": "What led the archaeologists to believe there was an ancient village on this site?",
+              "options": [
+                "A   the lucky discovery of old records",
+                "B   the bases of several structures visible in the grass",
+                "C   the unusual stones found near the castle"
+              ]
+            },
+            {
+              "id": 14,
+              "text": "What are the team still hoping to find?",
+              "options": [
+                "A   everyday pottery",
+                "B   animal bones",
+                "C   pieces of jewellery"
+              ]
+            },
+            {
+              "id": 15,
+              "text": "What was found on the other side of the river to the castle?",
+              "options": [
+                "A   the remains of a large palace",
+                "B   the outline of fields",
+                "C   a number of small huts"
+              ]
+            },
+            {
+              "id": 16,
+              "text": "What do the team plan to do after work ends this summer?",
+              "options": [
+                "A   prepare a display for a museum",
+                "B   take part in a television programme",
+                "C   start to organise school visits"
+              ]
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "type": "labeling",
+          "instruction": "Label the map below.  Drag the correct letter, A-G, next to Questions 17-20.",
+          "image": "data/Cam20Test3.jpg",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 17,
+              "text": "bridge foundations   ____"
+            },
+            {
+              "id": 18,
+              "text": "rubbish pit                 ____"
+            },
+            {
+              "id": 19,
+              "text": "meeting hall              ____"
+            },
+            {
+              "id": 20,
+              "text": "fish pond                   ____"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 26,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>21</strong>   Finn was pleased to discover that their topic<br>A   was not familiar to their module leader.<br>B   had not been chosen by other students.<br>C   did not prove to be difficult to research.<br><strong>22</strong>   Maya says a mistaken belief about theatre programmes is that<br>A   theatres pay companies to produce them.<br>B   few theatre-goers buy them nowadays.<br>C   they contain far more adverts than previously.<br><strong>23</strong>   Finn was surprised that, in early British theatre, programmes<br>A   were difficult for audiences to obtain.<br>B   were given out free of charge.<br>C   were seen as a kind of contract.<br><strong>24</strong>   Maya feels their project should include an explanation of why companies of actors<br>A   promoted their own plays.<br>B   performed plays outdoors.<br>C   had to tour with their plays.<br><strong>25</strong>   Finn and Maya both think that, compared to nineteenth-century programmes, those from the eighteenth century<br>A   were more original.<br>B   were more colourful.<br>C   were more informative.<br><strong>26</strong>   Maya doesn’t fully understand why, in the twentieth century,<br>A   very few theatre programmes were printed in the USA.<br>B   British theatre programmes failed to develop for so long.<br>C   theatre programmes in Britain copied fashions from the USA.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Finn was pleased to discover that their topic",
+              "options": [
+                "A   was not familiar to their module leader.",
+                "B   had not been chosen by other students.",
+                "C   did not prove to be difficult to research."
+              ]
+            },
+            {
+              "id": 22,
+              "text": "Maya says a mistaken belief about theatre programmes is that",
+              "options": [
+                "A   theatres pay companies to produce them.",
+                "B   few theatre-goers buy them nowadays.",
+                "C   they contain far more adverts than previously."
+              ]
+            },
+            {
+              "id": 23,
+              "text": "Finn was surprised that, in early British theatre, programmes",
+              "options": [
+                "A   were difficult for audiences to obtain.",
+                "B   were given out free of charge.",
+                "C   were seen as a kind of contract."
+              ]
+            },
+            {
+              "id": 24,
+              "text": "Maya feels their project should include an explanation of why companies of actors",
+              "options": [
+                "A   promoted their own plays.",
+                "B   performed plays outdoors.",
+                "C   had to tour with their plays."
+              ]
+            },
+            {
+              "id": 25,
+              "text": "Finn and Maya both think that, compared to nineteenth-century programmes, those from the eighteenth century",
+              "options": [
+                "A   were more original.",
+                "B   were more colourful.",
+                "C   were more informative."
+              ]
+            },
+            {
+              "id": 26,
+              "text": "Maya doesn’t fully understand why, in the twentieth century,",
+              "options": [
+                "A   very few theatre programmes were printed in the USA.",
+                "B   British theatre programmes failed to develop for so long.",
+                "C   theatre programmes in Britain copied fashions from the USA."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "What comment is made about the programme for each of the following shows?  Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 27-30.",
+          "heading": "",
+          "wordlistName": "Comments about programmes",
+          "options": [
+            "A   Its origin is somewhat controversial.",
+            "B   It is historically significant for a country.",
+            "C   It was effective at attracting audiences.",
+            "D   It is included in a recent project.",
+            "E   It contains insights into the show.",
+            "F   It resembles an artwork."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 27,
+              "text": "Ruy Blas"
+            },
+            {
+              "id": 28,
+              "text": "Man of La Mancha"
+            },
+            {
+              "id": 29,
+              "text": "The Tragedy of Jane Shore"
+            },
+            {
+              "id": 30,
+              "text": "The Sailors’ Festival"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Inclusive design",
+          "content": "<strong>Definition</strong><br>● Designing products that can be accessed by a diverse range of people without the need for any <strong>(31)</strong> <br>● Not the same as universal design: that is design for everyone, including catering for people with <strong>(32)</strong>  problems.<br><strong>Examples of inclusive design</strong><br>● <strong>(33)</strong>  which are adjustable, avoiding back or neck problems<br>● <strong>(34)</strong>  in public toilets which are easier to use<br>● To assist the elderly:<br>○ designers avoid using <strong>(35)</strong>  in interfaces<br>○ people can make commands using a mouse, keyboard or their <strong>(36)</strong> <br><strong>Impact of non-inclusive designs</strong><br>● Access<br>○ Loss of independence for disabled people.<br>● Safety<br>○ Seatbelts are especially problematic for <strong>(37)</strong>  women.<br>○ PPE jackets are often unsuitable because of the size of women’s <strong>(38)</strong> <br>○ PPE for female <strong>(39)</strong>  officers dealing with emergencies is the worst.<br>● Comfort in the workplace<br>○ The <strong>(40)</strong>  in offices is often too low for women.<br>",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "239/ two hundred thirty-nine/ two hundred and thirty-nine",
+    "2": "modern",
+    "3": "lamp",
+    "4": "Aaron",
+    "5": "damage",
+    "6": "electronic",
+    "7": "insurance",
+    "8": "space/ Space",
+    "9": "app",
+    "10": "exchanges",
+    "11": "B",
+    "12": "A",
+    "13": "A",
+    "14": "C",
+    "15": "B",
+    "16": "C",
+    "17": "B",
+    "18": "A",
+    "19": "G",
+    "20": "E",
+    "21": "B",
+    "22": "A",
+    "23": "C",
+    "24": "A",
+    "25": "C",
+    "26": "B",
+    "27": "F",
+    "28": "E",
+    "29": "B",
+    "30": "D",
+    "31": "adaptation",
+    "32": "cognitive",
+    "33": "desks",
+    "34": "taps",
+    "35": "blue",
+    "36": "voice",
+    "37": "pregnant",
+    "38": "shoulders",
+    "39": "police",
+    "40": "temperature"
+  }
+}
