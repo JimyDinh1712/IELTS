@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The ground floor of a library in 2001 and how it was redeveloped in 2009",
+    "instruction": "The plans below show the ground floor of a library in 2001 and how it was redeveloped in 2009. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/30_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "It is impossible to help all people in the world, so governments should focus on people in their own countries. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

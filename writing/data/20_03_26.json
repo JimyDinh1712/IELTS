@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of males in a particular country who prefer watching sports to males who prefer participating in sports",
+    "instruction": "The bar chart below shows the percentage of males in a particular country who prefer watching sports to males who prefer participating in sports. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/20_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Newspapers are having enormous influence on people's ideas and opinions. Why is this the case? Is it a positive or negative situation?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

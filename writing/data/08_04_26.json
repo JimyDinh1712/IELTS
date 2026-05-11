@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The number of people in Europe who were affected by four types of noise by day and by night in cities and rural areas in 2007",
+    "instruction": "The charts below show the number of people in Europe who were affected by four types of noise by day and by night in cities and rural areas in 2007. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/08_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "In some countries, there has been an increase in the number of parents who educate their children themselves at home instead of sending them to school. Do you think the advantages of this outweigh the disadvantages?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

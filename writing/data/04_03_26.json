@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " The percentage of males and females with higher education qualifications",
+    "instruction": "The Chart below shows the percentage of males and females with higher education qualifications in five countries in 2001. Summarize the information be selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/04_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Research show that transportation of products and people is now one of the biggest sources of pollution worldwide. Some people think it is the responsibility of governments to solve this problem, while others think it is the responsibility of individuals. Discuss both views and give your opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of the world's forest and timber production",
+    "instruction": "The graph below shows the percentage of the world's forest and the percentage of the world's timber production in different regions of the world. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/11_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "In some countries, there is not enough recycling of waste materials (e.g., paper, glass, and cans). What are the reasons, and what can be done to solve this problem?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

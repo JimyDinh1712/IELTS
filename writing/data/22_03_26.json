@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Two road tunnels in two Australian cities",
+    "instruction": " The diagrams below give information about two road tunnels in two Australian cities. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/22_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "More and more students are choosing to study at colleges and universities in a foreign country. Do the benefits of studying abroad outweigh the drawbacks?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

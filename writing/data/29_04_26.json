@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The changes in the map of a park since 1980",
+    "instruction": "The maps below show the changes in the map of a park since 1980. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/29_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "The crime rate nowadays is decreasing compared to the past due to advanced technology which can prevent and solve the crime. Do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

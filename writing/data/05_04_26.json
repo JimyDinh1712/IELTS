@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of households in one country that had various goods between 2001 and 2008",
+    "instruction": "The graph shows the percentage of households in one country that had various goods between 2001 and 2008. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/05_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some think scientists should be allowed to send messages into space to communicate with other life forms while others believe this is too dangerous. Discuss both sides and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

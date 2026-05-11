@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The layout of part of a building, indicating the position of the fire exits",
+    "instruction": "The diagram shows the layout of part of a building, indicating the position of the fire exits. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/18_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Nowadays, many people decide to have their first child in their later life. What are the reasons? Do you think the advantages of this outweigh the disadvantages?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The situation of marriage and age from 1960 to 2000 in Australia",
+    "instruction": "The table below gives information about the situation of marriage and age from 1960 to 2000 in Australia. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/04_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Fewer students are studying science at school and university, favoring more computer-based subjects instead. What are the reasons for this? Is this a positive or negative development?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

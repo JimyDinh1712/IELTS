@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The changes of an office building between the present and the future",
+    "instruction": "The maps show the changes of an office building between the present and the future. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/24_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "The advantages of the spread of English as a global language will continue to outweigh its disadvantages. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

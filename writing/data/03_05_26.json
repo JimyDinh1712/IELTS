@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The fruit produced in four countries from 1970 to 2010",
+    "instruction": "The graph shows the amount of fruit produced in four countries (France, Spain, Germany, Turkey) from 1970 to 2010. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/03_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some countries spend a lot of money preparing competitors to take part in major competitions such as Olympic Games or football World Cup. Some people say that it would be better to spend this money encouraging children to take up sports from a young age. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

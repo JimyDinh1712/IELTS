@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Information about spending on health in five different countries in 2002",
+    "instruction": "The table below shows information about spending on health in five different countries in 2002. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/04_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "In this technological era, personal information is held on computers by many companies and organizations. Do you think the advantages outweigh the disadvantages?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

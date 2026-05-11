@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "A school library 5 years ago and the same library now",
+    "instruction": "The plans show a school library 5 years ago and the same library now. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/27_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Nowadays, sports is a big business with high earnings for professional sports people and companies involved both financially and other ways. Is this a positive or negative development for sports?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

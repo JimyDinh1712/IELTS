@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The room layouts for training session for up ten people and more than ten peoples",
+    "instruction": "The plans show the room layouts for training session for up ten people and more than ten people. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/12_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "The best way to solve the traffic and transportation problem is to encourage people to live in cities rather than suburbs or the countryside. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

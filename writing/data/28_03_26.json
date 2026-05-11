@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The proportion of renewable energy in total energy supply in 4 countries from 1997 to 2010",
+    "instruction": "The chart shows the proportion of renewable energy in total energy supply in 4 countries from 1997 to 2010. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/28_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Experts say that if old people spend time, get along with others and exercise every day, they will be healthier and happier. However, many elderly people are suffering from loneliness and a lack of fitness. Discuss the causes and solutions.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The site of a farm in 1950 and the same site today",
+    "instruction": "The plans below show the site of a farm in 1950 and the same site today. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/15_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some school leavers go travelling or work for a period of time instead of going directly to university. Do you think this has more advantages or disadvantages for their study?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

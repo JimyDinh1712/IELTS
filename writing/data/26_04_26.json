@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The steps and tools involved in the production of olive oil",
+    "instruction": "The diagram illustrates the steps and tools involved in the production of olive oil. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/26_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Young people who commit crimes should be treated the same way as adults. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

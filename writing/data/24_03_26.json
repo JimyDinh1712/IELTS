@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Carbon emissions from three fossil fuels",
+    "instruction": "The graph below shows the three different kinds of emission sources (oil / coal / gas) of greenhouse gas in the UK. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/24_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "The availability of entertainment such as video games on handheld devices are harmful to individuals and to the society, they live in. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The number of international students from different resource countries in Canada and the USA in two school years",
+    "instruction": "The two tables below show the number of international students from different resource countries in Canada and the USA in two school years. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/28_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Nowadays celebrities are more famous for their glamour and wealth than for their achievements, and this sets a bad example to young people. To what extent do you agree or disagree with this statement?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

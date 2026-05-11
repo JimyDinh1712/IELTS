@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The Price in Euros of 800 grams of four typesof bread in one European country from 2001 to 2006",
+    "instruction": "The chart below shows the price in Euros of 800 grams of four types of bread in one European country from 2001 to 2005. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/13_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "It is suggested that everyone should have a car, a TV and a fridge. Do the disadvantages of this development for society outweigh the advantages?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "task1": {
+    "title": "The Australian school leaversdid immediately after leaving secondary school",
+    "instruction": "The charts show the Australian school leavers did immediately after leaving secondary school. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/07_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "title": "Environmental Protection",
+    "instruction": "In some countries, it is possible for people to have a variety of food that has been transported from all over the world. Do the advantages outweigh the disadvantages?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

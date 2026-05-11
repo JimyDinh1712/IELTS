@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of British households that had various items in 2001 and 2008",
+    "instruction": "The chart below illustrates the percentage of British households that had various items in 2001 and 2008. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/14_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Individuals can do nothing to improve the environment; only governments and large companies can make a difference. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

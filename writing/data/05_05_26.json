@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of the population and the types of houses",
+    "instruction": "The table below shows the percentage of the population and the types of houses they live in 3 areas of a city. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/05_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": " Many people think cheap air travel should be encouraged because it gives ordinary people freedom to travel further. However, other think this leads to environmental problem, so air travel should be more expensive in order to discourage people from having it. Discuss both views and give your opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

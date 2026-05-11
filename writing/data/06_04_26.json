@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Water use for different purposes in four countries",
+    "instruction": "The table below shows water use for different purposes in four countries. The use of water by four different countries (%). Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/06_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "In many countries, people now wear western-stlyle dress such as suits and jeans rather than traditional clotithing. Why is this? Is this a positive or negative development?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

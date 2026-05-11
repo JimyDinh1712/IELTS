@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The number of immigrants to three countries from 1990 to 2001",
+    "instruction": "The graph below shows the number of immigrants to three countries from 1990 to 2001. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/22_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some believe that economic progress is the only way to measure a country's success, while others believe that other factors can be used to measure a country's success. What are these factors? Which factors do you consider most important?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

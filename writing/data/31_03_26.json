@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of male and female workers in country A and country B",
+    "instruction": "The charts below show the percentage of male and female workers in country A and country B. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/31_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "In many parts of the world, people now often throw things away when they are broken and buy new ones, whereas in the past broken things were repaired and used again. Why do you think this is the case? What problems may it lead to?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

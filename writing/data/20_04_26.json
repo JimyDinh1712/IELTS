@@ -1,0 +1,16 @@
+{
+  "task1": {
+    "title": "Student common room",
+    "instruction": "The plans show a student common room from five years ago and now. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/20_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "title": "Environmental Protection",
+    "instruction": "Some people believe that sports competitions are a source of emotional stress for young people. Therefore, youth should be banned from participating in sports competitions. Do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

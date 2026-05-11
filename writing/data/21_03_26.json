@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The questionnaire about opinions of club members and general public for the new theatre in one town in 2012",
+    "instruction": "The table below shows the questionnaire about opinions of club members and general public for the new theatre in one town in 2012. Summarize the information by selecting and reporting the main features and make comparisons where relevant",
+    "imagePath": "data/21_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "It is not necessary to travel to other places to learn the culture of other people. We can learn just as much from books, films and the internet. Do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

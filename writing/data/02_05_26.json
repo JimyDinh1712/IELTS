@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The structure of a home smokery ",
+    "instruction": "The diagram below shows the structure of a home smokery and how it is used. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/02_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Regarding environmental issues, some people believe they are too vast for individuals to tackle. Conversely, others argue that these problems cannot be solved unless individuals take action. Discuss both views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

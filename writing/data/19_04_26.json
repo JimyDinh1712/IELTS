@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of people unemployed in the total labour work force across 9 countries in 1994 and 2004",
+    "instruction": "The graph below shows the percentage of people unemployed in the total labour work force across 9 countries in 1994 and 2004. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/19_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "More and more universities are replacing face-to-face teaching with online courses. Do you think this is a positive or negative development?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Players of electronic games in South Korea in 2003",
+    "instruction": "The charts below give information about players of electronic games in South Korea in 2003. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/30_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Housing shortages in big cities can cause severe social consequences. Some people think only government action can solve this problem. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The charts below show the performance of a bus company in terms of punctuality, both actual and target (what actually happened compared to what the company was trying to achieve), and the number of complaints and passengers. Summarize the information by selecting and reporting the main features and make comparisons where relevant",
+    "imagePath": "data/03_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": " It is the responsibility of schools to teach children good behaviour in addition to providing formal education. To what extent do you agree or disagree?",
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

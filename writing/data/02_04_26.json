@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "A proposed new town",
+    "instruction": "The map below shows the plan of a proposed new town. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/02_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think that the main benefit of international cooperation is in the protection of the environment, while others believe that the main interest is in world business. Discuss both views and give your opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Southside, a shopping mall, as it is now and plans for its development",
+    "instruction": "The maps show Southside, a shopping mall, as it is now and plans for its development. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/09_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "The best way to make the road transport of goods safer is to ask drivers to take a driving test each year. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

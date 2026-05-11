@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of household with different kinds of technology in the USA from 1995 to 1999",
+    "instruction": "The graph below shows the percentage of household with different kinds of technology in the USA from 1995 to 1999. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/17_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think that the best way to improve road safety is to increase the minimum legal age for driving a car or motorbike. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

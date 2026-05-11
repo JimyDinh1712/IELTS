@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The amount of tea and coffee imported by four different countries",
+    "instruction": "The graph below shows the amount of tea and coffee imported by four different countries. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/01_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Nowadays, children spend a lot of time watching TV and playing computer games. Some people believe this has negative effects on children’s mental abilities. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

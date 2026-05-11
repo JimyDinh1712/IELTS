@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The total percentage of GDP spent on healthcare, with a breakdown into public and private spending in five different countries",
+    "instruction": "The table shows the total percentage of GDP spent on healthcare, with a breakdown into public and private spending in five different countries. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/13_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Ambition is a positive quality for people to have in society today. How important is it for people who want to succeed in life? Is it a positive or negative characteristic?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

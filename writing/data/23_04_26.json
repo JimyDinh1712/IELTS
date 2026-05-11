@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The amount of waste production",
+    "instruction": "The table below shows the amount of waste production (in millions of tonnes) in six different countries over a twenty-year period. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/23_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "In many countries, shops open for longer hours daily every week. What are the negative or positive effects of this on the shoppers and the local community?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

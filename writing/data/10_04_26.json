@@ -1,0 +1,16 @@
+{
+  "task1": {
+    "title": "The information about international conferences",
+    "instruction": "The graph shows the information about international conferences in three capital cities from 1980 to 2010. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/10_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "title": "Environmental Protection",
+    "instruction": "Human activity has harmed plants and animals around the world. Some people think that this cannot be changed, while others believe actions can be taken to bring about a change. Discuss both views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

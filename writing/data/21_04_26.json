@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The design of a modern landfill for household waste",
+    "instruction": "The process shows the design of a modern landfill for household waste. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/21_04_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Nowadays more and more people want to get things done instantly (services, information, tasks). Why is this? Do you think this is a positive or negative development?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The annual pay (thousands of US dollars) for doctors and other workers in seven countries in 2004",
+    "instruction": "The chart below shows the annual pay (thousands of US dollars) for doctors and other workers in seven countries in 2004. Summarize the information by selecting the key feature and make comparison where relevant.",
+    "imagePath": "data/25_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some children nowadays take sports seriously while others play sports in their free time. Is this a positive or negative development?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

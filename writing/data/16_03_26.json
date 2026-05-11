@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The average daily water consumption (in liters) per person in five different countries in 2010 and 2020",
+    "instruction": "The bar chart below illustrates the average daily water consumption (in liters) per person in five different countries in 2010 and 2020. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/16_03_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Fewer and fewer people today write by hand using a pen, a pencil, or a brush. What are the reasons for this? Is the decline in writing by hand a positive or negative development?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}
