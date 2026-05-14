@@ -1,0 +1,515 @@
+/* IELTS Exam Interface - Thiết kế bởi JIM */
+:root {
+    --header-bg: #404040;
+    --sub-header: #f0f2f5;
+    --border-color: #b0c4de;
+    --ielts-blue: #2b5a84;
+    --hover-bg: #e8f0fe;
+    --white: #ffffff;
+    --danger: #e74c3c;
+    --text-dark: #333333;
+    --dot-idle: #444444;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--white);
+    overflow: hidden;
+}
+
+/* --- Layout chính --- */
+.test-header {
+    background: var(--header-bg);
+    color: #fff;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.test-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    margin-bottom: 60px; /* Chừa chỗ cho fixed footer */
+}
+
+.pane {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px 30px;
+}
+
+/* --- Reading Pane --- */
+#reading-pane { 
+    border-right: 2px solid var(--border-color); 
+    text-align: justify; 
+    line-height: 1.6;
+   /*  color: var(--text-dark); */
+}
+
+/* --- Instruction Box --- */
+.instruction-box {
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    padding: 10px 15px; 
+    margin-bottom: 15px; /* Tăng khoảng cách với câu hỏi đầu tiên */
+    border: 1px solid #eef0f2;
+}
+
+.instruction-box h3 {
+    font-size: 1.1rem;
+    font-weight: 650;
+    margin: 0 0 5px 0;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: #000;
+}
+
+.instruction-box .ins-text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #444;
+    margin: 0;
+font-weight: 500;
+}
+
+/* --- MCQ SIMPLE (Matching, YES/NO/NG) --- */
+.q-mcq-row {
+    padding: 10px 0; /* Tách khoảng cách giữa các hàng câu hỏi */
+    border-bottom: 1px dashed #eee;
+    margin-bottom: 2px;
+}
+
+.question-row {
+    display: flex;
+    justify-content: space-between; /* Đẩy chữ sang trái, nút sang phải */
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.question-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    flex: 1;
+}
+
+.options-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Tự động xuống dòng nếu có quá nhiều nút (A-G) */
+    padding-left: 30px; /* Lùi lề vào để thẳng hàng với nội dung sau số câu */
+    gap: 8px;
+    flex-wrap: nowrap; /* Không cho phép xuống dòng để giữ hàng thẳng */
+}
+
+.option-box {
+    border: 1px solid #d1d5db;
+    background: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    min-width: 35px;
+    text-align: center;
+}
+
+.option-box.active {
+    background: var(--ielts-blue) !important;
+    color: white !important;
+}
+
+/* --- MCQ FULL (Multiple Choice A,B,C,D câu dài) --- */
+.q-mcq-full-row {
+    margin-bottom: 40px; /* Tách biệt rõ rệt giữa câu 14, 15... */
+    padding: 10px 0;
+}
+
+.question-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Khoảng cách giữa các lựa chọn A, B, C, D */
+}
+
+.option-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.option-item:hover { background-color: var(--sub-header); }
+
+.option-item.active {
+    background-color: var(--ielts-blue);
+    color: white;
+    border-color: var(--ielts-blue);
+}
+
+.mcq-option:hover { background-color: var(--sub-header); }
+
+.mcq-option.active {
+    background-color: var(--ielts-blue);
+    border-color: var(--ielts-blue);
+    color: white;
+}
+
+.opt-letter { font-weight: bold; margin-right: 12px; min-width: 20px; }
+
+/* --- Word List Box (Matching Features) --- */
+.word-list-box {
+    margin: 15px 0 0 0;
+    padding: 15px;
+    border: 2px solid #444;
+font-weight: 600;
+    line-height: 1.2;
+}
+
+/* --- Gap Filling --- */
+.question-group {
+    line-height: 2.0; /* Tăng để các ô input không đè lên nhau */
+    margin-bottom: 30px;
+	text-align: justify;
+}
+
+.fill-gap-wrapper {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 4px;
+}
+
+.q-input {
+    border: 1px solid #767676;
+    padding: 2px 5px;
+    width: 140px;
+    height: 24px;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+.q-input:focus { border: 2px solid var(--ielts-blue); }
+.reading-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Tiêu đề của đoạn Summary/Gap Fill */
+.gap-fill-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    text-transform: uppercase; /* Thường đề thi sẽ viết hoa tiêu đề này */
+}
+/* --- Footer & Navigation --- */
+.test-footer {
+    background: #e0e0e0;
+    border-top: 1px solid #bcbcbc;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navigation-bar { display: flex; align-items: center; gap: 20px; }
+
+.part-group { display: flex; align-items: center; gap: 10px; }
+
+.part-label { font-weight: 800; font-size: 0.8rem; color: #000;text-align: center; }
+
+.dots-container { display: flex; gap: 3px; }
+
+.dot {
+    width: 26px;
+    height: 26px;
+    background: #444;
+    color: white;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.dot.answered { background: var(--ielts-blue); border-color: var(--ielts-blue); }
+
+/* --- Components khác --- */
+.btn-submit {
+    background-color: var(--danger);
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+
+.part-banner {
+    background-color: #f0f2f5;
+  padding: 0 0 0 30px;
+    border-bottom: 3px solid #cedee7;
+    text-align: left;
+}
+
+.part-banner #current-part-label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+/* Màu sắc cho chế độ Review Answer */
+.dot.correct {
+    background-color: #28a745 !important; /* Xanh lá */
+    border-color: #28a745 !important;
+}
+
+.dot.incorrect {
+    background-color: #dc3545 !important; /* Đỏ */
+    border-color: #dc3545 !important;
+}
+/* --- Logic Highlight & Context Menu --- */
+.highlight {
+    background-color: #ffeb3b !important;
+    color: #000 !important;
+    padding: 2px 0;
+}
+
+/* Menu chuột phải tùy chỉnh */
+.context-menu {
+    display: none;
+    position: absolute;
+    z-index: 10000;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    min-width: 120px;
+    overflow: hidden;
+}
+
+.context-menu button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit;
+    transition: background 0.2s;
+}
+
+.context-menu button:hover {
+    background-color: #f0f2f5;
+}
+
+.context-menu button:first-child {
+    border-bottom: 1px solid #eee;
+    font-weight: 600;
+    color: var(--ielts-blue);
+}
+/* screen size & background */
+.accessibility-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.font-controls button {
+    background: #555;
+    color: white;
+    border: 1px solid #777;
+    padding: 2px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.theme-controls {
+    display: flex;
+    gap: 5px;
+}
+
+.theme-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.theme-white { background: #ffffff; }
+.theme-sepia { background: #f4ecd8; }
+.theme-dark { background: #1a1a1a; }
+
+/* Các Class Theme thực thi */
+body.theme-sepia {
+    background-color: #f4ecd8 !important;
+}
+body.theme-sepia .pane {
+    background-color: #f4ecd8;
+    color: #5b4636;
+}
+
+body.theme-dark {
+    background-color: #342929 !important;
+}
+body.theme-dark .pane {
+    background-color: #1f1b1b;
+    color: #f0eaea;
+}
+body.theme-dark .instruction-box {
+    background-color: #100101;
+    border-color: #444;
+    color: #f5f1f1;
+}
+
+body.theme-dark .instruction-box h3 { color: #fff; }
+/* Khung Matching Features - Style IELTS chuẩn */
+.matching-features-box {
+    background-color: #f8fafc; /* Màu nền xám xanh nhạt rất dịu mắt */
+    border: 2px solid #2b5a84; /* Viền xanh chuẩn màu IELTS của anh */
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.matching-features-title {
+    background-color: #2b5a84;
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.matching-features-content {
+    padding: 15px;
+    line-height: 1.6;
+    font-style: italic;
+    color: #334155;
+    white-space: pre-line; /* Để xuống dòng đúng theo wordlist anh dán vào */
+        font-weight: 600;
+}
+/* Style cho dạng chọn list */
+.multiple-choice-standard .option-box {
+    margin-bottom: 5px;
+    transition: all 0.2s ease;
+}
+
+/* Đảm bảo class này được định nghĩa rõ ràng */
+.preview-panel {
+    flex: 1; 
+    padding: 25px; 
+    overflow-y: auto; 
+    background: #fdfdfd; 
+    display: block !important; /* Đảm bảo panel luôn hiện */
+}
+
+/* Style cho các nhóm câu hỏi hiển thị trong dashboard */
+.preview-group-item {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.preview-q-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+/* Đảm bảo mỗi câu hỏi là một khối độc lập */
+.question-block {
+    display: block !important;
+    width: 100%;
+    clear: both;
+}
+
+/* Style cho các nút bấm khi được chọn */
+.option-box.active {
+    background-color: var(--ielts-blue) !important;
+    color: white !important;
+    border-color: var(--ielts-blue) !important;
+}
+
+/* Hiệu ứng hover cho chuyên nghiệp */
+.option-box:hover {
+    background-color: #f0f7ff;
+    border-color: var(--ielts-blue);
+}
+.q-select {
+    outline: none;
+    transition: all 0.2s;
+}
+.q-select:hover {
+    border-color: #1a3a5a;
+    background-color: #fff9c4;
+}
+/* Khi đã chọn đáp án thì đổi màu nhẹ để dễ nhận biết */
+.q-select:not([value=""]) {
+    border-color: #2b5a84;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+/*background-color: #000; /* Nền đen */
+   /*  color: #fff; /* Chữ trắng */
+    border: 3px solid #1a3a5a; /* Viền ngoài màu vàng Gold */
+}
+
+th {
+    
+    border-bottom: 2px solid #1a3a5a;
+    /* color: #d4af37; background-color: #1a1a1a; */
+    padding: 12px;
+}
+
+td {
+    border-bottom: 1px solid #333; /* Viền ngăn cách hàng mảnh */
+    padding: 10px;
+}
+
+/* Hiệu ứng di chuột vào hàng */
+tr:hover {
+    background-color: #a6c1d5;
+}
