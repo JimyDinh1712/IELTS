@@ -1,0 +1,365 @@
+{
+  "testTitle": "IELTS Cam 15 Test 3",
+  "passages": [
+    {
+      "passageNumber": 1,
+      "title": "Henry Moore (1898-1986)",
+      "content": "The British sculptor Henry Moore was a leading figure in the 20th-century art world<br><br>Henry Moore was born in Castleford, a small town near Leeds in the north of England. He was the seventh child of Raymond Moore and his wife Mary Baker. He studied at Castleford Grammar School from 1909 to 1915, where his early interest in art was encouraged by his teacher Alice Gostick. After leaving school, Moore hoped to become a sculptor, but instead he complied with his father’s wish that he train as a schoolteacher. He had to abandon his training in 1917 when he was sent to France to fight in the First World War.<br><br>After the war, Moore enrolled at the Leeds School of Art, where he studied for two years. In his first year, he spent most of his time drawing. Although he wanted to study sculpture, no teacher was appointed until his second year. At the end of that year, he passed the sculpture examination and was awarded a scholarship to the Royal College of Art in London. In September 1921, he moved to London and began three years of advanced study in sculpture.<br><br>Alongside the instruction he received at the Royal College, Moore visited many of the London museums, particularly the British Museum, which had a wide-ranging collection of ancient sculpture. During these visits, he discovered the power and beauty of ancient Egyptian and African sculpture. As he became increasingly interested in these ‘primitive’ forms of art, he turned away from European sculptural traditions.<br><br>After graduating, Moore spent the first six months of 1925 travelling in France. When he visited the Trocadero Museum in Paris, he was impressed by a cast of a Mayan* sculpture of the rain spirit. It was a male reclining figure with its knees drawn up together, and its head at a right angle to its body. Moore became fascinated with this stone sculpture, which he thought had a power and originality that no other stone sculpture possessed. He himself started carving a variety of subjects in stone, including depiction of reclining women, mother-and-child groups, and masks.<br><br>Moore’s exceptional talent soon gained recognition, and in 1926 he started work as a sculpture instructor at the Royal College. In 1933, he became a member of a group of young artists called Unit One. The aim of the group was to convince the English public of the merits of the emerging international movement in modern art and architecture.<br><br>Around this time, Moore moved away from the human figure to experiment with abstract shapes. In 1931, he held an exhibition at the Leicester Galleries in London. His work was enthusiastically welcomed by fellow sculptors, but the reviews in the press were extremely negative and turned Moore into a notorious figure. There were calls for his resignation from the Royal College, and the following year, when his contract expired, he left to start a sculpture department at the Chelsea School of Art in London.<br><br>Throughout the 1930s, Moore did not show any inclination to please the British public. He became interested in the paintings of the Spanish artist Pablo Picasso, whose work inspired him to distort the human body in a radical way. At times, he seemed to abandon the human figure altogether. The pages of his sketchbooks from this period show his ideas for abstract sculptures that bore little resemblance to the human form.<br><br>In 1940, during the Second World War, Moore stopped teaching at the Chelsea School and moved to a farmhouse about 20 miles north of London. A shortage of materials forced him to focus on drawing. He did numerous small sketches of Londoners, later turning these ideas into large coloured drawings in his studio. In 1942, he returned to Castleford to make a series of sketches of the miners who worked there.<br><br>In 1944, Harlow, a town near London, offered Moore a commission for a sculpture depicting a family. The resulting work signifies a dramatic change in Moore’s style, away from the experimentation of the 1930s towards a more natural and humanistic subject matter. He did dozens of studies in clay for the sculpture, and these were cast in bronze and issued in editions of seven to nine copies each. In this way, Moore’s work became available to collectors all over the world. The boost to his income enabled him to take on ambitious projects and start working on the scale he felt his sculpture demanded.<br><br>Critics who had begun to think that Moore had become less revolutionary were proven wrong by the appearance, in 1950, of the first of Moore’s series of standing figures in bronze, with their harsh and angular pierced forms and distinct impression of menace. Moore also varied his subject matter in the 1950s with such works as Warrior with Shield and Falling Warrior. These were rare examples of Moore’s use of the male figure and owe something to his visit to Greece in 1951, when he had the opportunity to study ancient works of art.<br><br>In his final years, Moore created the Henry Moore Foundation to promote art appreciation and to display his work. Moore was the first modern English sculptor to achieve international critical acclaim and he is still regarded as one of the most important sculptors of the 20th century.<br><br>—<br><br>*Mayan: belonging to an ancient civilisation that inhabited parts of current-day Mexico, Guatemala, Belize, El Salvador and Honduras.",
+      "questions": [
+        {
+          "from": 1,
+          "to": 7,
+          "type": "tfng",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage?<br><br><strong>TRUE</strong> if the statement agrees with the information<br><strong>FALSE</strong> if the statement contradicts the information<br><strong>NOT GIVEN</strong> if there is no information on this",
+          "content": "1   On leaving school, Moore did what his father wanted him to do.<br><br>2   Moore began studying sculpture in his first term at the Leeds School of Art.<br><br>3   When Moore started at the Royal College of Art, its reputation for teaching sculpture was excellent.<br><br>4   Moore became aware of ancient sculpture as a result of visiting London Museums.<br><br>5   The Trocadero Museum’s Mayan sculpture attracted a lot of public interest.<br><br>6   Moore thought the Mayan sculpture was similar in certain respects to other stone sculptures.<br><br>7   The artists who belonged to Unit One wanted to make modern art and architecture more popular.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "text": "On leaving school, Moore did what his father wanted him to do."
+            },
+            {
+              "id": 2,
+              "text": "Moore began studying sculpture in his first term at the Leeds School of Art."
+            },
+            {
+              "id": 3,
+              "text": "When Moore started at the Royal College of Art, its reputation for teaching sculpture was excellent."
+            },
+            {
+              "id": 4,
+              "text": "Moore became aware of ancient sculpture as a result of visiting London Museums."
+            },
+            {
+              "id": 5,
+              "text": "The Trocadero Museum’s Mayan sculpture attracted a lot of public interest."
+            },
+            {
+              "id": 6,
+              "text": "Moore thought the Mayan sculpture was similar in certain respects to other stone sculptures."
+            },
+            {
+              "id": 7,
+              "text": "The artists who belonged to Unit One wanted to make modern art and architecture more popular."
+            }
+          ]
+        },
+        {
+          "from": 8,
+          "to": 13,
+          "type": "form",
+          "instruction": "Complete the notes below.  Choose ONE WORD ONLY from the passage for each answer.",
+          "heading": "Moore’s career as an artist",
+          "content": "<strong>1930s</strong><br>●   Moore’s exhibition at the Leicester Galleries is criticised by the press<br>●   Moore is urged to offer his <strong>(8)</strong>  and leave the Royal College.<br><strong>1940s</strong><br>●   Moore turns to drawing because <strong>(9)</strong>  for sculpting are not readily available<br>●   While visiting his hometown, Moore does some drawings of <strong>(10)</strong> <br>●   Moore is employed to produce a sculpture of a <strong>(11)</strong> <br>●   <strong>(12)</strong>  start to buy Moore’s work<br>●   Moore’s increased <strong>(13)</strong>  makes it possible for him to do more ambitious sculptures<br><strong>1950s</strong><br>●   Moore’s series of bronze figures marks a further change in his style",
+          "questions": [
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            },
+            {
+              "id": 11,
+              "isGap": true
+            },
+            {
+              "id": 12,
+              "isGap": true
+            },
+            {
+              "id": 13,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "title": "The Desolenator: producing clean water",
+      "content": "A<br><br>Travelling around Thailand in the 1990s, William Janssen was impressed with the basic rooftop solar heating systems that were on many homes, where energy from the sun was absorbed by a plate and then used to heat water for domestic use. Two decades later Janssen developed that basic idea he saw in Southeast Asia into a portable device that uses the power from the sun to purify water.<br><br>B<br><br>The Desolenator operates as a mobile desalination unit that can take water from different places, such as the sea, rivers, boreholes and rain, and purify it for human consumption. It is particularly valuable in regions where natural groundwater reserves have been polluted, or where seawater is the only water source available.<br><br>Janssen saw that there was a need for a sustainable way to clean water is both the developing and the developed countries when he moved to the United Arab Emirates and saw large-scale water processing. ‘I was confronted with the enormous carbon footprint that the Gulf nations have because of all of the desalination that they do,’ he says.<br><br>C<br><br>The Desolenator can produce 15 litres of drinking water per day, enough to sustain a family for cooking and drinking. Its main selling point is that unlike standard desalination techniques, it doesn’t require a generated power supply: just sunlight. It measures 120 cm by 90 cm, and it easy to transport, thanks to its two wheels. Water enters through a pipe, and flows as a thin film between a sheet of double glazing and the surface of a solar panel, where it is heated by the sun. the warm water flows into a small boiler (heated by a solar-powered battery) where it is converted to steam. When the steam cools, it becomes distilled water. The device has a very simple filter to trap particles, and this can easily be shaken to remove them. There are two tubes for liquid coming out: one for the waste – salt from seawater, fluoride, etc. – and another for the distilled water. The performance of the unit is shown on an LCD screen and transmitted to the company which provides servicing when necessary.<br><br>D<br><br>A recent analysis found that at least two-thirds of the world’s population lives with severe water scarcity for at least a month every year. Janssen says that be 2030 half of the world’s population will be living with water stress – where the demand exceeds the supply over a certain period of time. ‘It is really important that a sustainable solution is brought to the market that is able to help these people,’ he says. Many countries ‘don’t have the money for desalination plants, which are very expensive to build. They don’t have the money to operate them, they are very maintenance intensive, and they don’t have the money to buy the diesel to run the desalination plants, so it is a really bad situation.’<br><br>E<br><br>The device is aimed at a wide variety of users – from homeowners in the developing world who do not have a constant supply of water to people living off the grid in rural parts of the US. The first commercial versions of the Desolenator are expected to be in operation in India early next year, after field tests are carried out. The market for the self-sufficient devices in developing countries is twofold – those who cannot afford the money for the device outright and pay through microfinance, and middle-income homes that can lease their own equipment. ‘People in India don’t pay for a fridge outright; they pay for it over six months. They would put the Desolenator on their roof and hook it up to their municipal supply and they would get very reliable drinking water on a daily basis,’ Janssen says. In the developed world, it is aimed at niche markets where tap water is unavailable – for camping, on boats, or for the military, for instance.<br><br>F<br><br>Prices will vary according to where it is bought. In the developing world, the price will depend on what deal aid organisations can negotiate. In developed countries, it is likely to come in at $1,000 (£685) a unit, said Janssen. ‘We are a venture with a social mission. We are aware that the product we have envisioned is mainly finding application in the developing world and humanitarian sector and that this is the way we will proceed. We do realise, though, that to be a viable company there is a bottom line to keep in mind,’ he says.<br><br>G<br><br>The company itself is based at Imperial College London, although Janssen, its chief executive, still lives in the UAE. It has raised £340,000 in funding so far. Within two years, he says, the company aims to be selling 1,000 units a month, mainly in the humanitarian field. They are expected to be sold in areas such as Australia, northern Chile, Peru, Texas and California.",
+      "questions": [
+        {
+          "from": 14,
+          "to": 20,
+          "type": "wordlist",
+          "instruction": "Reading Passage 2 has nine paragraphs, A-H  Choose the correct heading for each section from the list of headings below",
+          "heading": "",
+          "wordlistName": "List of Headings",
+          "options": [
+            "i           Getting the finance for production",
+            "ii          An unexpected benefit",
+            "iii         From initial inspiration to new product",
+            "iv         The range of potential customers for the device",
+            "v          What makes the device different from alternatives",
+            "vi         Cleaning water from a range of sources",
+            "vii        Overcoming production difficulties",
+            "viii       Profit not the primary goal",
+            "ix         A warm welcome for the device",
+            "x          The number of people affected by water shortages"
+          ],
+          "content": "14   Section A<br>15   Section B<br>16   Section C<br>17   Section D<br>18   Section E<br>19   Section F<br>20   Section G",
+          "questions": [
+            {
+              "id": 14,
+              "isGap": true
+            },
+            {
+              "id": 15,
+              "isGap": true
+            },
+            {
+              "id": 16,
+              "isGap": true
+            },
+            {
+              "id": 17,
+              "isGap": true
+            },
+            {
+              "id": 18,
+              "isGap": true
+            },
+            {
+              "id": 19,
+              "isGap": true
+            },
+            {
+              "id": 20,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 21,
+          "to": 26,
+          "type": "form",
+          "instruction": "Complete the summary below.  Choose ONE WORD ONLY from the passage for each answer.",
+          "heading": "How the Desolenator works",
+          "content": "The energy required to operate the Desolenator comes from sunlight. The device can be used in different locations, as it has <strong>(21)</strong>  . Water is fed into a pipe, and a <strong>(22)</strong>  of water flows over a solar panel. The water then enters a boiler, where it turns into steam. Any particles in the water are caught in a <strong>(23)</strong>  . The purified water comes out through one tube, and all types of <strong>(24)</strong>  come out through another. A screen displays the <strong>(25)</strong>  of the device, and transmits the information to the company so that they know when the Desolenator requires <strong>(26)</strong>  .",
+          "questions": [
+            {
+              "id": 21,
+              "isGap": true
+            },
+            {
+              "id": 22,
+              "isGap": true
+            },
+            {
+              "id": 23,
+              "isGap": true
+            },
+            {
+              "id": 24,
+              "isGap": true
+            },
+            {
+              "id": 25,
+              "isGap": true
+            },
+            {
+              "id": 26,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "title": "Why fairy tales are really scary tales",
+      "content": "Some people think that fairy tales are just stories to amuse children, but their universal and enduring appeal may be due to more serious reasons<br><br>People of every culture tell each other fairy tales but the same story often takes a variety of forms in different parts of the world. In the story of Little Red Riding Hood that European children are familiar with, a young girl on the way to see her grandmother meets a wolf and tells him where she is going. The wolf runs on ahead and disposes of the grandmother, then gets into bed dressed in the grandmother’s clothes to wait for Little Red Riding Hood. You may think you know the story – but which version? In some versions, the wolf swallows up the grandmother, while in others it locks her in a cupboard. In some stories Red Riding Hood gets the better of the wolf on her own, while in others a hunter or a woodcutter hears her cries and comes to her rescue.<br><br>The universal appeal of these tales is frequently attributed to the idea that they contain cautionary messages: in the case of Little Red Riding Hood, to listen to your mother, and avoid talking to strangers. ‘It might be what we find interesting about this story is that it’s got this survival-relevant information in it,’ says anthropologist Jamie Tehrani at Durham University in the UK. But his research suggests otherwise. ‘We have this huge gap in our knowledge about the history and prehistory of storytelling, despite the fact that we know this genre is an incredibly ancient one,’ he says. That hasn’t stopped anthropologists, folklorists* and other academics devising theories to explain the importance of fairy tales in human society. Now Tehrani has found a way to test these ideas, borrowing a technique from evolutionary biologists.<br><br>To work out the evolutionary history, development and relationships among groups of organisms, biologists compare the characteristics of living species in a process called ‘phylogenetic analysis’. Tehrani has used the same approach to compare related versions of fairy tales to discover how they have evolved and which elements have survived longest.<br><br>Tehrani’s analysis focused on Little Red Riding Hood in its many forms, which include another Western fairy tale known as The Wolf and the Kids. Checking for variants of these two tales and similar stories from Africa, East Asia and other regions, he ended up with 58 stories recorded from oral traditions. Once his phylogenetic analysis had established that they were indeed related, he used the same methods to explore how they have developed and altered over time.<br><br>First he tested some assumptions about which aspects of the story alter least as it evolves, indicating their importance. Folklorists believe that what happens in a story is more central to the story than the characters in it – that visiting a relative, only to be met by a scary animal in disguise, is more fundamental than whether the visitor is a little girl or three siblings, or the animal is a tiger instead of a wolf.<br><br>However, Tehrani found no significant difference in the rate of evolution of incidents compared with that of characters. ‘Certain episodes are very stable because they are crucial to the story, but there are lots of other details that can evolve quite freely,’ he says. Neither did his analysis support the theory that the central section of a story is the most conserved part. He found no significant difference in the flexibility of events there compared with the beginning or the end.<br><br>But the really big surprise came when he looked at the cautionary elements of the story. ‘Studies on hunter-gatherer folk tales suggest that these narratives include really important information about the environment and the possible dangers that may be faced there – stuff that’s relevant to survival,’ he says. Yet in his analysis such elements were just as flexible as seemingly trivial details. What, then, is important enough to be reproduced from generation to generation?<br><br>The answer, it would appear, is fear – blood-thirsty and gruesome aspects of the story, such as the eating of the grandmother by the wolf, turned out to be the best preserved of all. Why are these details retained by generations of storytellers, when other features are not? Tehrani has an idea: ‘In an oral context, a story won’t survive because of one great teller. It also needs to be interesting when it’s told by someone who’s not necessarily a great storyteller.’ Maybe being swallowed whole by a wolf, then cut out of its stomach alive is so gripping that it helps the story remain popular, no matter how badly it’s told.<br><br>Jack Zipes at the University of Minnesota, Minneapolis, is unconvinced by Tehrani’s views on fairy tales. ‘Even if they’re gruesome, they won’t stick unless they matter,’ he says. He believes the perennial theme of women as victims in stories like Little Red Riding Hood explains why they continue to feel relevant. But Tehrani points out that although this is often the case in Western versions, it is not always true elsewhere. In Chinese and Japanese versions, often known as The Tiger Grandmother, the villain is a woman, and in both Iran and Nigeria, the victim is a boy.<br><br>Mathias Clasen at Aarhus University in Denmark isn’t surprised by Tehrani’s findings. ‘Habits and morals change, but the things that scare us, and the fact that we seek out entertainment that’s designed to scare us – those are constant,’ he says. Clasen believes that scary stories teach us what it feels like to be afraid without having to experience real danger, and so build up resistance to negative emotions.<br><br>—-<br><br>*Folklorists: those who study traditional stories",
+      "questions": [
+        {
+          "from": 27,
+          "to": 31,
+          "type": "wordlist",
+          "instruction": "Complete each sentence with the correct ending, A-F, below.",
+          "heading": "",
+          "wordlistName": "List of Options",
+          "options": [
+            "A     may be provided through methods used in biological research.",
+            "B     are the reason for their survival.",
+            "C     show considerable global variation.",
+            "D     contain animals which transform to become humans.",
+            "E     were originally spoken rather than written.",
+            "F     have been developed without factual basis."
+          ],
+          "content": "27   In fairy tales, details of the plot<br>28   Tehrani rejects the idea that the useful lessons for life in fairy tales<br>29   Various theories about the social significance of fairy tales<br>30   Insights into the development of fairy tales<br>31   All the fairy tales analysed by Tehrani",
+          "questions": [
+            {
+              "id": 27,
+              "isGap": true
+            },
+            {
+              "id": 28,
+              "isGap": true
+            },
+            {
+              "id": 29,
+              "isGap": true
+            },
+            {
+              "id": 30,
+              "isGap": true
+            },
+            {
+              "id": 31,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 32,
+          "to": 36,
+          "type": "wordlist",
+          "instruction": "Complete the summary using the list of words, A-I, below.",
+          "heading": "Phylogenetic analysis of Little Red Riding Hood",
+          "wordlistName": "List of Options",
+          "options": [
+            "A     ending                 ",
+            " B     events                  ",
+            "C     warning",
+            "D     links                      ",
+            "E     records                ",
+            " F     variations",
+            "G     horror                  ",
+            " H     people                 ",
+            "I     plot"
+          ],
+          "content": "Tehrani used techniques from evolutionary biology to find out if <strong>(32)</strong>  existed among 58 stories from around the world. He also wanted to know which aspects of the stories had fewest <strong>(33)</strong> , as he believed these aspects would be the most important ones. Contrary to other beliefs, he found that some <strong>(34)</strong>  that were included in a story tended to change over time, and that the middle of a story seemed no more important than the other parts. He was also surprised that parts of a story which seemed to provide some sort of <strong>(35)</strong>  were unimportant. The aspect that he found most important in a story’s survival was <strong>(36)</strong> ",
+          "questions": [
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 37,
+          "to": 40,
+          "type": "mcqABCD",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "content": "<strong>37</strong>   What method did Jamie Tehrani use to test his ideas about fairy tales?<br>A   He compared oral and written forms of the same stories.<br>B   He looked at many different forms of the same basic story.<br>C   He looked at unrelated stories from many different countries.<br>D   He contrasted the development of fairy tales with that of living creatures.<br><strong>38</strong>   When discussing Tehrani’s views, Jack Zipes suggests that<br>A   Tehrani ignores key changes in the role of women.<br>B   stories which are too horrific are not always taken seriously.<br>C   Tehrani overemphasises the importance of violence in stories.<br>D   features of stories only survive if they have a deeper significance.<br><strong>39</strong>   Why does Tehrani refer to Chinese and Japanese fairy tales?<br>A   to indicate that Jack Zipes’ theory is incorrect<br>B   to suggest that crime is a global problem<br>C   to imply that all fairy tales have a similar meaning<br>D   to add more evidence for Jack Zipes’ ideas<br><strong>40</strong>   What does Mathias Clasen believe about fairy tales?<br>A   They are a safe way of learning to deal with fear.<br>B   They are a type of entertainment that some people avoid.<br>C   They reflect the changing values of our society.<br>D   They reduce our ability to deal with real-world problems.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 37,
+              "text": "What method did Jamie Tehrani use to test his ideas about fairy tales?",
+              "options": [
+                "A   He compared oral and written forms of the same stories.",
+                "B   He looked at many different forms of the same basic story.",
+                "C   He looked at unrelated stories from many different countries.",
+                "D   He contrasted the development of fairy tales with that of living creatures."
+              ]
+            },
+            {
+              "id": 38,
+              "text": "When discussing Tehrani’s views, Jack Zipes suggests that",
+              "options": [
+                "A   Tehrani ignores key changes in the role of women.",
+                "B   stories which are too horrific are not always taken seriously.",
+                "C   Tehrani overemphasises the importance of violence in stories.",
+                "D   features of stories only survive if they have a deeper significance."
+              ]
+            },
+            {
+              "id": 39,
+              "text": "Why does Tehrani refer to Chinese and Japanese fairy tales?",
+              "options": [
+                "A   to indicate that Jack Zipes’ theory is incorrect",
+                "B   to suggest that crime is a global problem",
+                "C   to imply that all fairy tales have a similar meaning",
+                "D   to add more evidence for Jack Zipes’ ideas"
+              ]
+            },
+            {
+              "id": 40,
+              "text": "What does Mathias Clasen believe about fairy tales?",
+              "options": [
+                "A   They are a safe way of learning to deal with fear.",
+                "B   They are a type of entertainment that some people avoid.",
+                "C   They reflect the changing values of our society.",
+                "D   They reduce our ability to deal with real-world problems."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "answers": {
+    "passage1": {
+      "1": "TRUE",
+      "2": "FALSE",
+      "3": "NOT GIVEN",
+      "4": "TRUE",
+      "5": "NOT GIVEN",
+      "6": "FALSE",
+      "7": "TRUE",
+      "8": "resignation",
+      "9": "materials",
+      "10": "miners",
+      "11": "family",
+      "12": "collectors",
+      "13": "income"
+    },
+    "passage2": {
+      "14": "iii",
+      "15": "vi",
+      "16": "v",
+      "17": "x",
+      "18": "iv",
+      "19": "viii",
+      "20": "i",
+      "21": "wheels",
+      "22": "filter",
+      "23": "waste",
+      "25": "performance",
+      "26": "servicing"
+    },
+    "passage3": {
+      "27": "C",
+      "28": "B",
+      "29": "F",
+      "30": "A",
+      "31": "E",
+      "32": "D",
+      "33": "F",
+      "34": "B",
+      "35": "C",
+      "36": "G",
+      "37": "B",
+      "38": "D",
+      "39": "A",
+      "40": "A"
+    }
+  }
+}
