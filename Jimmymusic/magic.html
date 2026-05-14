@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔮 Ảo Thuật Đoán Số Thiên Hà</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            
+            /* --- CẬP NHẬT HÌNH NỀN DẢI NGÂN HÀ MULTI-COLOR (MỚI) --- */
+            background-color: #000; /* Màu nền cơ bản */
+            background-image: 
+                /* Lớp 1: Tinh vân màu xanh tím ở góc dưới bên phải */
+                radial-gradient(circle at 80% 80%, rgba(20, 30, 80, 0.7) 0%, rgba(0, 0, 0, 0) 50%),
+                /* Lớp 2: Tinh vân màu tím hồng ở góc trên bên trái */
+                radial-gradient(circle at 20% 20%, rgba(60, 10, 60, 0.7) 0%, rgba(0, 0, 0, 0) 50%),
+                /* Lớp 3: Giữ nguyên lớp hạt bụi sao của bạn */
+                url('https://www.transparenttextures.com/patterns/stardust.png'), 
+                /* Lớp 4: Giữ nguyên gradient đen sâu của bạn */
+                linear-gradient(to bottom, #000000, #0a0a0a);
+            
+            background-attachment: fixed;
+            padding: 20px;
+            color: #eee;
+            margin: 0;
+        }
+
+        /* 1. CSS cho Liên kết tiêu đề */
+        .title-link {
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        .title-link:hover {
+            transform: scale(1.05);
+            filter: brightness(1.2);
+        }
+
+        h1 {
+            color: #4dadff;
+            margin-bottom: 10px;
+            text-shadow: 0 0 15px rgba(77, 173, 255, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        h1 i { color: #ff9800; } /* Màu icon cam */
+
+        .instruction {
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+            color: #b0bec5;
+            line-height: 1.6;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Tối ưu dòng thông báo tâm linh */
+        .magic-note {
+            font-style: italic;
+            color: #ff4081; /* Màu hồng neon */
+            margin: 20px 0;
+            text-shadow: 0 0 8px rgba(255, 64, 129, 0.4);
+            font-size: 1rem;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding-bottom: 30px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            user-select: none;
+            position: relative;
+            backdrop-filter: blur(5px);
+        }
+
+        .card:hover {
+            border-color: rgba(77, 173, 255, 0.5);
+            transform: translateY(-5px);
+        }
+
+        .card.selected {
+            border-color: #4dadff;
+            background-color: rgba(77, 173, 255, 0.15);
+            box-shadow: 0 10px 30px rgba(77, 173, 255, 0.3);
+        }
+
+        .card.selected::after {
+            content: "✓";
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            color: #4dadff;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #4dadff;
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
+
+        .number-grid {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 8px;
+            font-size: 0.95rem;
+            color: #e0e0e0;
+        }
+
+        .controls {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 15px 35px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+        }
+
+        .btn-result {
+            background: linear-gradient(135deg, #4dadff, #007bff);
+            color: white;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+        }
+
+        .btn-reset {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #b0bec5;
+        }
+
+        #result-display {
+            margin-top: 40px;
+            padding: 25px 40px;
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #fff;
+            background: rgba(77, 173, 255, 0.1);
+            display: inline-block;
+            border-radius: 20px;
+            border: 2px solid #4dadff;
+            box-shadow: 0 0 30px rgba(77, 173, 255, 0.5);
+            display: none;
+            animation: fadeInResult 0.5s ease-out;
+        }
+
+        @keyframes fadeInResult {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="title-link">
+        <h1><i class="fas fa-magic"></i> Ảo Thuật Đoán Số Thiên Hà</h1>
+    </a>
+
+    <p class="instruction">
+        Hãy du hành vào tâm trí và nghĩ về một con số từ <b>1 đến 63</b>.<br> 
+        Nhấp chọn <b>tất cả các tinh vân (bảng)</b> có chứa con số đó, sau đó nhấn nút Kết quả.
+    </p>
+
+    <div class="grid-container" id="game-grid"></div>
+
+    <div class="magic-note">
+        <i class="fas fa-sparkles"></i> Suy nghĩ về người bạn yêu nhất hoặc chuyện vui gần nhất để ma thuật đạt hiệu quả cao nhất!
+    </div>
+
+    <div class="controls">
+        <button class="btn-result" onclick="calculateResult()">Xem kết quả</button>
+        <button class="btn-reset" onclick="resetGame()">Làm mới / Chơi lại</button>
+    </div>
+
+    <div id="result-display"></div>
+
+    <script>
+        // GIỮ NGUYÊN TOÀN BỘ PHẦN SCRIPT GỐC
+        const baseNumbers = [1, 2, 4, 8, 16, 32];
+        const gridContainer = document.getElementById('game-grid');
+        const resultDisplay = document.getElementById('result-display');
+
+        function generateNumbersForCard(base) {
+            let nums = [];
+            for (let i = 1; i <= 63; i++) {
+                if ((i & base) === base) nums.push(i);
+            }
+            return nums;
+        }
+
+        function initGame() {
+            gridContainer.innerHTML = '';
+            baseNumbers.forEach((base, index) => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.dataset.value = base;
+                card.onclick = () => {
+                    card.classList.toggle('selected');
+                    // Ẩn kết quả cũ nếu người chơi thay đổi lựa chọn
+                    resultDisplay.style.display = 'none';
+                };
+
+                const title = document.createElement('h3');
+                title.innerText = `Tinh vân số ${index + 1}`;
+                
+                const numGrid = document.createElement('div');
+                numGrid.className = 'number-grid';
+                
+                generateNumbersForCard(base).forEach(num => {
+                    const span = document.createElement('span');
+                    span.innerText = num;
+                    numGrid.appendChild(span);
+                });
+
+                card.appendChild(title);
+                card.appendChild(numGrid);
+                gridContainer.appendChild(card);
+            });
+        }
+
+        function calculateResult() {
+            let total = 0;
+            const selectedCards = document.querySelectorAll('.card.selected');
+            
+            if (selectedCards.length === 0) {
+                alert("Bạn chưa chọn tinh vân nào cả! Hãy chọn các bảng có số của bạn nhé.");
+                return;
+            }
+
+            selectedCards.forEach(card => {
+                total += parseInt(card.dataset.value);
+            });
+
+            resultDisplay.innerHTML = `Con số bạn chọn là: <span style="color:#fff; text-shadow: 0 0 10px #fff;">${total}</span> 🌠`;
+            resultDisplay.style.display = 'inline-block';
+            
+            // Bắn pháo hoa ăn mừng (giữ nguyên)
+            confetti({
+                particleCount: 150,
+                spread: 100,
+                origin: { y: 0.7 },
+                colors: ['#4dadff', '#ffffff', '#007bff', '#ff4081'] // Màu pháo hoa tông xanh-trắng-hồng
+            });
+            
+            // Cuộn xuống nhẹ nhàng để thấy kết quả
+            setTimeout(() => {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            }, 100);
+        }
+
+        function resetGame() {
+            // Bỏ chọn tất cả các thẻ
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => card.classList.remove('selected'));
+            
+            // Ẩn kết quả
+            resultDisplay.style.display = 'none';
+            
+            // Cuộn về đầu trang
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Chạy khởi tạo lần đầu
+        initGame();
+    </script>
+</body>
+</html>

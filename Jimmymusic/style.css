@@ -1,0 +1,234 @@
+:root {
+    --bg-dark: #0a0a0a;
+    --bg-card: #1a1a1a;
+    --gold: #c5a059;
+    --text-gray: #b3b3b3;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--white);
+    overflow: hidden; /* Ngăn cuộn toàn trang nếu đã dùng flex height 100vh */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 240px;
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #222;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 12px 0;
+    color: var(--text-gray);
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.menu li i {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.menu li:hover, .menu li.active {
+    color: var(--gold);
+}
+
+/* MINI PLAYER */
+.mini-player {
+    background: #111;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.album-art {
+    width: 60px;
+    height: 60px;
+    background: var(--gold);
+    margin: 0 auto 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.track-info { margin-bottom: 10px; }
+.track-name { font-size: 13px; font-weight: bold; margin: 5px 0; }
+.artist-name { font-size: 11px; color: var(--text-gray); }
+
+.controls {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.controls i {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.controls i:hover {
+    color: var(--gold);
+    transform: scale(1.2);
+}
+
+/* PROGRESS BAR TỐI ƯU */
+.progress-bar {
+    width: 100%;
+    height: 5px;
+    background: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: height 0.2s;
+}
+
+.progress-bar:hover {
+    height: 8px; /* Dễ nhìn và dễ bấm hơn khi hover */
+}
+
+.progress {
+    width: 0%; /* Khởi tạo bằng 0 */
+    height: 100%;
+    background: var(--gold);
+    border-radius: 10px;
+    transition: width 0.1s linear; /* Giúp thanh chạy mượt hơn */
+}
+
+/* MAIN CONTENT */
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 30px;
+}
+
+.hero-banner {
+    background: linear-gradient(to right, rgba(0,0,0,0.8), transparent), url('images/bg.PNG');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.hero-text h1 {
+    font-size: 24px;
+    line-height: 1.4;
+    max-width: 80%;
+    background: linear-gradient(to right, var(--gold), #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+/* GRID RELEASES */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: var(--bg-card);
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: #252525;
+    transform: translateY(-5px);
+}
+
+.card-img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.play-overlay {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background: var(--gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.3s;
+}
+
+.card:hover .play-overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.song-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.song-artist {
+    font-size: 12px;
+    color: var(--text-gray);
+    margin: 0;
+}
+/* Loại bỏ định dạng mặc định của link cho tiêu đề */
+.title-link {
+    text-decoration: none;
+    display: inline-block; /* Để bao trọn h1 */
+    transition: transform 0.3s ease;
+}
+
+.title-link:hover {
+    transform: scale(1.05); /* Phóng to nhẹ khi rê chuột */
+}
+
+.title-link h1 {
+    cursor: pointer;
+}

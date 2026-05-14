@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Music Streaming</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav class="menu">
+                <ul>
+                    <li class="active"><i class="fa-solid fa-house"></i> Home</li>
+                    <li><i class="fa-solid fa-gamepad""></i> <a href="magic.html">Game Number Magic</a></li>
+                    <li><i class="fa-solid fa-music"></i> Releases</li>
+                    <li><i class="fa-solid fa-calendar-days"></i> Events</li>
+                    <li><i class="fa-solid fa-microphone"></i> Podcasts</li>
+                    <li><i class="fa-solid fa-layer-group"></i> Pages <i class="fa-solid fa-chevron-down small-icon"></i></li>
+                    <li><i class="fa-solid fa-cart-shopping"></i> Store</li>
+                    <li><i class="fa-solid fa-newspaper"></i> News</li>
+                </ul>
+            </nav>
+
+            <div class="mini-player">
+                <div class="album-art">
+                    <i class="fa-solid fa-music"></i>
+                </div>
+                <div class="track-info">
+                    <p class="track-name">Đang tải...</p>
+                    <p class="artist-name">...</p>
+                </div>
+                <div class="controls">
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat" id="replay-btn" title="Toggle Loop"></i>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section class="hero-banner">
+                <div class="hero-text">
+                    <h1>Not every effort is rewarded, not every attempt leads to success, and not every failure can be traced back to a single cause. Just do your best and enjoy the process.</h1>
+                    <p position="middle">---Jimmy and his sad songs ---</p>
+                </div>
+            </section>
+
+            <section class="releases">
+                <div class="section-header">
+                    <h2>New Releases</h2>
+                    
+                </div>
+
+                <div class="grid-cards">
+                    <div class="card" onclick="playByIndex(0)">
+                        <div class="card-img" style="background-image: url('images/1.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Sợ Yêu</p>
+                            <p class="song-artist">Tác giả: Hoàng Nhã</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="playByIndex(1)">
+                        <div class="card-img" style="background-image: url('images/2.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Bước Qua Mùa Cô Đơn</p>
+                            <p class="song-artist">Tác giả: Thái Vũ</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="playByIndex(2)">
+                        <div class="card-img" style="background-image: url('images/3.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Một Ngàn Nỗi Đau</p>
+                            <p class="song-artist">Tác giả: Hứa Kim Tuyền</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="playByIndex(3)">
+                        <div class="card-img" style="background-image: url('images/4.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Sau Lời Từ Khước</p>
+                            <p class="song-artist">Tác Giả:Phan Mạnh Quỳnh</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="playByIndex(4)">
+                        <div class="card-img" style="background-image: url('images/5.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Ai Khóc Nỗi Đau Này</p>
+                            <p class="song-artist">Tác Giả: Đức Trí</p>
+                        </div>
+                    </div>
+
+ 		<div class="card" onclick="playByIndex(5)">
+                        <div class="card-img" style="background-image: url('images/6.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Cô Gái Và Cây Dương Cầm</p>
+                            <p class="song-artist">Tác Giả:Phan Mạnh Quỳnh</p>
+                        </div>
+                    </div>
+
+
+ <div class="card" onclick="playByIndex(6)">
+                        <div class="card-img" style="background-image: url('images/6.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Nửa Thập Kỷ</p>
+                            <p class="song-artist">Tác Giả: Hoàng Dũng</p>
+                        </div>
+                    </div>
+<div class="card" onclick="playByIndex(7)">
+                        <div class="card-img" style="background-image: url('images/7.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Your name engraved herein</p>
+                            <p class="song-artist">Nhạc Hoa</p>
+                        </div>
+                    </div>
+ <div class="card" onclick="playByIndex(8)">
+                        <div class="card-img" style="background-image: url('images/8.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Hoang Mang</p>
+                            <p class="song-artist">Tác giả:Võ Hoài Phúc</p>
+                        </div>
+                    </div>
+
+ <div class="card" onclick="playByIndex(9)">
+                        <div class="card-img" style="background-image: url('images/9.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Chờ Thêm Một Đời</p>
+                            <p class="song-artist">Tác giả: Dương Khắc Linh, Trang Pháp, Nguyễn Hồng Vinh</p>
+                        </div>
+                    </div>
+
+ <div class="card" onclick="playByIndex(10)">
+                        <div class="card-img" style="background-image: url('images/10.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Thàng 4 Là Lời Nói Dối Của Em</p>
+                            <p class="song-artist">Nhạc Nhật</p>
+                        </div>
+                    </div>
+
+
+
+
+ <div class="card" onclick="playByIndex(11)">
+                        <div class="card-img" style="background-image: url('images/11.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Thương Em Là Điều Anh Không Thể Ngờ</p>
+                            <p class="song-artist">Tác Giả: Phạm Minh Triết</p>
+                        </div>
+                    </div>
+
+
+
+ <div class="card" onclick="playByIndex(12)">
+                        <div class="card-img" style="background-image: url('images/12.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">CÓ Khi Nào Rời Xa</p>
+                            <p class="song-artist">Tác Giả: Tiên Bánh Quy</p>
+                        </div>
+                    </div>
+
+
+ <div class="card" onclick="playByIndex(13)">
+                        <div class="card-img" style="background-image: url('images/13.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">IF</p>
+                            <p class="song-artist">Tác Giả: Vũ Cát Tường</p>
+                        </div>
+                    </div>
+
+ <div class="card" onclick="playByIndex(14)">
+                        <div class="card-img" style="background-image: url('images/14.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Ngày Mai Người Ta Lấy Chồng</p>
+                            <p class="song-artist">Tác Giả: Đông Thiên Đức</p>
+                        </div>
+                    </div>
+
+ <div class="card" onclick="playByIndex(15)">
+                        <div class="card-img" style="background-image: url('images/15.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Fly Me To The Moon</p>
+                            <p class="song-artist">Tác Giả: Bart Howard</p>
+                        </div>
+                    </div>
+
+ <div class="card" onclick="playByIndex(16)">
+                        <div class="card-img" style="background-image: url('images/16.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Say Something</p>
+                            <p class="song-artist">Ian Axel, Chad Vaccarino, và Mike Campbell</p>
+                        </div>
+                    </div>
+ <div class="card" onclick="playByIndex(17)">
+                        <div class="card-img" style="background-image: url('images/17.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Tự Khúc Mùa Đông</p>
+                            <p class="song-artist">Tác Giả: TƯờng Văn</p>
+                        </div>
+                    </div>
+ <div class="card" onclick="playByIndex(18)">
+                        <div class="card-img" style="background-image: url('images/18.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Từng Yêu</p>
+                            <p class="song-artist">Tác Giả: Nguyễn Đình Dũng</p>
+                        </div>
+                    </div>
+
+
+ <div class="card" onclick="playByIndex(19)">
+                        <div class="card-img" style="background-image: url('images/20.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">All Of Me</p>
+                            <p class="song-artist">John Legend & Toby Gad</p>
+                        </div>
+                    </div>
+
+ <div class="card" onclick="playByIndex(20)">
+                        <div class="card-img" style="background-image: url('images/21.JPG');">
+                            <div class="play-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <p class="song-title">Anh ơi Ở Lại</p>
+                            <p class="song-artist">Tác Giả: Đạt G</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <audio id="main-audio" src=""></audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
