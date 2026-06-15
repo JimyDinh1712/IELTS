@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The line graph shows the number of players in four different sports (badminton, tennis, basketball, rugby) in a particular European country between 1985 and 2005. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/11_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people believe that governments should pay full course fees for students who want to study in universities. Do you agree or disagree with this statement?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

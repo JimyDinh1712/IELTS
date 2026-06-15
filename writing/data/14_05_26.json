@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The charts below show the percentage of male and female students of different age groups who studied in full-time and part-time in a particular country in 2006. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/14_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some countries have introduced laws to limit working hours for employees. Why are these laws introduced? Do you think they are a positive or negative development?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

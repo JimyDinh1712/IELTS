@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The charts below show employment rates of males and females of different ages, and the average age of their youngest child in the UK in 2008. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/26_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Students today can access information online, so libraries are no longer necessary. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The graph below gives information about the price of bananas in four countries between 1994 and 2004. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/28_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people believe that women should play an equal role as men in military force, while others think women are not suitable for these kinds of jobs. Discuss both views and give your opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

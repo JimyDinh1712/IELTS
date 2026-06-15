@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The diagram below shows the recycling process of aluminium cans. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/09_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think adults should learn practical skills by themselves, while others think they should learn with teachers in the classroom. Discuss both views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

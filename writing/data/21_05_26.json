@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The graph below gives information about car ownership in Britain from 1971 to 2007. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/21_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "In many countries today, major cities have become too big and overcrowded. Why is this? What measures could be taken to reduce this problem?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

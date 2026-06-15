@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The graph below shows the unemployment levels in Ireland and the number of people leaving the country between 1988 and 2008. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/24_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Organised tours to remote areas and communities are increasingly popular. Is it a positive or negative development for the local people and the environment?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

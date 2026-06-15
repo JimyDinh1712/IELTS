@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The graph below shows the number of enquiries to tourist information office made by telephone, letter/email, and in person from January 2001 to June 2001. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/10_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think that the government should provide free education at every level. Others believe that it is the responsibility of individuals to pay for their education. Discuss both views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

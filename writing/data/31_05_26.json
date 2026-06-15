@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The chart below shows the proportion of survey respondents who showed interest in particular sports in the UK. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/31_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think that schools should stop teaching students by using books, because students find them boring and that children can learn from films, TV, video games and computers instead. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The line graph below shows the consumption of 3 different types of fast food in Britain from 1970 to 1990. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/07_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think advertisements may have positive economic effects, whereas others think there are negative social effects because individuals are not satisfied with who they are and what they have. Discuss both views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

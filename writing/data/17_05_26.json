@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The bar chart shows the percentage of households with cars in a European country between 1971 and 2001. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/17_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Films and computer games containing violence are very popular now. Some people think that they have a negative effect on our society and should be banned. Other people say they are harmless relaxation. Discuss both views and give your opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

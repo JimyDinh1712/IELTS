@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The bar chart shows the average number of hours students in five different universities studied. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/30_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people say young people should be completely free to choose their future job but others think young people must be more realistic in their choice. Discuss both views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

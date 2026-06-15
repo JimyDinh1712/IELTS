@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The bar chart shows attendance of people of different ages in music events in Australia in 2006. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/29_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "People used to live in the same city throughout their lives, but now they change where they live several times. What is the cause? Do you think it is a positive or negative trend?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

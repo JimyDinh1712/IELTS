@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The tables below provide information about the consumption and production of potatoes in five parts of the world in 2006. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/27_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think that it is necessary to travel abroad to learn about other countries, but other people think that it is not necessary to travel abroad because all the information can be seen on TV and the internet. Discuss both opinions and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

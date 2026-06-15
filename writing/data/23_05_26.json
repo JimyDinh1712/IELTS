@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The table below shows the percentage of first-year students who gave ‘very good’ rating to the resources provided by their college, for three courses. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/23_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Many people think cheap air travel should be encouraged because it give ordinary people freedom to travel further. However, others think this leads to environmental problem, so air travel should be more expensive in order to discourage people from having it. Discuss both views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

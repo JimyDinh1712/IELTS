@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The graph and chart below give information about the number of new graduates and their employment in the UK from 1992 to 2002. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/18_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think technology development decreases crime, while others believe it actually encourages crime. Discuss both views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

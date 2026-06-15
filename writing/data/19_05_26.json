@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The graphs below show the percentage of men and women aged 60-64 who were employed in four countries in 1970 and 2000. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/19_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "With the rapid advancement of communication technology such as smartphones, tablets and other mobile devices, some people believe that the disadvantages outweigh the advantages. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

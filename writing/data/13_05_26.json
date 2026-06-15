@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The table shows the proportions of residents living in four types of accommodation across different regions of a city in the UK. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/13_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Many students find it harder to study when they are at university or college than when they were at school. Why is this? What can be done to solve the problem?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The diagrams below show changes in Felixstone in the UK between 1967 and 2001. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/22_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "The best way to solve traffic and transportation problems is to encourage people to live in cities rather than suburbs or countryside. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

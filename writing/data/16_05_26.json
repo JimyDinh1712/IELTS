@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The diagram below shows a small local museum and its surroundings in 1957 and 2007. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/16_05_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Many customs and traditional ways of behaviour are no longer relevant to modern life and are not worth keeping. Do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}
