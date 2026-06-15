@@ -728,3 +728,71 @@ function updateNavigation() {
         }
     });
 }
+// --- BỔ SUNG: XỬ LÝ CHUỘT PHẢI & HIGHLIGHT (Designed by JIM) ---
+
+// 1. Chặn menu chuột phải mặc định và hiện menu tùy chỉnh
+document.addEventListener('contextmenu', function(e) {
+    const menu = document.getElementById('highlight-menu'); 
+    if (!menu) return;
+
+    // Kiểm tra vùng bôi đen (Đảm bảo ID #reading-pane hoặc #question-pane tồn tại trong HTML của bạn)
+    if (e.target.closest('#reading-pane') || e.target.closest('#question-pane') || e.target.closest('#info-content-container')) {
+        e.preventDefault();
+        
+        const selection = window.getSelection().toString();
+        if (selection.trim().length > 0) {
+            menu.style.display = 'block';
+            menu.style.left = e.pageX + 'px';
+            menu.style.top = e.pageY + 'px';
+        } else {
+            menu.style.display = 'none';
+        }
+    } else {
+        e.preventDefault(); // Khóa menu ở các vùng khác nếu muốn bảo mật
+    }
+});
+
+// 2. Ẩn menu khi click chuột trái ra ngoài
+document.addEventListener('click', function(e) {
+    const menu = document.getElementById('highlight-menu');
+    if (menu && !e.target.closest('.context-menu')) {
+        menu.style.display = 'none';
+    }
+});
+
+// 3. Hàm áp dụng Highlight
+function applyHighlight() {
+    const selection = window.getSelection();
+    if (!selection.rangeCount) return;
+
+    const range = selection.getRangeAt(0);
+    const span = document.createElement('span');
+    span.className = 'highlight';
+    span.style.backgroundColor = 'yellow'; // Màu highlight mặc định
+    
+    try {
+        range.surroundContents(span);
+    } catch (e) {
+        console.warn("Không thể highlight vùng chọn phức tạp (vùng chọn bị chồng lấn)");
+    }
+    
+    const menu = document.getElementById('highlight-menu');
+    if (menu) menu.style.display = 'none';
+    window.getSelection().removeAllRanges();
+}
+
+// 4. Hàm xóa Highlight
+function clearHighlight() {
+    const selection = window.getSelection();
+    if (!selection.rangeCount) return;
+
+    const container = selection.anchorNode.parentElement;
+    if (container && container.classList.contains('highlight')) {
+        const textNode = document.createTextNode(container.textContent);
+        container.parentNode.replaceChild(textNode, container);
+    }
+    
+    const menu = document.getElementById('highlight-menu');
+    if (menu) menu.style.display = 'none';
+    window.getSelection().removeAllRanges();
+}
