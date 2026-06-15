@@ -586,3 +586,17 @@ display: inline-flex;
 .font-small *, .font-medium *, .font-large * {
     font-size: inherit !important;
 }
+.highlight {
+    background-color: yellow;
+    padding: 2px;
+    border-radius: 3px;
+}
+.context-menu button {
+    border: none;
+    background: transparent;
+    padding: 8px 15px;
+    text-align: left;
+}
+.context-menu button:hover {
+    background: #f0f0f0;
+}
