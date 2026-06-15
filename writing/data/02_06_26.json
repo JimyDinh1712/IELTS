@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The chart below shows the number of films ( in thousands) produced by five countries in three years. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/02_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Every day, millions of tons of food are wasted all over the world. What are the causes of this problem? What measures can be taken to solve this?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

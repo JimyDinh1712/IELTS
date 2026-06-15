@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The table and chart provide a breakdown of the total expenditure and the average amount of money spent by students per week while studying abroad in four countries. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/09_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Nowadays more and more people want to get things done instantly (services, information, tasks). Why is this? Do you think this is a positive or negative development?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

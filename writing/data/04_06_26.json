@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The charts below show the percentages of food and goods bought in supermarkets in European countries in 1998 and 2008. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/04_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Too much emphasis is given to the education of the young. More government money should be spent on free-time activities of young people. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

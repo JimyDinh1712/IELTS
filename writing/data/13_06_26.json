@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Japan's population by age groups starting in 1960 and including a forecast to 2040",
+    "instruction": "The chart below shows Japan's population by age groups starting in 1960 and including a forecast to 2040. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/13_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Many people think cheap air travel should be encouraged because it gives ordinary people freedom to travel further. However, others think this leads to environmental problems, so air travel should be more expensive in order to discourage people from having it. Discuss both views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

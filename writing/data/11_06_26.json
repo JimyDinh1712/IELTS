@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The proportion of the energy produced from different sources in a country between 1985 and 2003",
+    "instruction": "The charts below show the proportion of the energy produced from different sources in a country between 1985 and 2003.  Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/11_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Many people aim to achieve a balance between work and other part of lives, but few people achieve it. What are the causes of the problem? How to overcome it?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

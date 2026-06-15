@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The chart below shows the percentage of a car manufacturer's total sales in various regions from 2006 to 2010. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/05_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think the development of technology makes people’s lives more complex, so we should make life simpler without using technology. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

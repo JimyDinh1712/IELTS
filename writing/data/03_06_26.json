@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The plans below show a student room for two people and a student room for one person at an Australian university. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/03_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "In many countries, a small number of people earn extremely high salaries. Some people believe that this is good for the country, but others think that governments should not allow salaries above a certain level. Discuss both views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

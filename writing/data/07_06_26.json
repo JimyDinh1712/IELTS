@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The table showing the two age groups participating in the marathon from 2008 to 2012. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/07_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think that the government should give financial support to creative artists such as painters and musicians. Others believe that creative artists should be funded by alternative sources. Discuss both these views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

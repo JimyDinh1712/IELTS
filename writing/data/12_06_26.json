@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "four categories of citrus fruits and the top three countries to which these were exported in 2012",
+    "instruction": "The charts below show four categories of citrus fruits and the top three countries to which these were exported (in thousand tonnes) in 2012. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/12_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some countries have an ever-increasing proportion of the population who are aged 15 and younger. What is your opinion of the current and future effects it may have in those countries?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

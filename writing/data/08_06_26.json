@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The plans below show a student room for two people and a student room for one person at an Australian university. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/08_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": " It is better to be unemployed in a job rather than to be employed in a job even if they don't feel happy or enjoy it. Do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

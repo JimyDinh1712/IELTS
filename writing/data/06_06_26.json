@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": " ",
+    "instruction": "The diagram below shows the process of making soft cheese. Summarize the information by selecting and reporting the main features, and make comparisons where relevant. ",
+    "imagePath": "data/06_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think that young people should follow traditions of the society. While other people think that young people should be free to behave as individuals. Discuss both the views and give your opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

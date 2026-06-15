@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The position of a volcano, and a village before and after a volcanic eruption",
+    "instruction": "The pictures illustrate the position of a volcano, and a village before and after a volcanic eruption. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/14_06_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "School teaching should focus on success on the workforce and less attention should be given to academic achievement, to what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}
