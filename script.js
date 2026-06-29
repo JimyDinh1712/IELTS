@@ -3,6 +3,8 @@ const users = [
     { "username": "student", "password": "1234" },
     { "username": "ielts", "password": "anhjimydeptrai" },
     { "username": "ielts", "password": "" },
+    { "username": "Minhphuc", "password": "" },
+    { "username": "Baotran", "password": "" },
     { "username": "jimy", "password": "1234" }
 ];
 
