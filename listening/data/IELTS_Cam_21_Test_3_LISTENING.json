@@ -1,0 +1,356 @@
+{
+  "testTitle": "Cam 21 test 3",
+  "audioUrl": "audio/Cam21test3.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Ferry to Shetland Islands",
+          "content": "•   Name of ferry company:   <strong>(1)</strong>  Ferries<br>•   Ferries depart seven times per   <strong>(2)</strong>  in summer<br>•   Cost for four people with car:   a little less than £ <strong>(3)</strong> <br>•   Cancellation policy:   receive a <strong>(4)</strong>  (if cancelled a month in advance)<br><strong>Advice</strong><br>•   Cabins:<br>–   book one with a <strong>(5)</strong> <br>–   luxury cabins have a TV<br>•   Bring snacks and <strong>(6)</strong>  for the children<br>•   A <strong>(7)</strong>  is required for the dog kennels<br>•   Try to see <strong>(8)</strong>  in the morning<br>•   If time, visit <strong>(9)</strong>  Castle<br>•   The <strong>(10)</strong>  restaurant in a nearby village is recommended",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 12,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO explanations for the popularity of street food are given?<br>A   low price<br>B   locally sourced<br>C   freshly made<br>D   convenience<br>E   unusual food",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Question 11",
+              "options": []
+            },
+            {
+              "id": 12,
+              "text": "Question 12",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO places are recommended for new street food businesses?<br>A   music festivals<br>B   food markets<br>C   weddings<br>D   parties<br>E   parks",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 13,
+              "text": "Question 13",
+              "options": []
+            },
+            {
+              "id": 14,
+              "text": "Question 14",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 16,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>15</strong>   What does the speaker say about getting equipment for a street food business?<br>A   High quality equipment is a good investment.<br>B   It's best to buy second-hand equipment.<br>C   Renting equipment can be cheap.<br><strong>16</strong>   What advice is given about creating a product for a street food business?<br>A   Provide information about the ingredients.<br>B   It is important to have an original product.<br>C   The presentation is an important factor.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 15,
+              "text": "What does the speaker say about getting equipment for a street food business?",
+              "options": [
+                "A   High quality equipment is a good investment.",
+                "B   It's best to buy second-hand equipment.",
+                "C   Renting equipment can be cheap."
+              ]
+            },
+            {
+              "id": 16,
+              "text": "What advice is given about creating a product for a street food business?",
+              "options": [
+                "A   Provide information about the ingredients.",
+                "B   It is important to have an original product.",
+                "C   The presentation is an important factor."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "type": "wordlist",
+          "instruction": "What problem did the owners of each of the following street food businesses experience?  Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 17-20.",
+          "heading": "Street food businesses",
+          "wordlistName": "Problems",
+          "options": [
+            "A   Some ingredients were too expensive.",
+            "B   The meals took a long time to prepare.",
+            "C   They had no money for marketing.",
+            "D   It was difficult to get a permit to sell food.",
+            "E   A competitor was selling similar food in their area.",
+            "F   They worked very long hours."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 17,
+              "text": "Thai Basil       …………"
+            },
+            {
+              "id": 18,
+              "text": "Basque           …………"
+            },
+            {
+              "id": 19,
+              "text": "Lou's kitchen   …………"
+            },
+            {
+              "id": 20,
+              "text": "Chip Chop       …………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO points do the speakers make about the terms 'ethical' and 'sustainable' fashion?<br>A   Their definitions keep changing.<br>B   People think they mean the same thing.<br>C   The term 'eco-friendly' is preferable.<br>D   They are often used imprecisely.<br>E   Companies should avoid using them on clothing labels.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO claims about wool production do the speakers disagree with?<br>A   Sheep are generally well-treated.<br>B   Wool is easy to recycle.<br>C   Wool is a long-lasting fabric.<br>D   Wool production involves few chemicals.<br>E   Sheep do less environmental damage than other livestock.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "What comment do the speakers make about each of the following semi-synthetic fabrics?  Choose SIX answers from the box and write the correct letter, A-H, next to Questions 25-30.",
+          "heading": "Semi-synthetic fabrics",
+          "wordlistName": "Comments",
+          "options": [
+            "A   The production process is fuel efficient.",
+            "B   It is the least sustainable of alternative fabrics.",
+            "C   Production costs are high.",
+            "D   It provides additional health benefits.",
+            "E   It is not durable in the long-term.",
+            "F   It needs to be produced in a certain way to be sustainable.",
+            "G   Chemicals required for production can be reused.",
+            "H   This is from a wholly sustainable source."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 25,
+              "text": "Lyocell     …………"
+            },
+            {
+              "id": 26,
+              "text": "Cupro      …………"
+            },
+            {
+              "id": 27,
+              "text": "Bamboo  …………"
+            },
+            {
+              "id": 28,
+              "text": "EcoVero  …………"
+            },
+            {
+              "id": 29,
+              "text": "Cork        …………"
+            },
+            {
+              "id": 30,
+              "text": "Hemp      …………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Invasive species",
+          "content": "<strong>Definition</strong>: an animal or plant that causes harm to an environment after being<br>introduced by humans<br><strong>An invasive species can be a problem when it:</strong><br>•   eats native species.<br>•   introduces a new <strong>(31)</strong>  .<br>•   takes food from native species.<br>•   threatens an entire <strong>(32)</strong>  .<br><strong>How invasive species spread</strong><br>•   accidentally e.g. via people returning from their <strong>(33)</strong>  or on cargo ships<br>•   intentionally e.g. for pest control, or as <strong>(34)</strong>  .<br><strong>Examples of invasive species</strong><br>•   Rhinella marina (toads)<br>–   were introduced to Australia from Hawaii in 1935 to eat a type of insect that was damaging the <strong>(35)</strong>  plantations.<br>–   failed to solve the problem and became widespread in the north of Australia.<br>–   are poisonous for any species that eats them and reduce the food available for native frogs.<br>•   Japanese knotweed plants were popular among 19th-century gardeners in the UK.<br>•   Rhododendron plants prevent <strong>(36)</strong>  from reaching native plants.<br>•   Grey squirrels from N. America reduce sources of food for the UK's native red squirrels and spread a <strong>(37)</strong>  that kills red squirrels.<br><strong>Tackling invasive species</strong><br>•   Monitoring helps us to understand the <strong>(38)</strong>  of invasive species and the impact they have.<br>•   Setting up a national <strong>(39)</strong>  makes it easier to track them.<br>•   Asking the public to <strong>(40)</strong>  and report them helps with monitoring.",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "Northern",
+    "2": "week",
+    "3": "250 / two hundred and fifty",
+    "4": "voucher",
+    "5": "window",
+    "6": "books",
+    "7": "blanket",
+    "8": "dolphins",
+    "9": "Drum",
+    "10": "Italian",
+    "11": "C",
+    "12": "E",
+    "13": "B",
+    "14": "E",
+    "15": "B",
+    "16": "C",
+    "17": "F",
+    "18": "A",
+    "19": "B",
+    "20": "D",
+    "21": "B",
+    "22": "D",
+    "23": "D",
+    "24": "E",
+    "25": "G",
+    "26": "B",
+    "27": "F",
+    "28": "A",
+    "29": "H",
+    "30": "D",
+    "31": "disease",
+    "32": "ecosystem",
+    "33": "holiday / holidays",
+    "34": "pets",
+    "35": "sugar",
+    "36": "light",
+    "37": "virus",
+    "38": "behaviour / behavior",
+    "39": "database",
+    "40": "photograph"
+  }
+}

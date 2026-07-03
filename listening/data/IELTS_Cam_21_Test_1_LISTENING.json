@@ -1,0 +1,360 @@
+{
+  "testTitle": "IELTS Cam 21 Test 1",
+  "audioUrl": "audio/Cam21Test1.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 6,
+          "type": "form",
+          "instruction": "Complete the table below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Oyster Bay Sailing Club Courses",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>Name of course</th>\n    <th>What you learn</th>\n    <th>Cost</th>\n    <th>Other information</th>\n  </tr>\n  <tr>\n    <td>Taster day</td>\n    <td>introduction to sailing</td>\n    <td>£120 if booking one place</td>\n    <td>small groups (max <strong>(1)</strong>  people)</td>\n  </tr>\n  <tr>\n    <td>Level 1</td>\n    <td>basic theory e.g. understanding the <strong>(2)</strong>  and tides <p>basic sailing skills including <strong>(3)</strong>  information</td>\n    <td>£200 <p> <strong>(4)</strong>  available for club members <p> all inclusive (plus a useful <strong> (5) </strong> )</td>\n    <td>a <strong> (6) </strong>  at the end of the course for all participants</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "General information",
+          "content": "•   Participants must be able to swim.<br>•   Bring suitable clothing, a <strong>(7)</strong>  and toiletries (e.g. shampoo).<br>•   There is a <strong>(8)</strong>  at the club.<br>•   Online training <strong>(9)</strong>  are recommended.<br>•   <strong>(10)</strong>  are available for course participants.",
+          "questions": [
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 16,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Working as a makeup trainee",
+          "content": "<strong>11</strong>   What should trainees always expect to get when working on low budget short films?<br>A   travel expenses<br>B   a minimum wage<br>C   meals<br><strong>12</strong>   According to the speaker, on big budget films trainees may get experience of<br>A   makeup for special effects.<br>B   working with different ethnicities.<br>C   creating a variety of hair styles.<br><strong>13</strong>   The speaker says a problem for makeup artists is<br>A   dealing with difficult directors.<br>B   being shouted at by their supervisor.<br>C   waiting around for hours doing nothing.<br><strong>14</strong>   How did the speaker feel when she met famous actors for the first time?<br>A   very shy<br>B   very proud<br>C   very disappointed<br><strong>15</strong>   What advice does the speaker give about makeup kits?<br>A   Always carry a basic kit with you.<br>B   Only buy the best products for a makeup kit.<br>C   Ask other makeup artists to check your kit.<br><strong>16</strong>   What advice does the speaker give about creating a portfolio?<br>A   Keep print and digital photos.<br>B   Only include a small selection of photos.<br>C   Get permission to use photos.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "What should trainees always expect to get when working on low budget short films?",
+              "options": [
+                "A   travel expenses",
+                "B   a minimum wage",
+                "C   meals"
+              ]
+            },
+            {
+              "id": 12,
+              "text": "According to the speaker, on big budget films trainees may get experience of",
+              "options": [
+                "A   makeup for special effects.",
+                "B   working with different ethnicities.",
+                "C   creating a variety of hair styles."
+              ]
+            },
+            {
+              "id": 13,
+              "text": "The speaker says a problem for makeup artists is",
+              "options": [
+                "A   dealing with difficult directors.",
+                "B   being shouted at by their supervisor.",
+                "C   waiting around for hours doing nothing."
+              ]
+            },
+            {
+              "id": 14,
+              "text": "How did the speaker feel when she met famous actors for the first time?",
+              "options": [
+                "A   very shy",
+                "B   very proud",
+                "C   very disappointed"
+              ]
+            },
+            {
+              "id": 15,
+              "text": "What advice does the speaker give about makeup kits?",
+              "options": [
+                "A   Always carry a basic kit with you.",
+                "B   Only buy the best products for a makeup kit.",
+                "C   Ask other makeup artists to check your kit."
+              ]
+            },
+            {
+              "id": 16,
+              "text": "What advice does the speaker give about creating a portfolio?",
+              "options": [
+                "A   Keep print and digital photos.",
+                "B   Only include a small selection of photos.",
+                "C   Get permission to use photos."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "type": "wordlist",
+          "instruction": "What ability is required for each of the following duties?  Write the correct letter, A, B, or C, next to Questions 17-20.",
+          "heading": "Duties",
+          "wordlistName": "List of Options",
+          "options": [
+            "A being well-organised",
+            "B being flexible",
+            "C working quickly"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 17,
+              "text": "Prepping an actor    ……………"
+            },
+            {
+              "id": 18,
+              "text": "Continuity                ……………"
+            },
+            {
+              "id": 19,
+              "text": "General                   ……………"
+            },
+            {
+              "id": 20,
+              "text": "Applying makeup    ……………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO features of the lecture on ocean biodiversity had the greatest impact on the students?<br>A   the references to local problems<br>B   the broad focus of the examples<br>C   the practical suggestions for solutions<br>D   the type of issues discussed<br>E   the implications for government policy",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO details about the research project particularly impressed the students?<br>A   the team's previous successes<br>B   its wide geographical scale<br>C   the use of new technology<br>D   the extensive statistical evidence<br>E   the large range of specialists involved",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "What is the students' opinion of each of the following resources related to ocean biodiversity?  Choose SIX answers from the box and write the correct letter, A-H, next to Questions 25-30.",
+          "heading": "Resources",
+          "wordlistName": "Opinions",
+          "options": [
+            "A   This is aimed at a very specialist audience.",
+            "B   This is now rather outdated.",
+            "C   This was an effective description of a new danger.",
+            "D   This suggests possible ways to improve the situation.",
+            "E   This does not give a balanced account.",
+            "F   This is too predictable to be useful.",
+            "G   This gives insufficient evidence for its claims.",
+            "H   This gives a clear explanation of the problems."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 25,
+              "text": "Article on invasive lionfish             ……………"
+            },
+            {
+              "id": 26,
+              "text": "Documentary on microplastics      ……………"
+            },
+            {
+              "id": 27,
+              "text": "Podcast on ocean pollution           ……………"
+            },
+            {
+              "id": 28,
+              "text": "Book on coastal ecosystems         ……………"
+            },
+            {
+              "id": 29,
+              "text": "Article on metal toxicity                  ……………"
+            },
+            {
+              "id": 30,
+              "text": "Podcast on floating marine cities   ……………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Sources of rubber",
+          "content": "Three resources which are essential for industrial civilisation<br>•   <strong>(31)</strong> <br>•   fossil fuels<br>•   rubber<br><strong>Natural rubber</strong><br>This mainly comes from the Para rubber tree, now cultivated in South-East Asia.<br>The supply is limited because<br>•   the growth of the tree is <strong>(32)</strong>  .<br>•   production cannot easily be adjusted because of increasing or decreasing <strong>(33)</strong>  .<br>•   the tree only grows near the <strong>(34)</strong>  .<br>•   extracting the latex (rubber) is labour-intensive<br>•   it is very difficult to <strong>(35)</strong>  rubber after production.<br><strong>New threats include</strong><br>•   lack of genetic diversity, leading to danger of disease caused by a <strong>(36)</strong>  .<br>•   a shift to the cultivation of palm oil<br>•   extreme <strong>(37)</strong>  events.<br><strong>Synthetic rubber</strong><br>•   may be used for engine parts and cooking utensils<br>•   is less <strong>(38)</strong>  than natural rubber<br>•   is unsuitable for many purposes e.g. the tyres of aircraft.<br><strong>An alternative source of natural rubber</strong><br>•   A wild flower (a type of dandelion) has rubber in its <strong>(39)</strong>  .<br>•   It can be grown in many locations and does not require good <strong>(40)</strong>  .",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "10 /ten",
+    "2": "weather",
+    "3": "safety",
+    "4": "discount",
+    "5": "dictionary",
+    "6": "certificate",
+    "7": "towel",
+    "8": "cafe I cafe",
+    "9": "videos",
+    "10": "Overclock",
+    "11": "A",
+    "12": "B",
+    "13": "A",
+    "14": "A",
+    "15": "A",
+    "16": "C",
+    "17": "C",
+    "18": "A",
+    "19": "B",
+    "20": "C",
+    "21": "D",
+    "22": "B",
+    "23": "C",
+    "24": "E",
+    "25": "G",
+    "26": "B",
+    "27": "F",
+    "28": "H",
+    "29": "A",
+    "30": "E",
+    "31": "metal /metals",
+    "32": "slow",
+    "33": "demand",
+    "34": "equator",
+    "35": "recycle",
+    "36": "fungus",
+    "37": "weather",
+    "38": "strong",
+    "39": "roots",
+    "40": "soil"
+  }
+}

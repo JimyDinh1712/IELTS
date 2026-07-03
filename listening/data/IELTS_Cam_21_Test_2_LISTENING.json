@@ -1,0 +1,348 @@
+{
+  "testTitle": "Cam 21 Test 2",
+  "audioUrl": "audio/Cam21test2.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the table below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "One-day classes at Steynford College",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>Course</th>\n    <th>Date</th>\n    <th>Cost</th>\n    <th>Notes</th>\n  </tr>\n  <tr>\n    <td>Vietnamese food</td>\n    <td><strong>(1)</strong> </td>\n    <td>£59</td>\n    <td>It provides information on the use of herbs.<p> There are no places at present.</td>\n  </tr>\n  <tr>\n    <td>Bread making</td>\n    <td>20 March</td>\n    <td><strong>(2)</strong> £</td>\n    <td>There is also an extra charge for ingredients.<p> Participants make white bread, sourdough and <strong>(3)</strong>  .</td>\n  </tr>\n  <tr>\n    <td>Face massage</td>\n    <td>23 February</td>\n    <td>£35</td>\n    <td>The teacher trained in <strong>(4)</strong>  . <p>Bring a <strong>(5)</strong>  .</td>\n  </tr>\n  <tr>\n    <td>Candle making</td>\n    <td><strong>(6)</strong> </td>\n    <td>£52</td>\n    <td>Only <strong>(7)</strong>  ingredients are used. <p> The candles can be used as presents.</td>\n  </tr>\n  <tr>\n    <td>Silk painting</td>\n    <td>18 May</td>\n    <td><strong>(8)</strong> £</td>\n    <td>Bring an apron or old <strong>(9)</strong>  .</td>\n  </tr>\n  <tr>\n    <td>DIY for beginners</td>\n    <td>24 February</td>\n    <td>£125</td>\n    <td>Learn how to <p> •   use a drill, saw and <strong>(10)</strong>  .<p>•   put up a shelf.</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 12,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO pieces of advice are given about the Marsden Coastal Walk?<br>A   Stop for lunch in an ancient town.<br>B   Don't miss the ruins of a certain building.<br>C   Catch a boat to the start of this walk.<br>D   Be careful of the steep and rocky paths.<br>E   Don't worry about getting lost.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Question 11",
+              "options": []
+            },
+            {
+              "id": 12,
+              "text": "Question 12",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO things are said about the Melby Heritage Walk?<br>A   This walk is mostly downhill.<br>B   The paths can get busy during the day.<br>C   This is a circular walk.<br>D   A tower stands on the site of an older structure.<br>E   There are far-reaching views the whole way.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 13,
+              "text": "Question 13",
+              "options": []
+            },
+            {
+              "id": 14,
+              "text": "Question 14",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "type": "labeling",
+          "instruction": "Label the map below.  Write the correct letter, A-I, next to Questions 15-20. ",
+          "image": "data/Cam21Test2.jpg",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 15,
+              "text": "Exhibition"
+            },
+            {
+              "id": 16,
+              "text": "Baths"
+            },
+            {
+              "id": 17,
+              "text": "Tools"
+            },
+            {
+              "id": 18,
+              "text": "Vehicles"
+            },
+            {
+              "id": 19,
+              "text": "Ponies"
+            },
+            {
+              "id": 20,
+              "text": "Education centre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO facts in the sessions on food safety were new information for Nadia and Fergus?<br>A   the amount of plastic in the ocean<br>B   the number of diseases caused by contaminated food<br>C   the amount of food that is wasted<br>D   the number of people who are obese<br>E   the result of treating animals with antibiotics",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO features of a project aiming to prevent food fraud impressed Fergus?<br>A   the new technology it used<br>B   the publicity it received<br>C   the use of multiple tests on food items<br>D   the variety of dietary requirements included<br>E   the way information was made widely accessible",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 26,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO topics do both students recommend should be included in the course?<br>A   sustainable fishing<br>B   targeted nutrition<br>C   global differences in consumption<br>D   sustainable agriculture<br>E   digital technology and food",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 25,
+              "text": "Question 25",
+              "options": []
+            },
+            {
+              "id": 26,
+              "text": "Question 26",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "Complete the flow-chart below.  Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+          "heading": "Student project: developing a new food product",
+          "wordlistName": "List of Options",
+          "options": [
+            "A   This was challenging but enjoyable.",
+            "B   This led to some disagreement.",
+            "C   This was easy to decide on.",
+            "D   This was helped by the guidelines provided.",
+            "E   This seemed like an unnecessary stage.",
+            "F   This involved selecting a new ingredient."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 27,
+              "text": "Initial aim <p>  ↓"
+            },
+            {
+              "id": 28,
+              "text": "Literature review<p>↓"
+            },
+            {
+              "id": 29,
+              "text": "Product development <p>↓"
+            },
+            {
+              "id": 30,
+              "text": "Product production <p>↓"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Challenges facing the cruise ship industry",
+          "content": "<strong>Problems with overtourism</strong><br>•   (31) is one of the worst problems.<br>•   A tourist (32) is being introduced in some cities to reduce numbers, e.g. Barcelona.<br>•   Bruges: action was taken to limit day trips from the nearby port because the city was becoming a 'theme park' (e.g. many shops were only stocking (33) and souvenirs).<br>•   Dubrovnik: limits the number of tourists by managing the (34) of cruise ship arrivals.<br><strong>Problems of perception</strong><br>•   Cruises are generally associated with the elderly.<br>•   There is an assumption about the (35) of cruises.<br>•   People think there may be too many (36) .<br><strong>Solutions</strong><br>Cruise lines are attracting younger customers by:<br>•   becoming more sustainable e.g. using hybrid engines.<br>•   having a wide range of activities e.g. boxing, (37) and well-being programmes.<br>•   offering a diverse selection of food including <strong>(38)</strong>  options.<br>•   providing reliable <strong>(39)</strong>  .<br>•   improving marketing on social media with high quality <strong>(40)</strong>  .",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "13 January / 13th January",
+    "2": "48 / forty eight",
+    "3": "pizza",
+    "4": "India",
+    "5": "mirror",
+    "6": "6 April / 6th April",
+    "7": "natural",
+    "8": "67.50 / sixty-seven fifty",
+    "9": "shirt",
+    "10": "hammer",
+    "11": "E",
+    "12": "B",
+    "13": "C",
+    "14": "D",
+    "15": "F",
+    "16": "B",
+    "17": "D",
+    "18": "A",
+    "19": "H",
+    "20": "E",
+    "21": "B",
+    "22": "E",
+    "23": "C",
+    "24": "D",
+    "25": "A",
+    "26": "C",
+    "27": "C",
+    "28": "D",
+    "29": "F",
+    "30": "A",
+    "31": "Pollution",
+    "32": "tax",
+    "33": "chocolate",
+    "34": "timing",
+    "35": "cost",
+    "36": "rules",
+    "37": "diving",
+    "38": "vegan",
+    "39": "wifi",
+    "40": "videos"
+  }
+}
