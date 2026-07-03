@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The plans below show a college cafe before and after",
+    "instruction": "The plans below show a college cafe before it was redesigned and how it looks now. Writing Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/Cam_21_Test2.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people say that in the digital age, theatres and cinemas are no longer important as people can watch all the entertainment they want online. Others argue that theatres and cinemas are still important both economically and culturally. Discuss both these views and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

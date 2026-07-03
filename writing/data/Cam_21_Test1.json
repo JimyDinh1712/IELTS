@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "Number of jobs in four sectors of the economy in the US, 1960-2020",
+    "instruction": "The graph below gives information about the number of jobs in four sectors of the economy in the US between 1960 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/Cam_21_Test1.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "The best way to provide enough homes in large cities is to build tall apartment blocks. To what extent do you agree or disagree with this statement?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}
