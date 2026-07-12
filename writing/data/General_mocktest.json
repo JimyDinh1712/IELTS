@@ -1,0 +1,14 @@
+{
+  "task1": {
+    "title": "",
+    "instruction": "You have missed some important papers accidently in a taxi.Write a letter to the manager of the Taxi company. In your letter:<p>Give the details of your journey<p>Explain why those papers are important for you<p>Suggest what can the manager do",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "All university undergraduate courses should include a period of time spent studying abroad or doing a work placement. Do you think the advantages of this would outweigh the disadvantages?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}
