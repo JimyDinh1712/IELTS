@@ -1,0 +1,347 @@
+{
+  "testTitle": "IELTS Actual Vol 7 Test 1 ",
+  "passages": [
+    {
+      "passageNumber": 1,
+      "title": "The growth of agriculture",
+      "content": "Some developments in Western agriculture from prehistory to the nineteenth century <br><br>Agriculture is the art and science of cultivating the soil, growing crops and raising livestock. It includes the preparation of plant and animal products for people to use and their distribution to markets. <br><br>Before agriculture became widespread, prehistoric people spent most of their lives hunting animals and gathering wild plants. Then, about 11,500 years ago, people gradually learned how to cultivate plants for food use and settled down to a life based on farming. Scholars are unsure why this shift to farming took place, but it may have occurred because of climate change. The earliest crop was most likely to have been rice, corn, or similar types of cereals. At around the same time, people also began herding and breeding animals. Sheep and goats were probably domesticated first, followed by cattle and pigs. Eventually, people started keeping animals such as oxen for ploughing and transportation. <br><br>Agriculture enabled people to produce a surplus of food, which could be eaten when crops failed or swapped for other goods. This exchange of goods was how trade began, and this, in turn, allowed people to work at other tasks unrelated to farming. Agriculture also kept formerly nomadic people near their fields and led to the establishment of permanent villages, which became linked through trade. This development was so successful in some areas that cities emerged, and eventually entire civilisations arose. The earliest of these developed near the Tigris and Euphrates rivers in Mesopotamia – now Iraq – and along the River Nile in Egypt, eventually spreading to Europe, Asia, and beyond. For thousands of years, agricultural development was very slow. Farmers cultivated small plots of land by hand using axes to clear away trees and sticks to break up and till the soil. However, over time, improved farming tools of bone, stone, bronze, and iron were developed. Around 7,500 years ago, farmers in Mesopotamia developed simple irrigation systems. By channeling water from streams onto their fields, farmers were able to settle in areas once thought to be unsuited to agriculture. In Mesopotamia and later in Egypt, people organized themselves and worked together to build large-scale irrigation systems. As the Roman Empire expanded, the Romans adopted the best agricultural practices from the people they conquered. They even wrote manuals describing farming techniques they had observed in regions such as Africa, Asia, and Europe. To preserve soil fertility, they sometimes left land unplanted—a practice known as leaving fields fallow. By 2,000 years ago, much of the Earth's population had become dependent on agriculture. <br><br>In medieval times, European farmers adopted an open-field system of planting in which one field would be planted in spring, and another in autumn. And one would be left unplanted, or fallow. This system preserved nutrients in the soil. So, increasing crop production. Later in the 15th and 16th centuries, explorers travelling to Africa, Asia, and the Americas began to introduce new varieties of plants into Europe. From the Americas, for example, they brought back agricultural products such as potatoes, tomatoes, maize and beans, which eventually became staple crops and an integral part of the European diet. <br><br>A period of major agricultural development began in the early 1700s for Great Britain and northern Europe. One of the most important of these developments was the horse-drawn seed drill, invented in England by Jethro Tull. Until that time, farmers sowed seeds by hand. Tull's invention made rows of holes for the seeds and dropped them into the holes, thus greatly improving the speed and efficiency of the process. By the end of the 18th century, seed drilling was widely practiced in many countries across Europe. <br><br>Along with new machines, there were several other important advances in farming methods. By selectively breeding their livestock - deliberately breeding animals with a certain combination of desirable qualities from chosen parent animals – farmers increased both the size of their herds and the productivity of their livestock. An early example of this is the Leicester sheep, an animal selectively bred in England for its quality meat and long, coarse wool. Then, in Austria in 1866, a monk and science teacher by the name of Gregor Mendel published his studies of heredity, which were the first to show how traits are passed from one generation of plants to the next. Mendel is widely recognised as the founder of the science of genetics, and his experiments paved the way for the selective breeding of plants and the improvement of crops through genetics. <br><br>Another major agricultural breakthrough came from the field of chemistry. For thousands of years, farmers had relied on natural fertiliser - materials such as animal or bird waste, wood ash, or ground bones to replenish or increase nutrients in the soil. Then, in the early 1800s, scientists discovered which elements were most essential to plant growth: nitrogen, phosphorus, and potassium. This led to the manufacture of chemical fertilisers based on nitrates and phosphates, which greatly increased crop yields. With the population of Europe doubling during the 1800s – from around 200 million at the beginning of the century to around 400 million mouths to feed at its end-farming had finally become big business.<br>",
+      "questions": [
+        {
+          "from": 1,
+          "to": 7,
+          "type": "form",
+          "instruction": "Complete the notes below Choose ONE WORD AND/ OR A NUMBER from the passage for each answer",
+          "heading": "Farming in the ancient world",
+          "content": "● prehistoric times - people collected wild plants, and went <strong>(1)</strong>  to get meat<br>● 11,500 years ago - people began growing crops, probably <strong>(2)</strong>  e.g. rice or corn and started to domesticate various types of animals.<br>● creation of a <strong>(3)</strong>  led to the exchange of goods and the beginnings of trade, which resulted in the emergence of cities and the growth of <strong>(4)</strong> <br>● farmers gradually began using better <strong>(5)</strong>  made from different materials<br>● systems of providing fields with a supply of <strong>(6)</strong>  were invented in Mesopotamia<br>● <strong>(7)</strong>  years ago, a large proportion of people worldwide had become dependent on farming<br>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 8,
+          "to": 13,
+          "type": "tfng",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage?<br><br><strong>TRUE</strong> if the statement agrees with the information<br><strong>FALSE</strong> if the statement contradicts the information<br><strong>NOT GIVEN</strong> if there is no information on this",
+          "content": "8   The Romans adapted their own farming methods for use in Africa and Asia.<br>9   The medieval open-field system increased food production by allowing European farmers to have crops growing continuously in all their fields<br>10   European eating habits changed as a result of international exploration in the 15th and 16th centuries<br>11   During the 18th century, many European countries created their own versions of the seed drill.<br>12   Selective breeding methods helped European farmers to produce more animals<br>13   Many farmers continued to use natural methods of fertilising their land, even after the development of chemical fertilisers.<br> <br>",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 8,
+              "text": "The Romans adapted their own farming methods for use in Africa and Asia."
+            },
+            {
+              "id": 9,
+              "text": "The medieval open-field system increased food production by allowing European farmers to have crops growing continuously in all their fields"
+            },
+            {
+              "id": 10,
+              "text": "European eating habits changed as a result of international exploration in the 15th and 16th centuries"
+            },
+            {
+              "id": 11,
+              "text": "During the 18th century, many European countries created their own versions of the seed drill."
+            },
+            {
+              "id": 12,
+              "text": "Selective breeding methods helped European farmers to produce more animals"
+            },
+            {
+              "id": 13,
+              "text": "Many farmers continued to use natural methods of fertilising their land, even after the development of chemical fertilisers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "title": "The study of laughter",
+      "content": "Humans don’t have a monopoly on laughter, says Silvia Cardoso. A behavioral biologist at the State University of Campinas, Brazil, she says it’s a primitive reflex common to most animal; even rats laugh. She believes that too little laughter could have serious consequences for our mental, physical and social well-being.<br><br>Laughter is a universal phenomenon, and one of the most common things we do. We laugh many times a day, for many different reasons, but rarely think about it, and seldom consciously control it. We know so little about the different kinds and functions of laughter, and our interest really starts there. Why do we do it? What can laughter teach us about our positive emotions and social behavior? There’s so much we don’t know about how the brain contributes to emotion and many scientists think we can get at understanding this by studying laughter. <br><br>Only 10 or 20 percent of laughing is a response to humor. Most of the time, it’s a message we send to other people, communicating joyful disposition, a willingness to bond and so on. It occupies a special place in social interaction and is a fascinating feature of our biology, with motor, emotional and cognitive components. Scientists study all kinds of emotions and behavior, but few focuses in this most basic ingredient. Laughter gives us a clue that we have powerful systems in our brain which respond to pleasure, happiness and joy. It’s also involved in events such as release of fear. <br><br>Many professionals have always focused on emotional behavior. Researchers spent many years investigating the neural basis of fear in rats, and came to laughter via that route. It is noticed that when they were alone, in an exposed environment, they were scared and quite uncomfortable. Back in a cage with others, they seemed much happier. It looked as if they played with one another real rough and tumble, and researchers wondered whether they were also laughing. The neurobiologist Jaak Panksepp had shown that juvenile rats make short vocalizations, pitched too high for humans to hear, during rough-and-tumble play. He thinks these are similar to laughter. This made us wonder about the roots of laughter. <br><br>We only have to look at the primate closest to humans to see that laughter is clearly not unique to us. This is not too surprising, because humans are only one among many social species and there’s no reason why we should have a monopoly on laughter as a social tool. The great apes, such as chimpanzees, do something similar to humans. They open their mouths wide, expose their teeth, retract the corners of their lips, and make loud and repetitive vocalizations in situations that tend to evokehuman laughter, like when playing with one another or with humans, or when tickled. <br> <br>Laughter may even have evolved long before primates. We know that dogs at play have strange patterns of exhalation that differ from other sounds made during passive or aggressive confrontation. <br><br>But we need to be careful about over-interpreting panting behavior in animals at play. It’s nice to think of it as homologous to human laughter, but it could just be something similar but with entirely different purposes and evolutionary advantages. <br><br>Everything humans do has a function, and laughing is no exception. Its function is surely communication. We need to build social structures in order to live well in our society and evolution has selected laughter as a useful device for promoting social communication. In other words, it must have a survival advantage for the species. <br><br>The brain scans are usually done while people are responding to humorous material. Brainwave activity spread from the sensory processing area of the occipital lobe, the bit at the back of the brain that processes visual signals, to the brain’s frontal lobe. It seems that the frontal lobe is involved in recognizing things as funny. The left side of the frontal lobe analyses the words and structure of jokes while the right side does the intellectual analyses required to “get” jokes. Finally, activity spreads to the motor areas of the brain controlling the physical task of laughing. Researchers also found out that these complex pathways involved in laughter from neurological illness and injury. Sometimes after brain damage, tumors, stroke or brain disorders such as Parkinson’s disease, people get “stonefaced” syndrome and can’t laugh. <br><br>We are sure that laughter should differ between the sexes, particularly the uses to which the sexes put laughter as a social tool. For instance, women smile more than laugh, and are particularly adept at smiling and laughing with men as a kind of “social lubricant”. It might even be possible that this has a biological origin, because women don’t or can’t use their physical size as a threat, which men do, even if unconsciously. <br><br>Laughter is believed to be one of the best medicines. For one thing, it’s exercise. It activates the cardiovascular system, so heart rate and blood pressure increase, then the arteries dilate, causing blood pressure to fall again. Repeated short, strong contractions of the chest muscles, diaphragm and abdomen increase blood flow into our internal organs, and forced respiration –the ha! ha! –making sure that this blood is well oxygenated. Muscle tension decreases, and indeed we may temporarily lose control of our limbs, as in the expression “weak with laughter”. It may also release brain endorphins, reducing sensitivity to pain and boosting endurance and pleasurable sensations. Some studies suggest that laughter affects the immune system by reducing the production of hormones associated with stress, and what when you laugh the immune system produces more T-cells. But no rigorously controlled studies have confirmed these effects. Laughter’s social role is definitely important. <br><br>Today’s children may be heading for a whole lot of social ills because their play and leisure time is so isolated and they lose out on lots of chances for laughter. When children stare at computer screens, rather than laughing with each other, this is at odds with what’s natural for them. Natural social behavior in children is playful behavior, and in such situations laughter indicates that make-believe aggression is just fun, not for real, and this is an important way in which children from positive emotional bonds, gain new social skills and generally start to move from childhood to adulthood. Parents need to be very careful to ensure that their children play in groups, with both peers and adult, and laugh mor <br>",
+      "questions": [
+        {
+          "from": 14,
+          "to": 15,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which of the following claims and arguments are presented in the passage above?<br>A.\tAll animals share the phenomenon of laughter.<br>B.\tLaughter can influence both adult and child health.<br>C.\tLaughter is not unique to humans.<br>D.\tHuman mental, physical and social well-being are closely related.<br>E.\tLaughter teaches us how to behave.<br>",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 14,
+              "text": "Question 14",
+              "options": []
+            },
+            {
+              "id": 15,
+              "text": "Question 15",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 16,
+          "to": 20,
+          "type": "ynng",
+          "instruction": "Do the following statements agree with the views of the writer?<br><br><strong>YES</strong> if the statement agrees with the views of the writer<br><strong>NO</strong> if the statement contradicts the views of the writer<br><strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this",
+          "content": "16.\tLaughter is one of the most common expressions shared by all humans.<br>17.\tThere are complicated\tsystems\tin the human\tbrain that\ttake the responsibility of our emotions as happiness and fear.<br>18.\tCommunication is the only purpose of laughter.<br>19.\tReduced blood pressure would lead to a stimulated cardiovascular system.<br>20.\tWith the mass production of T-cells from the laughter, stress hormones would be deducted from the immune system.<br>",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 16,
+              "text": "Laughter is one of the most common expressions shared by all humans."
+            },
+            {
+              "id": 17,
+              "text": "There are complicated\tsystems\tin the human\tbrain that\ttake the responsibility of our emotions as happiness and fear."
+            },
+            {
+              "id": 18,
+              "text": "Communication is the only purpose of laughter."
+            },
+            {
+              "id": 19,
+              "text": "Reduced blood pressure would lead to a stimulated cardiovascular system."
+            },
+            {
+              "id": 20,
+              "text": "With the mass production of T-cells from the laughter, stress hormones would be deducted from the immune system."
+            }
+          ]
+        },
+        {
+          "from": 21,
+          "to": 26,
+          "type": "form",
+          "instruction": "Complete the summary below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "heading": "",
+          "content": "Emotional behavior takes academic concerns. For years scientists have been examining the origin of <strong>(21)</strong> \t and laughter that comes from the same route as rats. Within an open environment, they have been noticed to be <strong>(22)</strong> <br>\t when they are alone, and happier when they are back with others. Jaak Panksepp even found that rats make <strong>(23)</strong>   when they are in a chaotic state. It is well understand that humans are not the only living species that laughs and laughter may have developed long before (24) . Despite such facts, we need to pay attention when we explain various animal behavior, as they may express with differed <strong>(25)</strong>   and (<strong>(26)</strong> <br>",
+          "questions": [
+            {
+              "id": 21,
+              "isGap": true
+            },
+            {
+              "id": 22,
+              "isGap": true
+            },
+            {
+              "id": 23,
+              "isGap": true
+            },
+            {
+              "id": 24,
+              "isGap": true
+            },
+            {
+              "id": 25,
+              "isGap": true
+            },
+            {
+              "id": 26,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "title": "Shoemaker –Levy 9 Collision with Jupiter",
+      "content": "<strong>A</strong><br>The last half of July 1994 witnessed much interest among the astronomical community and the wider public in the collision of comet Shoemaker – Levy 9 with Jupiter. The comet was discovered on 25 March 1993 by Eugene and Carolyn Shoemaker and David Levy, using a 450 mm Schmidt camera at the Mount Palomar Observatory. The discovery was based on a photographic plate exposed two days earlier. The Shoemakers are particularly experienced comet hunters with 61 discoveries to their credit. Their technique relied on the proper motion of a comet to identify the object as a non-stellar body. They photograph large areas of the sky, typically with an eight minute exposure, and repeat the photograph 45 minutes later. Comparison of the two photographs with a stereo-microscope reveals any bodies which have moved against the background of fixed stars. <br><br><strong>B</strong><br>As so often in science, serendipity played a large part in the discovery of the Shoemaker –Levy 9. The weather in the night of 23 March was so poor that the observers would not normally have bothered putting film into their camera. However, they had a box of old film to hand which had been partially exposed by accident some days previously, so decided to insert it into the camera rather than waste good film. Fortunately, two of the film plates, despite being fogged round the edges captured the first image of a very strange, bar-shaped object. This object, which Carolyn Shoemaker first described as a squashed comet, later became known as comet Shoemaker –Levy 9. <br><br><strong>C</strong><br> Other, more powerful, telescopes revealed that the comet was in fact composed of 21 cemetery fragments, strung out in a line, which accounted for the unusual shape. The term string of pearls was soon coined. Some graphic proofs obtained by the Hubble Space Telescope shows the main fragments which at that time spanned a linear distance of approximately 600,000 km. Initially the fragments were surrounded by extensive dust clouds in the line of the nuclei but these later disappeared. Some of the nuclei also faded out, while others split into multiple fragments. <br><br><strong>D</strong><br> The size of the original comet and each of the fragments was, and still is, something of a mystery. The first analysis of the orbital dynamics of the fragments suggested that the comet was originally some 2.5 km in diameter with an average fragment diameter of 0.75 km. Later work gave corresponding diameters of approximately 10 km and 2 km and these values are now considered more likely. There was considerable variation in the diameters of different fragments. <br><br><strong>E</strong><br> Further calculations revealed that the cemetery fragments were on course to collide with Jupiter during July 1994, and that each fragment could deliver an energy equivalent to approximately 500,000 million tons of TNT. The prospect of celestial fireworks on such a grand scale immediately captured the attention of astronomers worldwide! <br><br><strong>F</strong><br> Each fragment was assigned an identity letter A-W and a coordinated program of observations was put in place worldwide to track their progress towards impact with Jupiter. As the cemetery fragments reached the cloud tops of Jupiter, they were travelling at approximately 30,000,000 km. The impacts occurred during 16-22 July. All took place at a latitude of approximately 48 degrees south which nominally placed them in the SSS Temperate Region, however visually they appeared close to the Jovian polar region. The impacts all occurred some 10-15 degrees round the limb in the far side of the planet as seen from Earth. However the rapid rotation of the planet soon carried the impact sites into the view of Earth-based telescopes. The collisions lived up to all but the wildest expectations and provided a truly impressive spectacle. <br><br><strong>G</strong><br> Jupiter is composed of a relatively small core of iron and silicates surrounded by hydrogen. In the depths of the planet the hydrogen is so compressed that it is metallic in form; further from the center, the pressure is lower and the hydrogen is in its normal molecular form. The Jovian cloud tops visible from Earth consist primarily of methane and ammonia. There are other elements and compounds lurking in the cloud tops and below which are thought to be responsible for the colors seen in the atmosphere. <br><br><strong>H</strong><br> The smaller cemetery fragments plunged into Jupiter, rapidly disintegrated and left little trace; three of the smallest fragments, namely T, U and V left no discernible traces whatsoever. However, many of the cemetery fragments were sufficiently large to produce a spectacular display. Each large fragment punched through the cloud tops, heated the surrounding gases to some 20,000 K on the way, and caused a massive plume or fireball up to 2,000 km in diameter to rise above the cloud tops. Before encountering thicker layers of the atmosphere and disintegrating in a mammoth shock wave, the large fragments raised dark dust particles and ultra-violet absorbing gases high into the Jovian cloud tops. The dark particles and ultra-violet absorbing gases manifested themselves as a dark scar surrounding the impact site in visible light.<br> <strong>I</strong><br> Somedays after collision the impact sites began to evolve and fade as they became subject to the dynamics of Jupiter’s atmosphere. No one knows how long they will remain visible from Earth, but it is thought that the larger scars may persist for a year or more. The interest of professional astronomers in Jupiter is now waning and valuable work can therefore be performed by amateurs in tracking the evolution of the collision scars. The scars are easily visible in a modest telescope, and a large reflector will show them in some detail. There is scope for valuable observing work from now until Jupiter reaches conjunction with the Sun in November 2004. <br><br><strong>J</strong><br> Astronomers and archivists are now searching old records for possible previously unrecognized impacts on Jupiter. Several spots were reported from 1690 to 1872 by observers including William Herschel and Giovanni Cassini. The records of the BAA in 1927 and 1948 contain drawings of Jupiter with black dots or spots visible. It may be possible that comet impacts have been observed before, without their identity being realized, but no one can be sure.<br><br>",
+      "questions": [
+        {
+          "from": 27,
+          "to": 31,
+          "type": "wordlist",
+          "instruction": "Choose the most suitable headings for paragraphs B-F from the list of headings <br>. <strong>NB </strong>  There are more headings than paragraphs, so you will not use them all",
+          "heading": "",
+          "wordlistName": "List of Headings",
+          "options": [
+            "i\tCamera settings for observation",
+            "ii\tCollisions on stage",
+            "iii\tSize of comet",
+            "iv\tString of pearls",
+            "v\tScientific explanations",
+            "vi\tHubble Space Telescope",
+            "vii\tFirst discovery of the squashed comet",
+            "viii\tPower generated from the collisions",
+            "ix\tCalculations, expectations and predictions",
+            "x\tChange of the fragment’s shape"
+          ],
+          "content": "27\tParagraph B<br>28\tParagraph C<br>29\tParagraph D<br>30\tParagraph E<br>31\tParagraph F<br>",
+          "questions": [
+            {
+              "id": 27,
+              "isGap": true
+            },
+            {
+              "id": 28,
+              "isGap": true
+            },
+            {
+              "id": 29,
+              "isGap": true
+            },
+            {
+              "id": 30,
+              "isGap": true
+            },
+            {
+              "id": 31,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 32,
+          "to": 35,
+          "type": "matching",
+          "instruction": "Which paragraph contains the following information?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "questions": [
+            {
+              "id": 32,
+              "text": "Shoemaker –Levy 9 comets had been accidentally detected."
+            },
+            {
+              "id": 33,
+              "text": "The collision caused a spectacular vision on Jupiter."
+            },
+            {
+              "id": 34,
+              "text": "Every single element of Shoemaker –Levy 9 was labeled."
+            },
+            {
+              "id": 35,
+              "text": "Visual evidence explains the structure of Shoemaker –Levy 9."
+            }
+          ]
+        },
+        {
+          "from": 36,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the summary bellow. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "heading": "",
+          "content": "The  core  of  Jupiter,  which  is  enclosed  by  hydrogen,  consists  of  <strong>(36)</strong> and <strong>(37)</strong>  \t. Hydrogen is in metallic form as it is squeezed by pressure generated from the depths of the planet. The pressure is gradually reduced from the center to the outside layers, where hydrogen is in normal form of <strong>(38)</strong>  Far from the ground, methane and ammonia structures the <strong>(39)</strong> , which can be observed from earth. Colors seen in the atmosphere is largely due to other particles <strong>(40)</strong> \t in the cloud. <br>",
+          "questions": [
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "answers": {
+    "passage1": {
+      "1": "Hunting",
+      "2": "cereals",
+      "3": "surplus",
+      "4": "civilisations",
+      "5": "tools",
+      "6": "water",
+      "7": "2000",
+      "8": "FALSE",
+      "9": "FALSE",
+      "10": "TRUE",
+      "11": "NOT GIVEN",
+      "12": "TRUE",
+      "13": "NOT GIVEN"
+    },
+    "passage2": {
+      "14": "B / C",
+      "15": "B / C",
+      "16": "YES",
+      "17": "YES",
+      "18": "NOT GIVEN",
+      "19": "NO",
+      "20": "NOT GIVEN",
+      "21": "fear",
+      "22": "scare / uncomfortable",
+      "23": "short vocalizations / vocalizations",
+      "24": "primates",
+      "25": "purposes",
+      "26": "evolutionary advantages"
+    },
+    "passage3": {
+      "27": "vii",
+      "28": "iv",
+      "29": "iii",
+      "30": "viii",
+      "31": "ii",
+      "32": "B",
+      "33": "H",
+      "34": "F",
+      "35": "C",
+      "36": "iron",
+      "37": "silicates",
+      "38": "molecule",
+      "39": "Jovian cloud tops",
+      "40": "lurking"
+    }
+  }
+}
