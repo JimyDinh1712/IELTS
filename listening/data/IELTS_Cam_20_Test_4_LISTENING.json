@@ -11,7 +11,7 @@
           "type": "form",
           "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
           "heading": "Advice on family visit",
-          "content": "<strong>Accommodation</strong><br>● <strong>(1)</strong>  Hotel on George Street<br>● cost of family room per night: 2 £ <strong>(2)</strong>  (approx.)<br><strong>Recommended trips</strong><br>● a <strong>(3)</strong>  tour of the city centre (starts in Carlton Square)<br>● a trip by <strong>(4)</strong>  to the old fort<br>Science Museum<br>● best day to visit: <strong>(5)</strong> <br>● see the exhibition about <strong>(6)</strong>  which opens soon<br><strong>Food</strong><br>● Clacton Market:<br>○ good for <strong>(7)</strong>  food<br>○ need to have lunch before <strong>(8)</strong>  p.m.<br><strong>Theatre tickets</strong><br>● save up to <strong>(9)</strong>  % on ticket prices at bargaintickets.com<br><strong>Free activities</strong><br>● Blakewell Gardens:<br>● Roots Music Festival<br>● climb Telegraph Hill to see a view of the <strong>(10)</strong> ",
+          "content": "<strong>Accommodation</strong><br>● <strong>(1)</strong>  Hotel on George Street<br>● cost of family room per night:  £ <strong>(2)</strong>  (approx.)<br><strong>Recommended trips</strong><br>● a <strong>(3)</strong>  tour of the city centre (starts in Carlton Square)<br>● a trip by <strong>(4)</strong>  to the old fort<br>Science Museum<br>● best day to visit: <strong>(5)</strong> <br>● see the exhibition about <strong>(6)</strong>  which opens soon<br><strong>Food</strong><br>● Clacton Market:<br>○ good for <strong>(7)</strong>  food<br>○ need to have lunch before <strong>(8)</strong>  p.m.<br><strong>Theatre tickets</strong><br>● save up to <strong>(9)</strong>  % on ticket prices at bargaintickets.com<br><strong>Free activities</strong><br>● Blakewell Gardens:<br>● Roots Music Festival<br>● climb Telegraph Hill to see a view of the <strong>(10)</strong> ",
           "questions": [
             {
               "id": 1,
@@ -155,7 +155,7 @@
           "to": 22,
           "type": "mcq-multiple",
           "instruction": "Choose the correct letter, A-E.",
-          "content": "Which TWO features of the stadium tour are new this year?<br>A   improved fine motor skills<br>B   improved memory<br>C   improved concentration<br>D   improved imagination<br>E   improved spatial awareness",
+          "content": "Which TWO benefits for children of learning to write did both students find surprising?<br>A   improved fine motor skills<br>B   improved memory<br>C   improved concentration<br>D   improved imagination<br>E   improved spatial awareness",
           "numToSelect": 2,
           "questions": [
             {
