@@ -1,0 +1,356 @@
+{
+  "testTitle": "IELTS Mock Test",
+  "passages": [
+    {
+      "passageNumber": 1,
+      "title": "Listening ",
+      "content": "<img src=\"data/minhphuc.jpg\"  id=\"img\">",
+      "questions": [
+        {
+          "from": 1,
+          "to": 5,
+          "type": "mcqABCD",
+          "instruction": "Choose the correct letter, A, B, C or D.",
+          "heading": "Choose the correct letter, A, B or C.",
+          "content": "<strong>1</strong> What is Chloe concerned about?<br>A   her knowledge of maths<br>B   her ability to write essays<br>C   her lack of business experience<br><strong>2</strong> Which of the following does Ivan feel he has improved?<br>A   his computer skills<br>B   his presentation skills<br>C   his time management<br><strong>3</strong>   What does Chloe especially like about the course?<br>A   She won’t have to do a final examination.<br>B   She can spend time working in a business.<br>C   She can study a foreign language.<br><strong>4</strong>   Ivan is pleased that the university is going to have<br>A   more lecture rooms.<br>B   a larger library.<br>C   more courses.<br><strong>5</strong>   What does Ivan advise Chloe to do?<br>A   contact his tutor<br>B   read about some other universities<br>C   visit the university",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 1,
+              "text": "What is Chloe concerned about?",
+              "options": [
+                "A   her knowledge of maths",
+                "B   her ability to write essays",
+                "C   her lack of business experience"
+              ]
+            },
+            {
+              "id": 2,
+              "text": "Which of the following does Ivan feel he has improved?",
+              "options": [
+                "A   his computer skills",
+                "B   his presentation skills",
+                "C   his time management"
+              ]
+            },
+            {
+              "id": 3,
+              "text": "What does Chloe especially like about the course?",
+              "options": [
+                "A   She won’t have to do a final examination.",
+                "B   She can spend time working in a business.",
+                "C   She can study a foreign language."
+              ]
+            },
+            {
+              "id": 4,
+              "text": "Ivan is pleased that the university is going to have",
+              "options": [
+                "A   more lecture rooms.",
+                "B   a larger library.",
+                "C   more courses."
+              ]
+            },
+            {
+              "id": 5,
+              "text": "What does Ivan advise Chloe to do?",
+              "options": [
+                "A   contact his tutor",
+                "B   read about some other universities",
+                "C   visit the university"
+              ]
+            }
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "type": "wordlist",
+          "instruction": "What does Chloe decide about the following subjects? Write the correct letter, A, B or C,",
+          "heading": "Subjects",
+          "wordlistName": "List of Options",
+          "options": [
+            "A     She will study it.  ",
+            "B     She won’t study it.  ",
+            "C     She might study it."
+          ],
+          "content": "6   Public relations             ……………<br>7   Marketing                      ……………<br>8   Taxation                         ……………<br>9   Human resources        ……………<br>10   Information systems   ……………",
+          "questions": [
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 11,
+          "to": 15,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write NO MORE THAN TWO WORDS for each answer.",
+          "heading": "History of weather forecasting",
+          "content": "<strong>Early methods</strong><br>Almanacs connected the weather with the positions of different <strong>(11)</strong>  at particular times.<br><strong>Invention of weather instruments</strong><br>A hydrometer showed Levels of <strong>(12)</strong>  (Nicholas Cusa 1450)<br>Temperature variations – first measured by a thermometer containing <strong>(13)</strong>  (Galileo Galilei 1595)<br>A barometer indicated air pressure (Evangelista Torricelli 1645)<br><strong>Transmitting weather information</strong><br>The use of the <strong>(14)</strong>  allowed information to be passed around the world.<br>Daily <strong>(15)</strong>  were produced by the French from 1863.",
+          "questions": [
+            {
+              "id": 11,
+              "isGap": true
+            },
+            {
+              "id": 12,
+              "isGap": true
+            },
+            {
+              "id": 13,
+              "isGap": true
+            },
+            {
+              "id": 14,
+              "isGap": true
+            },
+            {
+              "id": 15,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 16,
+          "to": 20,
+          "type": "form",
+          "instruction": "Complete the sentences below.  Write NO MORE THAN TWO WORDS for each answer.",
+          "heading": "Producing a weather forecast",
+          "content": "16   Weather observation stations are found mostly at (16) around the country.<br>17   Satellite images use the colour orange to show (17).<br>18   The satellites give so much detail that meteorologists can distinguish a particular (18)<br>19   Information about the upper atmosphere is sent from instruments attached to a (19).<br>20  Radar is particularly useful for following the movement of (20).",
+          "questions": [
+            {
+              "id": 16,
+              "isGap": true
+            },
+            {
+              "id": 17,
+              "isGap": true
+            },
+            {
+              "id": 18,
+              "isGap": true
+            },
+            {
+              "id": 19,
+              "isGap": true
+            },
+            {
+              "id": 20,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "title": "Homo ergaster",
+      "content": "<strong>A</strong>  Huge debate rages about human origins, but the broad consensus among scientists is that all the different species of human (hominids) that have ever existed were descended from ape-like creatures that walked upright in Africa more than six million years ago. These creatures had many descendants, most of which became extinct, but the first creature we would recognise as human first appeared in Africa almost two million years ago. Homo ergaster, meaning 'working human', evolved during an accelerated period of global cooling and drying that cleared more and more tropical rainforest from Africa, and created desert in the northern half of the continent.<br> <strong>B </strong> One of the best sources of information about Homo ergaster is a skeleton found in 1984 by Alan Walker and Kamoya Kimeu at Nariokotome in West Turkana, Kenya. The remains turned out to be those of a young boy, who was between the ages of 11 and 13 when he died around 1.5 million years ago. The boy's body sank into the marsh where he died, and became fossilised. His teeth show signs of a sizeable abscess where his milk teeth fell out, indicating that he may have died from blood poisoning.<br><strong>C</strong> The Nariokotome skeleton, often referred to as 'Turkana Boy', is remarkably complete. Over 80 percent of the skeleton was recovered, making it one of the most intact early hominid fossils ever found. Analysis of the bones revealed that Homo ergaster had a body remarkably similar to modern humans. The rib cage was barrel-shaped rather than conical, the pelvis was narrow, and the legs were long. These features suggest that Homo ergaster was a highly efficient walker and runner, well adapted to long-distance travel across the open savannah.<br><strong>D </strong>The physical adaptations of Homo ergaster also included a larger brain capacity than earlier hominids, ranging from 700 to 900 cubic centimetres. This is still only about two-thirds the size of the modern human brain, but it represents a significant increase over Australopithecus and Homo habilis. Alongside this brain growth came changes in the skull, including a less prominent brow ridge and smaller teeth. The reduction in tooth size suggests a shift in diet, possibly including more meat and cooked foods, though direct evidence of fire use from this period remains controversial.<br><strong>E</strong> Homo ergaster is also notable for being the first hominid to have body proportions that fall within the range of modern humans. The limbs were longer and more slender than earlier species, and the shoulders were less adapted for climbing. This suggests that Homo ergaster had abandoned a significant amount of tree-dwelling behaviour and was fully committed to life on the ground. The ability to walk and run efficiently would have allowed these early humans to hunt and scavenge over large territories, and to compete successfully with other predators on the African savannah.<br><strong>F</strong>Perhaps most significantly, Homo ergaster is widely believed to be the first hominid to leave Africa. Fossil evidence from the Republic of Georgia, dated to around 1.8 million years ago, has been attributed to Homo ergaster or a very similar species. These specimens, found at Dmanisi, represent the earliest known human ancestors outside Africa. The ability to colonise new environments, with different climates and food sources, demonstrates the adaptability and behavioural flexibility of this species. It is likely that Homo ergaster had developed more complex social structures and possibly even simple language to coordinate hunting and migration.<br><strong>G</strong> The eventual fate of Homo ergaster is uncertain. Some palaeoanthropologists believe that the species evolved directly into Homo erectus in Asia, while others argue that Homo ergaster was a distinct African species that eventually went extinct. What is clear, however, is that the physical and behavioural adaptations seen in Homo ergaster laid the foundation for the success of later humans, including our own species, Homo sapiens. The Turkana Boy and other fossils like him provide a remarkable window into a crucial phase of human evolution.<br>",
+      "questions": [
+        {
+          "from": 21,
+          "to": 27,
+          "type": "wordlist",
+          "instruction": "Reading Passage 2 has seven paragraphs, A–G. Choose the correct heading for each paragraph from the list of headings below.",
+          "heading": "",
+          "wordlistName": "List of Headings",
+          "options": [
+            "i Assumptions about language and nutrition ",
+            "ii  A series of developments involving bone structure ",
+            "iii  Conflicting theories about Homo ergaster's ancestry ",
+            "iv  The earliest occurrence of a human-like species ",
+            "v  The beginnings of human migration ",
+            "vi  Evidence of conflict between populations ",
+            "vii Physical features adapted for climate ",
+            "viii  The social behaviour linked to human reproductive features ",
+            "ix Technical advances in the analysis of human remains ",
+            "x  The valuable discovery of a specimen "
+          ],
+          "content": "21 Paragraph A<br>22 Paragraph B<br>23 Paragraph C<br>24 Paragraph D<br>25 Paragraph E<br>26 Paragraph F<br>27 Paragraph G",
+          "questions": [
+            {
+              "id": 21,
+              "isGap": true
+            },
+            {
+              "id": 22,
+              "isGap": true
+            },
+            {
+              "id": 23,
+              "isGap": true
+            },
+            {
+              "id": 24,
+              "isGap": true
+            },
+            {
+              "id": 25,
+              "isGap": true
+            },
+            {
+              "id": 26,
+              "isGap": true
+            },
+            {
+              "id": 27,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 28,
+          "to": 30,
+          "type": "form",
+          "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "heading": "",
+          "content": "28 The name Homo ergaster means '(28) human'.<br>29 The skeleton found at Nariokotome is often called '(29)'.<br>30 The Dmanisi specimens represent the earliest known human ancestors outside (30).",
+          "questions": [
+            {
+              "id": 28,
+              "isGap": true
+            },
+            {
+              "id": 29,
+              "isGap": true
+            },
+            {
+              "id": 30,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 31,
+          "to": 33,
+          "type": "tfng",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage?<br><br><strong>TRUE</strong> if the statement agrees with the information<br><strong>FALSE</strong> if the statement contradicts the information<br><strong>NOT GIVEN</strong> if there is no information on this",
+          "content": "31 The Nariokotome skeleton was discovered by a team of French archaeologists.<br>32 Homo ergaster had a larger brain capacity than Homo habilis.<br>33 All palaeoanthropologists agree that Homo ergaster evolved directly into Homo erectus.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 31,
+              "text": "The Nariokotome skeleton was discovered by a team of French archaeologists."
+            },
+            {
+              "id": 32,
+              "text": "Homo ergaster had a larger brain capacity than Homo habilis."
+            },
+            {
+              "id": 33,
+              "text": "All palaeoanthropologists agree that Homo ergaster evolved directly into Homo erectus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "title": "Writing<br>Some people feel that there is too much emphasis on getting an education, and that the government should spend money on leisure time activities for young people too. To what extent do you agree or disagree?<br>___________________________________________________________________<br>",
+      "content": "<textarea id=\"writing-area\"  style=\"font-size: 16px;\"> In recent years, (topic) has attracted increasing attention. While there are differing views regarding (this issue), it is my view that (it) represents a largely positive development overall, provided that it is appropriately managed. This essay will examine the issue in greater detail. One key aspect of this issue is that (main point 1). This can be largely attributed to (cause / explanation), which consequently leads to (effect or outcome). For instance, (specific example), which clearly illustrates this tendency in practice. Another important consideration is that (main point 2). In this sense, (further explanation), resulting in (impact or consequence). However, this issue can be addressed by (solution / mitigating factor), which may help reduce ( its negative effects). In conclusion, despite the challenges associated with this issue, it is reasonable to regard it as a largely positive development. As long as it is carefully managed through appropriate actions at both individual and governmental levels, its long-term benefits are likely to outweigh any potential drawbacks.</textarea>",
+      "questions": [
+        {
+          "from": 34,
+          "to": 40,
+          "type": "form",
+          "instruction": "",
+          "heading": "",
+          "content": "",
+          "questions": [
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "answers": {
+    "passage1": {
+      "1": "B",
+      "2": "C",
+      "3": "A",
+      "4": "C",
+      "5": "A",
+      "6": "C",
+      "7": "A",
+      "8": "A",
+      "9": "B",
+      "10": "C",
+      "11": "planets",
+      "12": "humidity",
+      "13": "water"
+    },
+    "passage2": {
+      "14": "electric telegraph / telegraph",
+      "15": "weather maps /maps",
+      "16": "airports",
+      "17": "dry air",
+      "18": "cloud",
+      "19": "balloon",
+      "20": "hurricanes",
+      "21": "iv",
+      "22": "x",
+      "23": "ii",
+      "24": "i",
+      "25": "vii",
+      "26": "v"
+    },
+    "passage3": {
+      "27": "iii",
+      "28": "working",
+      "29": "Turkana Boy",
+      "30": "Africa",
+      "31": "FALSE",
+      "32": "TRUE",
+      "33": "FALSE"
+    }
+  }
+}
