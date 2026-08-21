@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The recycling process of plastics",
+    "instruction": "The graphs below show the development of the cutting tools made by stone, one was made 1.4 million years ago, and the other was made 800 thousand years ago, viewing from back view, front view and side view. Summarize the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/23_08_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "In many countries, the increase in life expectancy means that people have to work until they are older to help pay their retirement. An alternative would be a positive or negative development?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

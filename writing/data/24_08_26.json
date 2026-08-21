@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The structure of a home smokery",
+    "instruction": "The diagram below describes the structure of a home smokery and how it works. Summarise the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/24_08_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people say that the main aim of advertising is to improve the sales of products that people do not really need",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

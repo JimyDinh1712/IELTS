@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The recycling process of plastics",
+    "instruction": "The diagram below shows the recycling process of plastics.Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "imagePath": "data/22_08_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Some people think that governments should spend more money on sports facilities for top athletes. Others argue that this money should be spent for sports facilities for ordinary people. Discuss both sides and give your own opinion.",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}
