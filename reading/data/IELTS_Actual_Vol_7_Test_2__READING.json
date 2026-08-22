@@ -1,0 +1,377 @@
+{
+  "testTitle": "IELTS Actual 7 Test 2",
+  "passages": [
+    {
+      "passageNumber": 1,
+      "title": "Dealing with Different Sleep Patterns",
+      "content": "Sleep medicine is a relatively young field in the UK, with only a couple of centers until the 1980s. In the last decade a number of centers have sprouted, often led by chest physicians and ENT (Ear, Nose and Throat) surgeons with an interest in obstructive sleep apnoea, forcing neurologists and neurophysiologists to wake up and contribute to the non –respiratory aspect of this neglected subject.<br>Within sleep, two states are recognized –non rapid eye movement (NREM) and rapid eye movement (REM). These alternate cyclically through the night with cycle time of 90 minutes (50 ~ 60 minutes in the newborn). NREM sleep evolved with the homeothermic state and is divided into four stages: stage 1and 2 which are considered light sleep, and stages 3 and 4 which are considered deep sleep with high arousal threshold.<br>REM is ontogenecally primitive with EEG (electroencephalo –graph) activity closer to wake state, intermittent bursts of REMs and muscle atonia interrupted by phasic burst producing asynchronous twitching. The atonia of REM sleep prevents acting out of dreams and is lost in REM behavior disorder when dreams content becomes violent and patients act out their dream, often resulting in injury.<br>REM behavior disorder can be a precursor of neurodegenerative disease including Parkinsons. Dream content –pleasant or unpleasant –will be remembered on waking from REM sleep but there is often little or no memory of the preceding mental activity on arousals from NREM sleep, even when associated with complex behaviors and autonomic disturbance as occurs in night terrors or sleep walking.<br>In the newborn, 50 percent of total sleep time is occupied by REM sleep, progressively shrinking to 25 percent in the adult, the first block of REM sleep occurring about 90 minutes after sleep onset. Abrupt withdrawal of alcohol and many centrally acting recreational and non-recreational drugs can cause REM sleep to occur at sleep onset. This can also increase total REM sleep, leading to intense vivid often frightening dreams, similar to that experienced by patients with narcolepsy.<br>The NREM/REM sleep states are interrupted by brief arousals and transient awakenings. The frequency of the arousals may increase with emotional disturbance or environmental discomfort but also in many intrinsic sleep disorders such as periodic leg movements in sleep, obstructive sleep apnoea and narcolepsy.<br>A basic rest/activity cycle originates in fetal life. The newborn sleeps an equal <br> <br>amount during the day and night, the sleep/wake cycle organized around three to four hourly feeds. By the second month favoring of sleep towards night time occurs and by six months the baby will have about 12 hour of sleep at night in addition to a couple of daytime naps.<br>In general, children born prematurely have a tendency to be awake more at night in the first year and breast-fed babies wake more frequently, but the difference disappears by the second year. Persistent night awakenings in infants and toddlers usually reflect the child’s inability to self-soothe back to sleep without parental attention and will respond to a well supported behavioral programme.<br>The establishment of a consolidated night sleep pattern in children reflects brain maturation and may be disrupted in children with developmental problems. Even in this group success is possible by persisting with behavioral work, though many paediatricians prescribe melatonin for these children with some success. But as the long –term safety of melatonin remains unknown it should be used as a last resort.<br>There are now good studies looking at short term use of melatonin in sleep wake cycle disorders such as delayed sleep phase syndrome. Its use as a hypnotic should be discouraged, especially in the developing child as there is uncertainty on other cycles, such as menstrual.<br>In addition to the NREM/REM cycles, there is a circadian sleep/wake cycle entrained by intrinsic rhythms –melatonin and body temperature and extrinsic factors –light and social cues such as mealtimes, work times.<br>The pineal hormone melatonin plays a role in entraining the sleep/wake cycle to the light/dark cycle. Melatonin secretion is high in darkness and low in daylight hours, the process beginning in the retina with the supra chiasmatic nucleus playing a major role as a sleep regulator via melatonin. Blind people may lose this entrainment and develop a free running sleep/wake cycle with progressive advancement of sleep onset time.<br>Polymorphism of the circadian clock gene has now been identified with the population divided between morning types (larks) and evening types (owls). Those predisposed to later sleep onset time are susceptible to developing delayed sleep phase syndrome especially during adolescence when sleep requirement increases and there is a tendency towards later time for sleeping and waking.<br>In delayed sleep phase syndrome, sleep onset is delayed to the early hours of the morning with consequent difficulty in waking in time for school/work. Once established advancing sleep onset time is difficult and requires treatment with appropriately timed melatonin or bright light therapy, or chronotherapy –advancing sleep onset progressively forwards until the desired sleep time is reached.<br>In contrast the elderly who are more susceptible to perturbation in their sleep/wake schedule can develop advanced sleep phase syndrome with sleep onset occurring early in the evening. Shift workers often struggle to cope with shift patterns as they grow older due to difficulty in re-adjusting their circadian clock. In general, morning bright light exposure is a more powerful synchronizer of the circadian rhythm than melatonin.<br>",
+      "questions": [
+        {
+          "from": 1,
+          "to": 8,
+          "type": "tfng",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage?<br><br><strong>TRUE</strong> if the statement agrees with the information<br><strong>FALSE</strong> if the statement contradicts the information<br><strong>NOT GIVEN</strong> if there is no information on this",
+          "content": "1.\tGrowth interest on sleeping disorder studies caused growth number of centers for researching on sleep medicines.<br>2.\tPeople are often injured when dreaming aggressive scenes or sleepwalking.<br>3.\tParkinsons is scientifically proved to be the only result of REM disorders.<br>4.\tREM sleep counts for less proportion of total sleep time for grownups then newborns.<br>5.\tFrightening dreams are considered irrelevant to alcohols and drugs.<br>6.\tAccording to the author, babies would sleep more at night from the second month of their births.<br>7.\tDuring the night, children born prematurely wake as frequently as breast-fed babies.<br>8.\tChildren require more deep sleep and less disruption during their sleep in the first half of the night.<br>",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "text": "Growth interest on sleeping disorder studies caused growth number of centers for researching on sleep medicines."
+            },
+            {
+              "id": 2,
+              "text": "People are often injured when dreaming aggressive scenes or sleepwalking."
+            },
+            {
+              "id": 3,
+              "text": "Parkinsons is scientifically proved to be the only result of REM disorders."
+            },
+            {
+              "id": 4,
+              "text": "REM sleep counts for less proportion of total sleep time for grownups then newborns."
+            },
+            {
+              "id": 5,
+              "text": "Frightening dreams are considered irrelevant to alcohols and drugs."
+            },
+            {
+              "id": 6,
+              "text": "According to the author, babies would sleep more at night from the second month of their births."
+            },
+            {
+              "id": 7,
+              "text": "During the night, children born prematurely wake as frequently as breast-fed babies."
+            },
+            {
+              "id": 8,
+              "text": "Children require more deep sleep and less disruption during their sleep in the first half of the night."
+            }
+          ]
+        },
+        {
+          "from": 9,
+          "to": 14,
+          "type": "wordlist",
+          "instruction": "NB There are more words than spaces so you will not use them all.",
+          "heading": "",
+          "wordlistName": "List of Options",
+          "options": [
+            "rhythms\t",
+            "shadow\t",
+            "different\t",
+            "identical",
+            "paces\t",
+            "bright\t",
+            "body\t",
+            "shift workers",
+            "entraining\t",
+            "daylight\t",
+            "elders\t",
+            "blind",
+            "physiological\t",
+            "cycle\t",
+            "younger\t",
+            "sight"
+          ],
+          "content": "Researchers had laid their eyes on using medicines in sleep-wake cycle disorders. The NREM/REM cycles affect sleep along with human 9 \t\t and outside factors. Melatonin plays a determinant role in 10 \t the sleep-wake cycle to the day-night cycle. Scientists found that melatonin is high within 11<br>\t environment, with an exception of 12 \t\t\t subject who may build up a free cycle. Circadian clock genes are 13 \t\t between “morning people” and “night people”. It is difficult for people with delayed sleep phase syndrome to wake in time. Conversely, 14 \t are more susceptible to sleep early in the evening.<br>",
+          "questions": [
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            },
+            {
+              "id": 11,
+              "isGap": true
+            },
+            {
+              "id": 12,
+              "isGap": true
+            },
+            {
+              "id": 13,
+              "isGap": true
+            },
+            {
+              "id": 14,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "title": "From Novices to Experts",
+      "content": "Expertise is commitment coupled with creativity. Specifically, it is the commitment of time, energy, and resources to a relatively narrow field of study and the creative energy necessary to generate new knowledge in that field. It takes a considerable amount of time and regular exposure to a large number of cases to become an expert.<br>An individual enters a field of study as a novice. The novice needs to learn the guiding principles and rules –the heuristics and constraints –of a given task in order to perform that task. Concurrently, the novice needs to be exposed to specific cases, or instances, that test the boundaries of such heuristics. Generally, a novice will find a mentor to guide her through the process of acquiring new knowledge. A fairly simple example would be someone learning to play chess. The novice chess player seeks a mentor to teach her the object of the game, the number of spaces, the names of the pieces, the function of each piece, how each piece is moved, and the necessary conditions for winning or losing the game.<br>In time, and with much practice, the novice begins to recognize patterns of behavior within cases and, thus, becomes a journeyman. With more practice and exposure to increasingly complex cases, the journeyman finds patterns not only within cases but also between cases. More importantly, the journeyman learns that these patterns often repeat themselves over time. The journeyman still maintains regular contact with a mentor to solve specific problems and learn more complex strategies. Returning to the example of the chess player, the individual begins to learn patterns of opening moves, offensive and defensive game –playing strategies, and patterns of victory and defeat.<br>When a journeyman starts to make and test hypotheses about future behavior based on past experiences, she begins the next transition. Once she creatively generates knowledge, rather than simply matching superficial patterns, she becomes an expert. At this point, she is confident in her knowledge and no longer needs a mentor as a guide –she becomes responsible for her own knowledge.<br>In the chess example, once a journey man begins competing against experts, makes predictions based on patterns, and tests those predictions against actual behavior, she is generating new knowledge and a deeper understanding of the game. She is creating her own cases rather than relying on the cases of others.<br>The chess example is a rather short description of an apprenticeship model. Apprenticeship may seem like a restrictive 18th century mode of education, but it is<br> <br>still a standard method of training for many complex tasks. Academic doctoral programs are based on an apprenticeship model, as are fields like law, music, engineering, and medicine. Graduate students enter fields of study, find mentors, and begin the long process of becoming independent experts and generating new knowledge in their respective domains.<br>To some, playing chess may appear rather trivial when compared, for example, with making medical diagnoses, but both are highly complex tasks. Chess has a well-defined set of heuristics, whereas medical diagnoses seem more open ended and variable. In both instances, however, there are tens, if not hundreds, of thousands of potential patterns. A research study discovered that chess masters had spent between 10,000 and 20,000 hours, or more than ten years, studying and playing chess. On average, a chess master stores, 50,000 different chess patterns in long-term memory.<br>Similarly, a diagnostic radiologist spends eight years in full time medical training –four years of medical school and four years of residency –before she is qualified to take a national board exam and begin independent practice. According to a 1988 study, the average diagnostic radiology resident sees forty cases per day, or around 12,000 cases per year. At the end of a residency, a diagnostic radiologist has stored, on average, 48,000 cases in long-term memory.<br>Psychologists and cognitive scientists agree that the time it takes to become an expert depends on the complexity of the task and the number of cases, or patterns, to which an individual is exposed. The more complex the task, the longer it takes to build expertise, or, more accurately, the longer it takes to experience and store a large number of cases or patterns.<br>Experts are individuals with specialized knowledge suited to perform the specific tasks for which they are trained, but that expertise does not necessarily transfer to other domains. A master chess player cannot apply chess expertise in a game of poker –although both chess and poker are games, a chess master who has never played poker is a novice poker player. Similarly, a biochemist is not qualified to perform neurosurgery, even though both biochemists and neurosurgeons study human physiology. In other words, the more complex a task is the more specialized and exclusive is the knowledge required to perform that task.<br>An expert perceives meaningful patterns in her domain better than non-experts. Where a novice perceives random or disconnected data points, an expert connects regular patterns within and between cases. This ability to identify patterns is not an innate perceptual skill; rather it reflects the organization of knowledge after exposure to and experience with thousands of cases.<br> <br>Experts have a deeper understanding of their domains than novices do, and utilize higher –order principles to solve problems. A novice, for example, might group objects together by color or size, whereas an expert would group the same objects according to their function or utility. Experts comprehend the meaning of data and weigh variables with different criteria within their domains better then novices. Experts recognized variables that have the largest influence on a particular problem and focus their attention on those variables.<br>Experts have better domain –specific short –term and long –term memory than novices do. Moreover, experts perform tasks in their domains faster than novices and commit fewer errors while problem solving. Interestingly, experts go about solving problems differently than novices. Experts spend more time thinking about a problem to fully understand it at the beginning of a task than do novices, who immediately seek to find a solution. Experts use their knowledge of previous cases as context for creating mental models to solve given problems.<br>Better at self-monitoring then novices, experts are more aware of instances where they have committed errors or failed to understand a problem. Experts check their solutions more often than novices and recognize when they are missing information necessary for solving a problem. Experts are aware of the limits of their domain knowledge and apply their domain’s heuristics to solve problems that fall outside of their experience base.<br>",
+      "questions": [
+        {
+          "from": 15,
+          "to": 21,
+          "type": "ynng",
+          "instruction": "Do the following statements agree with the views of the writer?<br><br><strong>YES</strong> if the statement agrees with the views of the writer<br><strong>NO</strong> if the statement contradicts the views of the writer<br><strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this",
+          "content": "15.\tBoth freshmen and journeymen need the help of a mentor to solve specific problems.<br>16.\tNovices take more time to deal with a large number of cases than experts.<br>17.\tThe apprenticeship model is always used to analyze the behavior of experts and novices.<br>18.\tA chess master is certainly qualified to play poker well.<br>19.\tExperts and novices comprehend the meaning of data and weigh variables in different ways.<br>20.\tExperts generally have better memories than novices do.<br>21.\tInterestingly, experts take more time to solve problems than novices who immediately seek to find a solution.<br>",
+          "options": [
+            "YES",
+            "NO",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 15,
+              "text": "Both freshmen and journeymen need the help of a mentor to solve specific problems."
+            },
+            {
+              "id": 16,
+              "text": "Novices take more time to deal with a large number of cases than experts."
+            },
+            {
+              "id": 17,
+              "text": "The apprenticeship model is always used to analyze the behavior of experts and novices."
+            },
+            {
+              "id": 18,
+              "text": "A chess master is certainly qualified to play poker well."
+            },
+            {
+              "id": 19,
+              "text": "Experts and novices comprehend the meaning of data and weigh variables in different ways."
+            },
+            {
+              "id": 20,
+              "text": "Experts generally have better memories than novices do."
+            },
+            {
+              "id": 21,
+              "text": "Interestingly, experts take more time to solve problems than novices who immediately seek to find a solution."
+            }
+          ]
+        },
+        {
+          "from": 22,
+          "to": 24,
+          "type": "wordlist",
+          "instruction": "NB There are more words than spaces so you will not use them all",
+          "heading": "",
+          "wordlistName": "List of Options",
+          "options": [
+            "mentors\t",
+            "chess\t",
+            "description",
+            "laws\t",
+            "apprenticeship\t",
+            "new knowledge",
+            "doctoral programs\t\t",
+            "complex tasks"
+          ],
+          "content": "The 22 \t\t is not only a mode of education, but a standard method of training. On this basis, 23 \t have been developed. Graduates seek their 24 \t in respective fields and begin the long process of becoming experts",
+          "questions": [
+            {
+              "id": 22,
+              "isGap": true
+            },
+            {
+              "id": 23,
+              "isGap": true
+            },
+            {
+              "id": 24,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 27,
+          "type": "form",
+          "instruction": "Complete the flowchart below Use NO MORE THAN THREE WORDS from the passage for each answer.",
+          "heading": "From a novice chess player to an expert",
+          "content": "<strong>A novice</strong><br>Learns<br>•\tThe object of the game<br>•\tThe number of spaces<br>•\tThe name and function of each piece<br>•\tHow each piece is moved<br>•\tThe necessary conditions to win or close<br><strong>A 25</strong><br>Learns<br>•\tPatterns of opening moves<br>•\t26 \t game –playing strategies<br>•\tPattern of victory and defeat<br><strong>An expert</strong><br>•\tMakes predictions based on patterns<br>•\tTests those predictions against actual behavior<br>•\tGenerates new knowledge<br>•\tCreate 27 \t<br>",
+          "questions": [
+            {
+              "id": 25,
+              "isGap": true
+            },
+            {
+              "id": 26,
+              "isGap": true
+            },
+            {
+              "id": 27,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "title": "The Myth of the Five Senses",
+      "content": "A.\tWe see with our eyes and taste with our tongues. Ears are for hearing, skin is for feeling and noses are for smelling. Would anyone claim that ears can smell, or that tongues can see? As a matter of fact, yes. Paul Bach-y-Rita, a neuroscientist at the University of Wisconsin at Madison, believes that the senses are interchangeable; for instance, a tongue can be used for seeing. This “revolutionary” study actually stems from a relatively popular concept among scientists; that the brain is an accommodating organ. It will attempt to carry out the same function, even when part of it is damaged, by redirecting the function to another area of the brain. As opposed to previous mainstream scientist’s understanding that the brain is compartmentalized, it is now more acceptable that the individual “part” of the brain could be somewhat interchangeable.<br>B.\tPaul Bach-y-Rita’s experiments suggest that “we experience the five senses, but where the data comes from may not be so important”. In the article “Can You See With Your Tongue?” the journalist was blindfolded with a small video camera strapped to his forehead, connected to a long plastic strip which was inserted into his mouth. A laptop computer would convert the video’s image into a fewer number of pixels, and those pixels would travel through the plastic strip as electric current, reaching the grid of electrodes that was placed inside the man’s mouth. The scientist told the man that she would soon be rolling a ball towards his right side, left side, or center, and he would have to catch it. And as the journalist stated, “my eyes and ears have no way to tell where it’s going. That leaves my tongue… has more tactile nerve endings than any part of the body other than the lips”. The scientist rolled the ball and a “tingling” passed over the man’s tongue, and he reached out with his left hand and caught the ball.<br>C.\tIf the brain can see a ball through a camera and a wet tongue, many new questions arise. What does this concept imply in terms of blindness and deafness? Rather than attempting to reserve these sensory disabilities through surgeries and hearing aids, should we be trying to circumvent them by using different receptors? Can we still trust in the idea of the five senses, or was it wrong to categorize our perception of the outside world so strictly?<br>D.\tIn fact, the “five senses” may well be another story that should be discarded in lieu of new observation. Aside from the emerging possibility of interchanging a tongue and an eye, there is the highly accepted possibility that our original list of senses is incomplete. Many scientists would add at least these two senses to the list: the kinesthetic sense and the vestibular sense. The first is a sense of<br> <br>self, mostly in terms of limbs and their placement. For instance, I know where my right foot is without looking or feeling for it. It is something that my brain “knows”. This is said to be because of information sent to the brain by the muscles, implying that muscles should be added to the list of sensory organs. If more observations were to be collected on this subject, a more accommodating explanation could potentially be reached. Secondly, the vestibular sense is what most would consider a sense of balance.<br>E.\tWhy were these two senses not included in our limited list? It might be the result of a lack of external symbolism. A nose or an eye is an obvious curiosity because of the question it generates: “What does this thing do?” But we have no limb or facial organ dedicated to balance or to kinesthetic awareness. On the other hand, if the vestibular sense and the kinesthetic senses occur solely in the brain, are they truly senses? Should experiences be labeled as senses without representation by an external organ? If one believes that the brain is the true sensory organ and the rest are simply interchangeable receptors, then yes, we should remain open to labeling many new “experiences” as “senses”. But, is there perhaps an overlying truth that directly relates the five senses to the human experience of life?<br>F.\tOn way of gaining new insight is to explore the animal world of senses. Migrating animals, for example, are said to have a “sixth sense”, a term which alludes to all unexplainable phenomenon. In reality, what we call the sixth sense includes any number of unrelated senses that everyday humans do not possess and therefore know little about. Perhaps there is a sense of placement on the earth, similar to the kinesthetic sense of bodily placement, which helps animals return home. Perhaps it is simply a “sense of direction” that is more developed or more substantial than what human possess. Scientists have even conjectured that traces of magnetite, found in pigeons and monarch butterflies, could be used as a compass, enabling the animal to sense the magnetic fields of the earth. Those who use the term “mysterious sixth sense” rarely give details about which of these strange abilities they are referring to? The term relating to “past our understanding” is used in such a sweeping, general way that there is no one solid, falsifiable hypothesis. This term does not bring us closer to our understanding of the senses.<br>G.\tIn addition to internal mysteries, many animals also possess external sensory organs which we do not. Fish, for instance, have an organ that runs along the sides of their bodies called the lateral-line system. It is made of tiny hair-like sensors that receive information about movements in the water. There is even the ability to distinguish between ordinary, background movement and strange movement that could signify a predator or another creature. This sense also helps the fish to “orient<br> <br>themselves within the current and the stream flow”. Interestingly, “land vertebrates… lost their lateral-line systems somewhere along the evolutionary path, all vertebrates started out with them…” Of course, we no longer consider this sense to be a human perception of life because we no longer possess the organ. But has the sense remained? Perhaps the feeling of being watched, of being followed on a dark sidewalk, is a dull shadow of the sense we used to possess. It is particularly noteworthy that this “feeling” of being followed is often referred to as “intuition”. How is intuition related to senses? In the same sense, how are emotions and senses the same?<br>H.\tNew stories that could expand our categorical concepts of the senses are emerging constantly, but we seem to prefer holding onto the old concept of five senses. We would urge towards expanding that category numerically and conceptually. There is much to be explored in terms of the relation of sense and emotion, the utilizations and disabilities of the senses, and a vertebrate’s need for senses compared to other types of animals, in terms of participating in life. The interconnectedness of our senses within the brain and among the external organs is a concept worthy of more attention and exploration, and it will explored more easily when the old, rather arbitrary myth of the five senses is discarded.<br>",
+      "questions": [
+        {
+          "from": 28,
+          "to": 32,
+          "type": "matching",
+          "instruction": "Which paragraph contains the following information?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "questions": [
+            {
+              "id": 28,
+              "text": "Practices of animal migration have helped expand our knowledge of the senses."
+            },
+            {
+              "id": 29,
+              "text": "The subject caught the ball with the help of his tongue."
+            },
+            {
+              "id": 30,
+              "text": "The brain knows where my right foot is without looking at it."
+            },
+            {
+              "id": 31,
+              "text": "An example showing that people’s intuition may work."
+            },
+            {
+              "id": 32,
+              "text": "Humans probably lost a kind of sensory organ during evolution."
+            }
+          ]
+        },
+        {
+          "from": 33,
+          "to": 37,
+          "type": "wordlist",
+          "instruction": "NB There are more words than spaces so you will not use them all.",
+          "heading": "",
+          "wordlistName": "List of Options",
+          "options": [
+            "initial\t",
+            "placement\t",
+            "sensory organs",
+            "limb\tentrain\t",
+            "tongue",
+            "movement\t",
+            "stability\t",
+            "representation",
+            "dark\tmuscles\t",
+            "picture"
+          ],
+          "content": "Many scientists believe that our 33 \t\t list of senses lacks other important elements, like the sense of kinesthetic and vestibular. For the first itself, majority cases are about the 34 \t of our arms and legs. For example, we can feel our feet without looking for them, due to the information link between brain and our 35 \t. For the vestibular sense, it would provide us with 36<br>\t. That these two senses are excluded from our list might be the result of a lack of external 37 \t.<br>",
+          "questions": [
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 38,
+          "to": 40,
+          "type": "tfng",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage?<br><br><strong>TRUE</strong> if the statement agrees with the information<br><strong>FALSE</strong> if the statement contradicts the information<br><strong>NOT GIVEN</strong> if there is no information on this",
+          "content": "38.\tSenses are transposable just as the tongue can also be used to hear sounds.<br>39.\tAnimals are considered to have senses other than the original five.<br>40.\tNew stories and research have persuaded us to accept the conception of five senses.<br>",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 38,
+              "text": "Senses are transposable just as the tongue can also be used to hear sounds."
+            },
+            {
+              "id": 39,
+              "text": "Animals are considered to have senses other than the original five."
+            },
+            {
+              "id": 40,
+              "text": "New stories and research have persuaded us to accept the conception of five senses."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "answers": {
+    "passage1": {
+      "1": "TRUE",
+      "2": "NOT GIVEN",
+      "3": "NOT GIVEN",
+      "4": "TRUE",
+      "5": "FALSE",
+      "6": "TRUE",
+      "7": "FALSE",
+      "8": "NOT GIVEN",
+      "9": "rhythms",
+      "10": "entraining",
+      "11": "shadow",
+      "12": "blind",
+      "13": "different"
+    },
+    "passage2": {
+      "14": "elders",
+      "15": "YES",
+      "16": "NOT GIVEN",
+      "17": "NOT GIVEN",
+      "18": "NO",
+      "19": "YES",
+      "20": "NOT GIVEN",
+      "21": "NO",
+      "22": "apprenticeship",
+      "23": "academic doctoral programs",
+      "24": "mentors",
+      "25": "journeyman",
+      "26": "offensive and defensive"
+    },
+    "passage3": {
+      "27": "her own cases",
+      "28": "F",
+      "29": "B",
+      "30": "D",
+      "31": "G",
+      "32": "G",
+      "33": "initial",
+      "34": "placement",
+      "35": "muscles",
+      "36": "stability",
+      "37": "representation",
+      "38": "NOT GIVEN",
+      "39": "TRUE",
+      "40": "FALSE"
+    }
+  }
+}
