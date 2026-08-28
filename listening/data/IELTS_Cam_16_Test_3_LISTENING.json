@@ -1,0 +1,357 @@
+{
+  "testTitle": "IELTS Practice Test",
+  "audioUrl": "audio/Cam16Test3.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "JUNIOR CYCLE CAMP",
+          "content": "<strong>The course focuses on skills and safety</strong><br>●   Charlie would be placed in Level 5.<br>●   First of all, children at this level are taken to practise in a <strong>(1)</strong>  .<br><strong>Instructors</strong><br>●   Instructors wear <strong>(2)</strong>  shirts.<br>●   A <strong>(3)</strong>  is required and training is given.<br><strong>Classes</strong><br>●   The size of the classes is limited.<br>●   There are quiet times during the morning for a <strong>(4)</strong>  or a game.<br>●   Classes are held even if there is <strong>(5)</strong>  .<br><strong>What to bring</strong><br>●   a change of clothing<br>●   a <strong>(6)</strong> <br>●   shoes (not sandals)<br>●   Charlie’s <strong>(7)</strong> <br><strong>Day 1</strong><br>●   Charlie should arrive at 9.20 am on the first day.<br>●   Before the class, his <strong>(8)</strong>  will be checked.<br>●   He should then go to the <strong>(9)</strong>  to meet his class instructor.<br><strong>Cost</strong><br>●   The course costs $<strong>(10)</strong>  per week.",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 12,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "According to Megan, what are the TWO main advantages of working in the agriculture and horticulture sectors?<br>A   the active lifestyle<br>B   the above-average salaries<br>C   the flexible working opportunities<br>D   the opportunities for overseas travel<br>E   the chance to be in a natural environment",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 11,
+              "text": "Question 11",
+              "options": []
+            },
+            {
+              "id": 12,
+              "text": "Question 12",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO of the following are likely to be disadvantages for people working outdoors?<br>A   the increasing risk of accidents<br>B   being in a very quiet location<br>C   difficult weather conditions at times<br>D   the cost of housing<br>E   the level of physical fitness required",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 13,
+              "text": "Question 13",
+              "options": []
+            },
+            {
+              "id": 14,
+              "text": "Question 14",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "type": "wordlist",
+          "instruction": "What information does Megan give about each of the following job opportunities?  Choose SIX answers from the box and write the correct letter, A-H, next to Questions 15-20.",
+          "heading": "Job opportunities",
+          "wordlistName": "Information",
+          "options": [
+            "A   not a permanent job",
+            "B   involves leading a team",
+            "C   experience not essential",
+            "D   intensive work but also fun",
+            "E   chance to earn more through overtime",
+            "F   chance for rapid promotion",
+            "G   accommodation available",
+            "H   local travel involved"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 15,
+              "text": "Fresh food commercial manager       ……………."
+            },
+            {
+              "id": 16,
+              "text": "Agronomist                                              ……………."
+            },
+            {
+              "id": 17,
+              "text": "Fresh produce buyer                             ……………."
+            },
+            {
+              "id": 18,
+              "text": "Garden centre sales manager             ……………."
+            },
+            {
+              "id": 19,
+              "text": "Tree technician                                       ……………."
+            },
+            {
+              "id": 20,
+              "text": "Farm worker                                            ……………."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO points does Adam make about his experiment on artificial sweeteners?<br>A   The results were what he had predicted.<br>B   The experiment was simple to set up<br>C   A large sample of people was tested.<br>D   The subjects were unaware of what they were drinking.<br>E   The test was repeated several times for each person.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO problems did Rosie have when measuring the fat content of nuts?<br>A   She used the wrong sort of nuts.<br>B   She used an unsuitable chemical.<br>C   She did not grind the nuts finely enough.<br>D   The information on the nut package was incorrect.<br>E   The weighing scales may have been unsuitable.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>25</strong>   Adam suggests that restaurants could reduce obesity if their menus<br>A   offered fewer options.<br>B   had more low-calorie foods.<br>C   were organised in a particular way.<br><strong>26</strong>   The students agree that food manufacturers deliberately<br>A   make calorie counts hard to understand.<br>B   fail to provide accurate calorie counts.<br>C   use ineffective methods to reduce calories.<br><strong>27</strong>   What does Rosie say about levels of exercise in England?<br>A   The amount recommended is much too low.<br>B   Most people overestimate how much they do.<br>C   Women now exercise more than they used to.<br><strong>28</strong>   Adam refers to the location and width of stairs in a train station to illustrate<br>A   practical changes that can influence people’s behaviour.<br>B   methods of helping people who have mobility problems.<br>C   ways of preventing accidents by controlling crowd movement.<br><strong>29</strong>   What do the students agree about including reference to exercise in their presentation?<br>A   They should probably leave it out.<br>B   They need to do more research on it.<br>C   They should discuss this with their tutor.<br><strong>30</strong>   What are the students going to do next for their presentation?<br>A   prepare some slides for it<br>B   find out how long they have for it<br>C   decide on its content and organisation",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 25,
+              "text": "Adam suggests that restaurants could reduce obesity if their menus",
+              "options": [
+                "A   offered fewer options.",
+                "B   had more low-calorie foods.",
+                "C   were organised in a particular way."
+              ]
+            },
+            {
+              "id": 26,
+              "text": "The students agree that food manufacturers deliberately",
+              "options": [
+                "A   make calorie counts hard to understand.",
+                "B   fail to provide accurate calorie counts.",
+                "C   use ineffective methods to reduce calories."
+              ]
+            },
+            {
+              "id": 27,
+              "text": "What does Rosie say about levels of exercise in England?",
+              "options": [
+                "A   The amount recommended is much too low.",
+                "B   Most people overestimate how much they do.",
+                "C   Women now exercise more than they used to."
+              ]
+            },
+            {
+              "id": 28,
+              "text": "Adam refers to the location and width of stairs in a train station to illustrate",
+              "options": [
+                "A   practical changes that can influence people’s behaviour.",
+                "B   methods of helping people who have mobility problems.",
+                "C   ways of preventing accidents by controlling crowd movement."
+              ]
+            },
+            {
+              "id": 29,
+              "text": "What do the students agree about including reference to exercise in their presentation?",
+              "options": [
+                "A   They should probably leave it out.",
+                "B   They need to do more research on it.",
+                "C   They should discuss this with their tutor."
+              ]
+            },
+            {
+              "id": 30,
+              "text": "What are the students going to do next for their presentation?",
+              "options": [
+                "A   prepare some slides for it",
+                "B   find out how long they have for it",
+                "C   decide on its content and organisation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "Hand knitting",
+          "content": "<strong>Interest in knitting</strong><br>●   Knitting has a long history around the world.<br>●   We imagine someone like a <strong>(31)</strong>  knitting.<br>●   A <strong>(32)</strong>  ago, knitting was expected to disappear.<br>●   The number of knitting classes is now increasing.<br>●   People are buying more <strong>(33)</strong>  for knitting nowadays.<br><strong>Benefits of knitting</strong><br>●   gives support in times of <strong>(34)</strong>  difficulty<br>●   requires only <strong>(35)</strong>  skills and little money to start<br>●   reduces stress in a busy life<br><strong>Early knitting</strong><br>●   The origins are not known.<br>●   Findings show early knitted items to be <strong>(36)</strong>  in shape.<br>●   The first needles were made of natural materials such as wood and <strong>(37)</strong>  .<br>●   Early yarns felt <strong>(38)</strong>  to touch.<br>●   Wool became the most popular yarn for spinning.<br>●   Geographical areas had their own <strong>(39)</strong>  of knitting.<br>●   Everyday tasks like looking after <strong>(40)</strong>  were done while knitting.",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "park",
+    "2": "blue",
+    "3": "reference",
+    "4": "story",
+    "5": "rain",
+    "6": "snack",
+    "7": "medication",
+    "8": "helmet",
+    "9": "tent",
+    "10": "199",
+    "11": "A",
+    "12": "C",
+    "13": "B",
+    "14": "C",
+    "15": "D",
+    "16": "F",
+    "17": "A",
+    "18": "H",
+    "19": "C",
+    "20": "G",
+    "21": "C",
+    "22": "D",
+    "23": "C",
+    "24": "E",
+    "25": "C",
+    "26": "A",
+    "27": "B",
+    "28": "A",
+    "29": "A",
+    "30": "C",
+    "31": "grandmother",
+    "32": "decade",
+    "33": "equipment",
+    "34": "economic",
+    "35": "basic",
+    "36": "round",
+    "37": "bone",
+    "38": "rough",
+    "39": "style",
+    "40": "sheep"
+  }
+}

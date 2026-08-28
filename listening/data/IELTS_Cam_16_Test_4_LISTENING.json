@@ -1,0 +1,344 @@
+{
+  "testTitle": "IELTS Practice Test",
+  "audioUrl": "audio/Cam16Test4.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Holiday rental",
+          "content": "<strong>Owner’s names</strong>: Jack Fitzgerald and Shirley Fitzgerald<br><strong>Granary Cottage</strong><br>●   available for week beginning <strong>(1)</strong>  May<br>●   cost for the week: £<strong>(2)</strong> <br><strong>(3)</strong>  <strong>Cottage</strong><br>●   cost for the week: £480<br>●   building was originally a <strong>(4)</strong> <br>●   walk through doors from living room into a <strong>(5)</strong> <br>●   several <strong>(6)</strong>  spaces at the front<br>●   bathroom has a shower<br>●   central heating and stove that burns <strong>(7)</strong> <br>●   views of old <strong>(8)</strong>  from living room<br>●   view of hilltop <strong>(9)</strong>  from the bedroom<br><strong>Payment</strong><br>●   deposit: £144<br>●   deadline for final payment: end of <strong>(10)</strong> ",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 14,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Local council report on traffic and highways",
+          "content": "<strong>11</strong>   A survey found people’s main concern about traffic in the area was<br>A   cuts to public transport.<br>B   poor maintenance of roads.<br>C   changes in the type of traffic.<br><strong>12</strong>   Which change will shortly be made to the cycle path next to the river?<br>A   It will be widened.<br>B   It will be extended.<br>C   It will be resurfaced.<br><strong>13</strong>   Plans for a pedestrian crossing have been postponed because<br>A   the Post Office has moved.<br>B   the proposed location is unsafe.<br>C   funding is not available at present.<br><strong>14</strong>   On Station Road, notices have been erected<br>A   telling cyclists not to leave their bikes outside the station ticket office.<br>B   asking motorists to switch off engines when waiting at the level crossing.<br>C   warning pedestrians to leave enough time when crossing the railway line.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "A survey found people’s main concern about traffic in the area was",
+              "options": [
+                "A   cuts to public transport.",
+                "B   poor maintenance of roads.",
+                "C   changes in the type of traffic."
+              ]
+            },
+            {
+              "id": 12,
+              "text": "Which change will shortly be made to the cycle path next to the river?",
+              "options": [
+                "A   It will be widened.",
+                "B   It will be extended.",
+                "C   It will be resurfaced."
+              ]
+            },
+            {
+              "id": 13,
+              "text": "Plans for a pedestrian crossing have been postponed because",
+              "options": [
+                "A   the Post Office has moved.",
+                "B   the proposed location is unsafe.",
+                "C   funding is not available at present."
+              ]
+            },
+            {
+              "id": 14,
+              "text": "On Station Road, notices have been erected",
+              "options": [
+                "A   telling cyclists not to leave their bikes outside the station ticket office.",
+                "B   asking motorists to switch off engines when waiting at the level crossing.",
+                "C   warning pedestrians to leave enough time when crossing the railway line."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "type": "labeling",
+          "instruction": "Label the map below.  Write the correct letter, A-I, next to Questions 15-20.",
+          "image": "data/Cam16Test4.jpg",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 15,
+              "text": "New car park                            ……………"
+            },
+            {
+              "id": 16,
+              "text": "New cricket pitch                    ……………"
+            },
+            {
+              "id": 17,
+              "text": "Children’s playground            ……………"
+            },
+            {
+              "id": 18,
+              "text": "Skateboard ramp                     ……………"
+            },
+            {
+              "id": 19,
+              "text": "Pavilion                                      ……………"
+            },
+            {
+              "id": 20,
+              "text": "Notice board                            ……………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO benefits of city bike-sharing schemes do the students agree are the most important?<br>A   reducing noise pollution<br>B   reducing traffic congestion<br>C   improving air quality<br>D   encouraging health and fitness<br>E   making cycling affordable",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO things do the students think are necessary for successful bike-sharing schemes?<br>A   Bikes should have a GPS system.<br>B   The app should be easy to use.<br>C   Public awareness should be raised.<br>D   Only one scheme should be available.<br>E   There should be a large network of cycle lanes.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "What is the speakers’ opinion of the bike-sharing schemes in each of the following cities?  Choose SIX answers from the box and write the correct letter, A-G, next to Questions 25-30.",
+          "heading": "Cities",
+          "wordlistName": "Opinion of bike-sharing scheme",
+          "options": [
+            "A   They agree it has been disappointing.",
+            "B   They think it should be cheaper.",
+            "C   They are surprised it has been so successful.",
+            "D   They agree that more investment is required.",
+            "E   They think the system has been well designed.",
+            "F   They disagree about the reasons for its success.",
+            "G   They think it has expanded too quickly."
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 25,
+              "text": "Amsterdam                ……………."
+            },
+            {
+              "id": 26,
+              "text": "Dublin                          ……………."
+            },
+            {
+              "id": 27,
+              "text": "London                        ……………."
+            },
+            {
+              "id": 28,
+              "text": "Buenos Aires             ……………."
+            },
+            {
+              "id": 29,
+              "text": "New York                    ……………."
+            },
+            {
+              "id": 30,
+              "text": "Sydney                         ……………."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "THE EXTINCTION OF THE DODO BIRD",
+          "content": "The dodo was a large flightless bird which used to inhabit the island of Mauritius.<br><strong>History</strong><br>●   1507 - Portuguese ships transporting <strong>(31)</strong>  stopped at the island to collect food and water.<br>●   1638 - The Dutch established a <strong>(32)</strong>  on the island.<br>●   They killed the dodo birds for their meat.<br>●   The last one was killed in 1681.<br><strong>Description</strong><br>●   The only record we have is written descriptions and pictures (possibly unreliable).<br>●   A Dutch painting suggests the dodo was very <strong>(33)</strong>  .<br>●   The only remaining soft tissue is a dried <strong>(34)</strong>  .<br>●   Recent studies of a dodo skeleton suggest the birds were capable of rapid <strong>(35)</strong>  .<br>●   It’s thought they were able to use their small wings to maintain <strong>(36)</strong>  .<br>●   Their <strong>(37)</strong>  was of average size.<br>●   Their sense of <strong>(38)</strong>  enabled them to find food.<br><strong>Reasons for extinction</strong><br>●   Hunting was probably not the main cause.<br>●   Sailors brought dogs and monkeys.<br>●   <strong>(39)</strong>  also escaped onto the island and ate the birds’ eggs.<br>●   The arrival of farming meant the <strong>(40)</strong>  was destroyed.",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "28th",
+    "2": "550",
+    "3": "Chervil",
+    "4": "garage",
+    "5": "garden",
+    "6": "parking",
+    "7": "wood",
+    "8": "bridge",
+    "9": "monument",
+    "10": "March",
+    "11": "C",
+    "12": "A",
+    "13": "B",
+    "14": "B",
+    "15": "C",
+    "16": "F",
+    "17": "A",
+    "18": "I",
+    "19": "E",
+    "20": "H",
+    "21": "B",
+    "22": "C",
+    "23": "B",
+    "24": "C",
+    "25": "C",
+    "26": "F",
+    "27": "D",
+    "28": "E",
+    "29": "B",
+    "30": "A",
+    "31": "spice / spices",
+    "32": "colony / settlement",
+    "33": "fat",
+    "34": "head",
+    "35": "movement",
+    "36": "balance / balancing",
+    "37": "brain",
+    "38": "smell",
+    "39": "rats",
+    "40": "forest"
+  }
+}
