@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The percentage of total energy consumption",
+    "instruction": "The three pie charts show the percentage of total energy consumption from five different sources in 1985, 1995 and 2005. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/07_09_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Under British and Australian laws, a jury in a criminal case has no access to information about the defendant's past criminal record. This protects the person who is being accused of the crime. Some lawyers have suggested that this practice should be changed and that a jury should be given all the past facts before they reach their decision about the case. Do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}
