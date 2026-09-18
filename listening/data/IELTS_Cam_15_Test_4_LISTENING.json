@@ -1,0 +1,339 @@
+{
+  "testTitle": "IELTS_Cam_15_Test_4_LISTENING",
+  "audioUrl": "audio/Cam15Test4.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the form below.  Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "Customer Satisfaction Survey",
+          "content": "<strong>Customer details</strong><br>Name:                                                               Sophie Bird<br>Occupation:                                                     <strong>(1)</strong> <br>Reason for travel today:                               <strong>(2)</strong> <br><strong>Journey information</strong><br>Name of station returning to:                    <strong>(3)</strong> <br>Type of ticket purchased:                             Standard <strong>(4)</strong>  ticket<br>Cost of ticket:                                                  £<strong>(5)</strong> <br>When ticket was purchased:                       Yesterday<br>Where ticket was bought:                           <strong>(6)</strong> <br><strong>Satisfaction with journey</strong><br>Most satisfied with:                                       the wifi<br>Least satisfied with:                                      the <strong>(7)</strong>  this morning.<br><strong>Satisfaction with station facilities</strong><br>Most satisfied with:                                       how much <strong>(8)</strong>  was provided<br>Least satisfied with:                                      lack of seats, particularly on the <strong>(9)</strong> <br>Neither satisfied nor dissatisfied with:     the <strong>(10)</strong>  available",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 16,
+          "type": "labeling",
+          "instruction": "Label the map below.  Write the correct letter, A-H, next to Questions 11-16",
+          "image": "data/Cam15Test4.jpg",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 11,
+              "text": "café                             ……………"
+            },
+            {
+              "id": 12,
+              "text": "toilets                          ……………"
+            },
+            {
+              "id": 13,
+              "text": "formal gardens         ……………"
+            },
+            {
+              "id": 14,
+              "text": "outdoor gym             ……………"
+            },
+            {
+              "id": 15,
+              "text": "skateboard ramp      ……………"
+            },
+            {
+              "id": 16,
+              "text": "wild flowers               ……………"
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 18,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "What does the speakers say about the adventure playground?<br>A     Children must be supervised.<br>B     It costs more in winter.<br>C     Some activities are only for younger children.<br>D     No payment is required.<br>E     It was recently expanded.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 17,
+              "text": "Question 17",
+              "options": []
+            },
+            {
+              "id": 18,
+              "text": "Question 18",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "What does the speaker say about the glass houses?<br>A     They are closed at weekends.<br>B     Volunteers are needed to work there.<br>C     They were badly damaged by fire.<br>D     More money is needed to repair some of the glass.<br>E     Visitors can see palm trees from tropical regions.",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 19,
+              "text": "Question 19",
+              "options": []
+            },
+            {
+              "id": 20,
+              "text": "Question 20",
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 24,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Presentation about refrigeration",
+          "content": "<strong>21</strong>   What did Annie discover from reading about icehouses?<br>A   why they were first created<br>B   how the ice was kept frozen<br>C   where they were located<br><strong>22</strong>   What point does Annie make about refrigeration in ancient Rome?<br>A   It became a commercial business.<br>B   It used snow from nearby.<br>C   It took a long time to become popular.<br><strong>23</strong>   In connection with modern refrigerator, both Annie and Jack are worried about<br>A   the complexity of the technology.<br>B   the fact that some are disposed of irresponsibly.<br>C   the large number that quickly break down.<br><strong>24</strong>   What do Jack and Annie agree regarding domestic fridges?<br>A   They are generally good value for money.<br>B   There are plenty of useful variations.<br>C   They are more useful than other domestic appliances.",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 21,
+              "text": "What did Annie discover from reading about icehouses?",
+              "options": [
+                "A   why they were first created",
+                "B   how the ice was kept frozen",
+                "C   where they were located"
+              ]
+            },
+            {
+              "id": 22,
+              "text": "What point does Annie make about refrigeration in ancient Rome?",
+              "options": [
+                "A   It became a commercial business.",
+                "B   It used snow from nearby.",
+                "C   It took a long time to become popular."
+              ]
+            },
+            {
+              "id": 23,
+              "text": "In connection with modern refrigerator, both Annie and Jack are worried about",
+              "options": [
+                "A   the complexity of the technology.",
+                "B   the fact that some are disposed of irresponsibly.",
+                "C   the large number that quickly break down."
+              ]
+            },
+            {
+              "id": 24,
+              "text": "What do Jack and Annie agree regarding domestic fridges?",
+              "options": [
+                "A   They are generally good value for money.",
+                "B   There are plenty of useful variations.",
+                "C   They are more useful than other domestic appliances."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "Who is going to do research into each topic?  Write the correct letter, A, B or C, next to Questions 25-30.",
+          "heading": "Topics",
+          "wordlistName": "People",
+          "options": [
+            "A     Annie",
+            "B     Jack",
+            "C     both Annie and Jack"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 25,
+              "text": "the goods that are refrigerated          ……………"
+            },
+            {
+              "id": 26,
+              "text": "the effects on health                             ……………"
+            },
+            {
+              "id": 27,
+              "text": "the impact on food producers            ……………"
+            },
+            {
+              "id": 28,
+              "text": "the impact on cities                               ……………"
+            },
+            {
+              "id": 29,
+              "text": "refrigerated transport                           ……………"
+            },
+            {
+              "id": 30,
+              "text": "domestic fridges                                     ……………"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write ONE WORD ONLY for each answer.",
+          "heading": "How the Industrial Revolution affected life in Britain",
+          "content": "19th century<br>●   For the first time, people’s possessions were used to measure Britain’s <strong>(31)</strong>  .<br>●   Developments in production of goods and in <strong>(32)</strong>  greatly changed lives.<br><strong>MAIN AREAS OF CHANGE</strong><br><strong>Manufacturing</strong><br>●   The Industrial Revolution would not have happened without the new types of <strong>(33)</strong>  that were used then.<br>●   The leading industry was <strong>(34)</strong>  (its products became widely available).<br>●   New <strong>(35)</strong>  made factories necessary and so more people moved into towns.<br><strong>Transport</strong><br>●   The railways took the place of canals.<br>●   Because of the new transport:<br>-  greater access to <strong>(36)</strong>  Made people more aware of what they could buy in shops.<br>-  when shopping, people were not limited to buying <strong>(37)</strong>  goods.<br><strong>Retailing</strong><br>●   The first department stores were opened.<br>●   The displays of goods were more visible:<br>-  inside stores because of better <strong>(38)</strong>  .<br>-  outside stores, because <strong>(39)</strong>  were bigger.<br>●   <strong>(40)</strong>  that was persuasive became much more common.",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "journalist",
+    "2": "shopping",
+    "3": "Staunfirth",
+    "4": "return",
+    "5": "23.70",
+    "6": "online",
+    "7": "delay",
+    "8": "information",
+    "9": "platform / platforms",
+    "10": "parking",
+    "11": "D",
+    "12": "C",
+    "13": "G",
+    "14": "H",
+    "15": "A",
+    "16": "E",
+    "17": "D",
+    "18": "A",
+    "19": "A",
+    "20": "C",
+    "21": "B",
+    "22": "A",
+    "23": "B",
+    "24": "A",
+    "25": "A",
+    "26": "A",
+    "27": "B",
+    "28": "B",
+    "29": "A",
+    "30": "C",
+    "31": "wealth",
+    "32": "technology",
+    "33": "power",
+    "34": "textile / textiles",
+    "35": "machines",
+    "36": "newspapers",
+    "37": "local",
+    "38": "lighting",
+    "39": "windows",
+    "40": "Advertising"
+  }
+}
