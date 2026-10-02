@@ -1,0 +1,338 @@
+{
+  "testTitle": "IELTS Practice Test 44 test 3",
+  "audioUrl": "audio/IELTS_Practice_Test 3_10.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "heading": "Costwise Car Hire",
+          "content": "Number of offices in Sydney:  3<br>Booking reference number: (<strong>(1)</strong> <br>Office just by (<strong>(2)</strong>  terminal.<br>Opening hours:  to (<strong>(3)</strong> <br>After-hours charge: ($<strong>(4)</strong> <br>Cheapest model of car available: (<strong>(5)</strong> <br>Information needed when hooking: (<strong>(6)</strong>  number<br>Length of hire period: (<strong>(7)</strong> <br>Reduce cost by driving under (<strong>(8)</strong>  km per week.<br>Insurance does not cover: (<strong>(9)</strong> <br>After hours put keys in box near the office on the (<strong>(10)</strong> ",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 15,
+          "type": "wordlist",
+          "instruction": "The following are essential requirements for which jobs?  Write the correct letter, A, B or C, next to questions 11-15.",
+          "heading": "",
+          "wordlistName": "Essential requirements",
+          "options": [
+            "A     foreign languages",
+            "B     willingness to travel abroad",
+            "C     professional qualification"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 11,
+              "text": "conference organizer     …………"
+            },
+            {
+              "id": 12,
+              "text": "catering manager           …………"
+            },
+            {
+              "id": 13,
+              "text": "housekeeper                   …………"
+            },
+            {
+              "id": 14,
+              "text": "fitness centre staff          …………"
+            },
+            {
+              "id": 15,
+              "text": "reservations assistant    …………"
+            }
+          ]
+        },
+        {
+          "from": 16,
+          "to": 20,
+          "type": "wordlist",
+          "instruction": "Choose FIVE answers from the box and write the correct letter, A-G, next to questions 16-20.<br> <img src='data/cv.png'>",
+          "heading": "INTERNATIONAL FINEST GROUP - RECRUITMENT PROCEDURES",
+          "wordlistName": "List of Options",
+          "options": [
+            "A     CV",
+            "B     names of referees",
+            "C     work permit",
+            "D     recruitment seminar",
+            "E     evidence of qualifications",
+            "F     conditions of employment",
+            "G     initial interview"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 16,
+              "text": "Question 16"
+            },
+            {
+              "id": 17,
+              "text": "Question 17"
+            },
+            {
+              "id": 18,
+              "text": "Question 18"
+            },
+            {
+              "id": 19,
+              "text": "Question 19"
+            },
+            {
+              "id": 20,
+              "text": "Question 20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO possible objections to a roof garden are discussed?<br>A     problems of access<br>B     the cost of construction<br>C     the time needed to install it<br>D     who will look after it<br>E     how to support the weight of it",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "Which TWO recent developments in roof-garden building are mentioned?<br>A     waterproof barrier materials<br>B     drainage systems<br>C     tank designs<br>D    lightweight construction materials<br>E     watering systems",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "type": "labeling",
+          "instruction": "Label the diagram below.  Write the correct letter A-H next to questions 25-30.",
+          "image": "data/IELTS_Practice_Test 3_10.jpg",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 25,
+              "text": "wall"
+            },
+            {
+              "id": 26,
+              "text": "electric wire"
+            },
+            {
+              "id": 27,
+              "text": "fibre optic cable"
+            },
+            {
+              "id": 28,
+              "text": "wooden post"
+            },
+            {
+              "id": 29,
+              "text": "glass cap"
+            },
+            {
+              "id": 30,
+              "text": "acrylic rod"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 36,
+          "type": "form",
+          "instruction": "Complete the notes below.  Write NO MORE THAN TWO WORDS for each answer.",
+          "heading": "",
+          "content": "<strong>The Argus system</strong><br>Developed by Rob Holman in N. Carolina with other researchers.<br>Research is vital for understanding of <strong>(31)</strong> <br>Matches information from under the water with information from <strong>(32)</strong>  According to S. Jeffress Williams, useful because can make observations during a <strong>(33)</strong> <br><strong>Dr Holman’s sand collection</strong><br>Dr H. has samples from every <strong>(34)</strong> <br>Used in teaching students of <strong>(35)</strong> <br>e.g. US East Coast display: grains from south are small, light-coloured and <strong>(36)</strong>  in shape",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 37,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the flow-chart below.  Write NO MORE THAN THREE WORDS for each answer.",
+          "heading": "Taking samples when travelling",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>to dig sand, a plastic or metal <strong>(37)</strong>  is ideal</th>\n    <th>→</th>\n    <th>store in plastic bags</th>\n    <th>→</th>\n    <th>write date and place, using a <strong>(38)</strong> </th>\n  </tr>\n  <tr>\n    <td><p> <b>After reaching home </b><p></td>\n  </tr>\n  <tr>\n    <td>log samples, noting location including which part of beach</td>\n    <td>→</td>\n    <td>Dry sample on <strong>(39)</strong> </td>\n    <td>→</td>\n    <td>transfer to container</td>\n    <td>→</td>\n    <td>add at least one <strong>(40)</strong>  immediately</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "743002",
+    "2": "international",
+    "3": "6.15 p.m",
+    "4": "thirty / 30",
+    "5": "Echo",
+    "6": "credit card",
+    "7": "seven / 7 days / one / i week / a week",
+    "8": "1,000 / a / one /1 thousand",
+    "9": "his luggage /the luggage",
+    "10": "pavement",
+    "11": "A",
+    "12": "C",
+    "13": "B",
+    "14": "C",
+    "15": "A",
+    "16": "F",
+    "17": "A",
+    "18": "G",
+    "19": "E",
+    "20": "D",
+    "21": "B/D",
+    "22": "B/D",
+    "23": "A/E",
+    "24": "A/E",
+    "25": "F",
+    "26": "H",
+    "27": "C",
+    "28": "D",
+    "29": "B",
+    "30": "A",
+    "31": "beach erosion",
+    "32": "camera",
+    "33": "storm",
+    "34": "continent",
+    "35": "geology",
+    "36": "rounded / round",
+    "37": "spoon",
+    "38": "permanent marker",
+    "39": "newspaper",
+    "40": "label"
+  }
+}
