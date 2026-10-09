@@ -22,25 +22,28 @@
 
 <!-- Header -->
 <header class="bg-indigo-600 text-white shadow-md sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+    <div class="max-w-7xl mx-auto px-4 py-3.5 flex flex-col md:flex-row justify-between items-center gap-3">
         <div class="flex items-center space-x-3">
-            <div class="bg-white/10 p-2.5 rounded-xl">
-                <i data-lucide="book-open" class="w-7 h-7 text-white"></i>
+            <div class="bg-white/10 p-2 rounded-xl">
+                <i data-lucide="book-open" class="w-6 h-6 text-white"></i>
             </div>
             <div>
-                <h1 class="text-xl font-bold tracking-tight">Ôn Tập Giữa Học Kì 1 - Global Success 10</h1>
-                <p class="text-xs text-indigo-200">By Jimmy Handsome</p>
+                <h1 class="text-lg md:text-xl font-bold tracking-tight">Ôn Tập Tiếng Anh 10 - Global Success</h1>
+                <p class="text-xs text-indigo-200">Hệ Thống Luyện Tập & Đề Thi Trực Tuyến Tự Động</p>
             </div>
         </div>
-        <div class="flex flex-wrap items-center gap-2 sm:gap-3">
-            <button onclick="switchMainTab('task1')" id="btnTask1" class="px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold transition bg-white text-indigo-600 shadow-sm flex items-center gap-1.5">
+        <div class="flex flex-wrap items-center gap-2">
+            <button onclick="switchMainTab('task1')" id="btnTask1" class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition bg-white text-indigo-600 shadow-sm flex items-center gap-1.5">
                 <i data-lucide="list-checks" class="w-4 h-4"></i> Task 1: 22 Phần Bài Tập
             </button>
-            <button onclick="switchMainTab('task2')" id="btnTask2" class="px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold transition bg-indigo-700/60 text-white hover:bg-indigo-700 flex items-center gap-1.5">
-                <i data-lucide="graduation-cap" class="w-4 h-4"></i> Task 2: Ngữ Pháp Global 10
+            <button onclick="switchMainTab('task2')" id="btnTask2" class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition bg-indigo-700/60 text-white hover:bg-indigo-700 flex items-center gap-1.5">
+                <i data-lucide="graduation-cap" class="w-4 h-4"></i> Task 2: Ngữ Pháp
             </button>
-            <button onclick="switchMainTab('task3')" id="btnTask3" class="px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold transition bg-indigo-700/60 text-white hover:bg-indigo-700 flex items-center gap-1.5">
+            <button onclick="switchMainTab('task3')" id="btnTask3" class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition bg-indigo-700/60 text-white hover:bg-indigo-700 flex items-center gap-1.5">
                 <i data-lucide="file-text" class="w-4 h-4"></i> Task 3: Bài Tập 32
+            </button>
+            <button onclick="switchMainTab('task4')" id="btnTask4" class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition bg-indigo-700/60 text-white hover:bg-indigo-700 flex items-center gap-1.5">
+                <i data-lucide="award" class="w-4 h-4"></i> Task 4: Đề Thi 40 Câu
             </button>
         </div>
     </div>
@@ -49,26 +52,22 @@
 <!-- Main Container -->
 <main class="flex-1 max-w-7xl w-full mx-auto p-4 md:p-6 grid grid-cols-1 lg:grid-cols-4 gap-6">
     
-    <!-- Sidebar Navigation (Chỉ hiện ở Task 1) -->
-    <aside id="sidebarNav" class="lg:col-span-1 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 h-[calc(100vh-140px)] sticky top-24 flex flex-col">
+    <!-- Sidebar Navigation (Chỉ dùng cho Task 1) -->
+    <aside id="sidebarNav" class="lg:col-span-1 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 h-[calc(100vh-140px)] sticky top-20 flex flex-col">
         <div class="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
             <h2 class="font-bold text-slate-700 flex items-center gap-2 text-sm uppercase tracking-wider">
                 <i data-lucide="menu" class="w-4 h-4 text-indigo-600"></i> Danh Sách Bài Tập
             </h2>
             <span class="text-xs font-medium bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-full">22 Phần</span>
         </div>
-        <div id="exerciseMenuList" class="overflow-y-auto flex-1 custom-scrollbar space-y-1.5 pr-1">
-            <!-- Render danh sách phần bài tập -->
-        </div>
+        <div id="exerciseMenuList" class="overflow-y-auto flex-1 custom-scrollbar space-y-1.5 pr-1"></div>
     </aside>
 
-    <!-- Content Area -->
+    <!-- Main Content Area -->
     <section id="contentArea" class="lg:col-span-3 bg-white rounded-2xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between min-h-[600px]">
-        <div id="dynamicContent" class="space-y-6">
-            <!-- Nội dung thay đổi linh hoạt theo Tab -->
-        </div>
+        <div id="dynamicContent" class="space-y-6"></div>
 
-        <!-- Footer điều hướng bài tập Task 1 -->
+        <!-- Footer Navigation for Task 1 -->
         <div id="exerciseFooter" class="mt-8 pt-4 border-t border-slate-100 flex justify-between items-center">
             <button onclick="prevExercise()" id="prevBtn" class="px-4 py-2 border border-slate-300 rounded-lg text-sm font-medium hover:bg-slate-50 transition flex items-center gap-2 text-slate-700">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Phần Trước
@@ -89,41 +88,34 @@
 
 </main>
 
-<!-- Footer -->
 <footer class="bg-white border-t border-slate-200 py-4 text-center text-xs text-slate-500">
-    Mid Term Global Success 10 • Viết Gì Cho Ngầu Giờ ?.!
+    Hệ Thống Ôn Tập & Đề Thi Trực Tuyến Tiếng Anh 10 Global Success
 </footer>
 
 <script>
     // Dữ liệu 22 Phần Bài Tập Task 1
     const exercisesData = [
         {
-            id: 1,
-            title: "Phần 1: Chia động từ trong ngoặc (Câu điều kiện)",
-            type: "fill",
-            instructions: "Put the verbs in the brackets into the correct form.",
+            id: 1, title: "Phần 1: Chia động từ trong ngoặc (Câu điều kiện)", type: "fill", instructions: "Put the verbs in the brackets into the correct form.",
             questions: [
-                { q: "1. If you go to Paris, where you (stay) ___________________?", ans: ["will you stay", "are you going to stay"], hint: "Câu điều kiện loại 1: If + S + V(present), S + will/modal + V-inf" },
-                { q: "2. If you (swim) ___________________ in this lake, you’ll shiver from cold.", ans: ["swim"], hint: "Hiện tại đơn cho mệnh đề if ở loại 1" },
-                { q: "3. If someone offered to buy you one of those rings, which you (choose) ___________________?", ans: ["would you choose"], hint: "Câu điều kiện loại 2: If + S + V2/ed, S + would + V-inf" },
-                { q: "4. The flight may be cancelled if the fog (get) ___________________ thick.", ans: ["gets", "should get"], hint: "Hiện tại đơn cho mệnh đề if" },
-                { q: "5. If the milkman (come) _____________________, tell him to leave two pints.", ans: ["comes"], hint: "Câu điều kiện mệnh lệnh ở loại 1" }
+                { q: "1. If you go to Paris, where you (stay) ___________________?", ans: ["will you stay", "are you going to stay"], hint: "Loại 1: If + S + V(present), S + will + V-inf" },
+                { q: "2. If you (swim) ___________________ in this lake, you’ll shiver from cold.", ans: ["swim"], hint: "Hiện tại đơn cho mệnh đề if" },
+                { q: "3. If someone offered to buy you one of those rings, which you (choose) ___________________?", ans: ["would you choose"], hint: "Loại 2: If + S + V2/ed, S + would + V-inf" },
+                { q: "4. The flight may be cancelled if the fog (get) ___________________ thick.", ans: ["gets"], hint: "Hiện tại đơn" },
+                { q: "5. If the milkman (come) _____________________, tell him to leave two pints.", ans: ["comes"], hint: "Câu điều kiện mệnh lệnh" }
             ]
         },
         {
-            id: 2,
-            title: "Phần 2: Chọn đáp án đúng trong ngoặc (Câu điều kiện)",
-            type: "choice",
-            instructions: "Choose the correct answer in the brackets.",
+            id: 2, title: "Phần 2: Chọn đáp án đúng trong ngoặc", type: "choice", instructions: "Choose the correct answer in the brackets.",
             questions: [
-                { q: "1. If you (turn/ turns/ could turn) the volume down, the music (sounded/ would sound/ would sounded) clearer.", options: ["turn / would sound", "turns / sounded", "could turn / would sounded"], correct: 0, hint: "Loại 2: Quá khứ đơn + would + V-inf" },
-                { q: "2. Your pencils (broke not/ didn’t break/ wouldn’t break) if you (pack/ would pack/ packed) your school bag more carefully.", options: ["didn't break / would pack", "wouldn't break / packed", "broke not / pack"], correct: 1, hint: "Loại 2 giả định trái hiện tại" },
-                { q: "3. If the girls (goed/ went/ could went) to bed earlier, they (yawned not/ wouldn’t yawn/ won’t yawn) all through the lesson.", options: ["goed / won't yawn", "went / wouldn't yawn", "could went / yawned not"], correct: 1, hint: "Quá khứ của go là went, mệnh đề chính dùng wouldn't yawn" },
-                { q: "4. (Would you like/ like you/ will you like) a car if you (has/ had/ have) the money?", options: ["Would you like / had", "like you / have", "will you like / has"], correct: 0, hint: "Cấu trúc loại 2 với động từ khuyết thiếu would like" },
-                { q: "5. If Bill (closes/ closed/ will close) the window, it (wouldn’t be/ won’t be/ isn’t) so cold in the kitchen.", options: ["closes / won't be", "closed / wouldn't be", "will close / isn't"], correct: 1, hint: "Loại 2: closed / wouldn't be" }
+                { q: "1. If you (turn/ turns/ could turn) the volume down, the music (sounded/ would sound/ would sounded) clearer.", options: ["turn / would sound", "turns / sounded", "could turn / would sound"], correct: 2, hint: "Loại 2" },
+                { q: "2. Your pencils (broke not/ didn’t break/ wouldn’t break) if you (pack/ would pack/ packed) your school bag more carefully.", options: ["didn't break / would pack", "wouldn't break / packed", "broke not / pack"], correct: 1, hint: "Loại 2" },
+                { q: "3. If the girls (goed/ went/ could went) to bed earlier, they (yawned not/ wouldn’t yawn/ won’t yawn) all through the lesson.", options: ["goed / won't yawn", "went / wouldn't yawn", "could went / yawned not"], correct: 1, hint: "Loại 2" },
+                { q: "4. (Would you like/ like you/ will you like) a car if you (has/ had/ have) the money?", options: ["Would you like / had", "like you / have", "will you like / has"], correct: 0, hint: "Loại 2" },
+                { q: "5. If Bill (closes/ closed/ will close) the window, it (wouldn’t be/ won’t be/ isn’t) so cold in the kitchen.", options: ["closes / won't be", "closed / wouldn't be", "will close / isn't"], correct: 1, hint: "Loại 2" }
             ]
         },
-        {
+                {
             id: 3,
             title: "Phần 3: Viết lại câu kết hợp câu điều kiện",
             type: "fill",
@@ -449,42 +441,42 @@
         const btnT1 = document.getElementById('btnTask1');
         const btnT2 = document.getElementById('btnTask2');
         const btnT3 = document.getElementById('btnTask3');
+        const btnT4 = document.getElementById('btnTask4');
         const sidebar = document.getElementById('sidebarNav');
         const contentArea = document.getElementById('contentArea');
         const footer = document.getElementById('exerciseFooter');
 
-        const activeClass = "px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold transition bg-white text-indigo-600 shadow-sm flex items-center gap-1.5";
-        const inactiveClass = "px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold transition bg-indigo-700/60 text-white hover:bg-indigo-700 flex items-center gap-1.5";
+        const activeClass = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition bg-white text-indigo-600 shadow-sm flex items-center gap-1.5";
+        const inactiveClass = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-semibold transition bg-indigo-700/60 text-white hover:bg-indigo-700 flex items-center gap-1.5";
 
         btnT1.className = tab === 'task1' ? activeClass : inactiveClass;
         btnT2.className = tab === 'task2' ? activeClass : inactiveClass;
         btnT3.className = tab === 'task3' ? activeClass : inactiveClass;
+        btnT4.className = tab === 'task4' ? activeClass : inactiveClass;
 
         if (tab === 'task1') {
             sidebar.style.display = "flex";
             contentArea.className = "lg:col-span-3 bg-white rounded-2xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between min-h-[600px]";
             footer.style.display = "flex";
             loadExercise(currentExerciseIndex);
-        } else if (tab === 'task2') {
+        } else {
             sidebar.style.display = "none";
             contentArea.className = "lg:col-span-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between min-h-[600px]";
             footer.style.display = "none";
-            renderGrammarTheory();
-        } else if (tab === 'task3') {
-            sidebar.style.display = "none";
-            contentArea.className = "lg:col-span-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between min-h-[600px]";
-            footer.style.display = "none";
-            renderTask3Global10();
+            if (tab === 'task2') renderGrammarTheory();
+            else if (tab === 'task3') renderTask3Global10();
+            else if (tab === 'task4') renderTask4();
         }
     }
 
     function renderSidebar() {
         const list = document.getElementById('exerciseMenuList');
+        if(!list) return;
         list.innerHTML = '';
         exercisesData.forEach((ex, idx) => {
             const btn = document.createElement('button');
             btn.className = `w-full text-left px-3 py-2 rounded-xl text-xs font-medium transition flex items-center justify-between ${idx === currentExerciseIndex ? 'bg-indigo-50 text-indigo-700 font-semibold border border-indigo-200 shadow-xs' : 'text-slate-600 hover:bg-slate-100'}`;
-            btn.innerHTML = `<span>Phần ${ex.id}</span> <span class="text-[10px] text-slate-400"></span>`;
+            btn.innerHTML = `<span>Phần ${ex.id}</span>`;
             btn.onclick = () => {
                 currentExerciseIndex = idx;
                 loadExercise(idx);
@@ -497,13 +489,13 @@
     function loadExercise(idx) {
         currentExerciseIndex = idx;
         renderSidebar();
-        const ex = exercisesData[idx];
+        const ex = exercisesData[idx] || exercisesData[0];
         const content = document.getElementById('dynamicContent');
         
         let html = `
             <div>
                 <div class="flex items-center justify-between mb-4">
-                    <span class="text-xs font-bold uppercase tracking-wider bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full">Phần ${ex.id} / 22</span>
+                    <span class="text-xs font-bold uppercase tracking-wider bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full">Phần ${ex.id}</span>
                     <span class="text-xs text-slate-500 font-medium">${ex.questions.length} câu hỏi</span>
                 </div>
                 <h2 class="text-lg font-bold text-slate-800 mb-1">${ex.title}</h2>
@@ -520,7 +512,7 @@
             if (ex.type === 'fill') {
                 html += `
                     <div class="flex flex-col sm:flex-row gap-3 items-start sm:items-center">
-                        <input type="text" id="input-${ex.id}-${qIdx}" value="${savedAns}" placeholder="Nhập đáp án của bạn..." 
+                        <input type="text" id="input-${ex.id}-${qIdx}" value="${savedAns}" placeholder="Nhập đáp án..." 
                             class="w-full sm:w-80 px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white"
                             oninput="saveAnswer(${ex.id}, ${qIdx}, this.value)">
                         <div id="feedback-${ex.id}-${qIdx}" class="text-xs font-semibold"></div>
@@ -546,11 +538,6 @@
         html += `</div>`;
         content.innerHTML = html;
         lucide.createIcons();
-        
-        document.getElementById('prevBtn').disabled = idx === 0;
-        document.getElementById('nextBtn').disabled = idx === exercisesData.length - 1;
-        document.getElementById('prevBtn').style.opacity = idx === 0 ? '0.5' : '1';
-        document.getElementById('nextBtn').style.opacity = idx === exercisesData.length - 1 ? '0.5' : '1';
     }
 
     function saveAnswer(exId, qIdx, val) {
@@ -561,7 +548,6 @@
     function checkCurrentExercise() {
         const ex = exercisesData[currentExerciseIndex];
         let correctCount = 0;
-
         ex.questions.forEach((item, qIdx) => {
             const userAns = userAnswers[ex.id] && userAnswers[ex.id][qIdx];
             const feedbackDiv = document.getElementById(`feedback-${ex.id}-${qIdx}`);
@@ -569,45 +555,35 @@
 
             if (ex.type === 'fill') {
                 if (!userAns) {
-                    feedbackDiv.innerHTML = `<span class="text-amber-600">⚠️ Chưa trả lời (Gợi ý: ${item.hint})</span>`;
-                    blockDiv.className = "p-4 rounded-xl bg-amber-50/50 border border-amber-200 space-y-3";
+                    feedbackDiv.innerHTML = `<span class="text-amber-600">⚠️ Chưa trả lời</span>`;
                 } else {
-                    const cleanedUser = userAns.trim().toLowerCase();
-                    const isCorrect = item.ans.some(a => a.toLowerCase() === cleanedUser);
+                    const isCorrect = item.ans.some(a => a.toLowerCase() === userAns.trim().toLowerCase());
                     if (isCorrect) {
-                        feedbackDiv.innerHTML = `<span class="text-emerald-600">✓ Chính xác!</span>`;
-                        blockDiv.className = "p-4 rounded-xl bg-emerald-50/50 border border-emerald-200 space-y-3";
+                        feedbackDiv.innerHTML = `<span class="text-emerald-600">✓ Đúng!</span>`;
                         correctCount++;
                     } else {
-                        feedbackDiv.innerHTML = `<span class="text-rose-600">✗ Chưa đúng. Đáp án gợi ý: <b>${item.ans[0]}</b> (${item.hint})</span>`;
-                        blockDiv.className = "p-4 rounded-xl bg-rose-50/50 border border-rose-200 space-y-3";
+                        feedbackDiv.innerHTML = `<span class="text-rose-600">✗ Sai. Đáp án: <b>${item.ans[0]}</b></span>`;
                     }
                 }
             } else if (ex.type === 'choice') {
-                if (userAns === undefined || userAns === '') {
-                    feedbackDiv.innerHTML = `<span class="text-amber-600">⚠️ Chưa chọn đáp án.</span>`;
-                    blockDiv.className = "p-4 rounded-xl bg-amber-50/50 border border-amber-200 space-y-3";
+                if (userAns === undefined) {
+                    feedbackDiv.innerHTML = `<span class="text-amber-600">⚠️ Chưa chọn</span>`;
                 } else {
                     if (Number(userAns) === item.correct) {
-                        feedbackDiv.innerHTML = `<span class="text-emerald-600">✓ Chính xác!</span>`;
-                        blockDiv.className = "p-4 rounded-xl bg-emerald-50/50 border border-emerald-200 space-y-3";
+                        feedbackDiv.innerHTML = `<span class="text-emerald-600">✓ Đúng!</span>`;
                         correctCount++;
                     } else {
-                        feedbackDiv.innerHTML = `<span class="text-rose-600">✗ Chưa đúng. Đáp án đúng là: <b>${item.options[item.correct]}</b></span>`;
-                        blockDiv.className = "p-4 rounded-xl bg-rose-50/50 border border-rose-200 space-y-3";
+                        feedbackDiv.innerHTML = `<span class="text-rose-600">✗ Sai. Đáp án: <b>${item.options[item.correct]}</b></span>`;
                     }
                 }
             }
         });
-
-        alert(`Kết quả phần ${ex.id}: ${correctCount} / ${ex.questions.length} câu đúng.`);
+        alert(`Kết quả: ${correctCount} / ${ex.questions.length} câu đúng.`);
     }
 
     function resetCurrentExercise() {
         const ex = exercisesData[currentExerciseIndex];
-        if (userAnswers[ex.id]) {
-            userAnswers[ex.id] = {};
-        }
+        if (userAnswers[ex.id]) userAnswers[ex.id] = {};
         loadExercise(currentExerciseIndex);
     }
 
@@ -688,8 +664,8 @@
         lucide.createIcons();
     }
 
-    // Task 3: Render Bài Tập 32 (Đề thi full từ global101.html)
-    function renderTask3Global10() {
+
+        function renderTask3Global10() {
         const content = document.getElementById('dynamicContent');
         content.innerHTML = `
             <!-- Top Header & Score Bar -->
@@ -1192,7 +1168,6 @@
         `;
         lucide.createIcons();
     }
-
     // Logic Đếm từ & Chấm điểm Task 3
     function countWordsGlobal10() {
         const text = document.getElementById('g10_q32').value.trim();
@@ -1244,7 +1219,652 @@
         alert(`Bạn đã hoàn thành Bài Tập 32!\nĐiểm trắc nghiệm & điền từ: ${score}/${total}\n(Chưa tính phần viết đoạn văn)`);
     }
 
-    // Tự động khởi chạy ứng dụng
+    // TASK 4: ĐỀ THI 40 CÂU (TỪ TASK4.PDF)
+    function renderTask4() {
+        const content = document.getElementById('dynamicContent');
+        content.innerHTML = `
+            <!-- Task 4 Header & Score Bar -->
+            <div class="bg-indigo-700 text-white p-4 rounded-xl shadow-sm flex flex-wrap justify-between items-center mb-6">
+                <div>
+                    <h2 class="text-xl font-bold flex items-center gap-2">
+                        <i class="fa-solid fa-award"></i> Task 4: Đề Thi Mẫu 40 Câu (Cấu Trúc THPT Quốc Gia)
+                    </h2>
+                    <p class="text-xs text-indigo-200 mt-1">Đề luyện tập tổng hợp: Quảng cáo, Sắp xếp câu, Đọc điền từ & Đọc hiểu</p>
+                </div>
+                <div id="task4-score-box" class="mt-2 sm:mt-0 bg-indigo-800 px-4 py-2 rounded-xl text-center border border-indigo-500">
+                    <span class="text-xs text-indigo-200 uppercase font-semibold block">Điểm số</span>
+                    <span id="task4-score-text" class="text-xl font-extrabold text-amber-300">-- / 40</span>
+                </div>
+            </div>
+
+            <!-- Part 1: Advertisement 1 (Questions 1-6) -->
+            <section class="bg-slate-50 rounded-xl p-5 border border-slate-200 space-y-4">
+                <div class="border-b pb-2">
+                    <span class="text-xs font-bold uppercase tracking-wider bg-indigo-100 text-indigo-700 px-2.5 py-1 rounded-full">Phần 1</span>
+                    <h3 class="font-bold text-slate-800 mt-2">School Music Festival (Questions 1 - 6)</h3>
+                </div>
+                <div class="bg-white p-4 rounded-xl border text-sm leading-relaxed text-slate-700 italic">
+                    Please remember that all the performances will be held in the main school yard. To make the event unforgettable, the <b>(1) ______</b> students will perform on a <b>(2) ______</b> stage.<br>
+                    The students <b>(3) ______</b> in the organizing committee should arrive at 7:00 AM to prepare.<br>
+                    We are also pleased to announce that free refreshments will be available <b>(4) ______</b> the entrance.<br>
+                    In addition, we will provide a professional sound system for everyone <b>(5) ______</b> free.<br>
+                    Don't miss the chance <b>(6) ______</b> your favorite songs and support your friends!
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <!-- Q1 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_1">
+                        <p class="font-semibold mb-1">Question 1:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q1" value="A"> A. talent</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q1" value="B"> B. talented</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q1" value="C"> C. talents</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q1" value="D"> D. talentedly</label>
+                        </div>
+                        <div id="t4_fb_1" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q2 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_2">
+                        <p class="font-semibold mb-1">Question 2:</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q2" value="A"> A. wooden beautiful large</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q2" value="B"> B. large beautiful wooden</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q2" value="C"> C. beautiful large wooden</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q2" value="D"> D. beautiful wooden large</label>
+                        </div>
+                        <div id="t4_fb_2" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q3 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_3">
+                        <p class="font-semibold mb-1">Question 3:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q3" value="A"> A. participated</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q3" value="B"> B. who participating</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q3" value="C"> C. participate</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q3" value="D"> D. participating</label>
+                        </div>
+                        <div id="t4_fb_3" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q4 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_4">
+                        <p class="font-semibold mb-1">Question 4:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q4" value="A"> A. at</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q4" value="B"> B. in</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q4" value="C"> C. on</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q4" value="D"> D. with</label>
+                        </div>
+                        <div id="t4_fb_4" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q5 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_5">
+                        <p class="font-semibold mb-1">Question 5:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q5" value="A"> A. at</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q5" value="B"> B. for</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q5" value="C"> C. on</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q5" value="D"> D. in</label>
+                        </div>
+                        <div id="t4_fb_5" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q6 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_6">
+                        <p class="font-semibold mb-1">Question 6:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q6" value="A"> A. enjoying</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q6" value="B"> B. enjoy</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q6" value="C"> C. to enjoy</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q6" value="D"> D. enjoyed</label>
+                        </div>
+                        <div id="t4_fb_6" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Part 2: Advertisement 2 (Questions 7-12) -->
+            <section class="bg-slate-50 rounded-xl p-5 border border-slate-200 space-y-4">
+                <div class="border-b pb-2">
+                    <span class="text-xs font-bold uppercase tracking-wider bg-indigo-100 text-indigo-700 px-2.5 py-1 rounded-full">Phần 2</span>
+                    <h3 class="font-bold text-slate-800 mt-2">Green City Volunteer Club (Questions 7 - 12)</h3>
+                </div>
+                <div class="bg-white p-4 rounded-xl border text-sm leading-relaxed text-slate-700 italic">
+                    <b>(7) ______</b> resident in our community is highly encouraged to join our Green Weekend initiative!<br>
+                    As part of this program, our team is going to <b>(8) ______</b> a massive neighborhood clean-up campaign.<br>
+                    Our main goal is to pick up trash along the streets and clear plastic bottles from local parks. By doing these simple tasks, we can directly improve the <b>(9) ______</b> of our community and make it a better place to live.<br>
+                    In addition to cleaning up, we will also be planting hundreds of new trees. This is a great way to reduce carbon footprints because trees can effectively <b>(10) ______</b> the impacts of climate change in the long run.<br>
+                    We welcome volunteers of all ages. You can choose to join us either <b>(11) ______</b> Saturday morning or Sunday afternoon, depending on your schedule. Let's work together! It is time to <b>(12) ______</b> action and save our environment.
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <!-- Q7 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_7">
+                        <p class="font-semibold mb-1">Question 7:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q7" value="A"> A. All</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q7" value="B"> B. Many</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q7" value="C"> C. Every</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q7" value="D"> D. Few</label>
+                        </div>
+                        <div id="t4_fb_7" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q8 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_8">
+                        <p class="font-semibold mb-1">Question 8:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q8" value="A"> A. look after</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q8" value="B"> B. bring about</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q8" value="C"> C. give up</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q8" value="D"> D. carry out</label>
+                        </div>
+                        <div id="t4_fb_8" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q9 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_9">
+                        <p class="font-semibold mb-1">Question 9:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q9" value="A"> A. pollution</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q9" value="B"> B. damage</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q9" value="C"> C. economy</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q9" value="D"> D. appearance</label>
+                        </div>
+                        <div id="t4_fb_9" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q10 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_10">
+                        <p class="font-semibold mb-1">Question 10:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q10" value="A"> A. lessen</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q10" value="B"> B. cause</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q10" value="C"> C. expand</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q10" value="D"> D. increase</label>
+                        </div>
+                        <div id="t4_fb_10" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q11 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_11">
+                        <p class="font-semibold mb-1">Question 11:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q11" value="A"> A. in</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q11" value="B"> B. on</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q11" value="C"> C. at</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q11" value="D"> D. for</label>
+                        </div>
+                        <div id="t4_fb_11" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q12 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_12">
+                        <p class="font-semibold mb-1">Question 12:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q12" value="A"> A. do</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q12" value="B"> B. make</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q12" value="C"> C. take</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q12" value="D"> D. give</label>
+                        </div>
+                        <div id="t4_fb_12" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Part 3: Rearrangement (Questions 13 - 17) -->
+            <section class="bg-slate-50 rounded-xl p-5 border border-slate-200 space-y-4">
+                <div class="border-b pb-2">
+                    <span class="text-xs font-bold uppercase tracking-wider bg-indigo-100 text-indigo-700 px-2.5 py-1 rounded-full">Phần 3</span>
+                    <h3 class="font-bold text-slate-800 mt-2">Sắp Xếp Câu & Đoạn Văn (Questions 13 - 17)</h3>
+                </div>
+
+                <div class="space-y-4 text-sm">
+                    <!-- Q13 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_13">
+                        <p class="font-semibold mb-2">Question 13:</p>
+                        <div class="bg-slate-50 p-2.5 rounded text-xs space-y-1 mb-2 border">
+                            <p>a. I'm thinking of joining the school music club this semester.</p>
+                            <p>b. That sounds wonderful! What instruments do you play?</p>
+                            <p>c. I can play the guitar, and I really want to practice singing too.</p>
+                            <p>d. Really? That's a great choice.</p>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q13" value="A"> A. a - b - d - c</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q13" value="B"> B. a - d - b - c</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q13" value="C"> C. d - a - b - c</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q13" value="D"> D. b - c - a - d</label>
+                        </div>
+                        <div id="t4_fb_13" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <!-- Q14 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_14">
+                        <p class="font-semibold mb-2">Question 14:</p>
+                        <div class="bg-slate-50 p-2.5 rounded text-xs space-y-1 mb-2 border">
+                            <p>a. Yes, and my sister and I help with washing the dishes and cleaning the house.</p>
+                            <p>b. Who usually does the heavy lifting in your family?</p>
+                            <p>c. That's a traditional way of dividing chores, but it works well!</p>
+                            <p>d. My dad handles it, while my mother does the cooking.</p>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q14" value="A"> A. b - d - c - a</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q14" value="B"> B. b - c - d - a</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q14" value="C"> C. d - b - a - c</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q14" value="D"> D. b - d - a - c</label>
+                        </div>
+                        <div id="t4_fb_14" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <!-- Q15 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_15">
+                        <p class="font-semibold mb-2">Question 15: Sắp xếp thư ứng tuyển volunteer</p>
+                        <div class="bg-slate-50 p-2.5 rounded text-xs space-y-1 mb-2 border">
+                            <p><b>Dear Sir or Madam,</b></p>
+                            <p>a. I have attached my CV for your reference and am available for an interview at any time.</p>
+                            <p>b. I am writing to apply for the volunteer position at the upcoming Youth Eco-Festival.</p>
+                            <p>c. Thank you for considering my application. I look forward to hearing from you.</p>
+                            <p>d. I have extensive experience in organizing green campaigns and a strong passion for environmental protection.</p>
+                            <p><b>Sincerely, Hannah</b></p>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q15" value="A"> A. b - a - d - c</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q15" value="B"> B. d - b - a - c</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q15" value="C"> C. b - d - c - a</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q15" value="D"> D. b - d - a - c</label>
+                        </div>
+                        <div id="t4_fb_15" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <!-- Q16 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_16">
+                        <p class="font-semibold mb-2">Question 16:</p>
+                        <div class="bg-slate-50 p-2.5 rounded text-xs space-y-1 mb-2 border">
+                            <p>a. Firstly, listening to music can significantly reduce stress and anxiety after a long day of studying.</p>
+                            <p>b. In conclusion, music plays a vital role in enhancing our emotional well-being.</p>
+                            <p>c. Secondly, upbeat songs can stimulate the brain and improve concentration during creative tasks.</p>
+                            <p>d. Music brings numerous psychological benefits to teenagers.</p>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q16" value="A"> A. d - c - a - b</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q16" value="B"> B. a - c - d - b</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q16" value="C"> C. d - a - c - b</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q16" value="D"> D. b - d - a - c</label>
+                        </div>
+                        <div id="t4_fb_16" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <!-- Q17 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_17">
+                        <p class="font-semibold mb-2">Question 17:</p>
+                        <div class="bg-slate-50 p-2.5 rounded text-xs space-y-1 mb-2 border">
+                            <p>a. As a result, the amount of non-biodegradable waste sent to landfills is drastically minimized.</p>
+                            <p>b. One effective way to practice green living is by adopting the 3Rs: Reduce, Reuse, and Recycle.</p>
+                            <p>c. For instance, instead of buying single-use plastic cups, people can switch to reusable containers.</p>
+                            <p>d. This simple habit helps conserve natural resources and protects local ecosystems from pollution.</p>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q17" value="A"> A. b - c - a - d</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q17" value="B"> B. b - a - c - d</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q17" value="C"> C. c - b - a - d</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q17" value="D"> D. b - c - d - a</label>
+                        </div>
+                        <div id="t4_fb_17" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Part 4: Reading Comprehension 1 (Questions 18 - 22) -->
+            <section class="bg-slate-50 rounded-xl p-5 border border-slate-200 space-y-4">
+                <div class="border-b pb-2">
+                    <span class="text-xs font-bold uppercase tracking-wider bg-indigo-100 text-indigo-700 px-2.5 py-1 rounded-full">Phần 4</span>
+                    <h3 class="font-bold text-slate-800 mt-2">Family Life and Household Chores (Questions 18 - 22)</h3>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl border text-sm leading-relaxed text-slate-700">
+                    Household chores play a crucial role in maintaining harmony in modern family life. In many homes today, daily tasks <b>(18) ______</b>. This equal distribution not only reduces stress for parents but also creates a comfortable living environment for everyone.<br><br>
+                    Teaching children to share housework from a young age is also highly recommended. A teenager <b>(19) ______</b> usually develops strong life skills, high self-esteem, and independence in adulthood.<br><br>
+                    Workloads in the family <b>(20) ______</b> based on each member's age and daily schedule. For instance, parents can handle heavy lifting and cooking, while children can help with washing dishes and sweeping the floor.<br><br>
+                    <b>(21) ______</b>. Working together on household tasks creates great opportunities for family members to talk, share everyday stories, and build stronger emotional bonds.<br><br>
+                    Although balancing work and home duties can be challenging at times, <b>(22) ______</b> and a supportive family atmosphere are well worth the effort of every member.
+                </div>
+
+                <div class="space-y-3 text-sm">
+                    <!-- Q18 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_18">
+                        <p class="font-semibold mb-1">Question 18:</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q18" value="A"> A. usually share equally among all family members</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q18" value="B"> B. are usually shared equally among all family members</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q18" value="C"> C. is usually sharing equally among all family members</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q18" value="D"> D. have usually shared equally among all family members</label>
+                        </div>
+                        <div id="t4_fb_18" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q19 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_19">
+                        <p class="font-semibold mb-1">Question 19:</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q19" value="A"> A. that are taught to take responsibility for chores early</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q19" value="B"> B. whom is teaching to take responsibility for chores early</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q19" value="C"> C. who is taught to take responsibility for chores early</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q19" value="D"> D. whose taught to take responsibility for chores early</label>
+                        </div>
+                        <div id="t4_fb_19" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q20 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_20">
+                        <p class="font-semibold mb-1">Question 20:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q20" value="A"> A. should divide</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q20" value="B"> B. dividing often</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q20" value="C"> C. were divided</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q20" value="D"> D. should be divided</label>
+                        </div>
+                        <div id="t4_fb_20" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q21 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_21">
+                        <p class="font-semibold mb-1">Question 21:</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q21" value="A"> A. Doing chores together is also an excellent way to strengthen family bonds.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q21" value="B"> B. Family members often refuse to share daily chores with each other.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q21" value="C"> C. Modern household appliances are becoming very popular in many families today.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q21" value="D"> D. Children are often too busy with homework to help their parents at home.</label>
+                        </div>
+                        <div id="t4_fb_21" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                    <!-- Q22 -->
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_22">
+                        <p class="font-semibold mb-1">Question 22:</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q22" value="A"> A. the benefits do not matter</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q22" value="B"> B. the benefits are worth it</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q22" value="C"> C. their roles are unnecessary</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q22" value="D"> D. it is not important</label>
+                        </div>
+                        <div id="t4_fb_22" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Part 5: Reading Comprehension 2 (Questions 23 - 30) -->
+            <section class="bg-slate-50 rounded-xl p-5 border border-slate-200 space-y-4">
+                <div class="border-b pb-2">
+                    <span class="text-xs font-bold uppercase tracking-wider bg-indigo-100 text-indigo-700 px-2.5 py-1 rounded-full">Phần 5</span>
+                    <h3 class="font-bold text-slate-800 mt-2">Tourism Carbon Footprint (Questions 23 - 30)</h3>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl border text-sm leading-relaxed text-slate-700 space-y-2">
+                    <p><b>Paragraph 1:</b> Climate scientists from the University of Sydney in Australia say tourism is responsible for more than 8% of global greenhouse gas emissions. They also state that this figure will continue to increase because the tourism industry is growing rapidly. The study looked at the carbon footprint of many different sectors of global tourism. It carefully analyzed the CO2 emissions from transport, events, hotels, restaurants, and shopping.</p>
+                    <p><b>Paragraph 2:</b> The researchers spent 18 months conducting this extensive study. They included the tourist activities of 189 countries in total. One of the researchers, Dr. Arunima Malik, said her team examined data from more than one million tourism-related businesses. The results showed that domestic travel contributed more to carbon emissions than international or business travel.</p>
+                    <p><b>Paragraph 3:</b> Furthermore, air travel was found to be the largest part of tourism's footprint. <u>The researchers said flying would continue to increase global emissions as more people in the world become richer.</u> The countries causing the most harm were the biggest and wealthiest nations. The USA, China, India, and Germany had the largest tourism carbon footprints.</p>
+                    <p><b>Paragraph 4:</b> Finally, the researchers encouraged holiday-makers and travelers to try and reduce their carbon footprint when on vacation. Working together to choose greener transport or supporting local eco-businesses helps protect the environment. These small changes can create a more sustainable future for our planet.</p>
+                </div>
+
+                <div class="space-y-3 text-sm">
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_23">
+                        <p class="font-semibold mb-1">Question 23: According to paragraph 1, which of the following is NOT mentioned as an area analyzed for CO2 emissions?</p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q23" value="A"> A. Hotels and events</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q23" value="B"> B. Restaurants and shopping</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q23" value="C"> C. Electric cars and solar energy</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q23" value="D"> D. Transport systems</label>
+                        </div>
+                        <div id="t4_fb_23" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_24">
+                        <p class="font-semibold mb-1">Question 24: The word "encouraged" in paragraph 4 is OPPOSITE in meaning to _____.</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q24" value="A"> A. disappointed</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q24" value="B"> B. disheartened</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q24" value="C"> C. allowed</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q24" value="D"> D. suggested</label>
+                        </div>
+                        <div id="t4_fb_24" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_25">
+                        <p class="font-semibold mb-1">Question 25: The word "It" in paragraph 1 refers to _____.</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q25" value="A"> A. greenhouse gas</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q25" value="B"> B. the tourism industry</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q25" value="C"> C. the carbon footprint</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q25" value="D"> D. the study</label>
+                        </div>
+                        <div id="t4_fb_25" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_26">
+                        <p class="font-semibold mb-1">Question 26: The word "wealthiest" in paragraph 3 could best be replaced by _____.</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q26" value="A"> A. most affluent</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q26" value="B"> B. most impoverished</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q26" value="C"> C. most populous</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q26" value="D"> D. most disabled</label>
+                        </div>
+                        <div id="t4_fb_26" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_27">
+                        <p class="font-semibold mb-1">Question 27: Which of the following best paraphrases the underlined sentence in paragraph 3?</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q27" value="A"> A. As global wealth rises, more people will fly, continuing to drive up global emissions.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q27" value="B"> B. Wealthy people prefer traveling by air because it protects the environment from emissions.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q27" value="C"> C. Global emissions will drop because rich countries are stopping people from flying.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q27" value="D"> D. Flying is becoming cheaper, so poor people can travel as much as rich people.</label>
+                        </div>
+                        <div id="t4_fb_27" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_28">
+                        <p class="font-semibold mb-1">Question 28: Which of the following is TRUE according to the passage?</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q28" value="A"> A. International travel causes more CO2 emissions than domestic travel.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q28" value="B"> B. The research on tourism's carbon footprint took less than a year to complete.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q28" value="C"> C. More than 8 percent of greenhouse gas emissions come from tourism.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q28" value="D"> D. The study only focused on the tourist activities of 5 wealthy countries.</label>
+                        </div>
+                        <div id="t4_fb_28" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_29">
+                        <p class="font-semibold mb-1">Question 29: In which paragraph does the writer suggest practical solutions for individual travelers?</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q29" value="A"> A. Paragraph 1</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q29" value="B"> B. Paragraph 4</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q29" value="C"> C. Paragraph 3</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q29" value="D"> D. Paragraph 2</label>
+                        </div>
+                        <div id="t4_fb_29" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_30">
+                        <p class="font-semibold mb-1">Question 30: In which paragraph does the writer mention the specific countries with largest footprints?</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q30" value="A"> A. Paragraph 1</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q30" value="B"> B. Paragraph 4</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q30" value="C"> C. Paragraph 3</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q30" value="D"> D. Paragraph 2</label>
+                        </div>
+                        <div id="t4_fb_30" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Part 6: Reading Comprehension 3 (Questions 31 - 40) -->
+            <section class="bg-slate-50 rounded-xl p-5 border border-slate-200 space-y-4">
+                <div class="border-b pb-2">
+                    <span class="text-xs font-bold uppercase tracking-wider bg-indigo-100 text-indigo-700 px-2.5 py-1 rounded-full">Phần 6</span>
+                    <h3 class="font-bold text-slate-800 mt-2">Van Phuc Silk Village (Questions 31 - 40)</h3>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl border text-sm leading-relaxed text-slate-700 space-y-2">
+                    <p><b>Paragraph 1:</b> Van Phuc Silk Village is an ancient village in Hanoi with a long history of making high-quality silk. [I] It started producing silk during the Ly dynasty in the 11th century. [II] The village did not become famous until the 19th century. [III] Since then, it has become one of the most visited traditional craft villages in Hanoi. [IV]</p>
+                    <p><b>Paragraph 2:</b> Van Phuc silk is famous for its smooth, soft, and lightweight texture, making it a favorite among tourists. In the past, this silk was used to make dresses for royal family members. Later, Van Phuc silk reached European markets and gained popularity after an international exhibition in France in the 1930s.</p>
+                    <p><b>Paragraph 3:</b> Visiting the village is a great chance to experience the traditional way of life. <u>Visitors can watch local artisans work their looms to make beautiful silk products like scarves and ties.</u> You will also see ancient wells and banyan trees that have stood for centuries.</p>
+                    <p><b>Paragraph 4:</b> Today, local people work hard to preserve this traditional craft. They hold regular festivals and open hands-on workshops to teach young generations how to weave silk. <u>Their</u> efforts help protect historical values and develop sustainable tourism.</p>
+                </div>
+
+                <div class="space-y-3 text-sm">
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_31">
+                        <p class="font-semibold mb-1">Question 31: Where in paragraph 1 does the sentence fit: <i>"Initially, the village only produced silk to supply the local markets"</i>?</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q31" value="A"> A. [I]</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q31" value="B"> B. [II]</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q31" value="C"> C. [III]</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q31" value="D"> D. [IV]</label>
+                        </div>
+                        <div id="t4_fb_31" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_32">
+                        <p class="font-semibold mb-1">Question 32: The word "popularity" in paragraph 2 is CLOSEST in meaning to _____.</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q32" value="A"> A. favor</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q32" value="B"> B. population</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q32" value="C"> C. abundance</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q32" value="D"> D. quality</label>
+                        </div>
+                        <div id="t4_fb_32" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_33">
+                        <p class="font-semibold mb-1">Question 33: The word "Their" in paragraph 4 refers to _____.</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q33" value="A"> A. cultural festivals</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q33" value="B"> B. young generations</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q33" value="C"> C. local people</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q33" value="D"> D. historical values</label>
+                        </div>
+                        <div id="t4_fb_33" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_34">
+                        <p class="font-semibold mb-1">Question 34: According to paragraph 2, in the past, Van Phuc silk was used to make clothes for _____.</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q34" value="A"> A. European tourists</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q34" value="B"> B. French artists</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q34" value="C"> C. normal local people</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q34" value="D"> D. royal family members</label>
+                        </div>
+                        <div id="t4_fb_34" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_35">
+                        <p class="font-semibold mb-1">Question 35: Which of the following best summarizes paragraph 3?</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q35" value="A"> A. Visitors go to Van Phuc Village mostly to buy traditional silk scarves and ties from local artisans.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q35" value="B"> B. A trip to Van Phuc Village offers a chance to experience traditional silk-making and historic sights.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q35" value="C"> C. Local artisans in Van Phuc continue to use ancient looms to weave silk exclusively for foreign tourists.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q35" value="D"> D. Van Phuc Village is famous because its ancient banyan trees and wells are preserved better than its silk craft.</label>
+                        </div>
+                        <div id="t4_fb_35" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_36">
+                        <p class="font-semibold mb-1">Question 36: The word "famous" in paragraph 2 is OPPOSITE in meaning to _____.</p>
+                        <div class="grid grid-cols-2 gap-1.5">
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q36" value="A"> A. influential</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q36" value="B"> B. obscure</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q36" value="C"> C. renowned</label>
+                            <label class="p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q36" value="D"> D. valuable</label>
+                        </div>
+                        <div id="t4_fb_36" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_37">
+                        <p class="font-semibold mb-1">Question 37: Which of the following is NOT TRUE according to the passage?</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q37" value="A"> A. Van Phuc Silk Village is a traditional craft village located in Hanoi.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q37" value="B"> B. The silk products of the village were shown at an exhibition in France.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q37" value="C"> C. Visitors can see ancient wells and banyan trees in the village today.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q37" value="D"> D. Van Phuc village became highly famous for its silk weaving in the 11th century.</label>
+                        </div>
+                        <div id="t4_fb_37" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_38">
+                        <p class="font-semibold mb-1">Question 38: Which of the following best paraphrases the underlined sentence in paragraph 3?</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q38" value="A"> A. Visitors can watch local craftsmen use traditional machines to make different silk items.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q38" value="B"> B. Local people must work very hard to make cheap silk products for international tourists.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q38" value="C"> C. Many young tourists prefer buying expensive dresses and ties to making silk at home.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q38" value="D"> D. Crafters only make traditional scarves and ties when they receive big orders from visitors.</label>
+                        </div>
+                        <div id="t4_fb_38" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_39">
+                        <p class="font-semibold mb-1">Question 39: What can be inferred about Van Phuc silk village from the passage?</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q39" value="A"> A. The village only attracts tourists who want to buy expensive clothes.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q39" value="B"> B. It successfully combines historical preservation with modern tourism activities.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q39" value="C"> C. Weaving silk is the only way for local people to earn a living today.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q39" value="D"> D. French exhibitions are the main reason why the village survives nowadays.</label>
+                        </div>
+                        <div id="t4_fb_39" class="text-xs font-semibold mt-1"></div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded-lg border" id="t4_qblock_40">
+                        <p class="font-semibold mb-1">Question 40: Which of the following best summarizes the passage?</p>
+                        <div class="space-y-1">
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q40" value="A"> A. Van Phuc Silk Village became world-famous after an exhibition in France, making it a busy commercial center today.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q40" value="B"> B. Thanks to modern workshops, young generations have successfully replaced traditional handlooms with fast machinery.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q40" value="C"> C. Van Phuc Silk Village maintains its cultural identity and promotes tourism through its rich history, quality craft, and preservation.</label>
+                            <label class="block p-1.5 border rounded hover:bg-indigo-50 cursor-pointer"><input type="radio" name="t4_q40" value="D"> D. Local people in Van Phuc organize regular festivals mainly to attract European buyers and protect ancient wells.</label>
+                        </div>
+                        <div id="t4_fb_40" class="text-xs font-semibold mt-1"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Submit Button Task 4 -->
+            <div class="text-center pt-3">
+                <button onclick="submitTask4()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-3 rounded-2xl shadow-lg transition transform active:scale-95 text-base flex items-center gap-2 mx-auto">
+                    <i class="fa-solid fa-paper-plane"></i> Nộp Bài Task 4 & Chấm Điểm
+                </button>
+            </div>
+        `;
+        lucide.createIcons();
+    }
+
+    // Task 4 Answer Key & Submission Logic
+    function submitTask4() {
+        const keyTask4 = {
+            1: 'B', 2: 'C', 3: 'D', 4: 'A', 5: 'B', 6: 'C',
+            7: 'C', 8: 'D', 9: 'D', 10: 'A', 11: 'B', 12: 'C',
+            13: 'B', 14: 'D', 15: 'D', 16: 'C', 17: 'A',
+            18: 'B', 19: 'C', 20: 'D', 21: 'A', 22: 'B',
+            23: 'C', 24: 'B', 25: 'D', 26: 'A', 27: 'A', 28: 'C', 29: 'B', 30: 'C',
+            31: 'B', 32: 'A', 33: 'C', 34: 'D', 35: 'B', 36: 'B', 37: 'D', 38: 'A', 39: 'B', 40: 'C'
+        };
+
+        let score = 0;
+        let total = 40;
+
+        for (let i = 1; i <= total; i++) {
+            const selected = document.querySelector(`input[name="t4_q${i}"]:checked`);
+            const fb = document.getElementById(`t4_fb_${i}`);
+            const block = document.getElementById(`t4_qblock_${i}`);
+
+            if (selected) {
+                if (selected.value === keyTask4[i]) {
+                    score++;
+                    fb.innerHTML = `<span class="text-emerald-600">✓ Chính xác! (${keyTask4[i]})</span>`;
+                    block.className = "p-3 bg-emerald-50/50 border border-emerald-200 rounded-lg";
+                } else {
+                    fb.innerHTML = `<span class="text-rose-600">✗ Chưa đúng. Đáp án đúng: <b>${keyTask4[i]}</b></span>`;
+                    block.className = "p-3 bg-rose-50/50 border border-rose-200 rounded-lg";
+                }
+            } else {
+                fb.innerHTML = `<span class="text-amber-600">⚠️ Chưa làm câu này. Đáp án đúng: <b>${keyTask4[i]}</b></span>`;
+                block.className = "p-3 bg-amber-50/50 border border-amber-200 rounded-lg";
+            }
+        }
+
+        document.getElementById('task4-score-text').innerText = `${score} / ${total}`;
+        document.getElementById('task4-score-box').classList.add('bg-emerald-800');
+        
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        alert(`Bạn đã hoàn thành Task 4!\nĐiểm số đạt được: ${score} / ${total} câu đúng.`);
+    }
+
+    // Run app on load
     window.onload = initApp;
 </script>
 </body>
