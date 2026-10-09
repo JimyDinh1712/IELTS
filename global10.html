@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đề Cương Ôn Tập Giữa HK1 Tiếng Anh 10 - Global Success</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#2563eb',
+                            600: '#1d4ed8',
+                            700: '#1e40af',
+                            800: '#1e3a8a',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo & Title -->
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-brand-500/20">
+                        <i class="fa-solid font-bold fa-graduation-cap text-lg"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-extrabold text-slate-900 text-lg sm:text-xl leading-tight">Global 10 - Midterm Review</h1>
+                        <p class="text-xs text-slate-500 font-medium hidden sm:block"> By Mr Jimmy handsome</p>
+                    </div>
+                </div>
+
+                <!-- Navigation Tabs -->
+                <div class="flex items-center gap-1 bg-slate-100 p-1 rounded-xl">
+                    <button id="nav-task1" onclick="switchMainTab('task1')" class="px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200 flex items-center gap-2 bg-white text-brand-600 shadow-sm">
+                        <i class="fa-solid fa-list-check"></i>
+                        <span>Task 1: Bài Tập (22 Phần)</span>
+                    </button>
+                    <button id="nav-task2" onclick="switchMainTab('task2')" class="px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200 flex items-center gap-2 text-slate-600 hover:text-slate-900">
+                        <i class="fa-solid fa-book-open"></i>
+                        <span>Task 2: Lý Thuyết Ngữ Pháp</span>
+                    </button>
+                </div>
+
+                <!-- Score Counter Badge -->
+                <div class="hidden lg:flex items-center gap-3 bg-brand-50 border border-brand-100 px-3.5 py-1.5 rounded-full">
+                    <i class="fa-solid fa-trophy text-amber-500"></i>
+                    <div class="text-xs font-semibold">
+                        <span class="text-slate-500">Tiến độ: </span>
+                        <span id="global-score" class="text-brand-700 font-bold">0 / 0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Layout -->
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+        <!-- ================= TASK 1: BÀI TẬP (22 PHẦN) ================= -->
+        <section id="tab-task1" class="block space-y-6">
+            <!-- Top Controls & Navigator bar -->
+            <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <h2 class="text-lg font-extrabold text-slate-900 flex items-center gap-2">
+                            <span class="w-2.5 h-2.5 rounded-full bg-brand-600"></span>
+                            <span id="current-part-title">Phần 1: Put the verbs in brackets into correct form</span>
+                        </h2>
+                        <p class="text-xs text-slate-500 mt-0.5">Chọn từng phần bài tập bên dưới để thực hành, điền câu trả lời và nhấn "Nộp bài".</p>
+                    </div>
+
+                    <!-- Quick Navigation Selector -->
+                    <div class="flex items-center gap-2">
+                        <label for="part-select" class="text-xs font-bold text-slate-600 whitespace-nowrap">Chọn phần:</label>
+                        <select id="part-select" onchange="changeExercisePart(parseInt(this.value))" class="bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 text-sm font-semibold text-slate-800 focus:ring-2 focus:ring-brand-500 focus:outline-none cursor-pointer">
+                        </select>
+                        <button onclick="toggleViewAll()" id="btn-toggle-viewall" class="px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-bold transition flex items-center gap-1.5 whitespace-nowrap" title="Xem toàn bộ 22 phần trên 1 trang">
+                            <i class="fa-solid fa-expand"></i>
+                            <span>Hiện tất cả</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Quick Jump Buttons Bar (1 to 22) -->
+                <div class="mt-4 pt-4 border-t border-slate-100">
+                    <div class="text-xs font-bold text-slate-400 mb-2 uppercase tracking-wider">Danh sách 22 Bài tập:</div>
+                    <div class="flex items-center gap-1.5 overflow-x-auto pb-2 custom-scrollbar" id="parts-pill-container">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Exercise Mode View container -->
+            <div id="exercise-single-container" class="space-y-6">
+            </div>
+
+            <!-- View All Mode Container (hidden by default) -->
+            <div id="exercise-all-container" class="hidden space-y-8">
+            </div>
+        </section>
+
+        <!-- ================= TASK 2: LÝ THUYẾT NGỮ PHÁP ================= -->
+        <section id="tab-task2" class="hidden space-y-8">
+            <!-- Header banner -->
+            <div class="bg-gradient-to-r from-brand-700 via-brand-600 to-indigo-700 rounded-3xl p-6 sm:p-8 text-white shadow-xl">
+                <div class="max-w-3xl">
+                    <span class="inline-block px-3 py-1 bg-white/20 rounded-full text-xs font-semibold backdrop-blur-md mb-3">Global 10 - Midterm Grammar Summary</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight">Chi Tiết Ngữ Pháp Trọng Tâm Học Kỳ 1</h2>
+                    
+                </div>
+            </div>
+
+            <!-- Grammar Quick Navigation Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <a href="#grammar-conditionals" class="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm hover:border-brand-500 hover:shadow-md transition group">
+                    <div class="w-10 h-10 rounded-xl bg-blue-100 text-brand-600 flex items-center justify-center font-bold mb-3 group-hover:scale-110 transition">1</div>
+                    <h3 class="font-bold text-slate-900 group-hover:text-brand-600 transition">Câu Điều Kiện</h3>
+                    <p class="text-xs text-slate-500 mt-1">Loại 1, Loại 2, Unless & Reported Conditionals</p>
+                </a>
+                <a href="#grammar-futures" class="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm hover:border-brand-500 hover:shadow-md transition group">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold mb-3 group-hover:scale-110 transition">2</div>
+                    <h3 class="font-bold text-slate-900 group-hover:text-emerald-600 transition">Thì Tương Lai</h3>
+                    <p class="text-xs text-slate-500 mt-1">Will (Tương lai đơn) vs Be Going To</p>
+                </a>
+                <a href="#grammar-passive" class="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm hover:border-brand-500 hover:shadow-md transition group">
+                    <div class="w-10 h-10 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center font-bold mb-3 group-hover:scale-110 transition">3</div>
+                    <h3 class="font-bold text-slate-900 group-hover:text-purple-600 transition">Câu Bị Động</h3>
+                    <p class="text-xs text-slate-500 mt-1">Passive Voice tổng hợp đầy đủ các thì</p>
+                </a>
+                <a href="#grammar-infinitives" class="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm hover:border-brand-500 hover:shadow-md transition group">
+                    <div class="w-10 h-10 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center font-bold mb-3 group-hover:scale-110 transition">4</div>
+                    <h3 class="font-bold text-slate-900 group-hover:text-amber-600 transition">Động Từ & Cấu Trúc</h3>
+                    <p class="text-xs text-slate-500 mt-1">To-inf, Bare-inf, Gerund & Cấu trúc Causatives</p>
+                </a>
+            </div>
+
+            <!-- Detail 1: Conditionals -->
+            <div id="grammar-conditionals" class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-6 scroll-mt-20">
+                <div class="flex items-center gap-3 border-b border-slate-100 pb-4">
+                    <div class="p-2.5 bg-blue-100 text-brand-600 rounded-xl"><i class="fa-solid fa-code-branch text-xl"></i></div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">1. Câu Điều Kiện (Conditional Sentences)</h3>
+                        <p class="text-xs text-slate-500">Type 1, Type 2, Biến đổi câu & Câu gián tiếp</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-slate-50 rounded-xl p-5 border border-slate-200">
+                        <span class="text-xs font-extrabold uppercase tracking-wider text-brand-600 bg-brand-50 px-2.5 py-1 rounded-md">Type 1: Điều kiện có thể xảy ra ở hiện tại / tương lai</span>
+                        <div class="mt-3 text-sm font-mono bg-white p-3 rounded-lg border border-slate-200">
+                            <strong>If + S + V(s/es), S + will / can / may / should + V-bare</strong>
+                        </div>
+                        <ul class="mt-3 text-xs text-slate-600 space-y-1.5 list-disc list-inside">
+                            <li>Dùng cho sự việc có thật hoặc dễ xảy ra ở hiện tại/tương lai.</li>
+                            <li><strong>Ví dụ:</strong> If it <em>rains</em>, I <em>will stay</em> at home.</li>
+                            <li><strong>Lưu ý Mệnh đề lệnh:</strong> If someone comes, <em>tell</em> him to wait.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-xl p-5 border border-slate-200">
+                        <span class="text-xs font-extrabold uppercase tracking-wider text-purple-600 bg-purple-50 px-2.5 py-1 rounded-md">Type 2: Điều kiện giả định không có thật ở hiện tại</span>
+                        <div class="mt-3 text-sm font-mono bg-white p-3 rounded-lg border border-slate-200">
+                            <strong>If + S + V-ed / V2 (To be: were), S + would / could / might + V-bare</strong>
+                        </div>
+                        <ul class="mt-3 text-xs text-slate-600 space-y-1.5 list-disc list-inside">
+                            <li>Giả định trái ngược với thực tế ở hiện tại.</li>
+                            <li><strong>To be:</strong> Luôn dùng <strong>were</strong> cho tất cả các ngôi (I, he, she, it).</li>
+                            <li><strong>Ví dụ:</strong> If I <em>were</em> you, I <em>would accept</em> the offer.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6 pt-2">
+                    <div class="bg-amber-50/60 rounded-xl p-4 border border-amber-200">
+                        <h4 class="font-bold text-amber-900 text-sm flex items-center gap-2">
+                            <i class="fa-solid fa-triangle-exclamation text-amber-600"></i> Cấu trúc UNLESS (= If ... not)
+                        </h4>
+                        <p class="text-xs text-amber-800 mt-1">
+                            <strong>Unless</strong> mang nghĩa phủ định ("Trừ khi" / "Nếu không").
+                        </p>
+                        <div class="mt-2 text-xs font-mono bg-white p-2 rounded border border-amber-200">
+                            Unless + S + V (khẳng định) = If + S + V (phủ định)
+                        </div>
+                        <p class="text-xs text-slate-600 mt-2"><strong>Ví dụ:</strong> Unless he works hard, he will earn nothing. <br>→ If he doesn't work hard, he will earn nothing.</p>
+                    </div>
+
+                    <div class="bg-indigo-50/60 rounded-xl p-4 border border-indigo-200">
+                        <h4 class="font-bold text-indigo-900 text-sm flex items-center gap-2">
+                            <i class="fa-solid fa-quote-right text-indigo-600"></i> Câu điều kiện trong Lời nói gián tiếp (Reported Speech)
+                        </h4>
+                        <ul class="text-xs text-indigo-900 space-y-1 mt-1">
+                            <li>• <strong>Điều kiện Loại 1:</strong> Lùi thì về Loại 2 (V1 → V2, will → would).</li>
+                            <li>• <strong>Điều kiện Loại 2 & 3:</strong> <em>Giữ nguyên thì</em>, chỉ đổi đại từ và từ chỉ thời gian/nơi chốn.</li>
+                            <li>• <strong>Lời khuyên "If I were you":</strong> Có thể chuyển thành <em>S + advised + O + to-V</em>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detail 2: Futures -->
+            <div id="grammar-futures" class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-6 scroll-mt-20">
+                <div class="flex items-center gap-3 border-b border-slate-100 pb-4">
+                    <div class="p-2.5 bg-emerald-100 text-emerald-600 rounded-xl"><i class="fa-solid fa-clock text-xl"></i></div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">2. Phân Biệt Tương Lai: WILL vs. BE GOING TO</h3>
+                        <p class="text-xs text-slate-500">Phân biệt rõ mục đích sử dụng và hoàn cảnh nói</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                        <h4 class="font-bold text-slate-900 text-base mb-2 flex items-center justify-between">
+                            <span>WILL (Future Simple)</span>
+                            <span class="text-xs bg-slate-200 px-2 py-0.5 rounded text-slate-700 font-mono">S + will + V-bare</span>
+                        </h4>
+                        <ul class="text-xs text-slate-600 space-y-2">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-500 mt-0.5"></i>
+                                <span><strong>Quyết định bộc phát:</strong> Đưa ra ngay tại thời điểm nói (không lên kế hoạch trước). <br><em>VD: The phone is ringing. - I will answer it.</em></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-500 mt-0.5"></i>
+                                <span><strong>Dự đoán cảm tính:</strong> Không có căn cứ rõ ràng (đi kèm <em>think, believe, hope, promise</em>).</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-500 mt-0.5"></i>
+                                <span><strong>Lời hứa, yêu cầu, đề nghị giúp đỡ:</strong> <em>I will bring it tomorrow.</em></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                        <h4 class="font-bold text-slate-900 text-base mb-2 flex items-center justify-between">
+                            <span>BE GOING TO (Near Future)</span>
+                            <span class="text-xs bg-slate-200 px-2 py-0.5 rounded text-slate-700 font-mono">S + am/is/are + going to + V-bare</span>
+                        </h4>
+                        <ul class="text-xs text-slate-600 space-y-2">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-500 mt-0.5"></i>
+                                <span><strong>Kế hoạch / Dự định từ trước:</strong> Đã quyết định trước thời điểm nói. <br><em>VD: We've decided. We are going to start a new business.</em></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-500 mt-0.5"></i>
+                                <span><strong>Dự đoán dựa trên bằng chứng hiện tại:</strong> Có bằng chứng mắt thấy tai nghe. <br><em>VD: Look at those black clouds! It is going to rain.</em></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detail 3: Passive Voice -->
+            <div id="grammar-passive" class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-6 scroll-mt-20">
+                <div class="flex items-center gap-3 border-b border-slate-100 pb-4">
+                    <div class="p-2.5 bg-purple-100 text-purple-600 rounded-xl"><i class="fa-solid fa-arrows-repeat text-xl"></i></div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">3. Cấu Trúc Câu Bị Động (Passive Voice)</h3>
+                        <p class="text-xs text-slate-500">Công thức bị động các thì trọng tâm chương trình Lớp 10</p>
+                    </div>
+                </div>
+
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse text-xs">
+                        <thead>
+                            <tr class="bg-slate-100 text-slate-700 uppercase font-bold border-b border-slate-200">
+                                <th class="p-3 rounded-tl-lg">Thì (Tense)</th>
+                                <th class="p-3">Câu Chủ Động (Active)</th>
+                                <th class="p-3 rounded-tr-lg">Câu Bị Động (Passive Form)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100 font-medium text-slate-600">
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">Hiện tại đơn (Present Simple)</td>
+                                <td class="p-3">S + V(s/es) + O</td>
+                                <td class="p-3 text-purple-700 font-semibold bg-purple-50/50">S + am / is / are + V3/ed (+ by O)</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">Quá khứ đơn (Past Simple)</td>
+                                <td class="p-3">S + V2/ed + O</td>
+                                <td class="p-3 text-purple-700 font-semibold bg-purple-50/50">S + was / were + V3/ed (+ by O)</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">Hiện tại tiếp diễn (Present Cont.)</td>
+                                <td class="p-3">S + am/is/are + V-ing + O</td>
+                                <td class="p-3 text-purple-700 font-semibold bg-purple-50/50">S + am / is / are + being + V3/ed</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">Quá khứ tiếp diễn (Past Cont.)</td>
+                                <td class="p-3">S + was/were + V-ing + O</td>
+                                <td class="p-3 text-purple-700 font-semibold bg-purple-50/50">S + was / were + being + V3/ed</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">Hiện tại hoàn thành (Present Perf.)</td>
+                                <td class="p-3">S + have/has + V3/ed + O</td>
+                                <td class="p-3 text-purple-700 font-semibold bg-purple-50/50">S + have / has + been + V3/ed</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">Tương lai đơn (Future Simple)</td>
+                                <td class="p-3">S + will + V-bare + O</td>
+                                <td class="p-3 text-purple-700 font-semibold bg-purple-50/50">S + will + be + V3/ed</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">Tương lai gần (Be going to)</td>
+                                <td class="p-3">S + am/is/are + going to + V-bare</td>
+                                <td class="p-3 text-purple-700 font-semibold bg-purple-50/50">S + am / is / are + going to + be + V3/ed</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-slate-900">Động từ khuyết thiếu (Modals)</td>
+                                <td class="p-3">S + can/must/should/may + V-bare</td>
+                                <td class="p-3 text-purple-700 font-semibold bg-purple-50/50">S + Modal + be + V3/ed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Detail 4: Infinitives & Causatives -->
+            <div id="grammar-infinitives" class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-6 scroll-mt-20">
+                <div class="flex items-center gap-3 border-b border-slate-100 pb-4">
+                    <div class="p-2.5 bg-amber-100 text-amber-600 rounded-xl"><i class="fa-solid fa-shapes text-xl"></i></div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">4. Động Từ Nguyên Mẫu, Danh Động Từ & Cấu Trúc Nguyên Nhân</h3>
+                        <p class="text-xs text-slate-500">To-Infinitive, Bare Infinitive, Gerund (V-ing) & Causative Verbs</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-2">
+                        <span class="text-xs font-bold text-brand-600 uppercase tracking-wider bg-brand-50 px-2 py-0.5 rounded">To-Infinitive (To + V)</span>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Đi sau các động từ: <em>want, decide, offer, refuse, arrange, agree, plan, promise, learn, dare, beg, hope...</em>
+                        </p>
+                        <p class="text-xs text-slate-500 border-t border-slate-200 pt-2">
+                            <strong>VD:</strong> She offered <em>to look</em> after our children.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-2">
+                        <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider bg-emerald-50 px-2 py-0.5 rounded">Bare Infinitive (V nguyên thể)</span>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            • Sau Modal Verbs: <em>can, could, must, should, will, may...</em><br>
+                            • Sau động từ sai khiến: <em>make, let, have (active)</em>.
+                        </p>
+                        <p class="text-xs text-slate-500 border-t border-slate-200 pt-2">
+                            <strong>VD:</strong> You must <em>stay</em> at home. / Don't let him <em>try</em> it.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-2">
+                        <span class="text-xs font-bold text-purple-600 uppercase tracking-wider bg-purple-50 px-2 py-0.5 rounded">Gerund (V-ing)</span>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Đi sau các động từ: <em>stop, enjoy, finish, mind, admit, deny, avoid, suggest, delay, consider...</em>
+                        </p>
+                        <p class="text-xs text-slate-500 border-t border-slate-200 pt-2">
+                            <strong>VD:</strong> Stop <em>making</em> noise! / I don't enjoy <em>writing</em> letters.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900 text-white p-5 rounded-2xl space-y-3">
+                    <h4 class="font-bold text-amber-400 text-sm uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-solid fa-key"></i> Bảng Phân Biệt Cấu Trúc Tác Động / Nhờ Vả (Causative & Persuasive Patterns)
+                    </h4>
+                    <div class="grid sm:grid-cols-2 gap-4 text-xs">
+                        <div class="bg-slate-800 p-3 rounded-xl border border-slate-700">
+                            <span class="text-emerald-400 font-bold block mb-1">Cấu trúc đi với TO-INFINITIVE (V-to):</span>
+                            <ul class="space-y-1 text-slate-300">
+                                <li>• <strong>force + O + to V:</strong> ép buộc ai làm gì</li>
+                                <li>• <strong>convince / persuade + O + to V:</strong> thuyết phục ai làm gì</li>
+                                <li>• <strong>encourage + O + to V:</strong> khuyến khích ai</li>
+                                <li>• <strong>allow / permit + O + to V:</strong> cho phép ai làm gì</li>
+                                <li>• <strong>get + O + to V:</strong> nhờ/thuê/khiến ai làm gì</li>
+                                <li>• <strong>tell / ask + O + to V:</strong> bảo/yêu cầu ai</li>
+                            </ul>
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-xl border border-slate-700">
+                            <span class="text-amber-400 font-bold block mb-1">Cấu trúc đi với BARE INFINITIVE / BỊ ĐỘNG:</span>
+                            <ul class="space-y-1 text-slate-300">
+                                <li>• <strong>make + O + V-bare:</strong> bắt buộc ai làm gì</li>
+                                <li>• <strong>let + O + V-bare:</strong> cho phép ai làm gì</li>
+                                <li>• <strong>have + O + V-bare:</strong> nhờ/thuê ai làm gì</li>
+                                <li>• <strong>help + O + (to) V:</strong> giúp đỡ ai làm gì</li>
+                                <li>• <strong>have / get + Sth + V3/ed:</strong> có cái gì được làm bởi ai</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 py-6 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500">
+            <p class="font-semibold text-slate-700">Đề Cương Ôn Tập Giữa Học Kỳ 1 - Global Success 10</p>
+            <p class="mt-1">Viết cái gì cho ngầu..chưa suy nghĩ ra...</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT APP LOGIC -->
+    <script>
+        const exerciseParts = [
+            {
+                id: 1,
+                title: "1. Put the verbs in the brackets into the correct form.",
+                type: "input",
+                instructions: "Chia động từ trong ngoặc theo đúng dạng câu điều kiện.",
+                questions: [
+                    { id: "1_1", text: "1. If you go to Paris, where you (stay) _________?", answer: "will you stay", alt: ["will you stay?"] },
+                    { id: "1_2", text: "2. If you (swim) _________ in this lake, you'll shiver from cold.", answer: "swim", alt: [] },
+                    { id: "1_3", text: "3. If someone offered to buy you one of those rings, which you (choose) _________?", answer: "would you choose", alt: ["would you choose?"] },
+                    { id: "1_4", text: "4. The flight may be cancelled if the fog (get) _________ thick.", answer: "gets", alt: [] },
+                    { id: "1_5", text: "5. If the milkman (come) _________, tell him to leave two pints.", answer: "comes", alt: [] }
+                ]
+            },
+            {
+                id: 2,
+                title: "2. Choose the correct answer in the brackets.",
+                type: "select",
+                instructions: "Chọn từ/cụm từ chính xác trong ngoặc để hoàn thành câu.",
+                questions: [
+                    { id: "2_1", prefix: "1. If you", choices: ["turn", "turns", "could turn"], mid: "the volume down, the music", choices2: ["sounded", "would sound", "would sounded"], suffix: "clearer.", answer1: "could turn", answer2: "would sound" },
+                    { id: "2_2", prefix: "2. Your pencils", choices: ["broke not", "didn't break", "wouldn't break"], mid: "if you", choices2: ["pack", "would pack", "packed"], suffix: "your school bag more carefully.", answer1: "wouldn't break", answer2: "packed" },
+                    { id: "2_3", prefix: "3. If the girls", choices: ["goed", "went", "could went"], mid: "to bed earlier, they", choices2: ["yawned not", "wouldn't yawn", "won't yawn"], suffix: "all through the lesson.", answer1: "went", answer2: "wouldn't yawn" },
+                    { id: "2_4", prefix: "4.", choices: ["Would you like", "like you", "will you like"], mid: "a car if you", choices2: ["has", "had", "have"], suffix: "the money?", answer1: "Would you like", answer2: "had" },
+                    { id: "2_5", prefix: "5. If Bill", choices: ["closes", "closed", "will close"], mid: "the window, it", choices2: ["wouldn't be", "won't be", "isn't"], suffix: "so cold in the kitchen.", answer1: "closed", answer2: "wouldn't be" }
+                ]
+            },
+            {
+                id: 3,
+                title: "3. Combine the two sentences using conditional sentences.",
+                type: "input",
+                instructions: "Viết lại hai câu thành một câu điều kiện phù hợp.",
+                questions: [
+                    { id: "3_1", text: "1. They don't understand the problem. They won't find a solution.\n-> If they", prefix: "If they", answer: "understood the problem, they would find a solution", alt: ["understood the problem, they would find a solution.", "understand the problem, they won't find a solution", "understand the problem, they won't find a solution."] },
+                    { id: "3_2", text: "2. He sits around too much. He isn't fit.\n-> If he", prefix: "If he", answer: "didn't sit around so much, he would be fit", alt: ["didn't sit around so much, he would be fit.", "didn't sit around too much, he would be fit", "didn't sit around too much, he would be fit."] },
+                    { id: "3_3", text: "3. She's very thin; perhaps that's why she feels cold so much.\n-> If she", prefix: "If she", answer: "weren't so thin, she wouldn't feel cold so much", alt: ["wasn't so thin, she wouldn't feel cold so much", "weren't so thin, she wouldn't feel cold so much.", "wasn't so thin, she wouldn't feel cold so much."] },
+                    { id: "3_4", text: "4. He never polishes his shoes, so he never looks smart.\n-> If he", prefix: "If he", answer: "polished his shoes, he would look smart", alt: ["polished his shoes, he would look smart."] },
+                    { id: "3_5", text: "5. He can't park near his office; that's why he doesn't come by car.\n-> If he", prefix: "If he", answer: "could park near his office, he would come by car", alt: ["could park near his office, he would come by car."] }
+                ]
+            },
+            {
+                id: 4,
+                title: "4. Change the following conditional sentences into reported speech.",
+                type: "input",
+                instructions: "Chuyển các câu điều kiện sau sang câu gián tiếp.",
+                questions: [
+                    { id: "4_1", text: "1. \"If I catch the plane I'll be home by four o'clock\" she said.", answer: "She said that if she caught the plane she would be home by four o'clock.", alt: ["She said that if she caught the plane, she would be home by four o'clock.", "She said if she caught the plane she would be home by four o'clock.", "She said if she caught the plane, she would be home by four o'clock."] },
+                    { id: "4_2", text: "2. \"You should stay in bed if you feel unwell.\" My mother said.", answer: "My mother told me that I should stay in bed if I felt unwell.", alt: ["My mother said that I should stay in bed if I felt unwell.", "My mother told me I should stay in bed if I felt unwell.", "My mother said I should stay in bed if I felt unwell."] },
+                    { id: "4_3", text: "3. \"What would you do if you were having a problem with grammar, Nga?\" Huyen asked.", answer: "Huyen asked Nga what she would do if she were having a problem with grammar.", alt: ["Huyen asked Nga what she would do if she was having a problem with grammar.", "Huyen asked Nga what she would do if she were having a problem with grammar"] },
+                    { id: "4_4", text: "4. \"If I were you, I'd stop smoking,\" she said to her brother.", answer: "She advised her brother to stop smoking.", alt: ["She told her brother that if she were him, she would stop smoking.", "She advised her brother to stop smoking", "She told her brother that if she was him, she would stop smoking."] },
+                    { id: "4_5", text: "5. \"I'd have been in bad trouble if Lan hadn't helped me,\" he said.", answer: "He said that he would have been in bad trouble if Lan hadn't helped him.", alt: ["He said he would have been in bad trouble if Lan hadn't helped him.", "He said that he would have been in bad trouble if Lan hadn't helped him"] }
+                ]
+            },
+            {
+                id: 5,
+                title: "5. Complete each sentence so that it means the same as the sentence given.",
+                type: "input",
+                instructions: "Hoàn thành câu sao cho nghĩa không đổi so với câu cho trước.",
+                questions: [
+                    { id: "5_1", text: "1. I don't see you very often because you live so far away.\n-> If you", prefix: "If you", answer: "didn't live so far away, I would see you more often", alt: ["didn't live so far away, I would see you more often.", "didn't live so far away, I would see you often", "didn't live so far away, I would see you often."] },
+                    { id: "5_2", text: "2. I don't have enough money, so I'm not going to buy that skirt.\n-> I'd", prefix: "I'd", answer: "buy that skirt if I had enough money", alt: ["buy that skirt if I had enough money.", "buy that skirt if I had money", "buy that skirt if I had money."] },
+                    { id: "5_3", text: "3. We don't practice English very often - We can't communicate with foreigners.\n-> If we", prefix: "If we", answer: "practiced English more often, we could communicate with foreigners", alt: ["practiced English more often, we could communicate with foreigners.", "practiced English often, we could communicate with foreigners", "practiced English often, we could communicate with foreigners."] },
+                    { id: "5_4", text: "4. I can't meet you tomorrow - I have to work late.\n-> If", prefix: "If", answer: "I didn't have to work late, I could meet you tomorrow", alt: ["I didn't have to work late, I could meet you tomorrow.", "I didn't have to work late, I would meet you tomorrow"] },
+                    { id: "5_5", text: "5. I don't want her advice, and that's why I'm not going to ask for it.\n-> If", prefix: "If", answer: "I wanted her advice, I would ask for it", alt: ["I wanted her advice, I would ask for it.", "I wanted her advice, I'd ask for it", "I wanted her advice, I'd ask for it."] }
+                ]
+            },
+            {
+                id: 6,
+                title: "6. Put the verbs in brackets into correct form (Conditional sentences).",
+                type: "input",
+                instructions: "Chia dạng đúng của động từ trong ngoặc (Câu điều kiện).",
+                questions: [
+                    { id: "6_1", text: "1. If you come with me, I _________ (do) the shopping with you.", answer: "will do", alt: [] },
+                    { id: "6_2", text: "2. Tom _________ (help) his mother in the garden if she reads him a story this evening.", answer: "will help", alt: [] },
+                    { id: "6_3", text: "3. If it _________ (rain), I will stay at home.", answer: "rains", alt: [] },
+                    { id: "6_4", text: "4. Our teacher will be happy if we _________ (learn) the letter by heart.", answer: "learn", alt: [] },
+                    { id: "6_5", text: "5. If they had enough money, they _________ (buy) a new house.", answer: "would buy", alt: [] },
+                    { id: "6_6", text: "6. They _________ (pass) the exam if they studied harder.", answer: "would pass", alt: [] },
+                    { id: "6_7", text: "7. If Nick _________ (repair) his bike, he could go on a bicycle tour with us.", answer: "repaired", alt: [] },
+                    { id: "6_8", text: "8. She would get 50 pounds if she _________ (sell) this old computer.", answer: "sold", alt: [] },
+                    { id: "6_9", text: "9. If I were you, I _________ (invite) John to the party.", answer: "would invite", alt: [] },
+                    { id: "6_10", text: "10. If the weather _________ (be) fine, the children can walk to school.", answer: "is", alt: ["were"] }
+                ]
+            },
+            {
+                id: 7,
+                title: "7. Choose the correct answer in the brackets.",
+                type: "select_single",
+                instructions: "Chọn đáp án đúng cho từng vị trí trong câu.",
+                questions: [
+                    { id: "7_1", text: "1. If I (listen/ listens/ will listen) to classical music, I (writes/ writes/ can write) good poems.", choices1: ["listen", "listens", "will listen"], choices2: ["writes", "write", "can write"], answer1: "listen", answer2: "can write" },
+                    { id: "7_2", text: "2. Sally (look/ looks/ must look) after her baby brother if her father (go/ goes/ with go) jogging.", choices1: ["look", "looks", "must look"], choices2: ["go", "goes", "with go"], answer1: "must look", answer2: "goes" },
+                    { id: "7_3", text: "3. If you (take/ takes/ will take) the train, you (arrive/ arrive/ should arrive) in Hanoi before 8 pm.", choices1: ["take", "takes", "will take"], choices2: ["arrive", "arrives", "should arrive"], answer1: "take", answer2: "should arrive" },
+                    { id: "7_4", text: "4. The girls (hurry/ hurries/ should hurry) if they (book/ books/ haven't booked) the tickets yet.", choices1: ["hurry", "hurries", "should hurry"], choices2: ["book", "books", "haven't booked"], answer1: "should hurry", answer2: "haven't booked" },
+                    { id: "7_5", text: "5. If Mark (do/ does/ will do) that, Sue (scream/ screamed/ will scream).", choices1: ["do", "does", "will do"], choices2: ["scream", "screamed", "will scream"], answer1: "does", answer2: "will scream" }
+                ]
+            },
+            {
+                id: 8,
+                title: "8. Put the verbs in the brackets into the correct form.",
+                type: "input",
+                instructions: "Điền dạng đúng của động từ trong ngoặc.",
+                questions: [
+                    { id: "8_1", text: "1. If I had time, I (go) _________ shopping with you.", answer: "would go", alt: [] },
+                    { id: "8_2", text: "2. If you (speak) _________ English, you will get along with them perfectly.", answer: "speak", alt: [] },
+                    { id: "8_3", text: "3. If she (come) _________ to see us, we will go to the zoo.", answer: "comes", alt: [] },
+                    { id: "8_4", text: "4. I would (tell) _________ you, if I saw him.", answer: "tell", alt: [] },
+                    { id: "8_5", text: "5. Would you mind if I (open) _________ the window?", answer: "opened", alt: [] },
+                    { id: "8_6", text: "6. My friend will meet me at the station if he (get) _________ the afternoon off.", answer: "gets", alt: [] },
+                    { id: "8_7", text: "7. If I (not do) _________ it, nobody would do it.", answer: "didn't do", alt: ["did not do"] },
+                    { id: "8_8", text: "8. If my mother (not pick) _________ me up, I'll take the bus home.", answer: "doesn't pick", alt: ["does not pick"] }
+                ]
+            },
+            {
+                id: 9,
+                title: "9. Choose the letter A, B, C or D to indicate the underlined part that needs correction.",
+                type: "mcq",
+                instructions: "Chọn đáp án gạch chân chứa lỗi sai cần sửa.",
+                questions: [
+                    { id: "9_1", text: "1. If we (A) <u>have time</u> (B) <u>in the weekend</u>, we (C) <u>will come</u> (D) <u>to see</u> you.", options: ["A", "B", "C", "D"], answer: "B" },
+                    { id: "9_2", text: "2. If I (A) <u>am you</u>, I would (B) <u>follow</u> (C) <u>his</u> (D) <u>advice</u>.", options: ["A", "B", "C", "D"], answer: "A" },
+                    { id: "9_3", text: "3. He can (A) <u>pass</u> (B) <u>the exam</u> if he (C) <u>studied</u> (D) <u>hard</u>.", options: ["A", "B", "C", "D"], answer: "C" },
+                    { id: "9_4", text: "4. What (A) <u>do you</u> (B) <u>do</u> if you won (C) <u>the first prize of</u> (D) <u>the lottery</u>?", options: ["A", "B", "C", "D"], answer: "A" },
+                    { id: "9_5", text: "5. Would people (A) <u>be able</u> (B) <u>to fly</u>, if they (C) <u>have feathers</u> (D) <u>instead of hair</u>?", options: ["A", "B", "C", "D"], answer: "C" }
+                ]
+            },
+            {
+                id: 10,
+                title: "10. Rearrange the words or phrases to make meaningful sentences.",
+                type: "input",
+                instructions: "Sắp xếp lại các từ/cụm từ xáo trộn để tạo thành câu hoàn chỉnh.",
+                questions: [
+                    { id: "10_1", text: "1. not / if / does / rain / it / we / , / go / out / will / for / walk / a /.", answer: "If it does not rain, we will go out for a walk.", alt: ["If it does not rain, we will go out for a walk", "We will go out for a walk if it does not rain.", "We will go out for a walk if it does not rain"] },
+                    { id: "10_2", text: "2. there / if / plant / more / we / trees / , / be / more / will / animals / this / in / area /.", answer: "If we plant more trees, there will be more animals in this area.", alt: ["If we plant more trees, there will be more animals in this area", "There will be more animals in this area if we plant more trees.", "There will be more animals in this area if we plant more trees"] },
+                    { id: "10_3", text: "3. earn / unless / works / he / hard / , / will / nothing / he /.", answer: "Unless he works hard, he will earn nothing.", alt: ["Unless he works hard, he will earn nothing", "He will earn nothing unless he works hard.", "He will earn nothing unless he works hard"] },
+                    { id: "10_4", text: "4. if / I / accept / that / were / company's / would / offer / I / Alex /.", answer: "If I were Alex, I would accept that company's offer.", alt: ["If I were Alex, I would accept that company's offer", "I would accept that company's offer if I were Alex.", "I would accept that company's offer if I were Alex"] },
+                    { id: "10_5", text: "5. following / they / that / device / that / would / announced / be / produced / the / year /.", answer: "They announced that that device would be produced the following year.", alt: ["They announced that that device would be produced the following year"] }
+                ]
+            },
+            {
+                id: 11,
+                title: "11. Put the verbs in the brackets into the correct tense ('will' or 'going to').",
+                type: "input",
+                instructions: "Chia động từ ở dạng 'will' hoặc 'be going to'.",
+                questions: [
+                    { id: "11_1", text: "1. John: Did you remember to bring that book I lent you? - Paul: Oh, sorry, I forgot again. I (bring) _________ it tomorrow.", answer: "will bring", alt: ["'ll bring"] },
+                    { id: "11_2", text: "2. Sally: Do you know what to buy your sister for her birthday? - Tom: Yes. I (buy) _________ her a book on gardening.", answer: "am going to buy", alt: ["'m going to buy"] },
+                    { id: "11_3", text: "3. I don't feel like going out this evening. I (stay) _________ at home and watch TV.", answer: "am going to stay", alt: ["'m going to stay"] },
+                    { id: "11_4", text: "4. Elizabeth: There's someone at the door. - Mark: I (go) _________ and see who it is.", answer: "will go", alt: ["'ll go"] },
+                    { id: "11_5", text: "5. David: Do you know that Mark (open) _________ a shop in the center of town? - Linda: Really?", answer: "is going to open", alt: ["'s going to open"] },
+                    { id: "11_6", text: "6. I've decided that I (look) _________ for a new job.", answer: "am going to look", alt: ["'m going to look"] },
+                    { id: "11_7", text: "7. The train is faster than the bus. - OK, I (take) _________ the train.", answer: "will take", alt: ["'ll take"] },
+                    { id: "11_8", text: "8. There's a big traffic jam on the motorway to the stadium. - OK, I (go) _________ another way.", answer: "will go", alt: ["'ll go"] },
+                    { id: "11_9", text: "9. Do you know what to buy your dad for his birthday? - Yes, I (buy) _________ a watch.", answer: "am going to buy", alt: ["'m going to buy"] },
+                    { id: "11_10", text: "10. Did you bring my books? - Sorry, I forgot. I (bring) _________ them tomorrow.", answer: "will bring", alt: ["'ll bring"] },
+                    { id: "11_11", text: "11. There's someone at the door. - OK, I (open) _________ it.", answer: "will open", alt: ["'ll open"] },
+                    { id: "11_12", text: "12. My wife and I (start) _________ a new business. We're planning to open an antiques shop.", answer: "are going to start", alt: ["'re going to start"] }
+                ]
+            },
+            {
+                id: 12,
+                title: "12. Decide whether the following sentences belong to active voice or passive voice.",
+                type: "mcq",
+                instructions: "Xác định câu thuộc Dạng Chủ động (Active) hay Bị động (Passive).",
+                questions: [
+                    { id: "12_1", text: "1. I have never been to Paris.", options: ["Active voice", "Passive voice"], answer: "Active voice" },
+                    { id: "12_2", text: "2. I have never been arrested.", options: ["Active voice", "Passive voice"], answer: "Passive voice" },
+                    { id: "12_3", text: "3. The tower was built in 1802 by a French Artist.", options: ["Active voice", "Passive voice"], answer: "Passive voice" },
+                    { id: "12_4", text: "4. Nothing happened.", options: ["Active voice", "Passive voice"], answer: "Active voice" },
+                    { id: "12_5", text: "5. No one was injured by the fire.", options: ["Active voice", "Passive voice"], answer: "Passive voice" },
+                    { id: "12_6", text: "6. The award was given to the top student.", options: ["Active voice", "Passive voice"], answer: "Passive voice" },
+                    { id: "12_7", text: "7. We decided not to hire anyone.", options: ["Active voice", "Passive voice"], answer: "Active voice" },
+                    { id: "12_8", text: "8. The pizza was delicious.", options: ["Active voice", "Passive voice"], answer: "Active voice" },
+                    { id: "12_9", text: "9. The pizza was ordered.", options: ["Active voice", "Passive voice"], answer: "Passive voice" },
+                    { id: "12_10", text: "10. The pizza made me sick.", options: ["Active voice", "Passive voice"], answer: "Active voice" }
+                ]
+            },
+            {
+                id: 13,
+                title: "13. Fill in the blank with the correct form of the passive voice.",
+                type: "input",
+                instructions: "Chia động từ trong ngoặc ở dạng Bị động đúng thì.",
+                questions: [
+                    { id: "13_1", text: "1. The words (to explain - Present simple) _________ by the teacher.", answer: "are explained", alt: [] },
+                    { id: "13_2", text: "2. My car (to steal - Past simple) _________ while I was gardening.", answer: "was stolen", alt: [] },
+                    { id: "13_3", text: "3. A new restaurant (to open - Future simple) _________ next week.", answer: "will be opened", alt: [] },
+                    { id: "13_4", text: "4. Our street (to close - Present continuous) _________ because of snow.", answer: "is being closed", alt: [] },
+                    { id: "13_5", text: "5. A new house (to build - be going to) _________ by my parents next month.", answer: "is going to be built", alt: [] }
+                ]
+            },
+            {
+                id: 14,
+                title: "14. Change the sentences into the passive voice by filling in the missing words.",
+                type: "input",
+                instructions: "Điền từ còn thiếu để hoàn thành câu bị động.",
+                questions: [
+                    { id: "14_1", text: "1. People eat 40 million hamburgers every day.\n-> 40 million hamburgers _________ every day.", answer: "are eaten", alt: [] },
+                    { id: "14_2", text: "2. People speak English all over the world.\n-> English _________ all over the world.", answer: "is spoken", alt: [] },
+                    { id: "14_3", text: "3. Where did they invent gun powder?\n-> Where _________ gun powder _________?", answer1: "was", answer2: "invented" },
+                    { id: "14_4", text: "4. The police didn't find the missing girl last weekend.\n-> The missing girl _________ last weekend.", answer: "was not found", alt: ["wasn't found"] },
+                    { id: "14_5", text: "5. Tourists don't visit this museum very often.\n-> This museum _________ very often.", answer: "is not visited", alt: ["isn't visited"] },
+                    { id: "14_6", text: "6. Workers are building a new fun park in town.\n-> A new fun park _________ in town.", answer: "is being built", alt: [] },
+                    { id: "14_7", text: "7. When did they translate this book into English?\n-> When _________ this book _________ into English?", answer1: "was", answer2: "translated" },
+                    { id: "14_8", text: "8. Women send thousands of emails to the star every month.\n-> Thousands of emails _________ to the star every month.", answer: "are sent", alt: [] },
+                    { id: "14_9", text: "9. Daisy brought me some fresh grapes.\n-> I _________ some fresh grapes by Daisy.", answer: "was brought", alt: [] },
+                    { id: "14_10", text: "10. Some dangerous looking men were following me the whole evening.\n-> I _________ the whole evening by some dangerous looking men.", answer: "was being followed", alt: [] }
+                ]
+            },
+            {
+                id: 15,
+                title: "15. Change the sentences into the passive voice.",
+                type: "input",
+                instructions: "Chuyển các câu chủ động sau sang câu bị động.",
+                questions: [
+                    { id: "15_1", text: "1. People speak Vietnamese in Vietnam.", answer: "Vietnamese is spoken in Vietnam.", alt: ["Vietnamese is spoken in Vietnam"] },
+                    { id: "15_2", text: "2. The government is planning a new road near my house.", answer: "A new road is being planned near my house by the government.", alt: ["A new road is being planned near my house.", "A new road is being planned near my house"] },
+                    { id: "15_3", text: "3. My grandfather built this house in 1990.", answer: "This house was built in 1990 by my grandfather.", alt: ["This house was built by my grandfather in 1990.", "This house was built in 1990 by my grandfather"] },
+                    { id: "15_4", text: "4. Picasso was painting Guernica at that time.", answer: "Guernica was being painted by Picasso at that time.", alt: ["Guernica was being painted at that time by Picasso.", "Guernica was being painted by Picasso at that time"] },
+                    { id: "15_5", text: "5. The cleaner has cleaned the office.", answer: "The office has been cleaned by the cleaner.", alt: ["The office has been cleaned.", "The office has been cleaned"] },
+                    { id: "15_6", text: "6. He had written three books before 1867.", answer: "Three books had been written before 1867.", alt: ["Three books had been written by him before 1867.", "Three books had been written before 1867"] },
+                    { id: "15_7", text: "7. John will tell you later.", answer: "You will be told by John later.", alt: ["You will be told later by John.", "You will be told by John later"] },
+                    { id: "15_8", text: "8. Somebody did the work.", answer: "The work was done.", alt: ["The work was done by somebody.", "The work was done"] }
+                ]
+            },
+            {
+                id: 16,
+                title: "16. Change the sentences into the active voice.",
+                type: "input",
+                instructions: "Chuyển các câu bị động sau trở lại câu chủ động.",
+                questions: [
+                    { id: "16_1", text: "1. The children are helped by the policemen.", answer: "The policemen help the children.", alt: ["The policemen help the children"] },
+                    { id: "16_2", text: "2. A letter is being typed by the manager.", answer: "The manager is typing a letter.", alt: ["The manager is typing a letter"] },
+                    { id: "16_3", text: "3. Sally's little brother will be looked after by her.", answer: "Sally will look after her little brother.", alt: ["Sally will look after her little brother"] },
+                    { id: "16_4", text: "4. Our window was broken by the robber.", answer: "The robber broke our window.", alt: ["The robber broke our window"] },
+                    { id: "16_5", text: "5. The car has been cleaned by us.", answer: "We have cleaned the car.", alt: ["We have cleaned the car"] },
+                    { id: "16_6", text: "6. I was offered a bike for my birthday by my parents.", answer: "My parents offered me a bike for my birthday.", alt: ["My parents offered a bike to me for my birthday.", "My parents offered me a bike for my birthday"] }
+                ]
+            },
+            {
+                id: 17,
+                title: "17. Reorder the words to make a complete sentence.",
+                type: "input",
+                instructions: "Sắp xếp từ thành câu nghi vấn/khẳng định bị động hoàn chỉnh.",
+                questions: [
+                    { id: "17_1", text: "1. in Thailand/ made/ cars/ are/?", answer: "Are cars made in Thailand?", alt: ["Are cars made in Thailand"] },
+                    { id: "17_2", text: "2. to hospital/ been/ taken/ has/ she/?", answer: "Has she been taken to hospital?", alt: ["Has she been taken to hospital"] },
+                    { id: "17_3", text: "3. fried/ the potatoes/ be/ can/ in ten minutes/?", answer: "Can the potatoes be fried in ten minutes?", alt: ["Can the potatoes be fried in ten minutes"] },
+                    { id: "17_4", text: "4. for the exam/ be/ prepared/ the students/ will/?", answer: "Will the students be prepared for the exam?", alt: ["Will the students be prepared for the exam"] },
+                    { id: "17_5", text: "5. tea/ when/ be/ served/ will/?", answer: "When will tea be served?", alt: ["When will tea be served"] },
+                    { id: "17_6", text: "6. today/ being/ is/ lunch/ provided?", answer: "Is lunch being provided today?", alt: ["Is lunch being provided today"] },
+                    { id: "17_7", text: "7. given/ last week/ laptops/ were/ to them/?", answer: "Were laptops given to them last week?", alt: ["Were laptops given to them last week"] },
+                    { id: "17_8", text: "8. the videos/ may/ be/ broadcasted/?", answer: "May the videos be broadcasted?", alt: ["May the videos be broadcasted"] }
+                ]
+            },
+            {
+                id: 18,
+                title: "18. Put the verbs into the correct form (infinitive with or without to).",
+                type: "input",
+                instructions: "Điền dạng đúng của động từ: To-V hoặc V nguyên thể không 'to' (Bare-V).",
+                questions: [
+                    { id: "18_1", text: "1. I can (speak) _________ English.", answer: "speak", alt: [] },
+                    { id: "18_2", text: "2. We have to (do) _________ our homework.", answer: "do", alt: [] },
+                    { id: "18_3", text: "3. You must (stay) _________ at home.", answer: "stay", alt: [] },
+                    { id: "18_4", text: "4. I will (help) _________ you.", answer: "help", alt: [] },
+                    { id: "18_5", text: "5. He cannot (see) _________ us.", answer: "see", alt: [] },
+                    { id: "18_6", text: "6. My little sister learns (speak) _________ English.", answer: "to speak", alt: [] },
+                    { id: "18_7", text: "7. We want (go) _________ to the cinema.", answer: "to go", alt: [] },
+                    { id: "18_8", text: "8. You should (ask) _________ your parents.", answer: "ask", alt: [] },
+                    { id: "18_9", text: "9. I'd like (have) _________ a dog.", answer: "to have", alt: [] },
+                    { id: "18_10", text: "10. May I (come) _________ in?", answer: "come", alt: [] }
+                ]
+            },
+            {
+                id: 19,
+                title: "19. Rewrite the following sentences using an infinitive.",
+                type: "input",
+                instructions: "Viết lại câu sử dụng cấu trúc Động từ nguyên mẫu (Infinitive).",
+                questions: [
+                    { id: "19_1", text: "1. It won't be any good talking to her about it.", answer: "It won't be any good to talk to her about it.", alt: ["It won't be any good for us to talk to her about it.", "It won't be any good to talk to her about it"] },
+                    { id: "19_2", text: "2. It wouldn't be much good complaining to the minister about it.", answer: "It wouldn't be much good to complain to the minister about it.", alt: ["It wouldn't be much good for us to complain to the minister about it.", "It wouldn't be much good to complain to the minister about it"] },
+                    { id: "19_3", text: "3. It is no fun having so many children to look after.", answer: "It is no fun to have so many children to look after.", alt: ["It is no fun to have so many children to look after"] },
+                    { id: "19_4", text: "4. Will it be any good my seeing the boss about it?", answer: "Will it be any good for me to see the boss about it?", alt: ["Will it be any good to see the boss about it?", "Will it be any good for me to see the boss about it"] },
+                    { id: "19_5", text: "5. It is just silly throwing away your chances like that.", answer: "It is just silly to throw away your chances like that.", alt: ["It is just silly for you to throw away your chances like that.", "It is just silly to throw away your chances like that"] }
+                ]
+            },
+            {
+                id: 20,
+                title: "20. Match the words in column A with column B to make a meaningful sentence.",
+                type: "matching",
+                instructions: "Nối câu ở Cột A với vế tương ứng ở Cột B.",
+                itemsA: [
+                    { id: 1, text: "1. My teacher forces me" },
+                    { id: 2, text: "2. Kate encourages others" },
+                    { id: 3, text: "3. Kelly can't get her suitcase" },
+                    { id: 4, text: "4. John's brother had his friend" },
+                    { id: 5, text: "5. I always help my grandmother" },
+                    { id: 6, text: "6. Mark hates it when his mom tells him" }
+                ],
+                itemsB: [
+                    { code: "a", text: "a. do chores around her house." },
+                    { code: "b", text: "b. to do the dishes after dinner." },
+                    { code: "c", text: "c. to try new things with her." },
+                    { code: "d", text: "d. help him with his homework." },
+                    { code: "e", text: "e. to do my homework." },
+                    { code: "f", text: "f. to close properly." }
+                ],
+                correctPairs: { 1: "e", 2: "c", 3: "f", 4: "d", 5: "a", 6: "b" }
+            },
+            {
+                id: 21,
+                title: "21. Put the verbs into the correct form.",
+                type: "input",
+                instructions: "Chia động từ trong ngoặc ở dạng V-ing, To-V hoặc V nguyên thể.",
+                questions: [
+                    { id: "21_1", text: "1. Could you please stop (make) _________ so much noise?", answer: "making", alt: [] },
+                    { id: "21_2", text: "2. He refused (lend) _________ me any money.", answer: "to lend", alt: [] },
+                    { id: "21_3", text: "3. Don't let him (try) _________ this dangerous game!", answer: "try", alt: [] },
+                    { id: "21_4", text: "4. I don't enjoy (write) _________ letters.", answer: "writing", alt: [] },
+                    { id: "21_5", text: "5. Miss Smith was very strict. No one dared (talk) _________ during her lessons.", answer: "to talk", alt: ["talk"] },
+                    { id: "21_6", text: "6. I've arranged (play) _________ tennis tomorrow afternoon.", answer: "to play", alt: [] },
+                    { id: "21_7", text: "7. Tom made Mary (cry) _________ yesterday.", answer: "cry", alt: [] },
+                    { id: "21_8", text: "8. Have you finished (wash) _________ your hair yet?", answer: "washing", alt: [] },
+                    { id: "21_9", text: "9. Sally offered (look) _________ after our children while we were out.", answer: "to look", alt: [] },
+                    { id: "21_10", text: "10. He admitted (steal) _________ our car.", answer: "stealing", alt: ["to stealing"] },
+                    { id: "21_11", text: "11. She doesn't want (go) _________ home now.", answer: "to go", alt: [] },
+                    { id: "21_12", text: "12. We are not allowed (talk) _________ in the library.", answer: "to talk", alt: [] },
+                    { id: "21_13", text: "13. Would you mind (answer) _________ me some questions?", answer: "answering", alt: [] },
+                    { id: "21_14", text: "14. They watched their children (play) _________ football.", answer: "play", alt: ["playing"] },
+                    { id: "21_15", text: "15. He begged her (not/tell) _________ his mother.", answer: "not to tell", alt: [] }
+                ]
+            },
+            {
+                id: 22,
+                title: "22. Choose the correct answer in the bracket.",
+                type: "mcq_choice",
+                instructions: "Lựa chọn từ chính xác trong ngoặc.",
+                questions: [
+                    { id: "22_1", text: "1. My teacher (made / convinced) me to practice for two hours every night.", choices: ["made", "convinced"], answer: "convinced" },
+                    { id: "22_2", text: "2. Are you sure I can't (convince / make) you to come with us?", choices: ["convince", "make"], answer: "convince" },
+                    { id: "22_3", text: "3. Sometimes late at night, my mother (gets / lets) me go out.", choices: ["gets", "lets"], answer: "lets" },
+                    { id: "22_4", text: "4. Emily and Daisy are always (having / persuading) us to go shopping with them.", choices: ["having", "persuading"], answer: "persuading" },
+                    { id: "22_5", text: "5. My teacher is going to (get / have) me take a special math class next month.", choices: ["get", "have"], answer: "have" },
+                    { id: "22_6", text: "6. Even though Mike doesn't like it, his father always (forces / has) him to go to music lessons after school.", choices: ["forces", "has"], answer: "forces" }
+                ]
+            }
+        ];
+
+        // State Store
+        let currentPartIndex = 0;
+        let isViewAll = false;
+        let userAnswers = {};
+
+        // Initialize App
+        document.addEventListener('DOMContentLoaded', () => {
+            populatePartSelectOptions();
+            renderQuickPills();
+            renderCurrentExercise();
+            updateGlobalScore();
+        });
+
+        // Navigation between Task 1 & Task 2
+        function switchMainTab(tab) {
+            const btn1 = document.getElementById('nav-task1');
+            const btn2 = document.getElementById('nav-task2');
+            const tab1 = document.getElementById('tab-task1');
+            const tab2 = document.getElementById('tab-task2');
+
+            if (tab === 'task1') {
+                btn1.className = "px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200 flex items-center gap-2 bg-white text-brand-600 shadow-sm";
+                btn2.className = "px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200 flex items-center gap-2 text-slate-600 hover:text-slate-900";
+                tab1.classList.remove('hidden');
+                tab2.classList.add('hidden');
+            } else {
+                btn2.className = "px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200 flex items-center gap-2 bg-white text-brand-600 shadow-sm";
+                btn1.className = "px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200 flex items-center gap-2 text-slate-600 hover:text-slate-900";
+                tab2.classList.remove('hidden');
+                tab1.classList.add('hidden');
+            }
+        }
+
+        // Render Select Options
+        function populatePartSelectOptions() {
+            const select = document.getElementById('part-select');
+            select.innerHTML = '';
+            exerciseParts.forEach((part, index) => {
+                const opt = document.createElement('option');
+                opt.value = index;
+                opt.textContent = `Phần ${part.id}: ${part.title.split('.')[1]?.trim() || part.title}`;
+                select.appendChild(opt);
+            });
+        }
+
+        // Render Pill Buttons (1-22)
+        function renderQuickPills() {
+            const container = document.getElementById('parts-pill-container');
+            container.innerHTML = '';
+            exerciseParts.forEach((part, index) => {
+                const btn = document.createElement('button');
+                btn.id = `pill-part-${index}`;
+                const isActive = index === currentPartIndex && !isViewAll;
+                btn.className = `px-3 py-1.5 rounded-lg text-xs font-bold transition whitespace-nowrap flex items-center gap-1 ${
+                    isActive 
+                    ? 'bg-brand-600 text-white shadow-md shadow-brand-500/20' 
+                    : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                }`;
+                btn.onclick = () => changeExercisePart(index);
+                btn.innerHTML = `<span>Part ${part.id}</span>`;
+                container.appendChild(btn);
+            });
+        }
+
+        // Change Active Part
+        function changeExercisePart(index) {
+            if (isViewAll) {
+                toggleViewAll();
+            }
+            currentPartIndex = index;
+            document.getElementById('part-select').value = index;
+            renderQuickPills();
+            renderCurrentExercise();
+            window.scrollTo({ top: 120, behavior: 'smooth' });
+        }
+
+        // Toggle View All Mode
+        function toggleViewAll() {
+            isViewAll = !isViewAll;
+            const singleContainer = document.getElementById('exercise-single-container');
+            const allContainer = document.getElementById('exercise-all-container');
+            const btn = document.getElementById('btn-toggle-viewall');
+
+            if (isViewAll) {
+                singleContainer.classList.add('hidden');
+                allContainer.classList.remove('hidden');
+                btn.className = "px-3 py-2 bg-brand-600 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 whitespace-nowrap shadow-sm";
+                btn.innerHTML = `<i class="fa-solid fa-compress"></i> <span>Thu gọn</span>`;
+                renderAllExercises();
+            } else {
+                allContainer.classList.add('hidden');
+                singleContainer.classList.remove('hidden');
+                btn.className = "px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-bold transition flex items-center gap-1.5 whitespace-nowrap";
+                btn.innerHTML = `<i class="fa-solid fa-expand"></i> <span>Hiện tất cả</span>`;
+                renderCurrentExercise();
+            }
+            renderQuickPills();
+        }
+
+        // Render Single Exercise Part
+        function renderCurrentExercise() {
+            const part = exerciseParts[currentPartIndex];
+            document.getElementById('current-part-title').textContent = part.title;
+            const container = document.getElementById('exercise-single-container');
+            container.innerHTML = createPartCardHTML(part);
+        }
+
+        // Render All Exercise Parts
+        function renderAllExercises() {
+            const container = document.getElementById('exercise-all-container');
+            container.innerHTML = exerciseParts.map(part => createPartCardHTML(part)).join('');
+        }
+
+        // Helper: Generate HTML for an Exercise Part Card
+        function createPartCardHTML(part) {
+            let questionsHTML = '';
+
+            if (part.type === 'input') {
+                questionsHTML = part.questions.map(q => `
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
+                        <label class="block text-sm font-semibold text-slate-800 whitespace-pre-line">${q.text}</label>
+                        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 mt-1">
+                            ${q.prefix ? `<span class="text-xs font-bold text-slate-500">${q.prefix}</span>` : ''}
+                            <input type="text" id="input_${q.id}" 
+                                value="${userAnswers[q.id] || ''}" 
+                                oninput="saveInputAnswer('${q.id}', this.value)"
+                                placeholder="Nhập đáp án của bạn..." 
+                                class="flex-grow bg-white border border-slate-300 rounded-xl px-3 py-2 text-sm focus:ring-2 focus:ring-brand-500 focus:outline-none transition">
+                        </div>
+                        <div id="feedback_${q.id}" class="hidden text-xs mt-1 font-bold"></div>
+                    </div>
+                `).join('');
+            } else if (part.type === 'select') {
+                questionsHTML = part.questions.map(q => `
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
+                        <div class="text-sm font-semibold text-slate-800 flex flex-wrap items-center gap-2 leading-loose">
+                            <span>${q.prefix}</span>
+                            <select id="select1_${q.id}" onchange="saveInputAnswer('select1_${q.id}', this.value)" class="bg-white border border-slate-300 rounded-lg px-2 py-1 text-sm font-bold text-brand-700">
+                                <option value="">-- Chọn --</option>
+                                ${q.choices.map(c => `<option value="${c}" ${userAnswers['select1_' + q.id] === c ? 'selected' : ''}>${c}</option>`).join('')}
+                            </select>
+                            <span>${q.mid}</span>
+                            <select id="select2_${q.id}" onchange="saveInputAnswer('select2_${q.id}', this.value)" class="bg-white border border-slate-300 rounded-lg px-2 py-1 text-sm font-bold text-brand-700">
+                                <option value="">-- Chọn --</option>
+                                ${q.choices2.map(c => `<option value="${c}" ${userAnswers['select2_' + q.id] === c ? 'selected' : ''}>${c}</option>`).join('')}
+                            </select>
+                            <span>${q.suffix}</span>
+                        </div>
+                        <div id="feedback_${q.id}" class="hidden text-xs mt-1 font-bold"></div>
+                    </div>
+                `).join('');
+            } else if (part.type === 'select_single') {
+                questionsHTML = part.questions.map(q => `
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
+                        <p class="text-sm font-semibold text-slate-800">${q.text}</p>
+                        <div class="flex flex-wrap items-center gap-3">
+                            <div class="flex items-center gap-1.5 text-xs">
+                                <span class="font-bold text-slate-500">Vị trí 1:</span>
+                                <select id="select1_${q.id}" onchange="saveInputAnswer('select1_${q.id}', this.value)" class="bg-white border border-slate-300 rounded-lg px-2 py-1 text-xs font-bold text-brand-700">
+                                    <option value="">-- Chọn --</option>
+                                    ${q.choices1.map(c => `<option value="${c}" ${userAnswers['select1_' + q.id] === c ? 'selected' : ''}>${c}</option>`).join('')}
+                                </select>
+                            </div>
+                            <div class="flex items-center gap-1.5 text-xs">
+                                <span class="font-bold text-slate-500">Vị trí 2:</span>
+                                <select id="select2_${q.id}" onchange="saveInputAnswer('select2_${q.id}', this.value)" class="bg-white border border-slate-300 rounded-lg px-2 py-1 text-xs font-bold text-brand-700">
+                                    <option value="">-- Chọn --</option>
+                                    ${q.choices2.map(c => `<option value="${c}" ${userAnswers['select2_' + q.id] === c ? 'selected' : ''}>${c}</option>`).join('')}
+                                </select>
+                            </div>
+                        </div>
+                        <div id="feedback_${q.id}" class="hidden text-xs mt-1 font-bold"></div>
+                    </div>
+                `).join('');
+            } else if (part.type === 'mcq') {
+                questionsHTML = part.questions.map(q => `
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-3">
+                        <p class="text-sm font-semibold text-slate-800">${q.text}</p>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            ${q.options.map(opt => `
+                                <button onclick="selectMCQOption('${q.id}', '${opt}')" 
+                                    id="btn_mcq_${q.id}_${opt}"
+                                    class="mcq-btn-${q.id} px-3 py-2 bg-white border${userAnswers[q.id] === opt ? 'border-2 border-brand-500 bg-brand-50 font-bold text-brand-700' : 'border-slate-300 hover:border-brand-500'} rounded-xl text-xs font-bold text-slate-700 transition flex items-center justify-center gap-2">
+                                    <span>${opt}</span>
+                                </button>
+                            `).join('')}
+                        </div>
+                        <div id="feedback_${q.id}" class="hidden text-xs mt-1 font-bold"></div>
+                    </div>
+                `).join('');
+            } else if (part.type === 'mcq_choice') {
+                questionsHTML = part.questions.map(q => `
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-3">
+                        <p class="text-sm font-semibold text-slate-800">${q.text}</p>
+                        <div class="flex items-center gap-3">
+                            ${q.choices.map(choice => `
+                                <button onclick="selectMCQOption('${q.id}', '${choice}')" 
+                                    id="btn_mcq_${q.id}_${choice}"
+                                    class="mcq-btn-${q.id} px-4 py-2 bg-white border${userAnswers[q.id] === choice ? 'border-2 border-brand-500 bg-brand-50 font-bold text-brand-700' : 'border-slate-300 hover:border-brand-500'} rounded-xl text-xs font-bold text-slate-700 transition">
+                                    ${choice}
+                                </button>
+                            `).join('')}
+                        </div>
+                        <div id="feedback_${q.id}" class="hidden text-xs mt-1 font-bold"></div>
+                    </div>
+                `).join('');
+            } else if (part.type === 'matching') {
+                questionsHTML = `
+                    <div class="space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4 bg-slate-100 p-4 rounded-xl">
+                            <div>
+                                <h4 class="font-bold text-xs uppercase text-slate-500 mb-2">Cột A</h4>
+                                <ul class="space-y-2 text-xs font-medium">
+                                    ${part.itemsA.map(item => `<li class="p-2 bg-white rounded-lg border border-slate-200">${item.text}</li>`).join('')}
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-xs uppercase text-slate-500 mb-2">Cột B</h4>
+                                <ul class="space-y-2 text-xs font-medium">
+                                    ${part.itemsB.map(item => `<li class="p-2 bg-white rounded-lg border border-slate-200">${item.text}</li>`).join('')}
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-3">
+                            <h4 class="font-bold text-xs text-slate-700">Chọn cặp tương ứng (1-6 ghép với a-f):</h4>
+                            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                                ${part.itemsA.map(item => `
+                                    <div class="flex items-center gap-2 text-xs">
+                                        <span class="font-bold text-slate-600">Câu ${item.id}:</span>
+                                        <select id="matching_${item.id}" onchange="saveInputAnswer('matching_${item.id}', this.value)" class="bg-white border border-slate-300 rounded-lg px-2 py-1 text-xs font-bold text-brand-700">
+                                            <option value="">-- Chọn --</option>
+                                            ${part.itemsB.map(b => `<option value="${b.code}" ${userAnswers['matching_' + item.id] === b.code ? 'selected' : ''}>${b.code}</option>`).join('')}
+                                        </select>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div id="feedback_matching_${part.id}" class="hidden text-xs mt-2 p-3 rounded-lg"></div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            return `
+                <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-5">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+                        <div>
+                            <span class="text-xs font-extrabold uppercase tracking-wider text-brand-600 bg-brand-50 px-2.5 py-1 rounded-md">Part ${part.id}</span>
+                            <h3 class="text-base sm:text-lg font-bold text-slate-900 mt-1">${part.title}</h3>
+                            <p class="text-xs text-slate-500 mt-0.5"><i class="fa-solid fa-circle-info mr-1 text-brand-500"></i>${part.instructions}</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button onclick="submitPart(${part.id})" class="px-4 py-2 bg-brand-600 hover:bg-brand-700 text-white rounded-xl text-xs font-bold transition shadow-sm flex items-center gap-1.5">
+                                <i class="fa-solid fa-paper-plane"></i> Nộp bài
+                            </button>
+                            <button onclick="resetPart(${part.id})" class="px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-xl text-xs font-bold transition">
+                                <i class="fa-solid fa-rotate-right"></i> Làm lại
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="part_summary_${part.id}" class="hidden"></div>
+
+                    <div class="space-y-4">
+                        ${questionsHTML}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Save State
+        function saveInputAnswer(key, val) {
+            userAnswers[key] = val;
+            updateGlobalScore();
+        }
+
+        // MCQ Option Selection
+        function selectMCQOption(qId, selectedOpt) {
+            userAnswers[qId] = selectedOpt;
+            const buttons = document.querySelectorAll(`.mcq-btn-${qId}`);
+
+            buttons.forEach(btn => {
+                btn.className = `mcq-btn-${qId} px-3 py-2 bg-white border border-slate-300 hover:border-brand-500 rounded-xl text-xs font-bold text-slate-700 transition flex items-center justify-center gap-2`;
+            });
+
+            const currentBtn = document.getElementById(`btn_mcq_${qId}_${selectedOpt}`);
+            if (currentBtn) {
+                currentBtn.className = `mcq-btn-${qId} px-3 py-2 bg-brand-50 border-2 border-brand-500 text-brand-700 rounded-xl text-xs font-bold transition flex items-center justify-center gap-2 shadow-sm`;
+            }
+            updateGlobalScore();
+        }
+
+        // Submit and check answers for a Part
+        function submitPart(partId) {
+            const part = exerciseParts.find(p => p.id === partId);
+            if (!part) return;
+
+            let correctCount = 0;
+            let totalCount = 0;
+
+            if (part.type === 'input') {
+                totalCount = part.questions.length;
+                part.questions.forEach(q => {
+                    const input = document.getElementById(`input_${q.id}`);
+                    const fb = document.getElementById(`feedback_${q.id}`);
+                    const userVal = (input ? input.value : (userAnswers[q.id] || '')).trim().toLowerCase();
+
+                    const targetAns = q.answer.trim().toLowerCase();
+                    const isAlt = q.alt && q.alt.some(a => a.trim().toLowerCase() === userVal);
+                    const isCorrect = userVal !== '' && (userVal === targetAns || isAlt);
+
+                    if (isCorrect) correctCount++;
+
+                    if (input) {
+                        input.className = isCorrect
+                            ? "flex-grow bg-emerald-50 border border-emerald-400 rounded-xl px-3 py-2 text-sm focus:outline-none text-emerald-900 font-medium"
+                            : "flex-grow bg-rose-50 border border-rose-400 rounded-xl px-3 py-2 text-sm focus:outline-none text-rose-900 font-medium";
+                    }
+
+                    if (fb) {
+                        fb.className = isCorrect ? "text-xs mt-1 font-bold text-emerald-600 block" : "text-xs mt-1 font-bold text-rose-600 block";
+                        fb.innerHTML = isCorrect
+                            ? `<i class="fa-solid fa-circle-check"></i> Đúng`
+                            : `<i class="fa-solid fa-circle-xmark"></i> Chưa đúng`;
+                    }
+                });
+            } else if (part.type === 'select' || part.type === 'select_single') {
+                totalCount = part.questions.length;
+                part.questions.forEach(q => {
+                    const s1 = document.getElementById(`select1_${q.id}`)?.value || userAnswers['select1_' + q.id] || '';
+                    const s2 = document.getElementById(`select2_${q.id}`)?.value || userAnswers['select2_' + q.id] || '';
+                    const fb = document.getElementById(`feedback_${q.id}`);
+
+                    const isCorrect = (s1.trim() === q.answer1.trim()) && (s2.trim() === q.answer2.trim());
+                    if (isCorrect) correctCount++;
+
+                    if (fb) {
+                        fb.className = isCorrect ? "text-xs mt-1 font-bold text-emerald-600 block" : "text-xs mt-1 font-bold text-rose-600 block";
+                        fb.innerHTML = isCorrect
+                            ? `<i class="fa-solid fa-circle-check"></i> Đúng`
+                            : `<i class="fa-solid fa-circle-xmark"></i> Chưa đúng`;
+                    }
+                });
+            } else if (part.type === 'mcq' || part.type === 'mcq_choice') {
+                totalCount = part.questions.length;
+                part.questions.forEach(q => {
+                    const userVal = userAnswers[q.id] || '';
+                    const fb = document.getElementById(`feedback_${q.id}`);
+                    const isCorrect = userVal !== '' && (userVal === q.answer);
+
+                    if (isCorrect) correctCount++;
+
+                    const options = q.options || q.choices || [];
+                    options.forEach(opt => {
+                        const btn = document.getElementById(`btn_mcq_${q.id}_${opt}`);
+                        if (btn && opt === userVal) {
+                            btn.className = isCorrect
+                                ? `mcq-btn-${q.id} px-3 py-2 bg-emerald-100 border-2 border-emerald-500 text-emerald-800 rounded-xl text-xs font-bold transition flex items-center justify-center gap-2`
+                                : `mcq-btn-${q.id} px-3 py-2 bg-rose-100 border-2 border-rose-500 text-rose-800 rounded-xl text-xs font-bold transition flex items-center justify-center gap-2`;
+                        }
+                    });
+
+                    if (fb) {
+                        fb.className = isCorrect ? "text-xs mt-1 font-bold text-emerald-600 block" : "text-xs mt-1 font-bold text-rose-600 block";
+                        fb.innerHTML = isCorrect
+                            ? `<i class="fa-solid fa-circle-check"></i> Đúng`
+                            : `<i class="fa-solid fa-circle-xmark"></i> Chưa đúng`;
+                    }
+                });
+            } else if (part.type === 'matching') {
+                totalCount = 6;
+                let matchDetailsHTML = '';
+                for (let i = 1; i <= 6; i++) {
+                    const userChoice = document.getElementById(`matching_${i}`)?.value || userAnswers[`matching_${i}`] || '';
+                    const isPairCorrect = userChoice === part.correctPairs[i];
+                    if (isPairCorrect) correctCount++;
+
+                    matchDetailsHTML += `<div class="${isPairCorrect ? 'text-emerald-700 font-bold' : 'text-rose-700 font-bold'}">
+                        Câu ${i}: ${isPairCorrect ? '✓ Đúng' : '✗ Chưa đúng'}
+                    </div>`;
+                }
+                const fb = document.getElementById(`feedback_matching_${partId}`);
+                if (fb) {
+                    fb.className = "text-xs mt-2 p-3 rounded-xl bg-slate-100 border border-slate-200 block";
+                    fb.innerHTML = `<div class="grid grid-cols-2 sm:grid-cols-3 gap-2">${matchDetailsHTML}</div>`;
+                }
+            }
+
+            // Summary card display
+            const summaryDiv = document.getElementById(`part_summary_${partId}`);
+            if (summaryDiv) {
+                summaryDiv.classList.remove('hidden');
+                if (correctCount === totalCount) {
+                    summaryDiv.className = "p-4 rounded-xl text-sm font-bold bg-emerald-50 text-emerald-800 border border-emerald-200 flex items-center gap-2";
+                    summaryDiv.innerHTML = `<i class="fa-solid fa-trophy text-emerald-600 text-lg"></i> <span>Xuất sắc! Tổng số câu đúng: ${correctCount}/${totalCount}</span>`;
+                } else {
+                    summaryDiv.className = "p-4 rounded-xl text-sm font-bold bg-amber-50 text-amber-800 border border-amber-200 flex items-center gap-2";
+                    summaryDiv.innerHTML = `<i class="fa-solid fa-chart-simple text-amber-600 text-lg"></i> <span>Tổng số câu đúng: ${correctCount}/${totalCount}. Hãy kiểm tra lại các câu chưa đúng!</span>`;
+                }
+            }
+
+            updateGlobalScore();
+        }
+
+        // Reset Part
+        function resetPart(partId) {
+            const part = exerciseParts.find(p => p.id === partId);
+            if (!part) return;
+
+            if (part.questions) {
+                part.questions.forEach(q => {
+                    delete userAnswers[q.id];
+                    delete userAnswers['select1_' + q.id];
+                    delete userAnswers['select2_' + q.id];
+
+                    const input = document.getElementById(`input_${q.id}`);
+                    if (input) {
+                        input.value = '';
+                        input.className = "flex-grow bg-white border border-slate-300 rounded-xl px-3 py-2 text-sm focus:ring-2 focus:ring-brand-500 focus:outline-none transition";
+                    }
+
+                    const s1 = document.getElementById(`select1_${q.id}`);
+                    if (s1) s1.value = '';
+                    const s2 = document.getElementById(`select2_${q.id}`);
+                    if (s2) s2.value = '';
+
+                    const buttons = document.querySelectorAll(`.mcq-btn-${q.id}`);
+                    buttons.forEach(btn => {
+                        btn.className = `mcq-btn-${q.id} px-3 py-2 bg-white border border-slate-300 hover:border-brand-500 rounded-xl text-xs font-bold text-slate-700 transition flex items-center justify-center gap-2`;
+                    });
+
+                    const fb = document.getElementById(`feedback_${q.id}`);
+                    if (fb) {
+                        fb.className = "hidden";
+                        fb.innerHTML = "";
+                    }
+                });
+            } else if (part.type === 'matching') {
+                for (let i = 1; i <= 6; i++) {
+                    delete userAnswers[`matching_${i}`];
+                    const sel = document.getElementById(`matching_${i}`);
+                    if (sel) sel.value = '';
+                }
+                const fb = document.getElementById(`feedback_matching_${partId}`);
+                if (fb) {
+                    fb.className = "hidden";
+                    fb.innerHTML = "";
+                }
+            }
+
+            const summaryDiv = document.getElementById(`part_summary_${partId}`);
+            if (summaryDiv) {
+                summaryDiv.className = "hidden";
+                summaryDiv.innerHTML = "";
+            }
+
+            updateGlobalScore();
+        }
+
+        // Calculate and display Global Progress Score
+        function updateGlobalScore() {
+            let total = 0;
+            let answered = Object.keys(userAnswers).length;
+
+            exerciseParts.forEach(p => {
+                if (p.questions) total += p.questions.length;
+                else if (p.type === 'matching') total += 6;
+            });
+
+            const scoreBadge = document.getElementById('global-score');
+            if (scoreBadge) {
+                scoreBadge.textContent = `${answered} / ${total} câu đã điền`;
+            }
+        }
+    </script>
+</body>
+</html>

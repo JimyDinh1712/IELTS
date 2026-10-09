@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Game Học Từ Vựng Lớp 6 - Global Success</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Canvas Confetti CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .word-tile {
+            cursor: grab;
+            user-select: none;
+            transition: all 0.2s ease;
+        }
+        .word-tile:active {
+            cursor: grabbing;
+        }
+        .drop-zone {
+            transition: all 0.2s ease;
+        }
+        .drop-zone.drag-over {
+            background-color: #dbeafe;
+            border-color: #3b82f6;
+            transform: scale(1.02);
+        }
+        /* Custom scrollbar for word bank */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col text-slate-800">
+
+    <header class="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col md:flex-row justify-between items-center gap-3">
+            <div class="flex items-center space-x-3">
+                <div class="bg-white text-blue-600 p-2.5 rounded-xl shadow-md font-extrabold text-xl flex items-center justify-center">
+                    <i class="fa-solid fa-house-chimney"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold tracking-tight">English 6 - Global Success</h1>
+                    <p class="text-xs text-blue-200">by Mr Jimmy</p>
+                </div>
+            </div>
+
+            <!-- Units Navbar 1 to 12 -->
+            <div class="flex items-center overflow-x-auto w-full md:w-auto py-1 space-x-1.5 scrollbar-thin">
+                <div id="unitNav" class="flex space-x-1.5"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-1 max-w-7xl w-full mx-auto p-4 md:p-6 flex flex-col gap-6">
+        
+        <!-- Unit Title & Status Bar -->
+        <div class="bg-white rounded-2xl shadow-md p-5 flex flex-col md:flex-row justify-between items-center gap-4 border border-slate-100">
+            <div>
+                <span id="unitBadge" class="bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Unit 1</span>
+                <h2 class="text-2xl font-extrabold text-slate-900 mt-1 flex items-center gap-2">
+                    <span id="unitTitleText">MY SCHOOL</span>
+                    <button onclick="speakText(document.getElementById('unitTitleText').innerText)" class="text-blue-500 hover:text-blue-700 text-lg transition-transform hover:scale-110" title="Nghe phát âm">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </button>
+                </h2>
+                <p id="unitSubtitle" class="text-sm text-slate-500">Quan sát hình ảnh bên dưới, kéo các từ vựng tiếng Anh thả vào đúng ô số tương ứng.</p>
+            </div>
+
+            <!-- Stats & Action Buttons -->
+            <div class="flex flex-wrap items-center gap-3">
+                <div class="bg-slate-50 px-4 py-2 rounded-xl border border-slate-200 flex items-center space-x-3">
+                    <div class="text-center">
+                        <div class="text-xs text-slate-500 font-medium">Thời gian</div>
+                        <div id="timer" class="text-lg font-bold text-blue-600">00:00</div>
+                    </div>
+                    <div class="h-8 w-px bg-slate-200"></div>
+                    <div class="text-center">
+                        <div class="text-xs text-slate-500 font-medium">Hoàn thành</div>
+                        <div id="progressCount" class="text-lg font-bold text-emerald-600">0/40</div>
+                    </div>
+                </div>
+
+                <button onclick="resetGame()" class="bg-amber-50 hover:bg-amber-100 text-amber-700 font-semibold px-4 py-2.5 rounded-xl transition shadow-sm flex items-center gap-2">
+                    <i class="fa-solid fa-rotate-right"></i> Làm lại
+                </button>
+                <button onclick="checkAnswers()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-5 py-2.5 rounded-xl transition shadow-md flex items-center gap-2">
+                    <i class="fa-solid fa-check-circle"></i> Kiểm tra đáp án
+                </button>
+            </div>
+        </div>
+
+        <!-- Reference Image Displayed Directly Below Unit Section -->
+        <div class="bg-white rounded-2xl shadow-md p-4 border border-slate-100">
+            <div class="flex justify-between items-center mb-3 pb-2 border-b border-slate-100">
+                <h3 id="imageSectionTitle" class="font-bold text-slate-800 text-base flex items-center gap-2">
+                    <i class="fa-solid fa-image text-blue-600"></i> Sơ đồ / Hình ảnh Unit
+                </h3>
+                <span class="text-xs bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full font-semibold">Quan sát các số trên hình để điền từ</span>
+            </div>
+            <div class="relative w-full rounded-xl overflow-hidden shadow-inner border border-slate-200 bg-slate-50 flex items-center justify-center">
+                <img id="unitImage" src="unit1.png" alt="Unit Map" class="w-full max-h-[600px] object-contain mx-auto rounded-lg" onerror="this.onerror=null; this.src='https://placehold.co/1200x800/e2e8f0/1e293b?text=Unit+Image+Not+Found';">
+            </div>
+        </div>
+
+        <!-- Main Workspace: Word Bank & Vocabulary Matching Worksheet -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start">
+            
+            <!-- Left: Word Bank (Kho từ vựng kéo thả) -->
+            <div class="lg:col-span-1 bg-white rounded-2xl shadow-md p-4 border border-slate-100 sticky top-20">
+                <div class="flex justify-between items-center mb-3 pb-2 border-b border-slate-100">
+                    <h3 class="font-bold text-slate-800 flex items-center gap-2">
+                        <i class="fa-solid fa-box-archive text-blue-600"></i> Kho từ vựng
+                    </h3>
+                    <span id="remainingWordsBadge" class="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full font-bold">40 còn lại</span>
+                </div>
+                <p class="text-xs text-slate-500 mb-3">Kéo từ dưới đây thả vào ô số tương ứng:</p>
+                
+                <div id="wordBank" class="flex flex-wrap gap-2 max-h-[65vh] overflow-y-auto p-1">
+                    <!-- Dynamic Word Tiles inserted here -->
+                </div>
+            </div>
+
+            <!-- Right: Vocabulary Matching Worksheet Grid -->
+            <div class="lg:col-span-3 bg-white rounded-2xl shadow-md p-6 border border-slate-100">
+                <div class="flex justify-between items-center mb-4 pb-3 border-b border-slate-100">
+                    <h3 class="font-bold text-slate-800 text-lg flex items-center gap-2">
+                        <i class="fa-solid fa-list-check text-emerald-600"></i> Phiếu bài tập điền từ
+                    </h3>
+                    <div class="text-xs text-slate-500">Nhấn vào biểu tượng loa <i class="fa-solid fa-volume-high text-blue-500"></i> để nghe phát âm.</div>
+                </div>
+
+                <div id="vocabularyGrid" class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <!-- Dynamic rows inserted here -->
+                </div>
+
+                <!-- Bottom Action bar -->
+                <div class="mt-8 pt-4 border-t border-slate-100 flex justify-center gap-4">
+                    <button onclick="checkAnswers()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-3 rounded-xl shadow-lg transition transform hover:-translate-y-0.5 flex items-center gap-2 text-lg">
+                        <i class="fa-solid fa-check-double"></i> Nộp bài & Kiểm tra kết quả
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Modal for Unit alerts / Results -->
+    <div id="resultModal" class="fixed inset-0 bg-black/60 z-50 hidden flex items-center justify-center p-4 backdrop-blur-sm">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl text-center transform transition-all">
+            <div id="resultIcon" class="w-20 h-20 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl shadow-md">
+                🎉
+            </div>
+            <h3 id="resultTitle" class="text-2xl font-extrabold text-slate-900 mb-2">Kết quả bài làm</h3>
+            <p id="resultMessage" class="text-slate-600 mb-6 text-base">Bạn đã hoàn thành xuất sắc!</p>
+            <div class="flex gap-3 justify-center">
+                <button onclick="closeResultModal()" class="bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold px-6 py-2.5 rounded-xl transition">Xem lại</button>
+                <button id="modalActionButton" onclick="resetGame(); closeResultModal();" class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-2.5 rounded-xl shadow-md transition">Chơi lại</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Vocabulary data for Unit 1: My School (40 words)
+        const unit1Vocabulary = [
+            { id: 1, word: "art", meaning: "môn mỹ thuật, nghệ thuật" },
+            { id: 2, word: "boarding school", meaning: "trường nội trú" },
+            { id: 3, word: "classmate", meaning: "bạn học" },
+            { id: 4, word: "equipment", meaning: "trang thiết bị" },
+            { id: 5, word: "greenhouse", meaning: "nhà kính" },
+            { id: 6, word: "judo", meaning: "môn võ judo" },
+            { id: 7, word: "swimming pool", meaning: "hồ bơi" },
+            { id: 8, word: "pencil sharpener", meaning: "đồ chuốt bút chì" },
+            { id: 9, word: "compass", meaning: "com-pa" },
+            { id: 10, word: "school bag", meaning: "cặp đi học" },
+            { id: 11, word: "rubber", meaning: "cục tẩy, gôm" },
+            { id: 12, word: "calculator", meaning: "máy tính bỏ túi" },
+            { id: 13, word: "pencil case", meaning: "hộp bút" },
+            { id: 14, word: "notebook", meaning: "quyển vở" },
+            { id: 15, word: "bicycle", meaning: "xe đạp" },
+            { id: 16, word: "ruler", meaning: "thước kẻ" },
+            { id: 17, word: "textbook", meaning: "sách giáo khoa" },
+            { id: 18, word: "activity", meaning: "hoạt động" },
+            { id: 19, word: "creative", meaning: "sáng tạo" },
+            { id: 20, word: "excited", meaning: "phấn khởi, hào hứng" },
+            { id: 21, word: "help", meaning: "giúp đỡ, trợ giúp" },
+            { id: 22, word: "international", meaning: "quốc tế" },
+            { id: 23, word: "interview", meaning: "phỏng vấn" },
+            { id: 24, word: "knock", meaning: "gõ cửa" },
+            { id: 25, word: "overseas", meaning: "ở nước ngoài" },
+            { id: 26, word: "pocket money", meaning: "tiền tiêu vặt" },
+            { id: 27, word: "poem", meaning: "bài thơ" },
+            { id: 28, word: "remember", meaning: "nhớ, ghi nhớ" },
+            { id: 29, word: "share", meaning: "chia sẻ" },
+            { id: 30, word: "smart", meaning: "thông minh, sáng sủa" },
+            { id: 31, word: "surround", meaning: "bao quanh" },
+            { id: 32, word: "uniform", meaning: "đồng phục" },
+            { id: 33, word: "library", meaning: "thư viện" },
+            { id: 34, word: "laboratory", meaning: "phòng thí nghiệm" },
+            { id: 35, word: "playground", meaning: "sân chơi" },
+            { id: 36, word: "subject", meaning: "môn học" },
+            { id: 37, word: "dictionary", meaning: "từ điển" },
+            { id: 38, word: "history", meaning: "môn Lịch sử" },
+            { id: 39, word: "geography", meaning: "môn Địa lý" },
+            { id: 40, word: "science", meaning: "môn Khoa học" }
+        ];
+
+        // Vocabulary data for Unit 2: My Home (40 words)
+        const unit2Vocabulary = [
+            { id: 1, word: "town house", meaning: "nhà phố" },
+            { id: 2, word: "country house", meaning: "nhà ở nông thôn" },
+            { id: 3, word: "villa", meaning: "biệt thự" },
+            { id: 4, word: "stilt house", meaning: "nhà sàn" },
+            { id: 5, word: "apartment", meaning: "căn hộ" },
+            { id: 6, word: "living room", meaning: "phòng khách" },
+            { id: 7, word: "bedroom", meaning: "phòng ngủ" },
+            { id: 8, word: "kitchen", meaning: "nhà bếp" },
+            { id: 9, word: "bathroom", meaning: "nhà tắm" },
+            { id: 10, word: "hall", meaning: "phòng lớn, sảnh" },
+            { id: 11, word: "attic", meaning: "gác mái" },
+            { id: 12, word: "lamp", meaning: "đèn" },
+            { id: 13, word: "toilet", meaning: "nhà vệ sinh" },
+            { id: 14, word: "bed", meaning: "giường" },
+            { id: 15, word: "cupboard", meaning: "tủ chén" },
+            { id: 16, word: "wardrobe", meaning: "tủ đựng quần áo" },
+            { id: 17, word: "fridge", meaning: "tủ lạnh" },
+            { id: 18, word: "poster", meaning: "áp phích" },
+            { id: 19, word: "chair", meaning: "ghế" },
+            { id: 20, word: "air-conditioner", meaning: "máy điều hòa không khí" },
+            { id: 21, word: "table", meaning: "bàn" },
+            { id: 22, word: "sofa", meaning: "ghế trường kỷ, sô pha" },
+            { id: 23, word: "behind", meaning: "ở phía sau, đằng sau" },
+            { id: 24, word: "between", meaning: "ở giữa" },
+            { id: 25, word: "chest of drawers", meaning: "ngăn kéo tủ" },
+            { id: 26, word: "crazy", meaning: "kì dị, lạ thường" },
+            { id: 27, word: "department store", meaning: "cửa hàng bách hóa" },
+            { id: 28, word: "dishwasher", meaning: "máy rửa bát (chén) đĩa" },
+            { id: 29, word: "furniture", meaning: "đồ đạc trong nhà, đồ gỗ" },
+            { id: 30, word: "in front of", meaning: "ở phía trước, đằng trước" },
+            { id: 31, word: "messy", meaning: "bừa bộn, lộn xộn" },
+            { id: 32, word: "microwave", meaning: "lò vi sóng" },
+            { id: 33, word: "move", meaning: "di chuyển, chuyển nhà" },
+            { id: 34, word: "next to", meaning: "kế bên, ở cạnh" },
+            { id: 35, word: "under", meaning: "ở bên dưới, phía dưới" },
+            { id: 36, word: "help", meaning: "giúp đỡ, trợ giúp" },
+            { id: 37, word: "remember", meaning: "nhớ, ghi nhớ" },
+            { id: 38, word: "share", meaning: "chia sẻ" },
+            { id: 39, word: "smart", meaning: "thông minh, sáng sủa" },
+            { id: 40, word: "surround", meaning: "bao quanh" }
+        ];
+
+        // Central unit configuration map
+        const unitsConfig = {
+            1: {
+                title: "MY SCHOOL",
+                subtitle: "Quan sát sơ đồ trường học bên dưới, kéo các từ vựng tiếng Anh thả vào đúng ô số (1-40) tương ứng.",
+                image: "unit1.png",
+                imageTitle: "Sơ đồ trường học Unit 1 (Đã đánh số 1 - 40)",
+                vocabulary: unit1Vocabulary
+            },
+            2: {
+                title: "MY HOME",
+                subtitle: "Quan sát hình ảnh căn nhà bên dưới, kéo các từ vựng tiếng Anh thả vào đúng ô số (1-40) tương ứng.",
+                image: "unit2.png",
+                imageTitle: "Sơ đồ căn nhà Unit 2 (Đã đánh số 1 - 40)",
+                vocabulary: unit2Vocabulary
+            }
+        };
+
+        let currentUnit = 1;
+        let userAnswers = {};
+        let startTime = Date.now();
+        let timerInterval = null;
+        let isSubmitted = false;
+
+        window.onload = function() {
+            renderUnitNav();
+            loadUnit(currentUnit);
+        };
+
+        function renderUnitNav() {
+            const navContainer = document.getElementById('unitNav');
+            navContainer.innerHTML = '';
+            for (let i = 1; i <= 12; i++) {
+                const btn = document.createElement('button');
+                const isActive = i === currentUnit;
+                btn.className = `px-3 py-1.5 rounded-lg text-xs font-bold transition shadow-sm whitespace-nowrap ${
+                    isActive 
+                        ? 'bg-white text-blue-700 shadow' 
+                        : 'bg-white/20 text-white hover:bg-white/30'
+                }`;
+                btn.innerHTML = `Unit ${i}`;
+                btn.onclick = () => {
+                    switchUnit(i);
+                };
+                navContainer.appendChild(btn);
+            }
+        }
+
+        function switchUnit(unitNum) {
+            if (unitNum > 2) {
+                showUnitAlert(unitNum);
+                return;
+            }
+            currentUnit = unitNum;
+            renderUnitNav();
+            loadUnit(currentUnit);
+        }
+
+        function loadUnit(unitNum) {
+            const config = unitsConfig[unitNum];
+            if (!config) return;
+
+            // Update UI headers
+            document.getElementById('unitBadge').innerText = `Unit ${unitNum}`;
+            document.getElementById('unitTitleText').innerText = config.title;
+            document.getElementById('unitSubtitle').innerText = config.subtitle;
+            document.getElementById('imageSectionTitle').innerHTML = `<i class="fa-solid fa-image text-blue-600"></i> ${config.imageTitle}`;
+            document.getElementById('unitImage').src = config.image;
+
+            initGame();
+            startTimer();
+        }
+
+        function showUnitAlert(unitNum) {
+            const modal = document.getElementById('resultModal');
+            document.getElementById('resultIcon').className = "w-20 h-20 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl shadow-md bg-blue-100 text-blue-600";
+            document.getElementById('resultIcon').innerText = "🚀";
+            document.getElementById('resultTitle').innerText = `Unit ${unitNum}: Đang cập nhật`;
+            document.getElementById('resultMessage').innerText = `Nội dung và dữ liệu cho Unit ${unitNum} đang được biên soạn và sẽ sớm ra mắt! Hãy trải nghiệm Unit 1 và Unit 2 nhé.`;
+            document.getElementById('modalActionButton').style.display = 'none';
+            modal.classList.remove('hidden');
+        }
+
+        function startTimer() {
+            if (timerInterval) clearInterval(timerInterval);
+            startTime = Date.now();
+            timerInterval = setInterval(() => {
+                const elapsed = Math.floor((Date.now() - startTime) / 1000);
+                const mins = String(Math.floor(elapsed / 60)).padStart(2, '0');
+                const secs = String(elapsed % 60).padStart(2, '0');
+                document.getElementById('timer').innerText = `${mins}:${secs}`;
+            }, 1000);
+        }
+
+        function initGame() {
+            userAnswers = {};
+            isSubmitted = false;
+            
+            const currentVocabulary = unitsConfig[currentUnit].vocabulary;
+            const shuffledWords = [...currentVocabulary].sort(() => Math.random() - 0.5);
+            
+            const wordBankEl = document.getElementById('wordBank');
+            wordBankEl.innerHTML = '';
+            shuffledWords.forEach((item) => {
+                const tile = document.createElement('div');
+                tile.className = 'word-tile bg-blue-50 hover:bg-blue-100 border border-blue-200 text-blue-800 text-xs font-semibold px-2.5 py-1.5 rounded-lg shadow-sm flex items-center justify-between gap-1';
+                tile.draggable = true;
+                tile.dataset.word = item.word;
+                
+                tile.innerHTML = `
+                    <span>${item.word}</span>
+                    <i class="fa-solid fa-grip-vertical text-blue-400 text-[10px]"></i>
+                `;
+
+                tile.addEventListener('dragstart', (e) => {
+                    e.dataTransfer.setData('text/plain', item.word);
+                    setTimeout(() => tile.classList.add('opacity-40'), 0);
+                });
+                tile.addEventListener('dragend', () => {
+                    tile.classList.remove('opacity-40');
+                });
+
+                tile.onclick = () => {
+                    selectWordForMobile(item.word);
+                };
+
+                wordBankEl.appendChild(tile);
+            });
+
+            const vocabGridEl = document.getElementById('vocabularyGrid');
+            vocabGridEl.innerHTML = '';
+            
+            currentVocabulary.forEach((vocab) => {
+                const row = document.createElement('div');
+                row.className = 'flex items-center justify-between bg-slate-50 border border-slate-200 rounded-xl p-2.5 gap-2';
+                
+                row.innerHTML = `
+                    <div class="flex items-center space-x-2.5 min-w-0">
+                        <span class="w-7 h-7 flex-shrink-0 bg-indigo-600 text-white font-bold text-xs rounded-full flex items-center justify-center shadow-sm">${vocab.id}</span>
+                        <div class="truncate">
+                            <div class="text-xs font-bold text-slate-700 truncate">${vocab.meaning}</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-1.5 flex-shrink-0">
+                        <button onclick="speakText('${vocab.word.replace(/'/g, "\\'")}')" class="text-slate-400 hover:text-blue-600 p-1 rounded transition" title="Nghe từ">
+                            <i class="fa-solid fa-volume-high text-xs"></i>
+                        </button>
+                        <div id="dropzone-${vocab.id}" class="drop-zone w-36 sm:w-44 h-9 bg-white border-2 border-dashed border-slate-300 rounded-lg flex items-center justify-center px-2 text-xs font-semibold text-slate-400 transition"
+                             ondragover="allowDrop(event)"
+                             ondragleave="removeDragOver(event)"
+                             ondrop="dropWord(event, ${vocab.id})"
+                             onclick="clickDropZone(${vocab.id})">
+                            <span class="placeholder-text">Kéo từ vào đây</span>
+                        </div>
+                    </div>
+                `;
+                vocabGridEl.appendChild(row);
+            });
+
+            updateProgress();
+        }
+
+        function allowDrop(e) {
+            e.preventDefault();
+            e.currentTarget.classList.add('drag-over');
+        }
+
+        function removeDragOver(e) {
+            e.currentTarget.classList.remove('drag-over');
+        }
+
+        function dropWord(e, id) {
+            e.preventDefault();
+            const zone = e.currentTarget;
+            zone.classList.remove('drag-over');
+            const word = e.dataTransfer.getData('text/plain');
+            if (word) {
+                assignWordToZone(id, word);
+            }
+        }
+
+        let selectedWordForDrop = null;
+        function selectWordForMobile(word) {
+            selectedWordForDrop = word;
+        }
+
+        function clickDropZone(id) {
+            if (selectedWordForDrop) {
+                assignWordToZone(id, selectedWordForDrop);
+                selectedWordForDrop = null;
+            } else if (userAnswers[id]) {
+                delete userAnswers[id];
+                updateGridUI();
+                updateProgress();
+            }
+        }
+
+        function assignWordToZone(id, word) {
+            for (let key in userAnswers) {
+                if (userAnswers[key] === word) {
+                    delete userAnswers[key];
+                }
+            }
+            userAnswers[id] = word;
+            updateGridUI();
+            updateProgress();
+        }
+
+        function updateGridUI() {
+            const currentVocabulary = unitsConfig[currentUnit].vocabulary;
+            currentVocabulary.forEach((vocab) => {
+                const zone = document.getElementById(`dropzone-${vocab.id}`);
+                if (!zone) return;
+                
+                if (userAnswers[vocab.id]) {
+                    zone.innerHTML = `
+                        <span class="text-blue-700 font-bold truncate">${userAnswers[vocab.id]}</span>
+                        <button onclick="event.stopPropagation(); removeAnswer(${vocab.id})" class="ml-1.5 text-slate-400 hover:text-red-500 text-xs">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    `;
+                    zone.className = "drop-zone w-36 sm:w-44 h-9 bg-blue-50 border-2 border-solid border-blue-300 rounded-lg flex items-center justify-between px-2 text-xs font-semibold text-blue-700 shadow-sm";
+                } else {
+                    zone.innerHTML = `<span class="placeholder-text">Kéo từ vào đây</span>`;
+                    zone.className = "drop-zone w-36 sm:w-44 h-9 bg-white border-2 border-dashed border-slate-300 rounded-lg flex items-center justify-center px-2 text-xs font-semibold text-slate-400 transition";
+                }
+            });
+        }
+
+        function removeAnswer(id) {
+            delete userAnswers[id];
+            updateGridUI();
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const filledCount = Object.keys(userAnswers).length;
+            document.getElementById('progressCount').innerText = `${filledCount}/40`;
+            document.getElementById('remainingWordsBadge').innerText = `${40 - filledCount} còn lại`;
+        }
+
+        function checkAnswers() {
+            let correctCount = 0;
+            const currentVocabulary = unitsConfig[currentUnit].vocabulary;
+            let total = currentVocabulary.length;
+
+            currentVocabulary.forEach((vocab) => {
+                const zone = document.getElementById(`dropzone-${vocab.id}`);
+                const userAnswer = userAnswers[vocab.id];
+                
+                if (!zone) return;
+
+                if (userAnswer) {
+                    if (userAnswer.trim().toLowerCase() === vocab.word.trim().toLowerCase()) {
+                        correctCount++;
+                        zone.className = "drop-zone w-36 sm:w-44 h-9 bg-emerald-50 border-2 border-solid border-emerald-500 rounded-lg flex items-center justify-between px-2 text-xs font-bold text-emerald-700 shadow-sm";
+                    } else {
+                        zone.className = "drop-zone w-36 sm:w-44 h-9 bg-rose-50 border-2 border-solid border-rose-500 rounded-lg flex items-center justify-between px-2 text-xs font-bold text-rose-700 shadow-sm";
+                    }
+                } else {
+                    zone.className = "drop-zone w-36 sm:w-44 h-9 bg-amber-50 border-2 border-dashed border-amber-300 rounded-lg flex items-center justify-center px-2 text-xs font-semibold text-amber-600";
+                }
+            });
+
+            isSubmitted = true;
+            if (timerInterval) clearInterval(timerInterval);
+
+            const modal = document.getElementById('resultModal');
+            const resultIcon = document.getElementById('resultIcon');
+            const resultTitle = document.getElementById('resultTitle');
+            const resultMessage = document.getElementById('resultMessage');
+            document.getElementById('modalActionButton').style.display = 'block';
+
+            if (correctCount === total) {
+                resultIcon.className = "w-20 h-20 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl shadow-md bg-emerald-100 text-emerald-600";
+                resultIcon.innerText = "🏆";
+                resultTitle.innerText = "Xuất sắc! 40/40";
+                resultMessage.innerText = `Tuyệt vời! Bạn đã hoàn thành chính xác toàn bộ 40 từ vựng Unit ${currentUnit}: ${unitsConfig[currentUnit].title} trong thời gian ${document.getElementById('timer').innerText}.`;
+                
+                confetti({
+                    particleCount: 120,
+                    spread: 80,
+                    origin: { y: 0.6 }
+                });
+            } else {
+                resultIcon.className = "w-20 h-20 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl shadow-md bg-amber-100 text-amber-600";
+                resultIcon.innerText = "💪";
+                resultTitle.innerText = `Kết quả: ${correctCount}/${total} câu đúng`;
+                resultMessage.innerText = `Bạn đã làm đúng ${correctCount} trên tổng số 40 từ vựng. Các ô màu đỏ là từ chưa chính xác, hãy thử lại nhé!`;
+            }
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeResultModal() {
+            document.getElementById('resultModal').classList.add('hidden');
+        }
+
+        function resetGame() {
+            if (confirm("Bạn có chắc chắn muốn làm lại từ đầu không?")) {
+                initGame();
+                startTimer();
+                closeResultModal();
+            }
+        }
+
+        function speakText(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.9;
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        
+    </script>
+    <script src="eff.js"></script>
+</body>
+</html>
