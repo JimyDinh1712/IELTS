@@ -123,7 +123,15 @@ Body 2:
 Another factor worth considering is that [MAIN POINT 2]. In this regard, [FURTHER EXPLANATION], resulting in [IMPACT OR CONSEQUENCE]. Nevertheless, these challenges can be mitigated through [SOLUTION / MITIGATING MEASURE], which may help limit the associated negative effects.
 
 Conclusion:
-In conclusion, despite the challenges associated with this issue, it is reasonable to regard it as a largely positive development. As long as it is carefully managed through appropriate actions at both individual and governmental levels, its long-term benefits are likely to outweigh any potential drawbacks.`
+In conclusion, despite the challenges associated with this issue, it is reasonable to regard it as a largely positive development. As long as it is carefully managed through appropriate actions at both individual and governmental levels, its long-term benefits are likely to outweigh any potential drawbacks.`,
+    bandMinh: `In recent years, [TOPIC] has become a very popular topic of discussion. People have different views about whether this is a good or bad thing. In my opinion, I believe that [NÊU QUAN ĐIỂM HOẶC DỰ ĐOÁN]. This essay will discuss both sides of the issue and give my own perspective.
+Body 1:
+One key aspect of this issue is that [MAIN POINT 1 The main reason is that [GIẢI THÍCH CHUNG]. This means that [GIẢI THÍCH CHI TIẾT HƠN]. For instance, [SPECIFIC EXAMPLE]. Consequently, this leads to many positive/negative impacts on our daily lives.
+
+Body 2:
+Another important consideration is that [MAIN POINT 2]. In this sense, [FURTHER EXPLANATION], resulting in [IMPACT OR CONSEQUENCE]. However, I believe that this can be solved if we take some actions, such as [SOLUTION / MITIGATING FACTOR]. By doing this, we can reduce the negative effects and make it better.
+Conclusion:
+In conclusion, while there are some concerns about [TOPIC], I think that the benefits outweigh the drawbacks if we manage it well. It is important for both individuals and the government to work together to find the best solutions for this issue.`
 };
 
 // ==========================================
