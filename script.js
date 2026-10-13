@@ -6,7 +6,7 @@ const users = [
     { "username": "Minhphuc", "password": "" },
     { "username": "Baotran", "password": "" },
      { "username": "Minh", "password": "" },
-    { "username": "jimy", "password": "1234" }
+    { "username": "Baoyen", "password": "" }
 ];
 
 // 2. Hàm Đăng nhập
