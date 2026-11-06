@@ -1,0 +1,366 @@
+{
+  "testTitle": "IELTS Practice Test 5",
+  "passages": [
+    {
+      "passageNumber": 1,
+      "title": "Ambergris - what is it and where does it come from?",
+      "content": "In the ancient world, the waxy, grey substance we now refer to as ambergris was highly prized for its medicinal properties and was widely used as a spice, which was believed to be an aphrodisiac when added to food or wine. Ambergris itself is pleasantly aromatic, especially when warmed, and it was also highly valued as a fixing agent in the making of perfume, since it enabled a scent to retain its fragrance for much longer than might otherwise have been possible. Most ambergris was found in the form of lumps floating on the surface of the sea or washed up on the shores of tropical and temperate oceans. At one time, ambergris was worth its weight in gold, but there was much confusion about its origins.<br>Ambergris was known to the Arabs as ‘anbar’ and was originally called amber in the West in the Middle Ages. This eventually led to further confusion in the popular mind between ambergris and true amber, the mineral known to mineralogists as succinite, which is actually fossilised tree resin, and generally yellow in colour. Both substances were rare and costly, and both were associated with the sea, largely because for Europeans, the most common source of amber was the shores of the Baltic. In Chapter 92 of Moby Dick, the American writer Herman Melville pours scorn on those who believed the two substances to be the same: ‘Though the word ambergris is the French compound for grey amber, yet the two substances are quite distinct. For amber, though at times found on the seacoast, is also dug up in some far inland soils, whereas ambergris is never found except upon the sea. Besides, amber is a hard, transparent, brittle, odorless substance, used for mouth-pieces to pipes, for beads and ornaments; but ambergris is soft, waxy, and so highly fragrant that it is largely used in perfumery.’<br>Moby Dick was published in 1851, by which time the mystery of the origins of ambergris had been resolved by the scientific community. In 1783, the botanist Joseph Banks, who had accompanied Captain James Cook on his voyages of discovery in the Pacific, presented a paper to the Royal Society of London by the German physician Dr. Franz Xavier Schwediawer in which it was conclusively proved that ambergris came from sperm whales. In this, he was confirming an observation made in the 13th century by the great Venetian traveller Marco Polo, who, while on the island of Socotra in the Indian Ocean, had witnessed a sperm whale vomiting up ambergris. But whereas Marco Polo imagined that the whale had swallowed the lump in the depths of the sea, Schwediawer showed that the origin of the material was inside the whale itself.<br>The sperm whale is the largest of the odontocetes, or toothed whales. Males can grow up to 20 meters in length. Melville described the sperm whale as ‘the king of whales’, and his novel Moby Dick is based on the pursuit of one such creature. Sperm whales are renowned for their ability to dive to great depths, possibly a far 3, 000 metres below the surface, and for remaining underwater for periods of two hours or more in pursuit of their favourite prey, the giant squid.<br>It is from the problems the whales have in digesting the beaks of such creatures that ambergris has its origins. The beak is sharp and irritates the lower intestine, which responds by producing a black, foul-smelling liquid. It is not clear to scientists whether this secretion should be considered a normal response by the whale’s digestive system or a pathological one, but from time to time large quantities of the liquid are vomited up by the whale. Once outside the whale’s body and exposed to air, the substance hardens, acquiring the waxy, greyish and pleasantly aromatic characteristics of ambergris. Often, the beaks of squid are still found embedded in lumps of ambergris, some of which can weigh several hundred kilograms. Melville took some delight in contrasting the origins of ambergris with the high value placed upon it by refined society: „ Who would think, then, that such fine ladies and gentlemen should regale themselves with an essence found in the inglorious bowels of a sick whale! <br>Sperm whales were ruthlessly pursued by commercial whalers in the 19th and 20th centuries. In 1963-64 alone, almost 30,000 individuals were killed, and only the imposition of a ban on the hunting of sperm whales in 1984 saved the species from extinction. Ambergris was by far the most valuable product to be extracted during the processing of the whales' carcasses, and over 90 per cent of the annual worldwide total was acquired in this way, as a by-product of commercial whaling. However, even before the ban on hunting sperm whales was imposed, the 1972 Marine Mammal Protection Act had prohibited trade in ambergris. Just as petroleum and plastic products were replacing other natural products of whaling, so ambergris was supplanted in the making of perfume by other materials, some natural and some synthetic in origin. Nevertheless, it is possible that, as sperm whale populations recover to their former numbers in the wild, so the sight of lumps of ambergris washed ashore along the tide line will once again become a familiar one to beachcombers the world over.<br>",
+      "questions": [
+        {
+          "from": 1,
+          "to": 6,
+          "type": "wordlist",
+          "instruction": "According to the information in Reading Passage , classify the following facts as referring to",
+          "heading": "Write the correct letter, A, B, C or D, in boxes 1-6 on your answer sheet.",
+          "wordlistName": "List of Options",
+          "options": [
+            "A   ambergris only",
+            "B   amber only",
+            "C   both ambergris and amber",
+            "D   neither ambergris nor amber"
+          ],
+          "content": "1   very expensive<br>2   a food flavouring<br>3   used as currency<br>4   sweet-smelling<br>5   referred to by Herman Melville<br>6   can be seen through<br>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 7,
+          "to": 9,
+          "type": "form",
+          "instruction": "Complete the flow-chart below Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "heading": "How ambergris is formed",
+          "content": "<br>Ambergris is formed in whales because of problems digesting the <strong>(7)</strong>  of giant squid.<br>↓<br>Black liquid is produced and is <strong>(8)</strong>  from time to time<br>↓<br>The liquid <strong>(9)</strong>  on contact with the air.<br>",
+          "questions": [
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 10,
+          "to": 13,
+          "type": "tfng",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage?<br><br><strong>TRUE</strong> if the statement agrees with the information<br><strong>FALSE</strong> if the statement contradicts the information<br><strong>NOT GIVEN</strong> if there is no information on this",
+          "content": "10   In the 20th century, most of the world's ambergris came from processing dead whales.<br>11   The value of ambergris has increased recently.<br>12   Ambergris remains an important ingredient in perfume<br>13   New uses have recently been found for ambergris.<br>",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 10,
+              "text": "In the 20th century, most of the world's ambergris came from processing dead whales."
+            },
+            {
+              "id": 11,
+              "text": "The value of ambergris has increased recently."
+            },
+            {
+              "id": 12,
+              "text": "Ambergris remains an important ingredient in perfume"
+            },
+            {
+              "id": 13,
+              "text": "New uses have recently been found for ambergris."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passageNumber": 2,
+      "title": "PHOTOGRAPHY",
+      "content": "Photography emerged as part of a cluster of technical inventions and innovations around the middle of the nineteenth century. Hailed as a great technological invention, it immediately became the subject of debates concerning its aesthetic status and social uses.<br>A<br>Central to the nineteenth-century debate about the nature of photography as a new technology was the question of how far it could be considered as art. It was celebrated for its putative ability to produce accurate images of what was in front of the camera's lens: images which were seen as being mechanically produced and thus free of the selective discriminations of the human eye and hand. On precisely the same grounds, the medium was often regarded as falling outside the realm of art as its assumed power of accurate, dispassionate recording appeared to leave no room for the artist's compositional creativity.<br>B<br>Debates concerning the status of photography as art continued to take place in periodicals throughout the nineteenth century. The French poet Baudelaire linked ‘the invasion of photography and the great industrial madness of today’ and asserted that if photography is allowed to deputise for art in some of its activities, it will not be long before it has supplanted or corrupted art altogether. In his view, photography’s only function was to support intellectual enquiry.<br>C<br>Baudelaire was not alone in this view. Absolute material accuracy was seen as the hallmark of photography, and the nineteenth-century desire to explore, record and catalogue human experience, both at home and overseas, encouraged people to emphasise photography as a method of naturalistic documentation, rather than any type of art form.<br>D<br>Photographers responded to criticisms of this kind in two ways: either they accepted that photography was something different from art and sought to discover what the intrinsic properties of the medium were, or they pointed out that photography was more than a mechanical form of image-making, that it could be worked on and contrived so as to produce pictures which in some ways resembled paintings. ‘Pictorial’ photography from the 1850s onwards sought to overcome the problems of photography by careful arrangement of all the elements of the composition and by reducing the signifiers of technological production within the photograph. For example, they ensured that the image was somewhat blurred: they made pictures of allegorical subjects, including religious scenes, and those who worked with the gum bichromate process scratched their prints in an effort to imitate something of the appearance of a canvas.<br>E<br>In the other camp were those photographers who celebrated the qualities of straight photo-graphy (with an emphasis upon direct documentary typical of the Modern period in American photography) and did not want to treat the medium as a kind of monochrome painting. They were interested in photography's ability to provide apparently accurate records of the visual world and tried to give their images the formal status and finish of paintings while concentrating their attention on its intrinsic quality.<br>F<br>Photography in Britain and France was initially heralded for its technical recording abilities. With few exceptions, the emphasis was on picture-taking rather than picture-making – to echo a distinction made by Margaret Harker. She suggests that the development of the art of photography in the late 1850s can be partly accounted for through the increasing involvement of people trained as artists. They brought with them a concern for form and composition and, in particular, the use of light. Photography came to encroach very directly on genres of painting such as portraiture, not only taking over some of the work of painters, but also extending their work. For instance, while few could afford the time and cost of sitting for a painted portrait, the studio photographer could offer a similar service more cheaply. As such, portraiture became more democratically available. This did not prevent a continuing hierarchy: the painted portrait was still commissioned by the wealthy and the aristocracy. But it did allow a greater number of people the status of seeing themselves pictured.<br>G<br>Furthermore, photography provoked artists to re-examine the nature and potential of paint as a particular medium. Photography appeared to be more successful than painting in capturing likenesses. It had a sense of instantaneousness that painting lacked. It has been suggested that photography encouraged Impressionist painters to experiment with manners of painting which could also capture a sense of the moment, and the passage of light. It is a truism that photography released painting from its responsibility for literal depiction, allowing it to become more experimental. However, the developing relationship between the two was considerably more symbiotic.<br>H<br>Another respect in which photography may be said to have extended art was in its role as the re-presenter of art objects, It was no longer necessary to travel to Florence to see paintings of the Medici, or to Egypt to contemplate classical architecture or artefacts; you could visit an exhibition and view reproductions.<br>",
+      "questions": [
+        {
+          "from": 14,
+          "to": 17,
+          "type": "matching",
+          "instruction": "Which paragraph contains the following information?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "questions": [
+            {
+              "id": 14,
+              "text": "fears voiced about the potential threat posed to art by photography"
+            },
+            {
+              "id": 15,
+              "text": "the skills of artists being used in photography"
+            },
+            {
+              "id": 16,
+              "text": "the attempts of photographers to imitate art"
+            },
+            {
+              "id": 17,
+              "text": "the influence of photography on artists and painting"
+            }
+          ]
+        },
+        {
+          "from": 18,
+          "to": 22,
+          "type": "form",
+          "instruction": "Complete the summary of paragraphs D and E below. Choose ONE WORD ONLY from paragraph D or E for each answer.",
+          "heading": "Photographers' responses to criticism",
+          "content": "In response to the suggestion that photography could not be considered an art form photographer acted in two ways. Some of them rejected this criticism, certain that they could create pictures similar to <strong>(18)</strong>  did this by carefully setting up the different parts of the <strong>(19)</strong>  before taking the photograph. Other things they did included causing the picture to be rather <strong>(20)</strong> , and some who wanted to try to make the print look like a canvas even <strong>(21)</strong>  their photographs. Others were anxious that their work should not be looked upon as some sort of <strong>(22)</strong>  painting and were much more concerned with the fact that the camera seemed to be able to produce a more accurate representation of what they could see around them.",
+          "questions": [
+            {
+              "id": 18,
+              "isGap": true
+            },
+            {
+              "id": 19,
+              "isGap": true
+            },
+            {
+              "id": 20,
+              "isGap": true
+            },
+            {
+              "id": 21,
+              "isGap": true
+            },
+            {
+              "id": 22,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 26,
+          "type": "tfng",
+          "instruction": "Do the following statements agree with the information given in the Reading Passage?<br><br><strong>TRUE</strong> if the statement agrees with the information<br><strong>FALSE</strong> if the statement contradicts the information<br><strong>NOT GIVEN</strong> if there is no information on this",
+          "content": "23   In the 1850s, trained artists were reluctant to take up photography.<br>24   Many photographers felt the need to learn certain techniques from taking art courses.<br>25   Photography brought the demand for portrait painting to an end.<br>26   With the advent of photography, some painters no longer concerned themselves with accuracy.<br>",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "questions": [
+            {
+              "id": 23,
+              "text": "In the 1850s, trained artists were reluctant to take up photography."
+            },
+            {
+              "id": 24,
+              "text": "Many photographers felt the need to learn certain techniques from taking art courses."
+            },
+            {
+              "id": 25,
+              "text": "Photography brought the demand for portrait painting to an end."
+            },
+            {
+              "id": 26,
+              "text": "With the advent of photography, some painters no longer concerned themselves with accuracy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "passageNumber": 3,
+      "title": "The long view",
+      "content": "Climate change, moon bases, cybercrime we all know the predictions, but how are they made? One expert explains the science of futurology<br>The business of predicting the future has a long history. Several millennia ago in ancient Greece, people would consult Apollo, the god of prophecy, to learn if fortune favoured their chosen course of action. The tradition has changed considerably since then. Today, futurology is a science that drives a thriving business – its three main consumers being the military, big business, and national governments. Modern futurists do not predict that a certain event will occur at a particular time. Instead, they look at what is happening now to see what this may lead to further down the line. Alternatively, they start with a desired result and work out how people and organisations can be manoeuvred into realizing that ambition.<br>The oil company Shell has been one of the major producers of future studies. It recently published a comprehensive study looking at how people may live in 2020 and 2050, given the type of energy which is purchased. Philip Watts from Shell says, “This is not an exercise in prophecy. Rather, it is designed to challenge our thinking so that we can make better choices in today’s business world.”<br>The short-term attitudes and bureaucracy of many governments can be frustrating to futurists, but this mutual wariness is slowly changing. The Scottish Parliament recently hosted a conference of 150 futurists from across the globe. The parliament is setting up a forum to look at where Scotland is heading in the next 20 years. Among the issues are demographics and economic competition within Europe and with Asia. It’s a first for the United Kingdom, although not for Europe - this strategy has already been put into practice in Finland.<br>Eamonn Kelly, head of the San Francisco-based Global Business Network futurist group, was one of those who attended the conference. According to Kelly, “There are many different tools a futurist can employ but essentially there are three main ingredients. First, there is the “science”, which can encompass everything from environmental studies to psychology. Then, there is the “craft”, which may include interviews and the creation of maps of cause and effect. Finally, there is the “art”, the intuitive ability to meld all this into a coherent whole.<br>Dr James Canton is the founder of the San Francisco-based Institute for Global Futures and has been an adviser to leading US companies. Like many futurists, he started in the private sector but is also comfortable in academia and has an urge to change things for the better. “A futurist is an alchemist who mixes the qualitative,” he says. He needs<br>intuition and has to work with people from a range of academic backgrounds, gathering primary evidence about what motivates people. Futurists are constantly discussing ideas with their peers, but they do not simply surf the net picking up on the latest fad.<br>New Zealand futurist Robin Gunston says, “I don't believe you can train yourself to become a futurist. A certain amount of this is to do with how your brain is hard-wired, and we know this is difficult to change. Futurology requires extensive life experience and a broad education to test theories against. Much of modern teenage culture is about me, what I want, and what the world owes me – that does not make it easy to see different kinds of futures and pose the hard questions about how we will get there.”<br>Those best able to respond to futurists are the most agile. “Large corporations beholden to shareholders and governments burdened by bureaucracy are often simply too slow. Asian companies tend to be better prepared because they take a longer perspective. Sony, for example, is very forward-looking,” Canton says. “There will be sunset and sunrise nations and corporations, in terms of prosperity in the 21st century. The winners will be those corporations and governments which conduct future studies and take steps to become future-proofed.”<br>According to Alan Beckley, a former West Mercia chief inspector and past president of the Police Futurists International (PFI), getting public bodies in the UK future-proofed could be a long process. “People are concerned about the methodology and the reliability of future studies,‟ he says. They are more likely to follow their political masters than go to them and say. “We have done this scenario, and this is what we should do”. However, as the Scottish Parliament has shown, there are a few examples of government exercises. Also, in 2003, Britain’s Foreign and Commonwealth Office (FCO) published for the first time its strategic thinking for the next decade. This document was drawn up with the help of in-house and outside futurists. FCO minister Bill Rammell says,” We do occasionally look further ahead than the next ten years on issues such as demographics. But the period chosen for the strategy was deliberately a decade. Even assumptions about technology get very shaky beyond that.<br>American futurist Steve Brant stresses the importance of remembering that the road ahead has yet to be chosen. “People can create the future they want using various points of leverage,” he says. “We have much more influence over what the future will be like than many of us realise”. Futurists used to be like firefighters – they tried to work out what to do if things went wrong. Now, the aim of this profession is to imagine the best possible future for society and start creating it today.<br>",
+      "questions": [
+        {
+          "from": 27,
+          "to": 33,
+          "type": "wordlist",
+          "instruction": "Write the correct letter, A-F, in boxes 27-33 on your answer sheet. <br>NB   You may use any letter more than once",
+          "heading": "",
+          "wordlistName": "List of People",
+          "options": [
+            "A   Philip Watts",
+            "B   Dr James Canton",
+            "C   Robin Gunsto",
+            "D   Alan Beckley",
+            "E   Bill Rammell",
+            "F   Steve Brant"
+          ],
+          "content": "27   Flexible organisations are in a better position to make use of futurology<br>28   Predictions about any period beyond the next ten years cannot be trusted<br>29   Only certain people are suited to becoming futurists<br>30   Future studies are designed to inform current commercial decisions<br>31   Futurology involves a broad exchange of information, but is not influenced by every new idea<br>32   People are not aware of the extent to which they can determine the future<br>33   A lack of confidence in futurology affects how widely it is used <br>",
+          "questions": [
+            {
+              "id": 27,
+              "isGap": true
+            },
+            {
+              "id": 28,
+              "isGap": true
+            },
+            {
+              "id": 29,
+              "isGap": true
+            },
+            {
+              "id": 30,
+              "isGap": true
+            },
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 34,
+          "to": 37,
+          "type": "form",
+          "instruction": "Complete the sentence below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "heading": "",
+          "content": "34/   A report by Shell considered the impact of various kinds of (34) on future lifestyles.<br>35/   The Scottish parliament has decided to use futurists to advise on (35) from Asian and other European countries.<br>36/   Dr James Canton is similar to other futurists in that he began his career in the (36) .<br>37/   Britain’s FCO sometimes studies developments in areas like (37) beyond 10 years.<br>",
+          "questions": [
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            }
+          ]
+        },
+        {
+          "from": 38,
+          "to": 40,
+          "type": "wordlist",
+          "instruction": "Write the correct letters in boxes 38-40 on your answer sheet. Which the following statements are true according to the passage?",
+          "heading": "",
+          "wordlistName": "Statements ",
+          "options": [
+            "A   Present-day futurology can focus on achieving a particular outcome",
+            "B   Futurists recognise that most governments have already made long-term plans",
+            "C   The world's first futurology was hosted by Finland.",
+            "D   Futurists need to talk to people from various areas of expertise.",
+            "E   Futurists should carry out internet research to keep up with popular trends.",
+            "F   Aspects of modern culture prepare people well for a career in futurology.",
+            "G   Conducting future studies can affect whether a company continues to be"
+          ],
+          "content": "38. The statement is true: <br>39. The statement is true: <br>40. The statement is true: ",
+          "questions": [
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "answers": {
+    "passage1": {
+      "1": "C",
+      "2": "A",
+      "3": "D",
+      "4": "A",
+      "5": "C",
+      "6": "B",
+      "7": "beaks",
+      "8": "vomited",
+      "9": "hardens",
+      "10": "TRUE",
+      "11": "NOT GIVEN",
+      "12": "FALSE",
+      "13": "NOT GIVEN"
+    },
+    "passage2": {
+      "14": "B",
+      "15": "F",
+      "16": "D",
+      "17": "G",
+      "18": "paintings",
+      "19": "composition",
+      "20": "blurred",
+      "21": "scratched",
+      "22": "monochrome",
+      "23": "FALSE",
+      "24": "NOT GIVEN",
+      "25": "FALSE",
+      "26": "TRUE"
+    },
+    "passage3": {
+      "27": "B",
+      "28": "E",
+      "29": "C",
+      "30": "A",
+      "31": "B",
+      "32": "F",
+      "33": "D",
+      "34": "energy",
+      "35": "economic competition",
+      "36": "private sector",
+      "37": "demographics",
+      "38": "A / D / G",
+      "39": "A / D / G",
+      "40": "A / D / G"
+    }
+  }
+}
