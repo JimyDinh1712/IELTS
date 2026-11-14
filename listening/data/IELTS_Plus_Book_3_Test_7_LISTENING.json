@@ -1,0 +1,363 @@
+{
+  "testTitle": "IELTS Plus Book 3 Test 7",
+  "audioUrl": "audio/Book3Test7.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS OR A NUMBER for each answer.",
+          "heading": "Notes for holiday",
+          "content": "<strong>Travel information </strong><br><strong>Example</strong><br>•\tWill email the : flight number <br>•\tmust find out which <strong>(1)</strong>  arriving at <br>•\tbest taxi company <strong>(2)</strong>  <br>•\tNote: Simon lives in the <strong>(3)</strong>  of the city <br>•\tSimon's cell phone number: <strong>(4)</strong>  <br><strong>What to pack </strong><br><strong>(to wear) </strong><br>•\tcasual clothes <br>•\tone smart dress – to wear at a <strong>(5)</strong>  <br>•\ta good <strong>(6)</strong>  <br>•\ttough <strong>(7)</strong>  <br><strong>(to read)</strong><br>•\ttry to find book named ‘<strong>(8)</strong> ’ by Rex Campbell.<br><strong>(for presents)</strong><br>•\tfor Janice: <strong>(9)</strong> <br>•\tfor Alec: <strong>(10)</strong>  (with racing pictures)<br>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 16,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "heading": "Camber's Theme Park",
+          "content": "<strong>11</strong> According to the speaker, in what way is Camber’s different from other theme parks? <br>A It’s suitable for different age groups. <br>B It offers lots to do in wet weather. <br>C It has a focus on education. <br><strong>12</strong> The Park first opened in <br>A 1980. <br>B 1997. <br>C 2004. <br><strong>13</strong> What’s included in the entrance fee? <br>A most rides and parking <br>B all rides and some exhibits <br>C parking and all rides <br><strong>14</strong> Becoming a member of the Adventurers Club means <br>A you can avoiding queuing so much. <br>B you can enter the Park free for a year. <br>C you can visit certain zones closed to other people. <br><strong>15</strong> The Future Farm zone encourages visitors to <br>A buy animals as pets. <br>B learn about the care of animals. <br>C get close to the animals. <br><strong>16</strong> When is hot food available in the park? <br>A 10.00 a.m. – 5.30 p.m. <br>B <strong>11</strong> 00 a.m. – 5.00 p.m. <br>C 10.30 a.m. – 5.00 p.m. <br>",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "According to the speaker, in what way is Camber’s different from other theme parks?",
+              "options": [
+                "A It’s suitable for different age groups.",
+                "B It offers lots to do in wet weather.",
+                "C It has a focus on education."
+              ]
+            },
+            {
+              "id": 12,
+              "text": "The Park first opened in",
+              "options": [
+                "A 1980.",
+                "B 1997.",
+                "C 2004."
+              ]
+            },
+            {
+              "id": 13,
+              "text": "What’s included in the entrance fee?",
+              "options": [
+                "A most rides and parking",
+                "B all rides and some exhibits",
+                "C parking and all rides"
+              ]
+            },
+            {
+              "id": 14,
+              "text": "Becoming a member of the Adventurers Club means",
+              "options": [
+                "A you can avoiding queuing so much.",
+                "B you can enter the Park free for a year.",
+                "C you can visit certain zones closed to other people."
+              ]
+            },
+            {
+              "id": 15,
+              "text": "The Future Farm zone encourages visitors to",
+              "options": [
+                "A buy animals as pets.",
+                "B learn about the care of animals.",
+                "C get close to the animals."
+              ]
+            },
+            {
+              "id": 16,
+              "text": "When is hot food available in the park?",
+              "options": [
+                "A 10.00 a.m. – 5.30 p.m.",
+                "B 11.00 a.m. – 5.00 p.m.",
+                "C 10.30 a.m. – 5.00 p.m."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "type": "wordlist",
+          "instruction": "What special conditions apply to the following rides? Choose FOUR answers from the box and write the correct letter, A–F, next to the questions 17–20.",
+          "heading": "Rides",
+          "wordlistName": "Special conditions for visitors",
+          "options": [
+            "A Must be over a certain age",
+            "B Must use special safety equipment",
+            "C Must avoid it if they have health problems",
+            "D Must wear a particular type of clothing",
+            "E Must be over a certain height",
+            "F Must be accompanied by an adult if under 16 "
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 17,
+              "text": "River Adventure ........................"
+            },
+            {
+              "id": 18,
+              "text": "Jungle Jim Rollercoaster ........................"
+            },
+            {
+              "id": 19,
+              "text": "Swoop Slide ........................"
+            },
+            {
+              "id": 20,
+              "text": "Zip Go-carts ........................"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 22,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "What TWO things do Brad and Helen agree to say about listening in groups? <br>A Listening skills are often overlooked in business training.<br>B Learning to listen well is a skill that’s easy for most people to learn.<br>C It’s sometimes acceptable to argue against speakers.<br>D Body language is very important when listening.<br>E Listeners should avoid interrupting speakers.<br>",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Question 21",
+              "options": []
+            },
+            {
+              "id": 22,
+              "text": "Question 22",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "What TWO things does the article say about goal-setting? <br>A Meetings should start with a clear statement of goals. <br>B It’s important for each individual’s goals to be explained. <br>C Everybody in the group should have the same goals. <br>D Goals should be a mix of the realistic and the ideal. <br>E Goals must always to be achievable within a set time. <br>",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 23,
+              "text": "Question 23",
+              "options": []
+            },
+            {
+              "id": 24,
+              "text": "Question 24",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 25,
+          "to": 26,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "What TWO things do Brad and Helen agree are weak points in the article’s section on conflict resolution? <br>A It doesn’t explore the topic in enough detail.<br>B It only discusses conservative views.<br>C It says nothing about the potential value of conflict.<br>D It talks too much about ‘winners and losers’.<br>E It doesn’t provide definitions of key terms.<br>",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 25,
+              "text": "Question 25",
+              "options": []
+            },
+            {
+              "id": 26,
+              "text": "Question 26",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": "What actions do Brad and Helen agree to do regarding the following preparation tasks?  Choose FOUR answers from the box and write the correct letter, A–F, next to the number. ",
+          "heading": "Preparation tasks ",
+          "wordlistName": "Action",
+          "options": [
+            "A Contact the tutor for clarification.",
+            "B Check the assignment specifications.",
+            "C Leave it until the last task.",
+            "D Ask a course-mate to help.",
+            "E Find information on the Internet.",
+            "F Look through course handbooks. "
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 27,
+              "text": "Preparing the powerpoint ........................"
+            },
+            {
+              "id": 28,
+              "text": "Using direct quotations ........................"
+            },
+            {
+              "id": 29,
+              "text": "Creating a handout ........................"
+            },
+            {
+              "id": 30,
+              "text": "Drawing up a bibliography ........................"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "heading": "Engineering for sustainable development",
+          "content": "<strong>The Greenhouse Project (Himalayan mountain region)</strong><br><strong>Problem</strong><br>•\tShort growing season because of high altitude and low (<strong>(31)</strong>  <br>•\tFresh vegetables imported by lorry or by (<strong>(32)</strong>  , so are expensive <br>•\tNeed to use sunlight to prevent local plants from (<strong>(33)</strong>  <br>•\tPrevious programmes to provide greenhouses were (<strong>(34)</strong>  <br><strong>New greenhouse </strong><br>(Meets criteria for sustainability )<br>•\tSimple and (<strong>(35)</strong>  to build <br>•\tMade mainly from local materials (mud or stone for the walls, wood and (<strong>(36)</strong>  for the roof) <br>•\tBuilding and maintenance done by local craftsmen <br>•\tRuns solely on (<strong>(37)</strong>  energy <br>•\tOnly families who have a suitable (<strong>(38)</strong>  can own one <br><strong>Design</strong> <br>•\tLong side faces south <br>•\tStrong polythene cover <br>•\tInner (<strong>(39)</strong>  are painted black or white <br><strong>Social benefits </strong><br>•\tOwners’ status is improved <br>•\tRural (<strong>(40)</strong>  have greater opportunities <br>•\tMore children are educate<br>",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "terminal",
+    "2": "Pantera",
+    "3": "east",
+    "4": "07765 328411",
+    "5": "hotel restaurant / hotel",
+    "6": "raincoat",
+    "7": "shoes / walking shoes",
+    "8": "Mountain Lives",
+    "9": "chocolate / chocolates",
+    "10": "calendar / a calendar",
+    "11": "C",
+    "12": "B",
+    "13": "A",
+    "14": "A",
+    "15": "C",
+    "16": "B",
+    "17": "F",
+    "18": "B",
+    "19": "D",
+    "20": "E",
+    "21": "A / D",
+    "22": "A / D",
+    "23": "B / E",
+    "24": "B / E",
+    "25": "B / C",
+    "26": "B / C",
+    "27": "C",
+    "28": "B",
+    "29": "D",
+    "30": "F",
+    "31": "rainfall",
+    "32": "air / plane",
+    "33": "freezing",
+    "34": "unsuccessful",
+    "35": "cheap / inexpensive",
+    "36": "grass",
+    "37": "solar",
+    "38": "site / location / place",
+    "39": "walls",
+    "40": "woman"
+  }
+}
