@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The number of temporary migrant workers in four countries",
+    "instruction": "The table below shows the number of temporary migrant workers in four countries in 2003 and 2006 and the number of these workers per 1,000 people in these countries in 2006. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/02_11_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "It is a natural process for animal species to become extinct (e.g. Dinosaurs, dodos …). There is no reason why people should try to prevent this from happening. Do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

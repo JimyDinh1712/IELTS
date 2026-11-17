@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The number of students from the US, the UK and Australia",
+    "instruction": "The graph below shows the number of students from the US, the UK and Australia who studied in universities in other countries from 2002 to 2007. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/03_11_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "Many museums and historical sites are mainly visited by tourists but not local people. Why is it the case? What can be done to attract more local people to visit these places?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "task1": {
+    "title": "The number of employees and factories producing silk in England and Wales",
+    "instruction": "The table shows the number of employees and factories producing silk in England and Wales between 1851 and 1901. Summarize the information by selecting and reporting the main features and make comparisons where relevant.",
+    "imagePath": "data/01_11_26.jpg",
+    "minWords": 150,
+    "suggestedTime": 20
+  },
+  "task2": {
+    "instruction": "The values that we learn from our parents and family have a greater influence on our future success than knowledge and skills we learn at school. To what extent do you agree or disagree?",
+    "imagePath": null,
+    "minWords": 250,
+    "suggestedTime": 40
+  }
+}
