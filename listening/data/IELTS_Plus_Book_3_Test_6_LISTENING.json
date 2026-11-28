@@ -1,0 +1,373 @@
+{
+  "testTitle": "IELTS Book 3 Test 6",
+  "audioUrl": "audio/Book3Test6.mp3",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "type": "form",
+          "instruction": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+          "heading": "HOLIDAY RENTALS Dates: Example 10th–22nd July",
+          "content": "<table class= \"ielts-table\"; \"border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; text-align: left;\">\n  <tr>\n    <th>Name of Property</th>\n    <th>Location</th>\n    <th>Features</th>\n    <th>Disadvantage(s)</th>\n    <th>Booking details</th>\n  </tr>\n  <tr>\n    <td>(1)</td>\n    <td>• rural <br>• surrounded by (2)</td>\n    <td>• apartment<br>• two bedrooms<br>• open plan</td>\n    <td>distance from (3)</td>\n    <td>www.( 4) com</td>\n  </tr>\n  <tr>\n    <td>Kingfisher</td>\n    <td>• rural<br>• next to the (5) <br>• nice views</td>\n    <td>• house<br>• three bedrooms <br>• (6) room<br>• living room<br>• kitchen</td>\n    <td>expensive?</td>\n    <td>Phone the owner (01752 669218)</td>\n  </tr>\n  <tr>\n    <td>Sunnybanks</td>\n    <td>• in a village <br>• next to the (7)</td>\n    <td>• house<br>• has private (8)</td>\n    <td>no (9)</td>\n    <td>Contact the (10) .</td>\n  </tr>\n</table>",
+          "questions": [
+            {
+              "id": 1,
+              "isGap": true
+            },
+            {
+              "id": 2,
+              "isGap": true
+            },
+            {
+              "id": 3,
+              "isGap": true
+            },
+            {
+              "id": 4,
+              "isGap": true
+            },
+            {
+              "id": 5,
+              "isGap": true
+            },
+            {
+              "id": 6,
+              "isGap": true
+            },
+            {
+              "id": 7,
+              "isGap": true
+            },
+            {
+              "id": 8,
+              "isGap": true
+            },
+            {
+              "id": 9,
+              "isGap": true
+            },
+            {
+              "id": 10,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "groups": [
+        {
+          "from": 11,
+          "to": 14,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>11</strong> According to the speaker, why is it a good time for D-I-Y painting? <br>A There are better products available now. <br>B Materials cost less than they used to. <br>C People have more free time than before. <br><strong>12</strong> What happened in 2009 in the UK? <br>A A record volume of paint was sold. <br>B A large amount of paint was wasted. <br>C There was a major project to repaint public buildings. <br><strong>13</strong> What does the speaker say about paint quantity? <br>A It's not necessary to have exact room measurements. <br>B It's better to overestimate than to underestimate. <br>C An automatic calculator can be downloaded from the Internet. <br><strong>14</strong> What does Community RePaint do? <br>A It paints people's houses without payment. <br>B It collects unwanted paint and gives it away. <br>C It sells unused paint and donates the money to charity. <br>",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 11,
+              "text": "According to the speaker, why is it a good time for D-I-Y painting?",
+              "options": [
+                "A There are better products available now.",
+                "B Materials cost less than they used to.",
+                "C People have more free time than before."
+              ]
+            },
+            {
+              "id": 12,
+              "text": "What happened in 2009 in the UK?",
+              "options": [
+                "A A record volume of paint was sold.",
+                "B A large amount of paint was wasted.",
+                "C There was a major project to repaint public buildings."
+              ]
+            },
+            {
+              "id": 13,
+              "text": "What does the speaker say about paint quantity?",
+              "options": [
+                "A It's not necessary to have exact room measurements.",
+                "B It's better to overestimate than to underestimate.",
+                "C An automatic calculator can be downloaded from the Internet."
+              ]
+            },
+            {
+              "id": 14,
+              "text": "What does Community RePaint do?",
+              "options": [
+                "A It paints people's houses without payment.",
+                "B It collects unwanted paint and gives it away.",
+                "C It sells unused paint and donates the money to charity."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 15,
+          "to": 16,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "What TWO pieces of advice does the speaker give about paint? <br>A Don't buy expensive paint. <br>B Test the colour before buying a lot. <br>C Choose a light colour. <br>D Use water-based paint. <br>E Buy enough paint for more than one application. <br>",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 15,
+              "text": "Question 15",
+              "options": []
+            },
+            {
+              "id": 16,
+              "text": "Question 16",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 17,
+          "to": 18,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "What TWO pieces of advice does the speaker give about preparation? <br>A Replace any loose plaster. <br>B Don't spend too long preparing surfaces. <br>C Use decorators' soap to remove grease from walls. <br>D Wash dirty walls with warm water. <br>E Paint over cracks and small holes. <br>",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 17,
+              "text": "Question 17",
+              "options": []
+            },
+            {
+              "id": 18,
+              "text": "Question 18",
+              "options": []
+            }
+          ]
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "type": "mcq-multiple",
+          "instruction": "Choose the correct letter, A-E.",
+          "content": "What TWO pieces of advice does the speaker give about painting? <br>A Put a heater in the room. <br>B Wash brushes in cold water. <br>C Use a roller with a short pile. <br>D Apply paint directly from the tin. <br>E Open doors and windows. <br>",
+          "numToSelect": 2,
+          "questions": [
+            {
+              "id": 19,
+              "text": "Question 19",
+              "options": []
+            },
+            {
+              "id": 20,
+              "text": "Question 20",
+              "options": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "groups": [
+        {
+          "from": 21,
+          "to": 26,
+          "type": "mcq-single",
+          "instruction": "Choose the correct letter, A, B or D.",
+          "content": "<strong>21</strong> Why is Matthew considering a student work placement?<br>A He was informed about an interesting vacancy.<br>B He needs some extra income.<br>C He wants to try out a career option. <br><strong>22</strong> Which part of the application process did Linda find most interesting? <br>A The psychometric test. <br>B The group activity. <br>C The individual task. <br><strong>23</strong> During her work placement, Linda helped find ways to <br>A speed up car assembly. <br>B process waste materials. <br>C calculate the cost of design faults. <br><strong>24</strong> Why did Linda find her work placement tiring? <br>A She wasn't used to full-time work. <br>B The working hours were very long. <br>C She felt she had to prove her worth. <br><strong>25</strong> What did Linda's employers give her formal feedback on? <br>A engineering ability <br>B organisational skills <br>C team working <br><strong>26</strong> What was the main benefit of Linda's work placement? <br>A Improved academic skills. <br>B An offer of work. <br>C The opportunity to use new software. <br>",
+          "numToSelect": 1,
+          "questions": [
+            {
+              "id": 21,
+              "text": "Why is Matthew considering a student work placement?",
+              "options": [
+                "A He was informed about an interesting vacancy.",
+                "B He needs some extra income.",
+                "C He wants to try out a career option."
+              ]
+            },
+            {
+              "id": 22,
+              "text": "Which part of the application process did Linda find most interesting?",
+              "options": [
+                "A The psychometric test.",
+                "B The group activity.",
+                "C The individual task."
+              ]
+            },
+            {
+              "id": 23,
+              "text": "During her work placement, Linda helped find ways to",
+              "options": [
+                "A speed up car assembly.",
+                "B process waste materials.",
+                "C calculate the cost of design faults."
+              ]
+            },
+            {
+              "id": 24,
+              "text": "Why did Linda find her work placement tiring?",
+              "options": [
+                "A She wasn't used to full-time work.",
+                "B The working hours were very long.",
+                "C She felt she had to prove her worth."
+              ]
+            },
+            {
+              "id": 25,
+              "text": "What did Linda's employers give her formal feedback on?",
+              "options": [
+                "A engineering ability",
+                "B organisational skills",
+                "C team working"
+              ]
+            },
+            {
+              "id": 26,
+              "text": "What was the main benefit of Linda's work placement?",
+              "options": [
+                "A Improved academic skills.",
+                "B An offer of work.",
+                "C The opportunity to use new software."
+              ]
+            }
+          ]
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "type": "wordlist",
+          "instruction": " What does Linda think about the books on Matthew's reading list? Choose FOUR answers from the box and write the correct letter, A–F, next to questions 27–30.",
+          "heading": "Books",
+          "wordlistName": "Opinions",
+          "options": [
+            "A helpful illustrations ",
+            "B easy to understand ",
+            "C up-to-date ",
+            "D comprehensive ",
+            "E specialised ",
+            "F useful case studies "
+          ],
+          "content": "",
+          "questions": [
+            {
+              "id": 27,
+              "text": "The Science of Materials .........................."
+            },
+            {
+              "id": 28,
+              "text": "Materials Engineering .........................."
+            },
+            {
+              "id": 29,
+              "text": "Engineering Basics .........................."
+            },
+            {
+              "id": 30,
+              "text": "Evolution of Materials .........................."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "groups": [
+        {
+          "from": 31,
+          "to": 40,
+          "type": "form",
+          "instruction": "Write NO MORE THAN TWO WORDS for each answer.",
+          "heading": "Researching the origin of medieval manuscripts",
+          "content": "<strong>Background</strong><br>•\tMedieval manuscripts – handwritten books produced between the fifth and fifteenth centuries<br>•\tOrigin of many manuscripts unknown until 2009; scientists started using DNA testing <br><strong>Animal hides – two types </strong><br>•\tParchment<br>o\tSheep skin: white in colour and <strong>(31)</strong>  <br>o\tGreasy – writing can't be erased so often used for <strong>(32)</strong>  <br>•\tVellum<br>o\tCalf skin: most popular for prestigious work because you can get <strong>(33)</strong>  lettering. <br><strong>Preparation of hides </strong><br>•\tTreated in barrels of lime – where this was not available, skins were <strong>(34)</strong>  . (removed hair --> more flexible) <br>•\tStretched tight on a frame <br>•\tScraped to create same <strong>(35)</strong>  <br>•\tVellum was <strong>(36)</strong>  – for correct colour <br><strong>Genetic testing – finding origins</strong><br>•\tPreviously – analysed handwriting and <strong>(37)</strong>  used by the writer <br>•\tNow – using genetic data from 'known manuscripts' to create a ' <strong>(38)</strong>  ' <br><strong>Uses of new data </strong><br>•\tGives information on individual books <br>•\tShows the <strong>(39)</strong>  of the book industry <br>•\tHelps define <strong>(40)</strong>  in medieval period <br>",
+          "questions": [
+            {
+              "id": 31,
+              "isGap": true
+            },
+            {
+              "id": 32,
+              "isGap": true
+            },
+            {
+              "id": 33,
+              "isGap": true
+            },
+            {
+              "id": 34,
+              "isGap": true
+            },
+            {
+              "id": 35,
+              "isGap": true
+            },
+            {
+              "id": 36,
+              "isGap": true
+            },
+            {
+              "id": 37,
+              "isGap": true
+            },
+            {
+              "id": 38,
+              "isGap": true
+            },
+            {
+              "id": 39,
+              "isGap": true
+            },
+            {
+              "id": 40,
+              "isGap": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "correctAnswers": {
+    "1": "Moonfleet",
+    "2": "fields",
+    "3": "shops",
+    "4": "summerhouses",
+    "5": "river",
+    "6": "dining",
+    "7": "sea",
+    "8": "garden",
+    "9": "parking",
+    "10": "agent",
+    "11": "A",
+    "12": "B",
+    "13": "C",
+    "14": "B",
+    "15": "B / D",
+    "16": "B / D",
+    "17": "A / C",
+    "18": "A / C",
+    "19": "B / E",
+    "20": "B / E",
+    "21": "A",
+    "22": "B",
+    "23": "A",
+    "24": "C",
+    "25": "B",
+    "26": "B",
+    "27": "B",
+    "28": "A",
+    "29": "D",
+    "30": "C",
+    "31": "thin",
+    "32": "court documents",
+    "33": "high-quality",
+    "34": "buried",
+    "35": "thickness",
+    "36": "bleached / whitened",
+    "37": "dialect",
+    "38": "baseline",
+    "39": "evolution",
+    "40": "trade routes"
+  }
+}
